@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import math
 import os
 from functools import lru_cache
 
@@ -110,8 +111,6 @@ def classify_with_phi(text: str) -> dict | None:
 
         if scores["on_topic"] >= scores["off_topic"]:
             # Softmax over two scores for a confidence proxy
-            import math
-
             a, b = scores["on_topic"], scores["off_topic"]
             exp_a, exp_b = math.exp(a), math.exp(b)
             confidence = exp_a / (exp_a + exp_b)

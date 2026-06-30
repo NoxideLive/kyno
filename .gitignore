@@ -17,10 +17,23 @@ dist-ssr
 __pycache__/
 *.pyc
 
-# Phi training artifacts (retrain on target machine)
+# Phi training logs (retrain on target machine)
 services/phi-gateway/train_phi.log
 services/phi-gateway/train_monitor.log
+training-phi.log
 train_phi.log
+
+# Phi LoRA — commit adapter_model.safetensors + adapter_config.json only
+services/phi-gateway/models/phi-domain-lora/checkpoint-*/
+services/phi-gateway/models/phi-domain-lora/training_args.bin
+services/phi-gateway/models/phi-domain-lora/README.md
+# Tokenizer comes from microsoft/Phi-4-mini-instruct at runtime
+services/phi-gateway/models/phi-domain-lora/tokenizer.json
+services/phi-gateway/models/phi-domain-lora/vocab.json
+services/phi-gateway/models/phi-domain-lora/merges.txt
+services/phi-gateway/models/phi-domain-lora/added_tokens.json
+services/phi-gateway/models/phi-domain-lora/special_tokens_map.json
+services/phi-gateway/models/phi-domain-lora/tokenizer_config.json
 
 # OS / editor
 .vscode/*
