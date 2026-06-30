@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """Generate on_topic / off_topic training data for CAPS Mathematics domain classifier.
 
-Output: training/domain/data.jsonl (and train/val/test splits)
+Template-based fallback. For coupled LLM pipeline use build_domain_training_data.py.
 
 Example:
-  python3 generate_domain_training_data.py
+  python3 scripts/generate_domain_training_data.py
+  python3 scripts/generate_domain_training_data.py --total 1200 --config training/domain/pipeline.config.json
 """
 
 from __future__ import annotations
@@ -13,10 +14,16 @@ import argparse
 import json
 import random
 import re
+import sys
 from pathlib import Path
 
-SYLLABUS_ROOT = Path("data/syllabus")
-OUTPUT_DIR = Path("training/domain")
+SCRIPT_DIR = Path(__file__).resolve().parent
+if str(SCRIPT_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPT_DIR))
+
+from domain_pipeline_config import load_pipeline_config  # noqa: E402
+from training_dedupe import dedupe_training_rows  # noqa: E402
+from training_io import load_jsonl, to_training_rows, write_splits  # noqa: E402
 
 ON_TOPIC_TEMPLATES = [
     "What does Grade {grade} CAPS Mathematics cover in Term {term}?",
@@ -59,6 +66,14 @@ META_ON_TOPIC = [
     "Wat is CAPS Wiskunde?",
 ]
 
+SHORT_ON_TOPIC = [
+    "{topic}",
+    "{topic}?",
+    "Grade {grade} {topic}",
+    "help with {topic}",
+    "what about {topic}",
+]
+
 
 def load_topics(syllabus_root: Path) -> list[dict]:
     rows: list[dict] = []
@@ -73,9 +88,16 @@ def load_topics(syllabus_root: Path) -> list[dict]:
                 week = week_block.get("week", 1)
                 for topic in week_block.get("topics", [])[:8]:
                     clean = re.sub(r"\s+", " ", topic).strip()
-                    if len(clean) > 15:
+                    if len(clean) > 8:
+                        short = clean.split(":")[0].split("—")[0].strip()[:40]
                         rows.append(
-                            {"grade": grade, "term": term, "week": week, "topic": clean[:120]}
+                            {
+                                "grade": grade,
+                                "term": term,
+                                "week": week,
+                                "topic": clean[:120],
+                                "short_topic": short,
+                            }
                         )
     return rows
 
@@ -97,12 +119,15 @@ def generate_on_topic(topic_rows: list[dict], target: int) -> list[dict]:
 
     random.shuffle(topic_rows)
     i = 0
+    templates = ON_TOPIC_TEMPLATES + SHORT_ON_TOPIC
     while len(examples) < target:
         row = topic_rows[i % len(topic_rows)]
-        tmpl = ON_TOPIC_TEMPLATES[i % len(ON_TOPIC_TEMPLATES)]
+        tmpl = templates[i % len(templates)]
+        topic_key = "topic" if "{topic}" in tmpl else "short_topic"
+        fmt = {**row, "topic": row.get(topic_key, row["topic"])}
         examples.append(
             {
-                "text": tmpl.format(**row),
+                "text": tmpl.format(**fmt),
                 "label": "on_topic",
             }
         )
@@ -130,48 +155,57 @@ def generate_off_topic(target: int) -> list[dict]:
     return examples
 
 
-def write_splits(rows: list[dict], output_dir: Path) -> None:
-    random.shuffle(rows)
-    n = len(rows)
-    train_end = int(n * 0.8)
-    val_end = int(n * 0.9)
-
-    splits = {
-        "data.jsonl": rows,
-        "train.jsonl": rows[:train_end],
-        "val.jsonl": rows[train_end:val_end],
-        "test.jsonl": rows[val_end:],
-    }
-
-    output_dir.mkdir(parents=True, exist_ok=True)
-    for name, split_rows in splits.items():
-        path = output_dir / name
-        with path.open("w", encoding="utf-8") as handle:
-            for row in split_rows:
-                handle.write(json.dumps(row, ensure_ascii=False) + "\n")
-        print(f"Wrote {len(split_rows)} rows → {path}")
-
-
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--syllabus-root", type=Path, default=SYLLABUS_ROOT)
-    parser.add_argument("--output", type=Path, default=OUTPUT_DIR)
-    parser.add_argument("--total", type=int, default=700)
-    parser.add_argument("--seed", type=int, default=42)
+    parser.add_argument("--total", type=int, default=1200)
+    parser.add_argument(
+        "--config",
+        type=Path,
+        default=None,
+        help="Pipeline config (default: training/domain/pipeline.config.json)",
+    )
     args = parser.parse_args()
 
-    random.seed(args.seed)
-    topic_rows = load_topics(args.syllabus_root)
+    try:
+        config = load_pipeline_config(args.config)
+    except (FileNotFoundError, ValueError) as exc:
+        print(str(exc), file=sys.stderr)
+        return 1
 
-    on_target = int(args.total * 0.7)
+    random.seed(config.seed)
+    topic_rows = load_topics(config.syllabus_root)
+
+    on_ratio = 1.0 - config.target_off_ratio
+    on_target = int(args.total * on_ratio)
     off_target = args.total - on_target
 
-    rows = generate_on_topic(topic_rows, on_target) + generate_off_topic(off_target)
-    random.shuffle(rows)
-    write_splits(rows, args.output)
+    curated_raw = load_jsonl(config.curated_path)
+    curated_rows = to_training_rows(curated_raw)
 
-    on_count = sum(1 for r in rows if r["label"] == "on_topic")
-    print(f"Total: {len(rows)} ({on_count} on_topic, {len(rows) - on_count} off_topic)")
+    generated: list[dict] = []
+    generated.extend(generate_on_topic(topic_rows, on_target))
+    generated.extend(generate_off_topic(off_target))
+
+    if config.dedupe_enabled:
+        generated, stats = dedupe_training_rows(
+            generated,
+            threshold=config.dedupe_threshold,
+        )
+        print(
+            f"Dedupe: {stats['input']} → {stats['output']} "
+            f"(exact -{stats['exact_removed']}, lexical -{stats['lexical_removed']})"
+        )
+
+    write_splits(
+        generated,
+        config.output_dir,
+        seed=config.seed,
+        curated_rows=curated_rows,
+    )
+
+    all_rows = generated + curated_rows
+    on_count = sum(1 for r in all_rows if r["label"] == "on_topic")
+    print(f"Total: {len(all_rows)} ({on_count} on_topic, {len(all_rows) - on_count} off_topic)")
     return 0
 
 

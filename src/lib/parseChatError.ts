@@ -27,6 +27,12 @@ export function parseChatError(error: unknown): ParsedChatError {
         suggestion: data.suggestion,
       }
     }
+    if (data?.code === 'DOMAIN_GATEWAY_UNAVAILABLE') {
+      return {
+        kind: 'generic',
+        message: data.message ?? 'Domain check is temporarily unavailable. Please try again.',
+      }
+    }
     if (typeof data?.message === 'string') {
       const message = data.message
       const debugTrace = data.details?.debugTrace

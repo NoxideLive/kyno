@@ -1,173 +1,277 @@
 {
   "grade": 8,
+  "phase": "senior",
   "subject": "mathematics",
   "curriculum": "CAPS",
+  "sources": {
+    "atp_pdf": "/code/riv/kyno/data/syllabus/grade-8/mathematics/atp-mathematics-2026.pdf",
+    "caps_pdf": "/code/riv/kyno/data/syllabus/grade-8/mathematics/caps-wiskunde-mathematics.pdf"
+  },
+  "caps_summary": {
+    "overview_excerpt": "",
+    "aims_excerpt": "",
+    "assessment_excerpt": "",
+    "content_area_names": [
+      "Patterns, Functions And Algebra",
+      "Measurement",
+      "Data Handling"
+    ]
+  },
   "terms": [
     {
       "term": 1,
       "weeks": [
         {
-          "week": 1,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 2,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 3,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 4,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 5,
-          "topics": [],
-          "skills": []
-        },
-        {
           "week": 6,
           "topics": [
-            "WHOLE NUMBERS",
-            "COMMON FRACTIONS",
-            "Properties of whole",
-            "number divided by 0 is",
-            "properties of whole",
-            "numbers to at least 3digit whole numbers",
-            "numbers to at least 3digit whole numbers, by",
-            "operations with integers",
-            "operations with numbers",
-            "common fractions,",
-            "finding fractions of",
-            "whole numbers"
+            "Properties of whole numbers",
+            "Counting, ordering and comparing integers",
+            "Calculations with fractions",
+            "Multiples and factors",
+            "LCM and HCF of numbers",
+            "Counting forwards and backwards in integers",
+            "Calculations with integers",
+            "Addition and subtraction with integers",
+            "Multiply and divide with integers",
+            "Perform calculations involving all four operations with integers",
+            "Perform calculations involving all four operations with numbers",
+            "Addition and subtraction of common fractions",
+            "Finding fractions of whole numbers"
           ],
-          "skills": []
+          "skills": [
+            "Recognize the division property of 0",
+            "Recognize the commutative, associative, distributive properties of whole numbers",
+            "Prime factors of numbers to at least 3-digit whole numbers",
+            "LCM and HCF of numbers to at least 3-digit whole numbers",
+            "Counting forwards and backwards in integers for any interval",
+            "Recognizing, ordering and comparing integers",
+            "Calculations with integers",
+            "Addition and subtraction with integers",
+            "Multiply and divide with integers",
+            "Perform calculations involving all four operations with integers",
+            "Perform calculations involving all four operations with numbers",
+            "Addition and subtraction of common fractions",
+            "Finding fractions of whole numbers"
+          ],
+          "content_area": "Whole Numbers, Integers, Common Fractions",
+          "short_phrases": [
+            "Comparing integers",
+            "Calculations with fractions",
+            "Multiples and factors",
+            "LCM and HCF"
+          ],
+          "caps_excerpt": "algebra\u00efese uitdrukkings. \u2022 Leerders moet aanhou oefen om veelvoude en faktore van heelgetalle te vind. Dit is veral belangrik wanneer leerders berekeninge met breuke doen. Hulle gebruik hierdie kennis om die KGV te vind vir noemers wat van mekaar verskil, en ook wanneer hulle breuke vereenvoudig of ekwivalente breuke vind. Hersien: \u2022 Priemfaktore van getalle tot minstens 3-syferheelgetalle. Veelvoude en faktore: \u2022 Optelling, aftrekking en vermenigvuldiging in kolomme, en langdeling moet slegs gebruik word om getalfeite en berekeningstegnieke te oefen, en moet dus gedoen word met bekende en 'n \u200b\u200bkleiner getalreekse. Vir groot en lomp berekeninge, moet leerders aangemoedig word om 'n sakrekenaar te gebruik. -- Deur inverse bewerkings te gebruik, of sakrekenaars om die redelikheid van hul oplossings te toets, bv. skatting deur afronding; skatting deur verdubbeling of halvering. \u2022 Leerders behoort met meer vertroue en meer onafhanklikheid wiskunde aan te pak, as hulle tegnieke het om seker te maak van hul oplossings, bv. Veelvoude en faktore: -- gebruik van 'n sakrekenaar. -- afronding en kompensering; -- langdeling; -- optel, aftrek en vermenigvuldiging in kolomme; -- skatting; \u2022 Gebruik 'n verskeidenheid tegnieke om sowel skriftelike as hoofberekeninge met heelgetalle te doen, insluitend: Berekeningstegnieke: \u2022 Berekeninge met al vier bewerkings op heelgetalle, deur skatting en die gebruik van sakrekenaars waar van toepassing. \u2022 Leerders moet voortgaan om die konteksvrye berekeninge te doen en probleme in konteks met heelgetalle en breuke op te los. as 33 + 99 = 132, dan is 132 \u2013 99 = 33 en 132 \u2013 33 = 99 e) Hersien: (9 x 64) + (9 x 36) = 9(64 + 36) = 9 x 100 = 900 d) Berekeninge met heelgetalle: 4(12 + 9) = (4 x 12) + (4 x 9) = 48 + 36 = 84 51 + (19 + 46) = (51 + 19) + 46 = 116 b) c) 33 + 99 = 99 + 33 = 132 a) Om die eienskappe van heelgetalle te illustreer VERDUIDELIKENDE NOTAS OF ONDERRIG-RIGLYNE Berekeninge met heelgetalle: BEGRIPPE EN VAARDIGHEDE TYDSDUUR (in ure) WISKUNDE GRAAD 7-9 1.1 Getalle, Bewerkings en Verwantskappe Heelgetalle ONDERWERPE INHOUDS",
+          "assessment_notes": [
+            "Formal Assessment Task"
+          ]
         },
         {
           "week": 8,
           "topics": [
-            "DECIMAL FRACTIONS",
-            "comparing decimal",
-            "Divide whole numbers",
-            "and common fractions by",
-            "common fractions",
-            "numbers to common",
-            "fractions in order to",
-            "decimal fractions to",
-            "at least 3 decimal"
+            "Ordering and comparing decimal fractions",
+            "Divide whole numbers and common fractions by common fractions",
+            "Calculate the squares, cubes, square roots and cube roots of common fractions",
+            "Calculation techniques",
+            "ordering, comparing and place value of decimal fractions"
           ],
-          "skills": []
+          "skills": [
+            "Divide whole numbers and common fractions by common fractions",
+            "Calculate the squares, cubes, square roots and cube roots of common fractions",
+            "convert mixed numbers to common fractions in order to perform calculations with them",
+            "ordering and comparing decimal fractions",
+            "place value of decimal fractions to at least 3 decimal places"
+          ],
+          "content_area": "DECIMAL FRACTIONS",
+          "short_phrases": [
+            "Ordering and comparing",
+            "Decimal fractions"
+          ],
+          "caps_excerpt": "Datahantering Versameling, organisering en opsomming van data ONDERWERPE INHOUDS",
+          "assessment_notes": [
+            "ordering, comparing and place value of decimal fractions to at least 3 decimal places"
+          ]
         },
         {
           "week": 9,
           "topics": [
-            "decimal fractions to",
-            "at least 2 decimal",
-            "Division of decimal",
-            "fractions by decimal",
-            "decimal fractions",
-            "and geometric patterns",
-            "numbers, including",
-            "decimal fractions by",
-            "decimal fractions not",
-            "limited to one decimal"
+            "rounding off decimal fractions to at least 2 decimal place",
+            "Division of decimal fractions by decimal fractions",
+            "Calculate the squares, cubes, square roots and cube roots of decimal fractions",
+            "Revise: investigate and extend numeric and geometric patterns",
+            "Multiplication of decimal fractions by decimal fractions not limited to one decimal place"
           ],
-          "skills": []
+          "skills": [
+            "decimal fractions",
+            "division of decimal fractions",
+            "squares, cubes, square roots and cube roots of decimal fractions",
+            "numeric and geometric patterns",
+            "multiplication of decimal fractions"
+          ],
+          "content_area": "Mathematics",
+          "short_phrases": [
+            "rounding off",
+            "decimal fractions",
+            "decimal place"
+          ],
+          "caps_excerpt": "algebra\u00efese uitdrukkings. \u2022 Leerders moet aanhou oefen om veelvoude en faktore van heelgetalle te vind. Dit is veral belangrik wanneer leerders berekeninge met breuke doen. Hulle gebruik hierdie kennis om die KGV te vind vir noemers wat van mekaar verskil, en ook wanneer hulle breuke vereenvoudig of ekwivalente breuke vind. Hersien: \u2022 Priemfaktore van getalle tot minstens 3-syferheelgetalle. Veelvoude en faktore: \u2022 Optelling, aftrekking en vermenigvuldiging in kolomme, en langdeling moet slegs gebruik word om getalfeite en berekeningstegnieke te oefen, en moet dus gedoen word met bekende en 'n \u200b\u200bkleiner getalreekse. Vir groot en lomp berekeninge, moet leerders aangemoedig word om 'n sakrekenaar te gebruik. -- Deur inverse bewerkings te gebruik, of sakrekenaars om die redelikheid van hul oplossings te toets, bv. skatting deur afronding; skatting deur verdubbeling of halvering. \u2022 Leerders behoort met meer vertroue en meer onafhanklikheid wiskunde aan te pak, as hulle tegnieke het om seker te maak van hul oplossings, bv. Veelvoude en faktore: -- gebruik van 'n sakrekenaar. -- afronding en kompensering; -- langdeling; -- optel, aftrek en vermenigvuldiging in kolomme; -- skatting; \u2022 Gebruik 'n verskeidenheid tegnieke om sowel skriftelike as hoofberekeninge met heelgetalle te doen, insluitend: Berekeningstegnieke: \u2022 Berekeninge met al vier bewerkings op heelgetalle, deur skatting en die gebruik van sakrekenaars waar van toepassing. \u2022 Leerders moet voortgaan om die konteksvrye berekeninge te doen en probleme in konteks met heelgetalle en breuke op te los. as 33 + 99 = 132, dan is 132 \u2013 99 = 33 en 132 \u2013 33 = 99 e) Hersien: (9 x 64) + (9 x 36) = 9(64 + 36) = 9 x 100 = 900 d) Berekeninge met heelgetalle: 4(12 + 9) = (4 x 12) + (4 x 9) = 48 + 36 = 84 51 + (19 + 46) = (51 + 19) + 46 = 116 b) c) 33 + 99 = 99 + 33 = 132 a) Om die eienskappe van heelgetalle te illustreer VERDUIDELIKENDE NOTAS OF ONDERRIG-RIGLYNE Berekeninge met heelgetalle: BEGRIPPE EN VAARDIGHEDE TYDSDUUR (in ure) WISKUNDE GRAAD 7-9 1.1 Getalle, Bewerkings en Verwantskappe Heelgetalle ONDERWERPE INHOUDS",
+          "assessment_notes": [
+            "Calculate",
+            "Revise: investigate and extend"
+          ]
         },
         {
           "week": 10,
           "topics": [
-            "decimal fractions",
-            "common fractions,"
+            "NUMERIC AND GEOMETRIC PATTERNS",
+            "Investigate and extend patterns",
+            "Calculations with decimal fractions",
+            "multiplication of common fractions, including mixed numbers"
           ],
-          "skills": []
-        },
-        {
-          "week": 7,
-          "topics": [],
-          "skills": []
+          "skills": [
+            "Investigate and extend patterns",
+            "Calculations with decimal fractions",
+            "multiplication of common fractions, including mixed numbers"
+          ],
+          "content_area": "NUMERIC AND GEOMETRIC PATTERNS",
+          "short_phrases": [
+            "Investigate and extend",
+            "decimal fractions"
+          ],
+          "caps_excerpt": "algebra\u00efese uitdrukkings. \u2022 Leerders moet aanhou oefen om veelvoude en faktore van heelgetalle te vind. Dit is veral belangrik wanneer leerders berekeninge met breuke doen. Hulle gebruik hierdie kennis om die KGV te vind vir noemers wat van mekaar verskil, en ook wanneer hulle breuke vereenvoudig of ekwivalente breuke vind. Hersien: \u2022 Priemfaktore van getalle tot minstens 3-syferheelgetalle. Veelvoude en faktore: \u2022 Optelling, aftrekking en vermenigvuldiging in kolomme, en langdeling moet slegs gebruik word om getalfeite en berekeningstegnieke te oefen, en moet dus gedoen word met bekende en 'n \u200b\u200bkleiner getalreekse. Vir groot en lomp berekeninge, moet leerders aangemoedig word om 'n sakrekenaar te gebruik. -- Deur inverse bewerkings te gebruik, of sakrekenaars om die redelikheid van hul oplossings te toets, bv. skatting deur afronding; skatting deur verdubbeling of halvering. \u2022 Leerders behoort met meer vertroue en meer onafhanklikheid wiskunde aan te pak, as hulle tegnieke het om seker te maak van hul oplossings, bv. Veelvoude en faktore: -- gebruik van 'n sakrekenaar. -- afronding en kompensering; -- langdeling; -- optel, aftrek en vermenigvuldiging in kolomme; -- skatting; \u2022 Gebruik 'n verskeidenheid tegnieke om sowel skriftelike as hoofberekeninge met heelgetalle te doen, insluitend: Berekeningstegnieke: \u2022 Berekeninge met al vier bewerkings op heelgetalle, deur skatting en die gebruik van sakrekenaars waar van toepassing. \u2022 Leerders moet voortgaan om die konteksvrye berekeninge te doen en probleme in konteks met heelgetalle en breuke op te los. as 33 + 99 = 132, dan is 132 \u2013 99 = 33 en 132 \u2013 33 = 99 e) Hersien: (9 x 64) + (9 x 36) = 9(64 + 36) = 9 x 100 = 900 d) Berekeninge met heelgetalle: 4(12 + 9) = (4 x 12) + (4 x 9) = 48 + 36 = 84 51 + (19 + 46) = (51 + 19) + 46 = 116 b) c) 33 + 99 = 99 + 33 = 132 a) Om die eienskappe van heelgetalle te illustreer VERDUIDELIKENDE NOTAS OF ONDERRIG-RIGLYNE Berekeninge met heelgetalle: BEGRIPPE EN VAARDIGHEDE TYDSDUUR (in ure) WISKUNDE GRAAD 7-9 1.1 Getalle, Bewerkings en Verwantskappe Heelgetalle ONDERWERPE INHOUDS",
+          "assessment_notes": [
+            "Revise: \u2212",
+            "Revise: \u2212"
+          ]
         },
         {
           "week": 11,
           "topics": [
-            "difference or ratio",
-            "geometric patterns",
-            "numbers, including",
-            "patterns represented",
-            "algebraically",
-            "whole numbers, including",
-            "kind (ratio)",
-            "sharing in a given ratio",
-            "where the whole is",
-            "decreasing of a number",
-            "in a given ratio",
-            "involve whole numbers,",
-            "percentages and decimal",
-            "fractions in financial",
-            "multiple operations with",
-            "to write fractions in",
-            "equivalent fractions to",
-            "common fractions",
-            "decimal fractions to",
-            "at least 3 decimal",
-            "involving common fractions",
-            "and mixed numbers,",
-            "and finding fractions of",
-            "whole numbers",
-            "the number of decimal",
-            "finding percentages",
-            "of whole numbers",
-            "percentage of part of",
-            "percentage increase",
-            "between numbers in",
-            "algebraic language",
-            "division of decimal",
-            "fractions by whole",
-            "common fraction",
-            "fraction forms of the",
-            "common fraction,",
-            "decimal fraction",
-            "and percentage",
-            "given percentage",
-            "decimal fractions",
-            "Multiplication of whole",
-            "numbers to at least 12 \u00d7",
-            "numbers to at least 100",
-            "operations on whole",
-            "numbers, estimating and",
-            "Prime factors of numbers",
-            "to at least 3-digit whole",
-            "(fractions where one",
-            "common fraction and",
-            "decimal fraction forms",
-            "of the same number",
-            "decimal fraction and",
-            "percentage forms of",
-            "the same number",
-            "of fractions",
-            "backwards in decimals",
-            "fractions, including",
-            "mixed numbers",
-            "Rounding off decimal",
-            "subtraction of decimal",
-            "numbers to common",
-            "\uf0b7 Simplify fractions",
-            "percentage of part of a",
-            "decimal fractions by",
-            "whole numbers and",
-            "numbers to at least 3digit whole numbers, by",
-            "\uf0b7 Calculate percentage",
-            "Division of decimal",
-            "estimate the number of",
-            "decimal places in the"
+            "sequences involving a constant difference or ratio",
+            "patterns represented algebraically",
+            "solving problems involving whole numbers",
+            "comparing two or more quantities of the same kind (ratio)",
+            "comparing two quantities of different kinds (rate)",
+            "sharing in a given ratio where the whole is given",
+            "increasing or decreasing of a number in a given ratio",
+            "solving problems that involve whole numbers, percentages and decimal fractions in financial contexts",
+            "properties of integers",
+            "profit, loss, discount and VAT",
+            "budgets",
+            "accounts",
+            "loans",
+            "simple interest",
+            "hire purchase",
+            "exchange rates",
+            "commutative, associative and distributive properties of addition and multiplication for integers",
+            "additive and multiplicative inverses for integers",
+            "solving problems in contexts involving multiple operations with integers",
+            "use knowledge of multiples and factors to write fractions in the simplest form before or after calculations",
+            "calculation techniques",
+            "use knowledge of equivalent fractions to add and subtract common fractions",
+            "use knowledge of reciprocal relationships to divide common fractions",
+            "revise: addition, subtraction, multiplication and division of decimal fractions to at least 3 decimal places",
+            "solving problems in contexts involving common fractions and mixed numbers",
+            "use knowledge of place value to estimate the number of decimal places in the result before performing calculations",
+            "use rounding off and a calculator to check results where appropriate",
+            "percentage",
+            "equivalent forms",
+            "finding percentages of whole numbers",
+            "calculating the percentage of part of a whole",
+            "calculating percentage increase or decrease",
+            "describe and justify the general rules for observed relationships between numbers in own words or in algebraic language",
+            "division of decimal fractions by whole numbers",
+            "common fraction and decimal fraction forms of the same number",
+            "common fraction, decimal fraction and percentage forms of the same number",
+            "calculate amounts if given percentage increase or decrease",
+            "solving problems in context involving decimal fractions",
+            "solving problems in contexts involving percentages",
+            "equivalent forms",
+            "multiplication of whole numbers to at least 12 \u00d7 12",
+            "count forwards and backwards in integers for any interval",
+            "order and compare prime numbers to at least 100",
+            "recognise, order and compare integers",
+            "calculations using all four operations on whole numbers, estimating and using calculators where appropriate",
+            "add and subtract with integers",
+            "prime factors of numbers to at least 3-digit whole numbers",
+            "recognise and use commutative and associative properties of addition and multiplication for numbers",
+            "common fractions (fractions where one denominator is a multiple of the other)",
+            "common fraction and decimal fraction forms of the same number",
+            "common fraction, decimal fraction and percentage forms of the same number",
+            "addition and subtraction of fractions",
+            "count forwards and backwards in decimals",
+            "multiplication of common fractions, including mixed numbers",
+            "compare and order decimal fractions",
+            "rounding off decimal fractions",
+            "addition and subtraction of decimal fractions",
+            "multiplication of decimal fractions",
+            "converting mixed numbers to common fractions",
+            "simplify fractions before or after calculations",
+            "calculate the percentage of part of a whole",
+            "investigate and extend numeric and geometric patterns",
+            "describe and justify the general rules for observed relationships between numbers in own words",
+            "decimal fractions by whole numbers and decimals",
+            "LCM and HCF of numbers to at least 3-digit whole numbers, by inspection or factorisation",
+            "solving problems in contexts involving addition and subtraction of integers",
+            "calculate percentage",
+            "division of decimal fractions by whole numbers",
+            "estimate the number of decimal places in the result before performing calculations"
           ],
-          "skills": []
+          "skills": [
+            "solving problems",
+            "sharing in a given ratio",
+            "increasing or decreasing of a number in a given ratio",
+            "additive and multiplicative inverses",
+            "solving problems in contexts involving multiple operations",
+            "use of knowledge of multiples and factors",
+            "calculation techniques",
+            "use of equivalent fractions",
+            "use of reciprocal relationships",
+            "equivalent forms",
+            "division of decimal fractions",
+            "common fraction and decimal fraction forms",
+            "common fraction, decimal fraction and percentage forms",
+            "percentage increase or decrease",
+            "solving problems in context involving decimal fractions",
+            "solving problems in contexts involving percentages",
+            "multiplication of whole numbers",
+            "counting forwards and backwards in integers",
+            "calculations using all four operations",
+            "prime factors of numbers",
+            "commutative and associative properties",
+            "common fractions",
+            "common fraction and decimal fraction forms",
+            "common fraction, decimal fraction and percentage forms",
+            "addition and subtraction of fractions",
+            "counting forwards and backwards in decimals",
+            "multiplication of common fractions",
+            "compare and order decimal fractions",
+            "rounding off decimal fractions",
+            "addition and subtraction of decimal fractions",
+            "multiplication of decimal fractions",
+            "converting mixed numbers to common fractions",
+            "simplifying fractions",
+            "calculating percentage of part of a whole",
+            "decimal fractions by whole numbers and decimals",
+            "LCM and HCF of numbers",
+            "solving problems in contexts involving addition and subtraction of integers",
+            "calculating percentage",
+            "division of decimal fractions"
+          ],
+          "content_area": "Mathematics",
+          "short_phrases": [
+            "patterns represented algebraically",
+            "calculation techniques",
+            "percentage",
+            "equivalent forms",
+            "calculate percentage"
+          ],
+          "caps_excerpt": "algebra\u00efese uitdrukkings. \u2022 Leerders moet aanhou oefen om veelvoude en faktore van heelgetalle te vind. Dit is veral belangrik wanneer leerders berekeninge met breuke doen. Hulle gebruik hierdie kennis om die KGV te vind vir noemers wat van mekaar verskil, en ook wanneer hulle breuke vereenvoudig of ekwivalente breuke vind. Hersien: \u2022 Priemfaktore van getalle tot minstens 3-syferheelgetalle. Veelvoude en faktore: \u2022 Optelling, aftrekking en vermenigvuldiging in kolomme, en langdeling moet slegs gebruik word om getalfeite en berekeningstegnieke te oefen, en moet dus gedoen word met bekende en 'n \u200b\u200bkleiner getalreekse. Vir groot en lomp berekeninge, moet leerders aangemoedig word om 'n sakrekenaar te gebruik. -- Deur inverse bewerkings te gebruik, of sakrekenaars om die redelikheid van hul oplossings te toets, bv. skatting deur afronding; skatting deur verdubbeling of halvering. \u2022 Leerders behoort met meer vertroue en meer onafhanklikheid wiskunde aan te pak, as hulle tegnieke het om seker te maak van hul oplossings, bv. Veelvoude en faktore: -- gebruik van 'n sakrekenaar. -- afronding en kompensering; -- langdeling; -- optel, aftrek en vermenigvuldiging in kolomme; -- skatting; \u2022 Gebruik 'n verskeidenheid tegnieke om sowel skriftelike as hoofberekeninge met heelgetalle te doen, insluitend: Berekeningstegnieke: \u2022 Berekeninge met al vier bewerkings op heelgetalle, deur skatting en die gebruik van sakrekenaars waar van toepassing. \u2022 Leerders moet voortgaan om die konteksvrye berekeninge te doen en probleme in konteks met heelgetalle en breuke op te los. as 33 + 99 = 132, dan is 132 \u2013 99 = 33 en 132 \u2013 33 = 99 e) Hersien: (9 x 64) + (9 x 36) = 9(64 + 36) = 9 x 100 = 900 d) Berekeninge met heelgetalle: 4(12 + 9) = (4 x 12) + (4 x 9) = 48 + 36 = 84 51 + (19 + 46) = (51 + 19) + 46 = 116 b) c) 33 + 99 = 99 + 33 = 132 a) Om die eienskappe van heelgetalle te illustreer VERDUIDELIKENDE NOTAS OF ONDERRIG-RIGLYNE Berekeninge met heelgetalle: BEGRIPPE EN VAARDIGHEDE TYDSDUUR (in ure) WISKUNDE GRAAD 7-9 1.1 Getalle, Bewerkings en Verwantskappe Heelgetalle ONDERWERPE INHOUDS",
+          "assessment_notes": [
+            "TEST: all topics represented in physical or diagram form",
+            "ASSESSMENT",
+            "TASK",
+            "TEST"
+          ]
         }
       ]
     },
@@ -175,103 +279,215 @@
       "term": 2,
       "weeks": [
         {
-          "week": 1,
-          "topics": [],
-          "skills": []
-        },
-        {
           "week": 2,
-          "topics": [],
-          "skills": []
+          "topics": [
+            "investigation",
+            "Term 2 topics"
+          ],
+          "skills": [
+            "administer",
+            "investigation"
+          ],
+          "content_area": "FORMAL ASSESSMENT TASK INVESTIGATION",
+          "short_phrases": [
+            "investigation",
+            "Term 2 topics",
+            "administer"
+          ],
+          "caps_excerpt": "AREA 80 Heelgetalle 1.1 ONDERWERPE as 20 x 5 = 100, dan is 100 \u00f7 20 = 5 en 100 \u00f7 5 =20 f) KURRIKULUM EN ASSESSERINGSBELEIDSVERKLARINGSBELEID (KABV) \u2022 Bepaal die KGV en GGF van getalle tot minstens 3-syferheelgetalle deur inspeksie of faktorisering. \u2022 Gebruik die definisie van priemgetalle en beklemtoon dat 1 nie geklassifiseer word as 'n priemgetal nie. \u2022 Faktorisering van heelgetalle l\u00ea die basis vir die faktorisering van",
+          "assessment_notes": [
+            "Administer",
+            "investigation",
+            "ASSESSMENT TASK"
+          ]
         },
         {
           "week": 3,
           "topics": [
-            "representing numbers in",
-            "represent whole",
-            "numbers in exponential",
-            "numbers in scientific"
+            "Comparing and representing numbers in exponential form",
+            "Revise compare and represent whole numbers in exponential form",
+            "Compare and represent integers in exponential form",
+            "Compare and represent numbers in scientific notation, limited to positive exponents",
+            "Calculations using numbers in exponential form"
           ],
-          "skills": []
-        },
-        {
-          "week": 5,
-          "topics": [],
-          "skills": []
+          "skills": [
+            "Compare and represent numbers in exponential form",
+            "Revise compare and represent whole numbers in exponential form",
+            "Compare and represent integers in exponential form",
+            "Compare and represent numbers in scientific notation, limited to positive exponents",
+            "Calculate using numbers in exponential form",
+            "Establish general laws of exponents"
+          ],
+          "content_area": "Mathematics",
+          "short_phrases": [
+            "Comparing and representing",
+            "Exponential form",
+            "Scientific notation"
+          ],
+          "caps_excerpt": "3.3.2 Verheldering van inhoud vir Graad 8 6 ure TYDSDUUR (in ure) WISKUNDE GRAAD 7-9 Getalle, Bewerkings en Verwantskappe INHOUDSAREA 80 Heelgetalle 1.1 ONDERWERPE as 20 x 5 = 100, dan is 100 \u00f7 20 = 5 en 100 \u00f7 5 =20 f) KURRIKULUM EN ASSESSERINGSBELEIDSVERKLARINGSBELEID (KABV) \u2022 Bepaal die KGV en GGF van getalle tot minstens 3-syferheelgetalle deur inspeksie of faktorisering. \u2022 Gebruik die definisie van priemgetalle en beklemtoon dat 1 nie geklassifiseer word as 'n priemgetal nie. \u2022 Faktorisering van heelgetalle l\u00ea die basis vir die faktorisering van algebra\u00efese uitdrukkings. \u2022 Leerders moet aanhou oefen om veelvoude en faktore van heelgetalle te vind. Dit is veral belangrik wanneer leerders berekeninge met breuke doen. Hulle gebruik hierdie kennis om die KGV te vind vir noemers wat van mekaar verskil, en ook wanneer hulle breuke vereenvoudig of ekwivalente breuke vind. Hersien: \u2022 Priemfaktore van getalle tot minstens 3-syferheelgetalle. Veelvoude en faktore: \u2022 Optelling, aftrekking en vermenigvuldiging in kolomme, en langdeling moet slegs gebruik word om getalfeite en berekeningstegnieke te oefen, en moet dus gedoen word met bekende en 'n \u200b\u200bkleiner getalreekse. Vir groot en lomp berekeninge, moet leerders aangemoedig word om 'n sakrekenaar te gebruik. -- Deur inverse bewerkings te gebruik, of sakrekenaars om die redelikheid van hul oplossings te toets, bv. skatting deur afronding; skatting deur verdubbeling of halvering. \u2022 Leerders behoort met meer vertroue en meer onafhankli",
+          "assessment_notes": [
+            "Calculations",
+            "Establish general laws"
+          ]
         },
         {
           "week": 4,
           "topics": [],
-          "skills": []
+          "skills": [],
+          "content_area": "CAPS Mathematics ATP",
+          "short_phrases": [],
+          "caps_excerpt": "3.3.2 Verheldering van inhoud vir Graad 8 6 ure TYDSDUUR (in ure) WISKUNDE GRAAD 7-9 Getalle, Bewerkings en Verwantskappe INHOUDSAREA 80 Heelgetalle 1.1 ONDERWERPE as 20 x 5 = 100, dan is 100 \u00f7 20 = 5 en 100 \u00f7 5 =20 f) KURRIKULUM EN ASSESSERINGSBELEIDSVERKLARINGSBELEID (KABV) \u2022 Bepaal die KGV en GGF van getalle tot minstens 3-syferheelgetalle deur inspeksie of faktorisering. \u2022 Gebruik die definisie van priemgetalle en beklemtoon dat 1 nie geklassifiseer word as 'n priemgetal nie. \u2022 Faktorisering van heelgetalle l\u00ea die basis vir die faktorisering van algebra\u00efese uitdrukkings. \u2022 Leerders moet aanhou oefen om veelvoude en faktore van heelgetalle te vind. Dit is veral belangrik wanneer leerders berekeninge met breuke doen. Hulle gebruik hierdie kennis om die KGV te vind vir noemers wat van mekaar verskil, en ook wanneer hulle breuke vereenvoudig of ekwivalente breuke vind. Hersien: \u2022 Priemfaktore van getalle tot minstens 3-syferheelgetalle. Veelvoude en faktore: \u2022 Optelling, aftrekking en vermenigvuldiging in kolomme, en langdeling moet slegs gebruik word om getalfeite en berekeningstegnieke te oefen, en moet dus gedoen word met bekende en 'n \u200b\u200bkleiner getalreekse. Vir groot en lomp berekeninge, moet leerders aangemoedig word om 'n sakrekenaar te gebruik. -- Deur inverse bewerkings te gebruik, of sakrekenaars om die redelikheid van hul oplossings te toets, bv. skatting deur afronding; skatting deur verdubbeling of halvering. \u2022 Leerders behoort met meer vertroue en meer onafhankli",
+          "assessment_notes": []
         },
         {
-          "week": 6,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 8,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 9,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 10,
+          "week": 5,
           "topics": [
-            "FUNCTIONS AND",
-            "RELATIONSHIPS",
-            "Interpreting graphs",
-            "Algebraic language",
-            "algebraic expressions",
-            "Set up equations to",
-            "equations that describe a",
-            "Solve equations by",
-            "value of an equation by",
-            "formulae or equations",
-            "exponents in algebraic",
-            "equations to generate",
-            "Extend solving equations"
+            "Exponents"
           ],
-          "skills": []
+          "skills": [],
+          "content_area": "Mathematics",
+          "short_phrases": [
+            "Exponents"
+          ],
+          "caps_excerpt": "AREA 80 Heelgetalle 1.1 ONDERWERPE as 20 x 5 = 100, dan is 100 \u00f7 20 = 5 en 100 \u00f7 5 =20 f) KURRIKULUM EN ASSESSERINGSBELEIDSVERKLARINGSBELEID (KABV) \u2022 Bepaal die KGV en GGF van getalle tot minstens 3-syferheelgetalle deur inspeksie of faktorisering. \u2022 Gebruik die definisie van priemgetalle en beklemtoon dat 1 nie geklassifiseer word as 'n priemgetal nie. \u2022 Faktorisering van heelgetalle l\u00ea die basis vir die faktorisering van",
+          "assessment_notes": []
         },
         {
           "week": 7,
           "topics": [
-            "patterns and",
-            "global graphs of problem",
-            "features of graphs to",
-            "Drawing graphs",
-            "Draw global graphs from",
-            "draw graphs on the",
-            "operations using",
-            "numbers involving",
-            "operations with numbers",
-            "numbers in exponential",
-            "whole numbers in",
-            "laws for rational numbers",
-            "roots of rational numbers",
-            "algebraic expressions",
-            "terms in algebraic",
-            "simplify algebraic",
-            "the above operations",
-            "algebraic terms or like",
-            "algebraic terms",
-            "value of algebraic",
-            "Write number sentences to",
-            "or rules for patterns",
-            "Set up equations to",
-            "number of factors",
-            "and/or equations",
-            "number sentences that",
-            "number sentences by",
-            "formulae or equations",
-            "by number sentences"
+            "determine input values, output values or rules for patterns and relationships using flow diagrams, tables, formulae",
+            "determine input values, output values or rules for patterns and relationships using equations",
+            "analyse and interpret global graphs of problem situations",
+            "draw global graphs from given descriptions of a problem situation",
+            "plot points and draw graphs on the Cartesian plane",
+            "recognise and use the appropriate laws of operations using numbers involving exponents and square and cube roots",
+            "perform calculations involving all four operations with numbers that involve squares, cubes, square and cube roots of integers",
+            "solve problems in contexts involving numbers in exponential form",
+            "compare and represent whole numbers in exponential form",
+            "use commutative, associative and distributive laws for rational numbers and laws of exponents",
+            "calculate the squares, cubes, square and cube roots of rational numbers",
+            "expand and simplify algebraic expressions",
+            "add and subtract like terms in algebraic expressions",
+            "multiply integers and monomials",
+            "determine equivalence of different descriptions of the same relationship or rule presented verbally, in flow diagrams, in tables by formulae and by number sentences",
+            "divide the following by integers or monomials",
+            "simplify algebraic expressions involving the above operations",
+            "determine the squares, cubes, square roots and cube roots of single algebraic terms or like algebraic terms",
+            "determine the numerical value of algebraic expressions by substitution",
+            "recognise and interpret rules or relationships",
+            "write number sentences to describe problem situations",
+            "set up equations to describe problem situations",
+            "perform calculations involving all four operations using numbers in exponential form, limited to exponents up to 5, and square and cube roots represented in symbolic form",
+            "analyse and interpret number sentences that describe a given situation and relationships",
+            "solve and complete number sentences by inspection, trial and improvement",
+            "determine the numerical value of an expression by substitution",
+            "identify variables and constants in given formulae or equations"
           ],
-          "skills": []
+          "skills": [
+            "analyse and interpret global graphs",
+            "draw global graphs",
+            "plot points and draw graphs on the Cartesian plane",
+            "perform calculations involving all four operations",
+            "solve problems in contexts involving numbers in exponential form",
+            "compare and represent whole numbers in exponential form",
+            "use commutative, associative and distributive laws",
+            "calculate squares, cubes, square and cube roots of rational numbers",
+            "expand and simplify algebraic expressions",
+            "add and subtract like terms in algebraic expressions",
+            "multiply integers and monomials",
+            "determine equivalence of different descriptions of the same relationship or rule",
+            "divide the following by integers or monomials",
+            "simplify algebraic expressions involving the above operations",
+            "determine the squares, cubes, square roots and cube roots of single algebraic terms or like algebraic terms",
+            "determine the numerical value of algebraic expressions by substitution",
+            "recognise and interpret rules or relationships",
+            "write number sentences to describe problem situations",
+            "set up equations to describe problem situations",
+            "perform calculations involving all four operations using numbers in exponential form, limited to exponents up to 5, and square and cube roots represented in symbolic form",
+            "analyse and interpret number sentences that describe a given situation and relationships",
+            "solve and complete number sentences by inspection, trial and improvement",
+            "determine the numerical value of an expression by substitution",
+            "identify variables and constants in given formulae or equations"
+          ],
+          "content_area": "Patterns and Relationships",
+          "short_phrases": [
+            "draw global graphs"
+          ],
+          "caps_excerpt": "algebra\u00efese uitdrukkings. \u2022 Leerders moet aanhou oefen om veelvoude en faktore van heelgetalle te vind. Dit is veral belangrik wanneer leerders berekeninge met breuke doen. Hulle gebruik hierdie kennis om die KGV te vind vir noemers wat van mekaar verskil, en ook wanneer hulle breuke vereenvoudig of ekwivalente breuke vind. Hersien: \u2022 Priemfaktore van getalle tot minstens 3-syferheelgetalle. Veelvoude en faktore: \u2022 Optelling, aftrekking en vermenigvuldiging in kolomme, en langdeling moet slegs gebruik word om getalfeite en berekeningstegnieke te oefen, en moet dus gedoen word met bekende en 'n \u200b\u200bkleiner getalreekse. Vir groot en lomp berekeninge, moet leerders aangemoedig word om 'n sakrekenaar te gebruik. -- Deur inverse bewerkings te gebruik, of sakrekenaars om die redelikheid van hul oplossings te toets, bv. skatting deur afronding; skatting deur verdubbeling of halvering. \u2022 Leerders behoort met meer vertroue en meer onafhanklikheid wiskunde aan te pak, as hulle tegnieke het om seker te maak van hul oplossings, bv. Veelvoude en faktore: -- gebruik van 'n sakrekenaar. -- afronding en kompensering; -- langdeling; -- optel, aftrek en vermenigvuldiging in kolomme; -- skatting; \u2022 Gebruik 'n verskeidenheid tegnieke om sowel skriftelike as hoofberekeninge met heelgetalle te doen, insluitend: Berekeningstegnieke: \u2022 Berekeninge met al vier bewerkings op heelgetalle, deur skatting en die gebruik van sakrekenaars waar van toepassing. \u2022 Leerders moet voortgaan om die konteksvrye berekeninge te doen en probleme in konteks met heelgetalle en breuke op te los. as 33 + 99 = 132, dan is 132 \u2013 99 = 33 en 132 \u2013 33 = 99 e) Hersien: (9 x 64) + (9 x 36) = 9(64 + 36) = 9 x 100 = 900 d) Berekeninge met heelgetalle: 4(12 + 9) = (4 x 12) + (4 x 9) = 48 + 36 = 84 51 + (19 + 46) = (51 + 19) + 46 = 116 b) c) 33 + 99 = 99 + 33 = 132 a) Om die eienskappe van heelgetalle te illustreer VERDUIDELIKENDE NOTAS OF ONDERRIG-RIGLYNE Berekeninge met heelgetalle: BEGRIPPE EN VAARDIGHEDE TYDSDUUR (in ure) WISKUNDE GRAAD 7-9 1.1 Getalle, Bewerkings en Verwantskappe Heelgetalle ONDERWERPE INHOUDS",
+          "assessment_notes": [
+            "revision and formal assessment task"
+          ]
+        },
+        {
+          "week": 10,
+          "topics": [
+            "Algebraic Expressions",
+            "Algebraic Equations",
+            "Functions And Relationships",
+            "Graphs",
+            "Interpreting Graphs",
+            "Algebraic Language",
+            "Equations",
+            "Input And Output Values",
+            "Recognize And Interpret Rules Or Relationships",
+            "Identify Variables And Constants",
+            "Conventions For Writing Algebraic Expressions",
+            "Set Up Equations",
+            "Analyse And Interpret Equations",
+            "Solve Equations By Inspection",
+            "Determine The Numerical Value Of An Equation",
+            "Identify And Classify Like And Unlike Terms",
+            "Identify Variables And Constants In Formulae",
+            "Recognize And Identify Coefficients And Exponents",
+            "Use Substitution In Equations"
+          ],
+          "skills": [
+            "Recognize and interpret rules or relationships represented in symbolic form",
+            "Identify variables and constants in given formulae and/or equations",
+            "Recognize and identify conventions for writing algebraic expressions",
+            "Set up equations to describe problem situations",
+            "Analyse and interpret equations that describe a given situation",
+            "Solve equations by inspection",
+            "Determine the numerical value of an equation by substitution",
+            "Identify and classify like and unlike terms in algebraic expressions",
+            "Identify variables and constants in given formulae or equations",
+            "Recognize and identify coefficients and exponents in algebraic expressions",
+            "Use substitution in equations to generate tables of ordered pairs",
+            "Extend solving equations to include using additive and multiplicative inverses"
+          ],
+          "content_area": "ALGEBRAIC",
+          "short_phrases": [
+            "Algebraic Expressions",
+            "Algebraic Equations",
+            "Functions And Relationships",
+            "Graphs",
+            "Interpreting Graphs",
+            "Algebraic Language",
+            "Equations",
+            "Rules Or Relationships",
+            "Variables And Constants",
+            "Conventions For Writing",
+            "Set Up Equations",
+            "Analyse And Interpret",
+            "Solve Equations",
+            "Coefficients And Exponents",
+            "Substitution In Equations"
+          ],
+          "caps_excerpt": "algebra\u00efese uitdrukkings. \u2022 Leerders moet aanhou oefen om veelvoude en faktore van heelgetalle te vind. Dit is veral belangrik wanneer leerders berekeninge met breuke doen. Hulle gebruik hierdie kennis om die KGV te vind vir noemers wat van mekaar verskil, en ook wanneer hulle breuke vereenvoudig of ekwivalente breuke vind. Hersien: \u2022 Priemfaktore van getalle tot minstens 3-syferheelgetalle. Veelvoude en faktore: \u2022 Optelling, aftrekking en vermenigvuldiging in kolomme, en langdeling moet slegs gebruik word om getalfeite en berekeningstegnieke te oefen, en moet dus gedoen word met bekende en 'n \u200b\u200bkleiner getalreekse. Vir groot en lomp berekeninge, moet leerders aangemoedig word om 'n sakrekenaar te gebruik. -- Deur inverse bewerkings te gebruik, of sakrekenaars om die redelikheid van hul oplossings te toets, bv. skatting deur afronding; skatting deur verdubbeling of halvering. \u2022 Leerders behoort met meer vertroue en meer onafhanklikheid wiskunde aan te pak, as hulle tegnieke het om seker te maak van hul oplossings, bv. Veelvoude en faktore: -- gebruik van 'n sakrekenaar. -- afronding en kompensering; -- langdeling; -- optel, aftrek en vermenigvuldiging in kolomme; -- skatting; \u2022 Gebruik 'n verskeidenheid tegnieke om sowel skriftelike as hoofberekeninge met heelgetalle te doen, insluitend: Berekeningstegnieke: \u2022 Berekeninge met al vier bewerkings op heelgetalle, deur skatting en die gebruik van sakrekenaars waar van toepassing. \u2022 Leerders moet voortgaan om die konteksvrye berekeninge te doen en probleme in konteks met heelgetalle en breuke op te los. as 33 + 99 = 132, dan is 132 \u2013 99 = 33 en 132 \u2013 33 = 99 e) Hersien: (9 x 64) + (9 x 36) = 9(64 + 36) = 9 x 100 = 900 d) Berekeninge met heelgetalle: 4(12 + 9) = (4 x 12) + (4 x 9) = 48 + 36 = 84 51 + (19 + 46) = (51 + 19) + 46 = 116 b) c) 33 + 99 = 99 + 33 = 132 a) Om die eienskappe van heelgetalle te illustreer VERDUIDELIKENDE NOTAS OF ONDERRIG-RIGLYNE Berekeninge met heelgetalle: BEGRIPPE EN VAARDIGHEDE TYDSDUUR (in ure) WISKUNDE GRAAD 7-9 1.1 Getalle, Bewerkings en Verwantskappe Heelgetalle ONDERWERPE INHOUDS",
+          "assessment_notes": [
+            "Recognize and interpret rules or relationships represented in symbolic form",
+            "Identify variables and constants in given formulae and/or equations",
+            "Recognize and identify conventions for writing algebraic expressions",
+            "Set up equations to describe problem situations",
+            "Analyse and interpret equations that describe a given situation",
+            "Solve equations by inspection",
+            "Determine the numerical value of an equation by substitution",
+            "Identify and classify like and unlike terms in algebraic expressions",
+            "Identify variables and constants in given formulae or equations",
+            "Recognize and identify coefficients and exponents in algebraic expressions",
+            "Use substitution in equations to generate tables of ordered pairs",
+            "Extend solving equations to include using additive and multiplicative inverses"
+          ]
         }
       ]
     },
@@ -279,96 +495,125 @@
       "term": 3,
       "weeks": [
         {
-          "week": 2,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 3,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 4,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 5,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 6,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 7,
-          "topics": [],
-          "skills": []
-        },
-        {
           "week": 1,
           "topics": [
-            "DATA HANDLING",
-            "GEOMETRY OF STRAIGHT LINES",
-            "GEOMETRY OF 2D SHAPES",
+            "Data Handling",
+            "Geometry of Straight Lines",
+            "Geometry of 2D Shapes"
+          ],
+          "skills": [
             "Collect data",
+            "Angle relationships",
             "Classifying 2D shapes",
-            "economic, and environmental issues",
-            "collection of data (including peers,",
-            "appropriate) and record data using",
+            "Pose questions relating to social, economic, and environmental issues",
+            "Select appropriate sources for the collection of data",
+            "Distinguish between samples and populations",
+            "Design and use simple questionnaires",
+            "Recognise and describe pairs of angles",
+            "Solving problems",
             "Group data into intervals",
-            "Summarize data using measures of"
+            "Summarize data using measures of central tendency"
           ],
-          "skills": []
-        },
-        {
-          "week": 9,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 10,
-          "topics": [
-            "FORMAL ASSESSMENT TASK",
-            "PROVIDE LEARNERS WITH",
-            "ACCURATELY CONSTRUCTED",
-            "FIGURES TO INVESTIGATE THE",
-            "PROPERTIES OF TRIANGLES",
-            "Organize and summarize data"
+          "content_area": "Data Handling",
+          "short_phrases": [
+            "Data Handling",
+            "Collect data",
+            "Angle relationships",
+            "Classifying 2D shapes",
+            "Pose questions",
+            "Solving problems",
+            "Group data",
+            "Summarize data"
           ],
-          "skills": []
+          "caps_excerpt": "Datahantering Versameling, organisering en opsomming van data ONDERWERPE INHOUDS",
+          "assessment_notes": [
+            "ASSESSMENT",
+            "TASK",
+            "PROJECT"
+          ]
         },
         {
           "week": 8,
           "topics": [
-            "Summarize data using measures of",
-            "Classifying 2D shapes",
-            "probability and:",
-            "probability and explain possible",
-            "determine the probability of each",
-            "definition of probability",
-            "PROVIDE LEARNERS WITH",
-            "ACCURATELY CONSTRUCTED",
-            "FIGURES TO INVESTIGATE THE",
-            "PROPERTIES OF",
-            "QUADRILATERALS",
+            "Angles in a triangle",
+            "Measures of dispersion",
+            "Probability",
+            "Constructions",
+            "Quadrilaterals",
+            "Geometric figures",
+            "Solving problems",
             "Similar and congruent 2D shapes",
-            "of congruent shapes",
-            "of similar shapes",
-            "Critically read and interpret data",
-            "double bar graphs",
-            "Critically analyse data by answering",
-            "data categories, including data",
-            "data sources and contexts",
-            "scales used on graphs",
-            "Summarize data in short paragraphs",
-            "the data making predictions based on",
-            "statistics for the data (mean, median,"
+            "Triangles",
+            "Quadrilaterals",
+            "Circles"
           ],
-          "skills": []
+          "skills": [
+            "Investigate",
+            "Summarize",
+            "Consider",
+            "Determine",
+            "Predict",
+            "Identify",
+            "Write",
+            "Construct",
+            "Investigate",
+            "Solve",
+            "Identify",
+            "Describe",
+            "Recognise",
+            "Perform"
+          ],
+          "content_area": "Measurement",
+          "short_phrases": [
+            "Measures of dispersion",
+            "Probability",
+            "Quadrilaterals",
+            "Geometric figures",
+            "Triangles",
+            "Circles"
+          ],
+          "caps_excerpt": "Datahantering Versameling, organisering en opsomming van data ONDERWERPE INHOUDS",
+          "assessment_notes": [
+            "Investigate the angles in a triangle",
+            "Summarize data using measures of dispersion",
+            "Determine the probability of each possible outcome using the definition of probability",
+            "Predict with reasons the relative frequency of the possible outcomes for a series of trials based on probability",
+            "Identify and write clear definitions of quadrilaterals in terms of their sides and angles",
+            "Investigate sides and angles in quadrilaterals",
+            "Solve geometric problems involving unknown sides and angles in triangles and quadrilaterals",
+            "Identify and describe the properties of congruent shapes",
+            "Identify and describe the properties of similar shapes",
+            "Summarize data in short paragraphs that include drawing conclusions about the data",
+            "Describe and name parts of a circle",
+            "Recognise and describe similar and congruent figures by comparing shape and size"
+          ]
+        },
+        {
+          "week": 10,
+          "topics": [
+            "Constructions",
+            "Solve geometric problems using the relationships between pairs of angles",
+            "Investigating properties of geometric figures",
+            "Organize and summarize data",
+            "Identify and write clear definitions of triangles in terms of their sides and angles"
+          ],
+          "skills": [
+            "PROVIDE LEARNERS WITH ACCURATELY CONSTRUCTED FIGURES TO INVESTIGATE THE PROPERTIES OF TRIANGLES",
+            "distinguishing between"
+          ],
+          "content_area": "Geometry",
+          "short_phrases": [
+            "geometric problems",
+            "pairs of angles",
+            "properties of triangles",
+            "geometric figures",
+            "clear definitions"
+          ],
+          "caps_excerpt": "Datahantering Versameling, organisering en opsomming van data ONDERWERPE INHOUDS",
+          "assessment_notes": [
+            "FORMAL ASSESSMENT TASK",
+            "TEST"
+          ]
         }
       ]
     },
@@ -376,77 +621,189 @@
       "term": 4,
       "weeks": [
         {
-          "week": 1,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 2,
-          "topics": [],
-          "skills": []
-        },
-        {
           "week": 3,
           "topics": [
-            "THEOREM OF PYTHAGORAS"
+            "Theorem of Pythagoras",
+            "relationship between the lengths of the sides of a right-angled triangle",
+            "determine whether a triangle is right-angled triangle or not"
           ],
-          "skills": []
-        },
-        {
-          "week": 4,
-          "topics": [],
-          "skills": []
+          "skills": [
+            "Develop and use the Theorem of Pythagoras",
+            "Investigate the relationship between the lengths of the sides of a right-angled triangle to develop the Theorem of Pythagoras",
+            "Determine whether a triangle is right-angled triangle or not if the lengths of the three sides of the triangle is known"
+          ],
+          "content_area": "Geometry",
+          "short_phrases": [
+            "Theorem of Pythagoras",
+            "right-angled triangle",
+            "triangle is right-angled"
+          ],
+          "caps_excerpt": "AREA 80 Heelgetalle 1.1 ONDERWERPE as 20 x 5 = 100, dan is 100 \u00f7 20 = 5 en 100 \u00f7 5 =20 f) KURRIKULUM EN ASSESSERINGSBELEIDSVERKLARINGSBELEID (KABV) \u2022 Bepaal die KGV en GGF van getalle tot minstens 3-syferheelgetalle deur inspeksie of faktorisering. \u2022 Gebruik die definisie van priemgetalle en beklemtoon dat 1 nie geklassifiseer word as 'n priemgetal nie. \u2022 Faktorisering van heelgetalle l\u00ea die basis vir die faktorisering van",
+          "assessment_notes": [
+            "Develop and use the Theorem of Pythagoras",
+            "Determine whether a triangle is right-angled triangle or not"
+          ]
         },
         {
           "week": 5,
           "topics": [
             "TRANSFORMATION",
-            "irrational answers in surd",
-            "AREA AND PERIMETER OF",
-            "decimal places, by",
-            "SURFACE AREA AND",
-            "VOLUME OF 3-D OBJECTS"
+            "GEOMETRY",
+            "AREA AND PERIMETER OF 2-D SHAPES",
+            "SURFACE AREA AND VOLUME OF 3-D OBJECTS"
           ],
-          "skills": []
-        },
-        {
-          "week": 8,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 9,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 10,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 7,
-          "topics": [],
-          "skills": []
+          "skills": [
+            "Recognize, describe and perform transformations with points on a coordinate plane",
+            "Use the Theorem of Pythagoras to calculate the missing length in a right-angled triangle",
+            "Identify what the transformation of a point is, if given the co-ordinates of its image",
+            "Recognize, describe and perform transformations with triangles on a coordinate plane",
+            "Calculate the areas of polygons, to at least 2 decimal places, by decomposing them into rectangles and/or triangles",
+            "Use and describe the relationship between the radius, diameter and circumference of a circle in calculations",
+            "Use and describe the relationship between the radius and area of a circle in calculations",
+            "Use appropriate formulae to calculate the surface area, volume and capacity of squares"
+          ],
+          "content_area": "GEOMETRY",
+          "short_phrases": [
+            "Transformation",
+            "Geometry",
+            "Pythagoras",
+            "Area and perimeter"
+          ],
+          "caps_excerpt": "AREA 80 Heelgetalle 1.1 ONDERWERPE as 20 x 5 = 100, dan is 100 \u00f7 20 = 5 en 100 \u00f7 5 =20 f) KURRIKULUM EN ASSESSERINGSBELEIDSVERKLARINGSBELEID (KABV) \u2022 Bepaal die KGV en GGF van getalle tot minstens 3-syferheelgetalle deur inspeksie of faktorisering. \u2022 Gebruik die definisie van priemgetalle en beklemtoon dat 1 nie geklassifiseer word as 'n priemgetal nie. \u2022 Faktorisering van heelgetalle l\u00ea die basis vir die faktorisering van",
+          "assessment_notes": [
+            "Use appropriate formulae to calculate the surface area, volume and capacity",
+            "Use and describe the relationship between the radius, diameter and circumference of a circle in calculations",
+            "Calculate the areas of polygons, to at least 2 decimal places, by decomposing them into rectangles and/or triangles"
+          ]
         },
         {
           "week": 6,
           "topics": [
-            "FORMAL ASSESSMENT TASK",
-            "least 2 decimal places",
-            "meaning of the irrational",
-            "number Pi (\u03c0) in calculations",
-            "shapes on squared paper",
-            "of shape and size",
-            "whole numbers",
-            "decimal place"
+            "cubes",
+            "rectangular prisms",
+            "triangular prisms",
+            "surface area",
+            "volume",
+            "capacity",
+            "perimeter",
+            "area",
+            "polygons",
+            "circles",
+            "irrational number Pi (\u03c0)",
+            "translations",
+            "reflections",
+            "rotations",
+            "enlargements",
+            "reductions",
+            "symmetry",
+            "coordinates",
+            "squares",
+            "rectangles",
+            "triangles",
+            "right angled triangles",
+            "surface area and volume",
+            "squares and square roots"
           ],
-          "skills": []
+          "skills": [
+            "Use appropriate formulae to calculate the surface area, volume and capacity of triangular prisms",
+            "Describe the interrelationship between surface area and volume of the objects mentioned above",
+            "Solve problems, with or without a calculator involving surface area, volume and capacity",
+            "Use and convert between appropriate SI units, including: mm2 \u2194 cm2 \u2194 m2 \u2194 km2",
+            "Solve problems, with or without a calculator, involving perimeter and area of polygons and circles to at least 2 decimal places",
+            "Use and describe the meaning of the irrational number Pi (\u03c0) in calculations involving circles",
+            "Use and convert between appropriate SI units, including: mm2 \u2194 cm2 \u2194 m2",
+            "Recognize, describe and perform translations, reflections and rotations with geometric figures and shapes on squared paper",
+            "Identify and draw lines of symmetry in geometric figures",
+            "Draw enlargements and reductions of geometric figures on squared paper and compare them in terms of shape and size",
+            "Use proportion to describe the effect of enlargement or reduction on area and perimeter of geometric figures",
+            "Investigate the coordinates of the vertices of figures that have been enlarged or reduced by a given scale factor",
+            "Calculate the perimeter of regular and irregular polygons",
+            "Use appropriate formulae to calculate perimeter and area of: squares, rectangles, triangles",
+            "Identify and describe right angled triangles",
+            "Use appropriate formulae to calculate the surface area, volume and capacity of: cubes, rectangular prisms",
+            "Solve problems involving perimeter and area of polygons",
+            "Solve problems involving surface area, volume and capacity",
+            "Calculate to at least 1 decimal place",
+            "Use equivalence between units when solving problems: 1 cm3 \u2194 1 ml, 1 m3 \u2194 1 kl"
+          ],
+          "content_area": "Surface Area and Volume",
+          "short_phrases": [
+            "surface area",
+            "volume",
+            "capacity",
+            "perimeter",
+            "area",
+            "polygons",
+            "circles",
+            "translations",
+            "reflections",
+            "rotations",
+            "enlargements",
+            "reductions",
+            "symmetry",
+            "coordinates",
+            "squares",
+            "rectangles",
+            "triangles",
+            "right angled triangles"
+          ],
+          "caps_excerpt": "AREA 80 Heelgetalle 1.1 ONDERWERPE as 20 x 5 = 100, dan is 100 \u00f7 20 = 5 en 100 \u00f7 5 =20 f) KURRIKULUM EN ASSESSERINGSBELEIDSVERKLARINGSBELEID (KABV) \u2022 Bepaal die KGV en GGF van getalle tot minstens 3-syferheelgetalle deur inspeksie of faktorisering. \u2022 Gebruik die definisie van priemgetalle en beklemtoon dat 1 nie geklassifiseer word as 'n priemgetal nie. \u2022 Faktorisering van heelgetalle l\u00ea die basis vir die faktorisering van",
+          "assessment_notes": [
+            "Formal Assessment Task",
+            "Test: Term 1-4 topics",
+            "Calculations and solving problems",
+            "Reflecting a triangle in the X-axis or Y-axis",
+            "Translating a triangle within and across quadrants",
+            "Solving problems, with or without a calculator, involving perimeter and area of polygons and circles to at least 2 decimal places",
+            "Use and describe the meaning of the irrational number Pi (\u03c0) in calculations involving circles",
+            "Use equivalence between units when solving problems: 1 cm3 \u2194 1 ml, 1 m3 \u2194 1 kl"
+          ]
+        },
+        {
+          "week": 7,
+          "topics": [
+            "reflecting a point in the x-axis or y-axis",
+            "translating a point",
+            "within and across quadrants"
+          ],
+          "skills": [
+            "reflecting a point in the x-axis or y-axis",
+            "translating a point within and across quadrants"
+          ],
+          "content_area": "Measurement",
+          "short_phrases": [
+            "reflecting a point",
+            "x-axis or y-axis",
+            "translating a point",
+            "within and across"
+          ],
+          "caps_excerpt": "Datahantering Versameling, organisering en opsomming van data ONDERWERPE INHOUDS",
+          "assessment_notes": []
+        },
+        {
+          "week": 10,
+          "topics": [
+            "calculate perimeter and area",
+            "reflection in the line y=x",
+            "rotation around a given point"
+          ],
+          "skills": [
+            "Use appropriate formulae"
+          ],
+          "content_area": "Geometry",
+          "short_phrases": [
+            "perimeter and area"
+          ],
+          "caps_excerpt": "AREA 80 Heelgetalle 1.1 ONDERWERPE as 20 x 5 = 100, dan is 100 \u00f7 20 = 5 en 100 \u00f7 5 =20 f) KURRIKULUM EN ASSESSERINGSBELEIDSVERKLARINGSBELEID (KABV) \u2022 Bepaal die KGV en GGF van getalle tot minstens 3-syferheelgetalle deur inspeksie of faktorisering. \u2022 Gebruik die definisie van priemgetalle en beklemtoon dat 1 nie geklassifiseer word as 'n priemgetal nie. \u2022 Faktorisering van heelgetalle l\u00ea die basis vir die faktorisering van",
+          "assessment_notes": [
+            "calculate perimeter and area",
+            "reflection in the line y=x",
+            "rotation around a given point"
+          ]
         }
       ]
     }
   ],
   "term_count": 4,
-  "week_count": 41,
-  "source_pdf": "/code/riv/kyno/data/syllabus/grade-8/mathematics/atp-mathematics-2026.pdf"
+  "week_count": 19
 }

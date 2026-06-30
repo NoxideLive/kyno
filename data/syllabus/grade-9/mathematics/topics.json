@@ -1,99 +1,170 @@
 {
   "grade": 9,
+  "phase": "senior",
   "subject": "mathematics",
   "curriculum": "CAPS",
+  "sources": {
+    "atp_pdf": "/code/riv/kyno/data/syllabus/grade-9/mathematics/atp-mathematics-2026.pdf",
+    "caps_pdf": "/code/riv/kyno/data/syllabus/grade-9/mathematics/caps-wiskunde-mathematics.pdf"
+  },
+  "caps_summary": {
+    "overview_excerpt": "",
+    "aims_excerpt": "",
+    "assessment_excerpt": "",
+    "content_area_names": [
+      "Patterns, Functions And Algebra",
+      "Measurement",
+      "Data Handling"
+    ]
+  },
   "terms": [
     {
       "term": 1,
       "weeks": [
         {
-          "week": 1,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 2,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 3,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 4,
-          "topics": [],
-          "skills": []
-        },
-        {
           "week": 5,
           "topics": [
-            "WHOLE NUMBERS",
+            "Whole Numbers",
+            "Integers",
+            "Exponents",
             "Properties of numbers",
-            "representing numbers",
-            "number system by",
-            "natural numbers",
-            "whole numbers",
-            "rational numbers",
-            "irrational numbers",
-            "numbers to find LCM",
-            "operations with",
-            "numbers that"
+            "Multiples and factors",
+            "Revise calculations involving all four operations with integers",
+            "Revise calculations involving all four operations with numbers that involve the squares, cubes, square roots and cube roots of integers",
+            "Revise compare and represent integers in exponential form"
           ],
-          "skills": []
-        },
-        {
-          "week": 6,
-          "topics": [],
-          "skills": []
+          "skills": [
+            "Describe the real number system by recognising, defining and distinguishing properties of: natural numbers, whole numbers, integers, rational numbers, irrational numbers",
+            "Use prime factorisation of numbers to find LCM and HCF",
+            "Perform calculations involving all four operations with integers",
+            "Perform calculations involving all four operations with numbers that involve the squares, cubes, square roots and cube roots of integers",
+            "Compare and represent integers in exponential form"
+          ],
+          "content_area": "Patterns, Functions And Algebra",
+          "short_phrases": [
+            "Whole Numbers",
+            "Integers",
+            "Exponents",
+            "Properties of numbers",
+            "Multiples and factors",
+            "LCM and HCF",
+            "Exponential form",
+            "Scientific notation"
+          ],
+          "caps_excerpt": "algebra\u00efese uitdrukkings en vergelykings. Dit word verwag dat hulle bedrewe in al vier bewerkings met heelgetalle sal wees en dat waar nodig, hulle die eienskappe van heelgetalle gepas kan gebruik. In graad 9 moet leerders getalbegrip en berekeningstegnieke vir heelgetalle wat in graad 8 ontwikkel is, konsolideer. -- Doen berekeninge met al vier bewerkings met heelgetalle. Hoe verskil graad 9 van graad 8? Gebruik die formule A = P(1 + 100 ) om die saamgestelde rente op 'n lening van R3 450 teen 6,5% per jaar vir 5 jaar te bereken. \u2022 Hersien: e) Temoso leen R500 by die bank vir 3 jaar teen 8% p.j. saamgestelde rente. Bereken (sonder om 'n formule te gebruik) hoeveel Temoso aan die einde van die drie jaar die bank skuld. d) Berekeninge met heelgetalle: -- saamgestelde rente. -- huur; -- wisselkoerse en kommissie; Hoe lank sal dit R3 000, wat bel\u00ea word teen 6% per jaar enkelvoudige rente, neem om tot R4 260 te groei? R800 wat teen r% per jaar enkelvoudige rente vir 3 jaar bel\u00ea word, lewer R168. Bereken die waarde van r. b) -- enkelvoudige rente; c) Bereken die enkelvoudige rente op R600 teen 7% p.j. vir 3 jaar. Gebruik die P.n.r r formule SI = 100 of si = p.n.i vir i = 100 . a) -- begrotings; -- rekeninge en lenings; Voorbeelde: \u2022 Sodra leerders genoeg berekeninge deur herhaalde berekening oor enkelvoudige en saamgestelde rente gedoen het, kan hulle gegewe formules vir hierdie berekeninge gebruik. Finansi\u00eble kontekste VERDUIDELIKENDE NOTAS OF ONDERRIG-RIGLYNE -- wins, verlies, afslag en BTW; \u2022 Oplossing van probleme wat heelgetalle, persentasies en desimale breuke in finansi\u00eble kontekste behels soos: BEGRIPPE EN VAARDIGHEDE 4,5 ure Totale tyd vir Heelgetalle: TYDSDUUR (in ure) WISKUNDE GRAAD 7-9 INHOUDS",
+          "assessment_notes": [
+            "Assessment of calculations involving all four operations with numbers that involve the squares, cubes, square roots and cube roots of integers"
+          ]
         },
         {
           "week": 7,
           "topics": [
-            "extend patterns",
-            "difference or ratio,",
-            "algebraically",
-            "between numbers in",
-            "algebraic language"
+            "NUMERIC AND GEOMETRIC PATTERNS",
+            "General laws of exponents",
+            "Observed relationships between numbers"
           ],
-          "skills": []
-        },
-        {
-          "week": 9,
-          "topics": [
-            "FUNCTIONS AND",
-            "RELATIONSHIPS",
-            "Algebraic language",
-            "or rules for patterns",
-            "geometric patterns",
-            "numbers including"
+          "skills": [
+            "Investigate and extend patterns",
+            "Extend scientific notation to include negative exponents",
+            "Describe and justify the general rules for observed relationships between numbers"
           ],
-          "skills": []
+          "content_area": "NUMERIC AND GEOMETRIC PATTERNS",
+          "short_phrases": [
+            "Integers",
+            "Exponents",
+            "Negative exponents",
+            "Sequences",
+            "Constant difference",
+            "Observed relationships"
+          ],
+          "caps_excerpt": "algebra\u00efese uitdrukkings en vergelykings. Dit word verwag dat hulle bedrewe in al vier bewerkings met heelgetalle sal wees en dat waar nodig, hulle die eienskappe van heelgetalle gepas kan gebruik. In graad 9 moet leerders getalbegrip en berekeningstegnieke vir heelgetalle wat in graad 8 ontwikkel is, konsolideer. -- Doen berekeninge met al vier bewerkings met heelgetalle. Hoe verskil graad 9 van graad 8? Gebruik die formule A = P(1 + 100 ) om die saamgestelde rente op 'n lening van R3 450 teen 6,5% per jaar vir 5 jaar te bereken. \u2022 Hersien: e) Temoso leen R500 by die bank vir 3 jaar teen 8% p.j. saamgestelde rente. Bereken (sonder om 'n formule te gebruik) hoeveel Temoso aan die einde van die drie jaar die bank skuld. d) Berekeninge met heelgetalle: -- saamgestelde rente. -- huur; -- wisselkoerse en kommissie; Hoe lank sal dit R3 000, wat bel\u00ea word teen 6% per jaar enkelvoudige rente, neem om tot R4 260 te groei? R800 wat teen r% per jaar enkelvoudige rente vir 3 jaar bel\u00ea word, lewer R168. Bereken die waarde van r. b) -- enkelvoudige rente; c) Bereken die enkelvoudige rente op R600 teen 7% p.j. vir 3 jaar. Gebruik die P.n.r r formule SI = 100 of si = p.n.i vir i = 100 . a) -- begrotings; -- rekeninge en lenings; Voorbeelde: \u2022 Sodra leerders genoeg berekeninge deur herhaalde berekening oor enkelvoudige en saamgestelde rente gedoen het, kan hulle gegewe formules vir hierdie berekeninge gebruik. Finansi\u00eble kontekste VERDUIDELIKENDE NOTAS OF ONDERRIG-RIGLYNE -- wins, verlies, afslag en BTW; \u2022 Oplossing van probleme wat heelgetalle, persentasies en desimale breuke in finansi\u00eble kontekste behels soos: BEGRIPPE EN VAARDIGHEDE 4,5 ure Totale tyd vir Heelgetalle: TYDSDUUR (in ure) WISKUNDE GRAAD 7-9 INHOUDS",
+          "assessment_notes": [
+            "Assess",
+            "Formal assessment",
+            "Formal assessment task",
+            "Assignment"
+          ]
         },
         {
           "week": 8,
           "topics": [
-            "\u2212 by equations",
-            "writing algebraic",
-            "\u2212 ratio and rate",
-            "involve whole",
-            "percentages and",
-            "decimal fractions in",
-            "OR PREKNOWLED",
-            "properties of whole",
-            "multiple operations",
-            "all four operations",
-            "with numbers that",
-            "operations using",
-            "represent numbers",
-            "for patterns given",
-            "or rules for patterns",
-            "number divided by 0",
-            "cube roots of rational",
-            "number sentence."
+            "Equivalent forms",
+            "Properties of integers",
+            "Solving problems",
+            "Laws of exponents",
+            "Patterns and relationships"
           ],
-          "skills": []
+          "skills": [
+            "Determine, interpret and justify equivalence of different descriptions of the same relationship or rule presented",
+            "Recognize and identify conventions for writing algebraic expressions",
+            "Identify and classify like and unlike terms in algebraic expressions",
+            "Recognize and identify coefficients and exponents in algebraic expressions",
+            "Solve problems in contexts involving properties of integers",
+            "Solve problems that involve whole numbers, percentages and decimal fractions in financial contexts",
+            "Perform calculations involving all four operations with numbers that involve squares, cubes, square roots and cube roots of integers",
+            "Extend the general laws of exponents to include integer exponents",
+            "Perform calculations involving all four operations using numbers in exponential form, using laws of exponents",
+            "Compare and represent integers in exponential form",
+            "Determine input values, output values and rules for patterns given in input-output diagrams",
+            "Determine equivalence of different descriptions of the same relationship or rule presented",
+            "Recognize and interpret rules or relationships represented in symbolic form",
+            "Calculate the squares, cubes, square roots and cube roots of rational numbers limited to positive exponents"
+          ],
+          "content_area": "Mathematics",
+          "short_phrases": [
+            "Equivalent forms",
+            "Properties of integers",
+            "Solving problems",
+            "Laws of exponents",
+            "Patterns and relationships",
+            "Algebraic expressions",
+            "Coefficients and exponents",
+            "Whole numbers",
+            "Financial contexts",
+            "Integer exponents",
+            "Exponential form",
+            "Scientific notation",
+            "Input-output diagrams",
+            "Rules and relationships",
+            "Symbolic form",
+            "Variables and constants"
+          ],
+          "caps_excerpt": "algebra\u00efese uitdrukkings en vergelykings. Dit word verwag dat hulle bedrewe in al vier bewerkings met heelgetalle sal wees en dat waar nodig, hulle die eienskappe van heelgetalle gepas kan gebruik. In graad 9 moet leerders getalbegrip en berekeningstegnieke vir heelgetalle wat in graad 8 ontwikkel is, konsolideer. -- Doen berekeninge met al vier bewerkings met heelgetalle. Hoe verskil graad 9 van graad 8? Gebruik die formule A = P(1 + 100 ) om die saamgestelde rente op 'n lening van R3 450 teen 6,5% per jaar vir 5 jaar te bereken. \u2022 Hersien: e) Temoso leen R500 by die bank vir 3 jaar teen 8% p.j. saamgestelde rente. Bereken (sonder om 'n formule te gebruik) hoeveel Temoso aan die einde van die drie jaar die bank skuld. d) Berekeninge met heelgetalle: -- saamgestelde rente. -- huur; -- wisselkoerse en kommissie; Hoe lank sal dit R3 000, wat bel\u00ea word teen 6% per jaar enkelvoudige rente, neem om tot R4 260 te groei? R800 wat teen r% per jaar enkelvoudige rente vir 3 jaar bel\u00ea word, lewer R168. Bereken die waarde van r. b) -- enkelvoudige rente; c) Bereken die enkelvoudige rente op R600 teen 7% p.j. vir 3 jaar. Gebruik die P.n.r r formule SI = 100 of si = p.n.i vir i = 100 . a) -- begrotings; -- rekeninge en lenings; Voorbeelde: \u2022 Sodra leerders genoeg berekeninge deur herhaalde berekening oor enkelvoudige en saamgestelde rente gedoen het, kan hulle gegewe formules vir hierdie berekeninge gebruik. Finansi\u00eble kontekste VERDUIDELIKENDE NOTAS OF ONDERRIG-RIGLYNE -- wins, verlies, afslag en BTW; \u2022 Oplossing van probleme wat heelgetalle, persentasies en desimale breuke in finansi\u00eble kontekste behels soos: BEGRIPPE EN VAARDIGHEDE 4,5 ure Totale tyd vir Heelgetalle: TYDSDUUR (in ure) WISKUNDE GRAAD 7-9 INHOUDS",
+          "assessment_notes": [
+            "TEST: All topics",
+            "REVISION FORMAL ASSESSMENT TASK",
+            "PREREQUI SITE SKILL OR PREKNOWLEDGE",
+            "Simple interest",
+            "Hire purchase",
+            "Exchange rates",
+            "Commission",
+            "Rental",
+            "Compound interest"
+          ]
+        },
+        {
+          "week": 9,
+          "topics": [
+            "FUNCTIONS AND RELATIONSHIPS",
+            "ALGEBRAIC EXPRESSIONS",
+            "Input and output values",
+            "Algebraic language",
+            "Calculations using numbers in exponential form",
+            "Investigate and extend numeric and geometric patterns"
+          ],
+          "skills": [
+            "Determine input values, output values or rules for patterns and relationships using: flow diagrams, tables, formulae, equations",
+            "looking for relationships between numbers including patterns"
+          ],
+          "content_area": "CAPS Mathematics ATP",
+          "short_phrases": [
+            "Algebraic language"
+          ],
+          "caps_excerpt": "algebra\u00efese uitdrukkings en vergelykings. Dit word verwag dat hulle bedrewe in al vier bewerkings met heelgetalle sal wees en dat waar nodig, hulle die eienskappe van heelgetalle gepas kan gebruik. In graad 9 moet leerders getalbegrip en berekeningstegnieke vir heelgetalle wat in graad 8 ontwikkel is, konsolideer. -- Doen berekeninge met al vier bewerkings met heelgetalle. Hoe verskil graad 9 van graad 8? Gebruik die formule A = P(1 + 100 ) om die saamgestelde rente op 'n lening van R3 450 teen 6,5% per jaar vir 5 jaar te bereken. \u2022 Hersien: e) Temoso leen R500 by die bank vir 3 jaar teen 8% p.j. saamgestelde rente. Bereken (sonder om 'n formule te gebruik) hoeveel Temoso aan die einde van die drie jaar die bank skuld. d) Berekeninge met heelgetalle: -- saamgestelde rente. -- huur; -- wisselkoerse en kommissie; Hoe lank sal dit R3 000, wat bel\u00ea word teen 6% per jaar enkelvoudige rente, neem om tot R4 260 te groei? R800 wat teen r% per jaar enkelvoudige rente vir 3 jaar bel\u00ea word, lewer R168. Bereken die waarde van r. b) -- enkelvoudige rente; c) Bereken die enkelvoudige rente op R600 teen 7% p.j. vir 3 jaar. Gebruik die P.n.r r formule SI = 100 of si = p.n.i vir i = 100 . a) -- begrotings; -- rekeninge en lenings; Voorbeelde: \u2022 Sodra leerders genoeg berekeninge deur herhaalde berekening oor enkelvoudige en saamgestelde rente gedoen het, kan hulle gegewe formules vir hierdie berekeninge gebruik. Finansi\u00eble kontekste VERDUIDELIKENDE NOTAS OF ONDERRIG-RIGLYNE -- wins, verlies, afslag en BTW; \u2022 Oplossing van probleme wat heelgetalle, persentasies en desimale breuke in finansi\u00eble kontekste behels soos: BEGRIPPE EN VAARDIGHEDE 4,5 ure Totale tyd vir Heelgetalle: TYDSDUUR (in ure) WISKUNDE GRAAD 7-9 INHOUDS",
+          "assessment_notes": [
+            "Determine input values, output values or rules for patterns and relationships using: flow diagrams, tables, formulae, equations",
+            "looking for relationships between numbers including patterns"
+          ]
         }
       ]
     },
@@ -101,122 +172,239 @@
       "term": 2,
       "weeks": [
         {
-          "week": 1,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 2,
-          "topics": [],
-          "skills": []
-        },
-        {
           "week": 3,
           "topics": [
-            "ALGEBRAIC EXPRESSIONS",
-            "INVESTIGATIO",
-            "algebraic expressions.",
-            "simplify algebraic",
-            "above operations",
-            "value of algebraic"
+            "Algebraic Expressions",
+            "Equations",
+            "Expand and Simplify",
+            "Multiply Integers and Monomials",
+            "Divide Monomials, Binomials, Trinomials",
+            "Simplify Algebraic Expressions"
           ],
-          "skills": []
-        },
-        {
-          "week": 6,
-          "topics": [
-            "ALGEBRAIC EQUATIONS",
-            "terms in algebraic",
-            "algebraic terms or like",
-            "algebraic terms"
+          "skills": [
+            "Expand and simplify algebraic expressions",
+            "Multiply integers and monomials by monomials, binomials and trinomials",
+            "Divide monomials, binomials, trinomials by integers or monomials",
+            "Simplify algebraic expressions involving the above operations",
+            "Determine the numerical value of algebraic expressions by substitution"
           ],
-          "skills": []
-        },
-        {
-          "week": 5,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 7,
-          "topics": [
-            "laws for rational numbers"
+          "content_area": "Algebra",
+          "short_phrases": [
+            "Algebraic Expressions",
+            "Expand and Simplify",
+            "Equations",
+            "Multiply",
+            "Divide",
+            "Simplify"
           ],
-          "skills": []
+          "caps_excerpt": "algebra\u00efese uitdrukkings en vergelykings. Dit word verwag dat hulle bedrewe in al vier bewerkings met heelgetalle sal wees en dat waar nodig, hulle die eienskappe van heelgetalle gepas kan gebruik. In graad 9 moet leerders getalbegrip en berekeningstegnieke vir heelgetalle wat in graad 8 ontwikkel is, konsolideer. -- Doen berekeninge met al vier bewerkings met heelgetalle. Hoe verskil graad 9 van graad 8? Gebruik die formule A = P(1 + 100 ) om die saamgestelde rente op 'n lening van R3 450 teen 6,5% per jaar vir 5 jaar te bereken. \u2022 Hersien: e) Temoso leen R500 by die bank vir 3 jaar teen 8% p.j. saamgestelde rente. Bereken (sonder om 'n formule te gebruik) hoeveel Temoso aan die einde van die drie jaar die bank skuld. d) Berekeninge met heelgetalle: -- saamgestelde rente. -- huur; -- wisselkoerse en kommissie; Hoe lank sal dit R3 000, wat bel\u00ea word teen 6% per jaar enkelvoudige rente, neem om tot R4 260 te groei? R800 wat teen r% per jaar enkelvoudige rente vir 3 jaar bel\u00ea word, lewer R168. Bereken die waarde van r. b) -- enkelvoudige rente; c) Bereken die enkelvoudige rente op R600 teen 7% p.j. vir 3 jaar. Gebruik die P.n.r r formule SI = 100 of si = p.n.i vir i = 100 . a) -- begrotings; -- rekeninge en lenings; Voorbeelde: \u2022 Sodra leerders genoeg berekeninge deur herhaalde berekening oor enkelvoudige en saamgestelde rente gedoen het, kan hulle gegewe formules vir hierdie berekeninge gebruik. Finansi\u00eble kontekste VERDUIDELIKENDE NOTAS OF ONDERRIG-RIGLYNE -- wins, verlies, afslag en BTW; \u2022 Oplossing van probleme wat heelgetalle, persentasies en desimale breuke in finansi\u00eble kontekste behels soos: BEGRIPPE EN VAARDIGHEDE 4,5 ure Totale tyd vir Heelgetalle: TYDSDUUR (in ure) WISKUNDE GRAAD 7-9 INHOUDS",
+          "assessment_notes": [
+            "Formal Assessment",
+            "Investigation",
+            "Administer an investigation",
+            "Revise the following done in Grade 8"
+          ]
         },
         {
           "week": 4,
           "topics": [
             "Interpreting graphs",
-            "equations that describe a",
-            "equations of the form: a",
-            "features of graphs with",
-            "equations to generate",
-            "global graphs of problem",
-            "solve equations by",
-            "Extend solving equations to"
+            "equations that describe a given situation",
+            "using laws of exponents",
+            "equations of the form: a product of factors = 0",
+            "features of linear graphs",
+            "global graphs of problem situations",
+            "trends and features",
+            "solve equations by inspection"
           ],
-          "skills": []
+          "skills": [
+            "analyse and interpret",
+            "determine the numerical value of an expression by substitution",
+            "use substitution in equations to generate tables of ordered pairs",
+            "using factorisation",
+            "analyse and interpret global graphs of problem situations",
+            "solve equations"
+          ],
+          "content_area": "GRAPHS",
+          "short_phrases": [
+            "Interpreting graphs",
+            "trends and features"
+          ],
+          "caps_excerpt": "Datahantering Versameling, organisering en opsomming van data ONDERWERPE INHOUDS",
+          "assessment_notes": [
+            "Revise the following done in Grade 8",
+            "Extend the focus on features of graphs",
+            "Extend solving equations to include"
+          ]
+        },
+        {
+          "week": 6,
+          "topics": [
+            "Algebraic Equations",
+            "Add and subtract like terms in algebraic expressions",
+            "Determine the squares, cubes, square roots and cube roots of single algebraic terms or like algebraic terms"
+          ],
+          "skills": [
+            "Add and subtract like terms in algebraic expressions",
+            "Determine the squares, cubes, square roots and cube roots of single algebraic terms or like algebraic terms"
+          ],
+          "content_area": "Mathematics",
+          "short_phrases": [
+            "Algebraic Equations",
+            "Like terms"
+          ],
+          "caps_excerpt": "algebra\u00efese uitdrukkings en vergelykings. Dit word verwag dat hulle bedrewe in al vier bewerkings met heelgetalle sal wees en dat waar nodig, hulle die eienskappe van heelgetalle gepas kan gebruik. In graad 9 moet leerders getalbegrip en berekeningstegnieke vir heelgetalle wat in graad 8 ontwikkel is, konsolideer. -- Doen berekeninge met al vier bewerkings met heelgetalle. Hoe verskil graad 9 van graad 8? Gebruik die formule A = P(1 + 100 ) om die saamgestelde rente op 'n lening van R3 450 teen 6,5% per jaar vir 5 jaar te bereken. \u2022 Hersien: e) Temoso leen R500 by die bank vir 3 jaar teen 8% p.j. saamgestelde rente. Bereken (sonder om 'n formule te gebruik) hoeveel Temoso aan die einde van die drie jaar die bank skuld. d) Berekeninge met heelgetalle: -- saamgestelde rente. -- huur; -- wisselkoerse en kommissie; Hoe lank sal dit R3 000, wat bel\u00ea word teen 6% per jaar enkelvoudige rente, neem om tot R4 260 te groei? R800 wat teen r% per jaar enkelvoudige rente vir 3 jaar bel\u00ea word, lewer R168. Bereken die waarde van r. b) -- enkelvoudige rente; c) Bereken die enkelvoudige rente op R600 teen 7% p.j. vir 3 jaar. Gebruik die P.n.r r formule SI = 100 of si = p.n.i vir i = 100 . a) -- begrotings; -- rekeninge en lenings; Voorbeelde: \u2022 Sodra leerders genoeg berekeninge deur herhaalde berekening oor enkelvoudige en saamgestelde rente gedoen het, kan hulle gegewe formules vir hierdie berekeninge gebruik. Finansi\u00eble kontekste VERDUIDELIKENDE NOTAS OF ONDERRIG-RIGLYNE -- wins, verlies, afslag en BTW; \u2022 Oplossing van probleme wat heelgetalle, persentasies en desimale breuke in finansi\u00eble kontekste behels soos: BEGRIPPE EN VAARDIGHEDE 4,5 ure Totale tyd vir Heelgetalle: TYDSDUUR (in ure) WISKUNDE GRAAD 7-9 INHOUDS",
+          "assessment_notes": []
+        },
+        {
+          "week": 7,
+          "topics": [
+            "using the commutative, associative and distributive laws for rational numbers",
+            "laws of exponents"
+          ],
+          "skills": [],
+          "content_area": "Mathematics",
+          "short_phrases": [
+            "commutative laws",
+            "distributive laws",
+            "laws of exponents"
+          ],
+          "caps_excerpt": "AREA KABV a afstand spoed 'n Motor wat teen 'n gemiddelde spoed van 100 km/h beweeg, l\u00ea 'n sekere afstand in 3 uur 20 minute af. Teen watter konstante spoed moet die motor beweeg om dieselfde afstand in 2 uur 40 minute af te l\u00ea? b) -- direkte en indirekte eweredigheid \u2022 Die indirekte eweredige verwantskap word deur 'n nie-linie\u00eare kurwe voorgestel. \u2022 x en y is indirek eweredig as, soos die waarde van x toeneem of afneem dan neem die waarde van y in dieselfde verhouding af of toe. \u2022 x is indirek of omgekeerd eweredig aan y as x x y konstant is. Met ander woorde, y = cx \u2022 Die direkte eweredige verwantskap word deur 'n reguitlyngrafiek voorgestel. \u2022 x en y is direk eweredig as, soos die waarde van x toeneem of afneem dan neem die waarde van y in dieselfde verhouding toe of af. \u2022 x is direk eweredig aan y as y konstant is x Leerders moet vertroud wees met die volgende verwantskappe: Direkte en Indirekte eweredigheid 'n Motor wat teen 'n konstante spoed beweeg l\u00ea 60 km in 18 minute af. Hoe ver sal die motor in 1uur 12 minute beweeg as die motor teen dieselfde konstante spoed beweeg ? a) \u2022 Oplossing van probleme in konteks, insluitend: -- verhouding en koers; en Voorbeelde: \u2022 Maak seker dat leerders die eenhede vir tyd en afstand herken en in staat is om korrek tussen die twee te kan omskakel. \u2022 Spoed word normaalweg as konstante of gemiddelde spoed gegee. tyd = afstand = spoed x tyd b) c) spoed = a) afstand tyd \u2022 Dit moet probleme oor afstand, spoed en tyd insluit. Leerders moet met die volgende formules vir berekeninge vertroud wees. Verhouding- en koersprobleme -- Pi (\u03c0) is 'n irrasionale getal, alhoewel ons 7 of 3,14 as rasionale getal in die benadering van \u03c0 in berekeninge gebruik. 22 -- Irrasionale getalle is getalle wat nie as rasionale getalle in die vorm b uitgedruk kan word nie. VERDUIDELIKENDE NOTAS OF ONDERRIG-RIGLYNE Probleemoplossing: BEGRIPPE EN VAARDIGHEDE TYDSDUUR (in ure) WISKUNDE GRAAD 7-9 125 Getalle, bewerkings en verwantskappe INHOUDSAREA 126 Heelgetalle 1.3 Heelgetalle 1.1 ONDERWERPE r n KURRIKULUM EN ASSESSERINGSBELEIDSVERKLARINGSBELEID (KABV) \u2022 Los probleme in konteks op wat veelvoudige bewerkings met heelgetalle behels. Probleemoplossing: -- optelling- en vermenigvuldiginginverses vir heelgetalle. -- herken en gebruik die kommutatiewe, assosiatiewe en distributiewe eienskappe van heelgetalle, \u2022 Hersien: Eienskappe van heelgetalle: -- Doen berekeninge wat al vier bewerkings met heelgetalle in eksponensi\u00eble vorm, insluitend kwadrate,\u2026",
+          "assessment_notes": []
         },
         {
           "week": 9,
           "topics": [
-            "set up equations to"
+            "set up equations",
+            "describe problem situations",
+            "additive and multiplicative inverses"
           ],
-          "skills": []
-        },
-        {
-          "week": 8,
-          "topics": [],
-          "skills": []
+          "skills": [
+            "using additive and multiplicative inverses"
+          ],
+          "content_area": "Mathematics",
+          "short_phrases": [
+            "set up equations",
+            "describe problem",
+            "multiplicative inverses"
+          ],
+          "caps_excerpt": "Datahantering Versameling, organisering en opsomming van data ONDERWERPE INHOUDS",
+          "assessment_notes": []
         },
         {
           "week": 10,
           "topics": [
-            "STRAIGHT LINES"
+            "Geometry of Straight Lines",
+            "Angle relationships"
           ],
-          "skills": []
-        },
-        {
-          "week": 11,
-          "topics": [],
-          "skills": []
+          "skills": [
+            "Revise and write clear descriptions of the relationship between angles formed by: perpendicular lines, intersecting lines"
+          ],
+          "content_area": "Geometry",
+          "short_phrases": [
+            "Angle relationships",
+            "perpendicular lines",
+            "intersecting lines"
+          ],
+          "caps_excerpt": "3.3.3 Verheldering van inhoud vir Graad 9 4, 5 ure Totale tyd vir heelgetalle: TYDSDUUR (in ure) WISKUNDE GRAAD 7-9 1.1 Getalle, bewerkings en verwantskappe Heelgetalle ONDERWERPE INHOUDSAREA KABV a afstand spoed 'n Motor wat teen 'n gemiddelde spoed van 100 km/h beweeg, l\u00ea 'n sekere afstand in 3 uur 20 minute af. Teen watter konstante spoed moet die motor beweeg om dieselfde afstand in 2 uur 40 minute af te l\u00ea? b) -- direkte en indirekte eweredigheid \u2022 Die indirekte eweredige verwantskap word deur 'n nie-linie\u00eare kurwe voorgestel. \u2022 x en y is indirek eweredig as, soos die waarde van x toeneem of afneem dan neem die waarde van y in dieselfde verhouding af of toe. \u2022 x is indirek of omgekeerd eweredig aan y as x x y konstant is. Met ander woorde, y = cx \u2022 Die direkte eweredige verwantskap word deur 'n reguitlyngrafiek voorgestel. \u2022 x en y is direk eweredig as, soos die waarde van x toeneem of afneem dan neem die waarde van y in dieselfde verhouding toe of af. \u2022 x is direk eweredig aan y as y konstant is x Leerders moet vertroud wees met die volgende verwantskappe: Direkte en Indirekte eweredigheid 'n Motor wat teen 'n konstante spoed beweeg l\u00ea 60 km in 18 minute af. Hoe ver sal die motor in 1uur 12 minute beweeg as die motor teen dieselfde konstante spoed beweeg ? a) \u2022 Oplossing van probleme in konteks, insluitend: -- verhouding en koers; en Voorbeelde: \u2022 Maak seker dat leerders die eenhede vir tyd en afstand herken en in staat is om korrek tussen die twee te kan omskakel. \u2022 Sp",
+          "assessment_notes": [
+            "Revise and write clear descriptions"
+          ]
         },
         {
           "week": 12,
           "topics": [
-            "FORMAL ASSESSMENT",
+            "parallel lines cut by a transversal",
+            "Solving problems",
+            "\ud835\udc65-intercept and \ud835\udc66intercept",
+            "Gradient",
             "Drawing graphs",
-            "draw global graphs from",
-            "N.B. ENSURE THAT",
-            "COMMON FRACTIONS",
-            "FRACTIONS ARE PART",
-            "OF CALCULATIONS WITH",
-            "Extend the above algebraic",
-            "draw graphs on the",
-            "drawing linear graphs from",
-            "given equations",
-            "determining equations",
-            "from given linear graphs.",
-            "Factorize algebraic",
-            "Simplify algebraic",
-            "Simplify algebraic fractions",
-            "OR PREKNOWLED",
-            "Common and decimal",
-            "Algebraic language",
-            "algebraic expressions",
-            "cube roots of single algebraic",
-            "Write number sentences",
-            "number sentences that",
-            "terms or like algebraic terms",
-            "formulae or equations",
-            "equations to generate",
-            "Extend solving equations",
-            "global graphs of problem",
-            "Draw global graphs from",
-            "graphs on the Cartesian"
+            "common fractions and decimal fractions",
+            "algebraic language",
+            "factors and multiples",
+            "expand and simply algebraic expressions",
+            "substitution",
+            "determine the squares, cubes, square roots and cube roots of single algebraic expressions",
+            "write number sentences to describe problem situations",
+            "analyse and interpret number sentences that describe a given situation",
+            "solve and complete sentences by inspection, trial and improvement, terms or like algebraic terms",
+            "identify variables and constants in given formulae or equations",
+            "use substitution in equations to generate tables of ordered pairs",
+            "extend solving equations to include analysing and interpreting global graphs of problem situations",
+            "perpendicular lines",
+            "intersecting lines",
+            "parallel lines cut by a transversal",
+            "draw global graphs from given descriptions of a problem situation, identifying features listed above",
+            "use tables or ordered pairs to plot points and draw graphs on the Cartesian plane using additive and multiplicative inverses"
           ],
-          "skills": []
+          "skills": [
+            "solve geometric problems using the relationships between pairs of angles described above",
+            "draw global graphs from given descriptions of a problem situation, identifying features listed above",
+            "extend the above algebraic manipulations to include multiply integers and monomials by polynomials",
+            "use tables of ordered pairs to plot points and draw graphs on the Cartesian plane",
+            "extend the above with special focus on drawing linear graphs from given equations determining equations from given linear graphs",
+            "divide polynomials by integers or monomials, the product of two binomials, the square of a binomial",
+            "factorize algebraic expressions",
+            "simplify algebraic expressions that involve the above factorisation processes",
+            "simplify algebraic fractions using factorisation",
+            "common and decimal fractions",
+            "algebraic language",
+            "factors and multiples",
+            "expand and simply algebraic expressions",
+            "substitution",
+            "determine the squares, cubes, square roots and cube roots of single algebraic expressions",
+            "write number sentences to describe problem situations",
+            "analyse and interpret number sentences that describe a given situation",
+            "solve and complete sentences by inspection, trial and improvement, terms or like algebraic terms",
+            "identify variables and constants in given formulae or equations",
+            "use substitution in equations to generate tables of ordered pairs",
+            "extend solving equations to include analysing and interpreting global graphs of problem situations",
+            "perpendicular lines",
+            "intersecting lines",
+            "parallel lines cut by a transversal"
+          ],
+          "content_area": "Mathematics",
+          "short_phrases": [
+            "parallel lines",
+            "Solving problems",
+            "\ud835\udc65-intercept",
+            "\ud835\udc66-intercept",
+            "Gradient",
+            "Drawing graphs",
+            "common fractions",
+            "decimal fractions",
+            "algebraic language",
+            "factors",
+            "multiples",
+            "expand",
+            "algebraic expressions",
+            "substitution",
+            "squares",
+            "cubes",
+            "square roots",
+            "cube roots",
+            "number sentences",
+            "problem situations",
+            "inspection",
+            "trial and improvement",
+            "terms",
+            "algebraic terms",
+            "variables",
+            "constants",
+            "formulae",
+            "equations",
+            "Cartesian plane",
+            "multiplicative inverses",
+            "perpendicular lines",
+            "intersecting lines"
+          ],
+          "caps_excerpt": "algebra\u00efese uitdrukkings en vergelykings. Dit word verwag dat hulle bedrewe in al vier bewerkings met heelgetalle sal wees en dat waar nodig, hulle die eienskappe van heelgetalle gepas kan gebruik. In graad 9 moet leerders getalbegrip en berekeningstegnieke vir heelgetalle wat in graad 8 ontwikkel is, konsolideer. -- Doen berekeninge met al vier bewerkings met heelgetalle. Hoe verskil graad 9 van graad 8? Gebruik die formule A = P(1 + 100 ) om die saamgestelde rente op 'n lening van R3 450 teen 6,5% per jaar vir 5 jaar te bereken. \u2022 Hersien: e) Temoso leen R500 by die bank vir 3 jaar teen 8% p.j. saamgestelde rente. Bereken (sonder om 'n formule te gebruik) hoeveel Temoso aan die einde van die drie jaar die bank skuld. d) Berekeninge met heelgetalle: -- saamgestelde rente. -- huur; -- wisselkoerse en kommissie; Hoe lank sal dit R3 000, wat bel\u00ea word teen 6% per jaar enkelvoudige rente, neem om tot R4 260 te groei? R800 wat teen r% per jaar enkelvoudige rente vir 3 jaar bel\u00ea word, lewer R168. Bereken die waarde van r. b) -- enkelvoudige rente; c) Bereken die enkelvoudige rente op R600 teen 7% p.j. vir 3 jaar. Gebruik die P.n.r r formule SI = 100 of si = p.n.i vir i = 100 . a) -- begrotings; -- rekeninge en lenings; Voorbeelde: \u2022 Sodra leerders genoeg berekeninge deur herhaalde berekening oor enkelvoudige en saamgestelde rente gedoen het, kan hulle gegewe formules vir hierdie berekeninge gebruik. Finansi\u00eble kontekste VERDUIDELIKENDE NOTAS OF ONDERRIG-RIGLYNE -- wins, verlies, afslag en BTW; \u2022 Oplossing van probleme wat heelgetalle, persentasies en desimale breuke in finansi\u00eble kontekste behels soos: BEGRIPPE EN VAARDIGHEDE 4,5 ure Totale tyd vir Heelgetalle: TYDSDUUR (in ure) WISKUNDE GRAAD 7-9 INHOUDS",
+          "assessment_notes": [
+            "FORMAL ASSESSMENT",
+            "TEST",
+            "Revision",
+            "Common fractions and decimal fractions are part of calculations with expressions (Page 122 and 123 of CAPS)"
+          ]
         }
       ]
     },
@@ -225,107 +413,210 @@
       "weeks": [
         {
           "week": 1,
-          "topics": [],
-          "skills": []
+          "topics": [
+            "Formal"
+          ],
+          "skills": [
+            "Assessment"
+          ],
+          "content_area": "Mathematics",
+          "short_phrases": [
+            "Formal",
+            "Assessment"
+          ],
+          "caps_excerpt": "AREA KABV a afstand spoed 'n Motor wat teen 'n gemiddelde spoed van 100 km/h beweeg, l\u00ea 'n sekere afstand in 3 uur 20 minute af. Teen watter konstante spoed moet die motor beweeg om dieselfde afstand in 2 uur 40 minute af te l\u00ea? b) -- direkte en indirekte eweredigheid \u2022 Die indirekte eweredige verwantskap word deur 'n nie-linie\u00eare kurwe voorgestel. \u2022 x en y is indirek eweredig as, soos die waarde van x toeneem of afneem dan neem die waarde van y in dieselfde verhouding af of toe. \u2022 x is indirek of omgekeerd eweredig aan y as x x y konstant is. Met ander woorde, y = cx \u2022 Die direkte eweredige verwantskap word deur 'n reguitlyngrafiek voorgestel. \u2022 x en y is direk eweredig as, soos die waarde van x toeneem of afneem dan neem die waarde van y in dieselfde verhouding toe of af. \u2022 x is direk eweredig aan y as y konstant is x Leerders moet vertroud wees met die volgende verwantskappe: Direkte en Indirekte eweredigheid 'n Motor wat teen 'n konstante spoed beweeg l\u00ea 60 km in 18 minute af. Hoe ver sal die motor in 1uur 12 minute beweeg as die motor teen dieselfde konstante spoed beweeg ? a) \u2022 Oplossing van probleme in konteks, insluitend: -- verhouding en koers; en Voorbeelde: \u2022 Maak seker dat leerders die eenhede vir tyd en afstand herken en in staat is om korrek tussen die twee te kan omskakel. \u2022 Spoed word normaalweg as konstante of gemiddelde spoed gegee. tyd = afstand = spoed x tyd b) c) spoed = a) afstand tyd \u2022 Dit moet probleme oor afstand, spoed en tyd insluit. Leerders moet met die volgende formules vir berekeninge vertroud wees. Verhouding- en koersprobleme -- Pi (\u03c0) is 'n irrasionale getal, alhoewel ons 7 of 3,14 as rasionale getal in die benadering van \u03c0 in berekeninge gebruik. 22 -- Irrasionale getalle is getalle wat nie as rasionale getalle in die vorm b uitgedruk kan word nie. VERDUIDELIKENDE NOTAS OF ONDERRIG-RIGLYNE Probleemoplossing: BEGRIPPE EN VAARDIGHEDE TYDSDUUR (in ure) WISKUNDE GRAAD 7-9 125 Getalle, bewerkings en verwantskappe INHOUDSAREA 126 Heelgetalle 1.3 Heelgetalle 1.1 ONDERWERPE r n KURRIKULUM EN ASSESSERINGSBELEIDSVERKLARINGSBELEID (KABV) \u2022 Los probleme in konteks op wat veelvoudige bewerkings met heelgetalle behels. Probleemoplossing: -- optelling- en vermenigvuldiginginverses vir heelgetalle. -- herken en gebruik die kommutatiewe, assosiatiewe en distributiewe eienskappe van heelgetalle, \u2022 Hersien: Eienskappe van heelgetalle: -- Doen berekeninge wat al vier bewerkings met heelgetalle in eksponensi\u00eble vorm, insluitend kwadrate,\u2026",
+          "assessment_notes": [
+            "ASSESSMEN",
+            "TASK"
+          ]
         },
         {
-          "week": 3,
-          "topics": [],
-          "skills": []
+          "week": 2,
+          "topics": [
+            "equilateral triangles",
+            "isosceles triangles",
+            "right-angled triangles",
+            "Constructions",
+            "polygons",
+            "circles"
+          ],
+          "skills": [
+            "Use appropriate formulae and conversions between SI units, to solve problems and calculate perimeter and area of:",
+            "By construction, investigate the angles in a triangle, focusing on the relationship between the exterior angle of a triangle and its interior angles",
+            "Investigate how doubling any or all of the dimensions of a 2D figure affects its perimeter and its area"
+          ],
+          "content_area": "Geometry",
+          "short_phrases": [
+            "equilateral triangles",
+            "isosceles triangles",
+            "right-angled triangles",
+            "Constructions",
+            "polygons",
+            "circles",
+            "2D figure",
+            "perimeter",
+            "area"
+          ],
+          "caps_excerpt": "AREA KABV a afstand spoed 'n Motor wat teen 'n gemiddelde spoed van 100 km/h beweeg, l\u00ea 'n sekere afstand in 3 uur 20 minute af. Teen watter konstante spoed moet die motor beweeg om dieselfde afstand in 2 uur 40 minute af te l\u00ea? b) -- direkte en indirekte eweredigheid \u2022 Die indirekte eweredige verwantskap word deur 'n nie-linie\u00eare kurwe voorgestel. \u2022 x en y is indirek eweredig as, soos die waarde van x toeneem of afneem dan neem die waarde van y in dieselfde verhouding af of toe. \u2022 x is indirek of omgekeerd eweredig aan y as x x y konstant is. Met ander woorde, y = cx \u2022 Die direkte eweredige verwantskap word deur 'n reguitlyngrafiek voorgestel. \u2022 x en y is direk eweredig as, soos die waarde van x toeneem of afneem dan neem die waarde van y in dieselfde verhouding toe of af. \u2022 x is direk eweredig aan y as y konstant is x Leerders moet vertroud wees met die volgende verwantskappe: Direkte en Indirekte eweredigheid 'n Motor wat teen 'n konstante spoed beweeg l\u00ea 60 km in 18 minute af. Hoe ver sal die motor in 1uur 12 minute beweeg as die motor teen dieselfde konstante spoed beweeg ? a) \u2022 Oplossing van probleme in konteks, insluitend: -- verhouding en koers; en Voorbeelde: \u2022 Maak seker dat leerders die eenhede vir tyd en afstand herken en in staat is om korrek tussen die twee te kan omskakel. \u2022 Spoed word normaalweg as konstante of gemiddelde spoed gegee. tyd = afstand = spoed x tyd b) c) spoed = a) afstand tyd \u2022 Dit moet probleme oor afstand, spoed en tyd insluit. Leerders moet met die volgende formules vir berekeninge vertroud wees. Verhouding- en koersprobleme -- Pi (\u03c0) is 'n irrasionale getal, alhoewel ons 7 of 3,14 as rasionale getal in die benadering van \u03c0 in berekeninge gebruik. 22 -- Irrasionale getalle is getalle wat nie as rasionale getalle in die vorm b uitgedruk kan word nie. VERDUIDELIKENDE NOTAS OF ONDERRIG-RIGLYNE Probleemoplossing: BEGRIPPE EN VAARDIGHEDE TYDSDUUR (in ure) WISKUNDE GRAAD 7-9 125 Getalle, bewerkings en verwantskappe INHOUDSAREA 126 Heelgetalle 1.3 Heelgetalle 1.1 ONDERWERPE r n KURRIKULUM EN ASSESSERINGSBELEIDSVERKLARINGSBELEID (KABV) \u2022 Los probleme in konteks op wat veelvoudige bewerkings met heelgetalle behels. Probleemoplossing: -- optelling- en vermenigvuldiginginverses vir heelgetalle. -- herken en gebruik die kommutatiewe, assosiatiewe en distributiewe eienskappe van heelgetalle, \u2022 Hersien: Eienskappe van heelgetalle: -- Doen berekeninge wat al vier bewerkings met heelgetalle in eksponensi\u00eble vorm, insluitend kwadrate,\u2026",
+          "assessment_notes": [
+            "Investigate the properties of triangles",
+            "Investigating properties of geometric figures",
+            "By construction, investigate the angles in a triangle"
+          ]
         },
         {
           "week": 4,
           "topics": [
             "GEOMETRY OF 2D SHAPES",
             "AREA AND PERIMETER",
+            "Classifying 2D shapes",
+            "Revise properties and definitions of triangles",
+            "PROJECT"
+          ],
+          "skills": [
+            "Classifying 2D shapes",
+            "Revise properties and definitions of triangles in terms of their sides and angles"
+          ],
+          "content_area": "GEOMETRY OF 2D SHAPES",
+          "short_phrases": [
+            "AREA AND PERIMETER",
             "Classifying 2D shapes"
           ],
-          "skills": []
-        },
-        {
-          "week": 2,
-          "topics": [
-            "PROVIDE LEARNERS WITH",
-            "ACCURATELY CONSTRUCTED",
-            "FIGURES TO INVESTIGATE",
-            "THE PROPERTIES OF"
-          ],
-          "skills": []
-        },
-        {
-          "week": 5,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 6,
-          "topics": [],
-          "skills": []
+          "caps_excerpt": "AREA KABV a afstand spoed 'n Motor wat teen 'n gemiddelde spoed van 100 km/h beweeg, l\u00ea 'n sekere afstand in 3 uur 20 minute af. Teen watter konstante spoed moet die motor beweeg om dieselfde afstand in 2 uur 40 minute af te l\u00ea? b) -- direkte en indirekte eweredigheid \u2022 Die indirekte eweredige verwantskap word deur 'n nie-linie\u00eare kurwe voorgestel. \u2022 x en y is indirek eweredig as, soos die waarde van x toeneem of afneem dan neem die waarde van y in dieselfde verhouding af of toe. \u2022 x is indirek of omgekeerd eweredig aan y as x x y konstant is. Met ander woorde, y = cx \u2022 Die direkte eweredige verwantskap word deur 'n reguitlyngrafiek voorgestel. \u2022 x en y is direk eweredig as, soos die waarde van x toeneem of afneem dan neem die waarde van y in dieselfde verhouding toe of af. \u2022 x is direk eweredig aan y as y konstant is x Leerders moet vertroud wees met die volgende verwantskappe: Direkte en Indirekte eweredigheid 'n Motor wat teen 'n konstante spoed beweeg l\u00ea 60 km in 18 minute af. Hoe ver sal die motor in 1uur 12 minute beweeg as die motor teen dieselfde konstante spoed beweeg ? a) \u2022 Oplossing van probleme in konteks, insluitend: -- verhouding en koers; en Voorbeelde: \u2022 Maak seker dat leerders die eenhede vir tyd en afstand herken en in staat is om korrek tussen die twee te kan omskakel. \u2022 Spoed word normaalweg as konstante of gemiddelde spoed gegee. tyd = afstand = spoed x tyd b) c) spoed = a) afstand tyd \u2022 Dit moet probleme oor afstand, spoed en tyd insluit. Leerders moet met die volgende formules vir berekeninge vertroud wees. Verhouding- en koersprobleme -- Pi (\u03c0) is 'n irrasionale getal, alhoewel ons 7 of 3,14 as rasionale getal in die benadering van \u03c0 in berekeninge gebruik. 22 -- Irrasionale getalle is getalle wat nie as rasionale getalle in die vorm b uitgedruk kan word nie. VERDUIDELIKENDE NOTAS OF ONDERRIG-RIGLYNE Probleemoplossing: BEGRIPPE EN VAARDIGHEDE TYDSDUUR (in ure) WISKUNDE GRAAD 7-9 125 Getalle, bewerkings en verwantskappe INHOUDSAREA 126 Heelgetalle 1.3 Heelgetalle 1.1 ONDERWERPE r n KURRIKULUM EN ASSESSERINGSBELEIDSVERKLARINGSBELEID (KABV) \u2022 Los probleme in konteks op wat veelvoudige bewerkings met heelgetalle behels. Probleemoplossing: -- optelling- en vermenigvuldiginginverses vir heelgetalle. -- herken en gebruik die kommutatiewe, assosiatiewe en distributiewe eienskappe van heelgetalle, \u2022 Hersien: Eienskappe van heelgetalle: -- Doen berekeninge wat al vier bewerkings met heelgetalle in eksponensi\u00eble vorm, insluitend kwadrate,\u2026",
+          "assessment_notes": [
+            "PROJECT",
+            "must be completed before the end of Term 3"
+          ]
         },
         {
           "week": 7,
           "topics": [
-            "COLLECT, ORGANIZE AND",
-            "SUMMARIZE DATA",
             "Collect data",
-            "economic, and environmental",
-            "methods for collecting data",
-            "Organize numerical data in"
+            "Pose questions relating to social, economic, and environmental issues",
+            "Distinguish between samples and populations, and suggest appropriate samples for investigation",
+            "Select and justify appropriate methods for collecting data",
+            "Organize numerical data in different ways in order to summarize by determining"
           ],
-          "skills": []
+          "skills": [
+            "Collect data",
+            "Pose questions relating to social, economic, and environmental issues",
+            "Distinguish between samples and populations, and suggest appropriate samples for investigation",
+            "Select and justify appropriate methods for collecting data",
+            "Organize numerical data in different ways in order to summarize by determining"
+          ],
+          "content_area": "Statistics and Probability",
+          "short_phrases": [
+            "Collect data",
+            "Summarize data"
+          ],
+          "caps_excerpt": "Datahantering Versameling, organisering en opsomming van data ONDERWERPE INHOUDS",
+          "assessment_notes": [
+            "Pose questions relating to social, economic, and environmental issues",
+            "Distinguish between samples and populations, and suggest appropriate samples for investigation",
+            "Select and justify appropriate methods for collecting data"
+          ]
+        },
+        {
+          "week": 8,
+          "topics": [
+            "determine probabilities",
+            "compound events",
+            "two-way tables",
+            "tree diagrams"
+          ],
+          "skills": [],
+          "content_area": "Mathematics",
+          "short_phrases": [
+            "determine probabilities",
+            "compound events",
+            "two-way tables",
+            "tree diagrams"
+          ],
+          "caps_excerpt": "AREA KABV a afstand spoed 'n Motor wat teen 'n gemiddelde spoed van 100 km/h beweeg, l\u00ea 'n sekere afstand in 3 uur 20 minute af. Teen watter konstante spoed moet die motor beweeg om dieselfde afstand in 2 uur 40 minute af te l\u00ea? b) -- direkte en indirekte eweredigheid \u2022 Die indirekte eweredige verwantskap word deur 'n nie-linie\u00eare kurwe voorgestel. \u2022 x en y is indirek eweredig as, soos die waarde van x toeneem of afneem dan neem die waarde van y in dieselfde verhouding af of toe. \u2022 x is indirek of omgekeerd eweredig aan y as x x y konstant is. Met ander woorde, y = cx \u2022 Die direkte eweredige verwantskap word deur 'n reguitlyngrafiek voorgestel. \u2022 x en y is direk eweredig as, soos die waarde van x toeneem of afneem dan neem die waarde van y in dieselfde verhouding toe of af. \u2022 x is direk eweredig aan y as y konstant is x Leerders moet vertroud wees met die volgende verwantskappe: Direkte en Indirekte eweredigheid 'n Motor wat teen 'n konstante spoed beweeg l\u00ea 60 km in 18 minute af. Hoe ver sal die motor in 1uur 12 minute beweeg as die motor teen dieselfde konstante spoed beweeg ? a) \u2022 Oplossing van probleme in konteks, insluitend: -- verhouding en koers; en Voorbeelde: \u2022 Maak seker dat leerders die eenhede vir tyd en afstand herken en in staat is om korrek tussen die twee te kan omskakel. \u2022 Spoed word normaalweg as konstante of gemiddelde spoed gegee. tyd = afstand = spoed x tyd b) c) spoed = a) afstand tyd \u2022 Dit moet probleme oor afstand, spoed en tyd insluit. Leerders moet met die volgende formules vir berekeninge vertroud wees. Verhouding- en koersprobleme -- Pi (\u03c0) is 'n irrasionale getal, alhoewel ons 7 of 3,14 as rasionale getal in die benadering van \u03c0 in berekeninge gebruik. 22 -- Irrasionale getalle is getalle wat nie as rasionale getalle in die vorm b uitgedruk kan word nie. VERDUIDELIKENDE NOTAS OF ONDERRIG-RIGLYNE Probleemoplossing: BEGRIPPE EN VAARDIGHEDE TYDSDUUR (in ure) WISKUNDE GRAAD 7-9 125 Getalle, bewerkings en verwantskappe INHOUDSAREA 126 Heelgetalle 1.3 Heelgetalle 1.1 ONDERWERPE r n KURRIKULUM EN ASSESSERINGSBELEIDSVERKLARINGSBELEID (KABV) \u2022 Los probleme in konteks op wat veelvoudige bewerkings met heelgetalle behels. Probleemoplossing: -- optelling- en vermenigvuldiginginverses vir heelgetalle. -- herken en gebruik die kommutatiewe, assosiatiewe en distributiewe eienskappe van heelgetalle, \u2022 Hersien: Eienskappe van heelgetalle: -- Doen berekeninge wat al vier bewerkings met heelgetalle in eksponensi\u00eble vorm, insluitend kwadrate,\u2026",
+          "assessment_notes": [
+            "using two-way tables"
+          ]
         },
         {
           "week": 9,
           "topics": [
-            "sources for the collection of data",
+            "Probability"
+          ],
+          "skills": [
+            "Select and justify appropriate sources for the collection of data",
             "Organize and summarize data"
           ],
-          "skills": []
-        },
-        {
-          "week": 8,
-          "topics": [],
-          "skills": []
+          "content_area": "CAPS Mathematics ATP",
+          "short_phrases": [],
+          "caps_excerpt": "Datahantering Versameling, organisering en opsomming van data ONDERWERPE INHOUDS",
+          "assessment_notes": [
+            "justify appropriate sources",
+            "collection of data",
+            "Organize and summarize"
+          ]
         },
         {
           "week": 10,
           "topics": [
-            "ASSESSMENT TASKS",
-            "determine the probability",
-            "frequency with probability",
-            "Organize data according to more",
+            "probability for outcomes of events and predict their relative frequency in simple experiments",
+            "compare relative frequency with probability and explain possible differences",
+            "measures of central tendency",
+            "measures of dispersion, including extremes and outliers",
+            "Organize data according to more than one criteria",
             "Classifying 2D shapes",
-            "REPRESENT DATA",
             "Represent data",
-            "PROVIDE LEARNERS WITH",
-            "ACCURATELY CONSTRUCTED",
-            "FIGURES TO INVESTIGATE",
-            "THE PROPERTIES OF",
-            "QUADRILATERALS",
-            "Draw a variety of graphs by",
-            "interpret data including:",
-            "bar graphs and double bar",
-            "broken-line graphs",
-            "INTERPRET, ANALYSE, AND",
+            "Investigating properties of geometric figures",
+            "Draw a variety of graphs by hand/technology to display and interpret data",
             "Interpret data",
-            "Critically read and interpret data",
-            "Critically compare two sets of data",
             "Analyse data",
-            "Critically analyse data by",
-            "data collection methods",
-            "summary of data",
-            "CONDRUENT TRIANGLES",
-            "Summarize data in short",
-            "paragraphs that include",
-            "two sets of data",
-            "bias in the data",
-            "statistics for the data (mean,",
-            "OR PREKNOWLED",
-            "2 decimal places, by",
-            "data using tally marks, tables and",
-            "Group data into intervals"
+            "Report data",
+            "Similar and congruent triangles",
+            "Solving problems"
           ],
-          "skills": []
+          "skills": [
+            "determine the probability for outcomes of events",
+            "predict their relative frequency in simple experiments",
+            "compare relative frequency with probability",
+            "explain possible differences",
+            "measures of central tendency",
+            "measures of dispersion, including extremes and outliers",
+            "Organize data according to more than one criteria",
+            "Classifying 2D shapes",
+            "Represent data",
+            "Investigating properties of geometric figures",
+            "Draw a variety of graphs by hand/technology to display and interpret data",
+            "Interpret data",
+            "Analyse data",
+            "Report data",
+            "Solve geometric problems involving unknown sides and angles in triangles and quadrilaterals",
+            "Identify and write clear definitions of triangles in terms of their sides and angles",
+            "Use appropriate formulae to calculate perimeter and area of squares and rectangles",
+            "Design and use simple questionnaires to answer questions with multiple choice responses",
+            "Calculate the areas of polygons, to at least 2 decimal places, by decomposing them into rectangles and/or triangles"
+          ],
+          "content_area": "Mathematics",
+          "short_phrases": [
+            "probability",
+            "outcomes",
+            "events",
+            "relative frequency",
+            "simple experiments",
+            "measures of dispersion",
+            "extremes",
+            "outliers",
+            "Classifying 2D shapes",
+            "Represent data",
+            "Interpret data",
+            "Analyse data",
+            "Report data",
+            "Solving problems"
+          ],
+          "caps_excerpt": "AREA KABV a afstand spoed 'n Motor wat teen 'n gemiddelde spoed van 100 km/h beweeg, l\u00ea 'n sekere afstand in 3 uur 20 minute af. Teen watter konstante spoed moet die motor beweeg om dieselfde afstand in 2 uur 40 minute af te l\u00ea? b) -- direkte en indirekte eweredigheid \u2022 Die indirekte eweredige verwantskap word deur 'n nie-linie\u00eare kurwe voorgestel. \u2022 x en y is indirek eweredig as, soos die waarde van x toeneem of afneem dan neem die waarde van y in dieselfde verhouding af of toe. \u2022 x is indirek of omgekeerd eweredig aan y as x x y konstant is. Met ander woorde, y = cx \u2022 Die direkte eweredige verwantskap word deur 'n reguitlyngrafiek voorgestel. \u2022 x en y is direk eweredig as, soos die waarde van x toeneem of afneem dan neem die waarde van y in dieselfde verhouding toe of af. \u2022 x is direk eweredig aan y as y konstant is x Leerders moet vertroud wees met die volgende verwantskappe: Direkte en Indirekte eweredigheid 'n Motor wat teen 'n konstante spoed beweeg l\u00ea 60 km in 18 minute af. Hoe ver sal die motor in 1uur 12 minute beweeg as die motor teen dieselfde konstante spoed beweeg ? a) \u2022 Oplossing van probleme in konteks, insluitend: -- verhouding en koers; en Voorbeelde: \u2022 Maak seker dat leerders die eenhede vir tyd en afstand herken en in staat is om korrek tussen die twee te kan omskakel. \u2022 Spoed word normaalweg as konstante of gemiddelde spoed gegee. tyd = afstand = spoed x tyd b) c) spoed = a) afstand tyd \u2022 Dit moet probleme oor afstand, spoed en tyd insluit. Leerders moet met die volgende formules vir berekeninge vertroud wees. Verhouding- en koersprobleme -- Pi (\u03c0) is 'n irrasionale getal, alhoewel ons 7 of 3,14 as rasionale getal in die benadering van \u03c0 in berekeninge gebruik. 22 -- Irrasionale getalle is getalle wat nie as rasionale getalle in die vorm b uitgedruk kan word nie. VERDUIDELIKENDE NOTAS OF ONDERRIG-RIGLYNE Probleemoplossing: BEGRIPPE EN VAARDIGHEDE TYDSDUUR (in ure) WISKUNDE GRAAD 7-9 125 Getalle, bewerkings en verwantskappe INHOUDSAREA 126 Heelgetalle 1.3 Heelgetalle 1.1 ONDERWERPE r n KURRIKULUM EN ASSESSERINGSBELEIDSVERKLARINGSBELEID (KABV) \u2022 Los probleme in konteks op wat veelvoudige bewerkings met heelgetalle behels. Probleemoplossing: -- optelling- en vermenigvuldiginginverses vir heelgetalle. -- herken en gebruik die kommutatiewe, assosiatiewe en distributiewe eienskappe van heelgetalle, \u2022 Hersien: Eienskappe van heelgetalle: -- Doen berekeninge wat al vier bewerkings met heelgetalle in eksponensi\u00eble vorm, insluitend kwadrate,\u2026",
+          "assessment_notes": [
+            "FORMAL ASSESSMENT TASKS",
+            "TEST: All Term 3 topics",
+            "PREREQUI SITE SKILL OR PREKNOWLED GE"
+          ]
         }
       ]
     },
@@ -333,75 +624,156 @@
       "term": 4,
       "weeks": [
         {
-          "week": 1,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 2,
-          "topics": [],
-          "skills": []
-        },
-        {
           "week": 3,
           "topics": [
-            "GEOMETRY OF 3-D OBJECTS",
-            "the shape and number of faces,",
-            "the number of vertices and the",
-            "number of edges.",
-            "SURFACE AREA AND VOLUME OF"
+            "Classifying 3-D objects",
+            "Revise properties and definitions of the 5 Platonic solids",
+            "Recognise and describe the properties of: Spheres, Cylinders",
+            "Building 3-D models: Cubes, Prisms, Pyramids, Cylinders",
+            "Use appropriate formulae and conversions between SI units to solve problems",
+            "Investigate how doubling any or all the dimensions of right prisms and cylinders affects their volume",
+            "Use nets to make models of geometric solids"
           ],
-          "skills": []
+          "skills": [
+            "Revise properties and definitions of the 5 Platonic solids",
+            "Building 3-D models: Cubes, Prisms, Pyramids, Cylinders",
+            "Use appropriate formulae and conversions between SI units to solve problems",
+            "Investigate how doubling any or all the dimensions of right prisms and cylinders affects their volume",
+            "Use nets to make models of geometric solids"
+          ],
+          "content_area": "Geometry of 3-D Objects and Surface Area and Volume of 3-D Objects",
+          "short_phrases": [
+            "Classifying 3-D objects",
+            "Revise properties",
+            "Spheres",
+            "Cylinders",
+            "Building 3-D models",
+            "Use nets"
+          ],
+          "caps_excerpt": "AREA KABV a afstand spoed 'n Motor wat teen 'n gemiddelde spoed van 100 km/h beweeg, l\u00ea 'n sekere afstand in 3 uur 20 minute af. Teen watter konstante spoed moet die motor beweeg om dieselfde afstand in 2 uur 40 minute af te l\u00ea? b) -- direkte en indirekte eweredigheid \u2022 Die indirekte eweredige verwantskap word deur 'n nie-linie\u00eare kurwe voorgestel. \u2022 x en y is indirek eweredig as, soos die waarde van x toeneem of afneem dan neem die waarde van y in dieselfde verhouding af of toe. \u2022 x is indirek of omgekeerd eweredig aan y as x x y konstant is. Met ander woorde, y = cx \u2022 Die direkte eweredige verwantskap word deur 'n reguitlyngrafiek voorgestel. \u2022 x en y is direk eweredig as, soos die waarde van x toeneem of afneem dan neem die waarde van y in dieselfde verhouding toe of af. \u2022 x is direk eweredig aan y as y konstant is x Leerders moet vertroud wees met die volgende verwantskappe: Direkte en Indirekte eweredigheid 'n Motor wat teen 'n konstante spoed beweeg l\u00ea 60 km in 18 minute af. Hoe ver sal die motor in 1uur 12 minute beweeg as die motor teen dieselfde konstante spoed beweeg ? a) \u2022 Oplossing van probleme in konteks, insluitend: -- verhouding en koers; en Voorbeelde: \u2022 Maak seker dat leerders die eenhede vir tyd en afstand herken en in staat is om korrek tussen die twee te kan omskakel. \u2022 Spoed word normaalweg as konstante of gemiddelde spoed gegee. tyd = afstand = spoed x tyd b) c) spoed = a) afstand tyd \u2022 Dit moet probleme oor afstand, spoed en tyd insluit. Leerders moet met die volgende formules vir berekeninge vertroud wees. Verhouding- en koersprobleme -- Pi (\u03c0) is 'n irrasionale getal, alhoewel ons 7 of 3,14 as rasionale getal in die benadering van \u03c0 in berekeninge gebruik. 22 -- Irrasionale getalle is getalle wat nie as rasionale getalle in die vorm b uitgedruk kan word nie. VERDUIDELIKENDE NOTAS OF ONDERRIG-RIGLYNE Probleemoplossing: BEGRIPPE EN VAARDIGHEDE TYDSDUUR (in ure) WISKUNDE GRAAD 7-9 125 Getalle, bewerkings en verwantskappe INHOUDSAREA 126 Heelgetalle 1.3 Heelgetalle 1.1 ONDERWERPE r n KURRIKULUM EN ASSESSERINGSBELEIDSVERKLARINGSBELEID (KABV) \u2022 Los probleme in konteks op wat veelvoudige bewerkings met heelgetalle behels. Probleemoplossing: -- optelling- en vermenigvuldiginginverses vir heelgetalle. -- herken en gebruik die kommutatiewe, assosiatiewe en distributiewe eienskappe van heelgetalle, \u2022 Hersien: Eienskappe van heelgetalle: -- Doen berekeninge wat al vier bewerkings met heelgetalle in eksponensi\u00eble vorm, insluitend kwadrate,\u2026",
+          "assessment_notes": [
+            "Use appropriate formulae and conversions between SI units to solve problems",
+            "Investigate how doubling any or all the dimensions of right prisms and cylinders affects their volume"
+          ]
         },
         {
           "week": 4,
           "topics": [
-            "shape and number of faces, the",
-            "number of vertices and the number"
+            "Describe, name and compare the 5 Platonic solids",
+            "shape and number of faces",
+            "number of vertices and the number of edges"
           ],
-          "skills": []
-        },
-        {
-          "week": 6,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 7,
-          "topics": [
-            "TRANSFORMATION GEOMETRY"
+          "skills": [
+            "Describe",
+            "Name",
+            "Compare"
           ],
-          "skills": []
-        },
-        {
-          "week": 8,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 9,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 10,
-          "topics": [
-            "FORMAL ASSESSMENT TASK",
-            "OR PREKNOWLED"
+          "content_area": "Geometry",
+          "short_phrases": [
+            "5 Platonic solids"
           ],
-          "skills": []
+          "caps_excerpt": "AREA KABV a afstand spoed 'n Motor wat teen 'n gemiddelde spoed van 100 km/h beweeg, l\u00ea 'n sekere afstand in 3 uur 20 minute af. Teen watter konstante spoed moet die motor beweeg om dieselfde afstand in 2 uur 40 minute af te l\u00ea? b) -- direkte en indirekte eweredigheid \u2022 Die indirekte eweredige verwantskap word deur 'n nie-linie\u00eare kurwe voorgestel. \u2022 x en y is indirek eweredig as, soos die waarde van x toeneem of afneem dan neem die waarde van y in dieselfde verhouding af of toe. \u2022 x is indirek of omgekeerd eweredig aan y as x x y konstant is. Met ander woorde, y = cx \u2022 Die direkte eweredige verwantskap word deur 'n reguitlyngrafiek voorgestel. \u2022 x en y is direk eweredig as, soos die waarde van x toeneem of afneem dan neem die waarde van y in dieselfde verhouding toe of af. \u2022 x is direk eweredig aan y as y konstant is x Leerders moet vertroud wees met die volgende verwantskappe: Direkte en Indirekte eweredigheid 'n Motor wat teen 'n konstante spoed beweeg l\u00ea 60 km in 18 minute af. Hoe ver sal die motor in 1uur 12 minute beweeg as die motor teen dieselfde konstante spoed beweeg ? a) \u2022 Oplossing van probleme in konteks, insluitend: -- verhouding en koers; en Voorbeelde: \u2022 Maak seker dat leerders die eenhede vir tyd en afstand herken en in staat is om korrek tussen die twee te kan omskakel. \u2022 Spoed word normaalweg as konstante of gemiddelde spoed gegee. tyd = afstand = spoed x tyd b) c) spoed = a) afstand tyd \u2022 Dit moet probleme oor afstand, spoed en tyd insluit. Leerders moet met die volgende formules vir berekeninge vertroud wees. Verhouding- en koersprobleme -- Pi (\u03c0) is 'n irrasionale getal, alhoewel ons 7 of 3,14 as rasionale getal in die benadering van \u03c0 in berekeninge gebruik. 22 -- Irrasionale getalle is getalle wat nie as rasionale getalle in die vorm b uitgedruk kan word nie. VERDUIDELIKENDE NOTAS OF ONDERRIG-RIGLYNE Probleemoplossing: BEGRIPPE EN VAARDIGHEDE TYDSDUUR (in ure) WISKUNDE GRAAD 7-9 125 Getalle, bewerkings en verwantskappe INHOUDSAREA 126 Heelgetalle 1.3 Heelgetalle 1.1 ONDERWERPE r n KURRIKULUM EN ASSESSERINGSBELEIDSVERKLARINGSBELEID (KABV) \u2022 Los probleme in konteks op wat veelvoudige bewerkings met heelgetalle behels. Probleemoplossing: -- optelling- en vermenigvuldiginginverses vir heelgetalle. -- herken en gebruik die kommutatiewe, assosiatiewe en distributiewe eienskappe van heelgetalle, \u2022 Hersien: Eienskappe van heelgetalle: -- Doen berekeninge wat al vier bewerkings met heelgetalle in eksponensi\u00eble vorm, insluitend kwadrate,\u2026",
+          "assessment_notes": [
+            "Describe",
+            "Name",
+            "Compare"
+          ]
         },
         {
           "week": 5,
           "topics": [
-            "geometric figures and shapes on"
+            "Use of appropriate formulae to calculate the surface area, volume and capacity of cubes and rectangular prisms",
+            "Use proportion to describe the effect of enlargement or reduction on area and perimeter of geometric figures",
+            "Investigate the co-ordinates of the vertices of figures that have been enlarged or reduced by a given scale factor",
+            "Translations, reflections, rotations enlargements and reductions with geometric figures and shapes on grid paper",
+            "Usie nets to create models of geometric solids, including cubes, prisms and pyramids",
+            "Describe the interrelationship between surface area and volume of the objects mentioned above",
+            "Use and convert between appropriate SI units, including: mm2 \u2194 cm2 \u2194 m2 \u2194 km2, mm3 \u2194 cm3 \u2194 m3, ml (cm3) \u2194 l \u2194 kl"
           ],
-          "skills": []
+          "skills": [
+            "Use of appropriate formulae",
+            "Use proportion",
+            "Translations, reflections, rotations, enlargements and reductions",
+            "Use nets to create models",
+            "Describe interrelationship between surface area and volume"
+          ],
+          "content_area": "Measurement",
+          "short_phrases": [
+            "surface area",
+            "volume",
+            "capacity",
+            "enlargement",
+            "reduction",
+            "geometric figures",
+            "grid paper",
+            "nets",
+            "models",
+            "SI units"
+          ],
+          "caps_excerpt": "AREA KABV a afstand spoed 'n Motor wat teen 'n gemiddelde spoed van 100 km/h beweeg, l\u00ea 'n sekere afstand in 3 uur 20 minute af. Teen watter konstante spoed moet die motor beweeg om dieselfde afstand in 2 uur 40 minute af te l\u00ea? b) -- direkte en indirekte eweredigheid \u2022 Die indirekte eweredige verwantskap word deur 'n nie-linie\u00eare kurwe voorgestel. \u2022 x en y is indirek eweredig as, soos die waarde van x toeneem of afneem dan neem die waarde van y in dieselfde verhouding af of toe. \u2022 x is indirek of omgekeerd eweredig aan y as x x y konstant is. Met ander woorde, y = cx \u2022 Die direkte eweredige verwantskap word deur 'n reguitlyngrafiek voorgestel. \u2022 x en y is direk eweredig as, soos die waarde van x toeneem of afneem dan neem die waarde van y in dieselfde verhouding toe of af. \u2022 x is direk eweredig aan y as y konstant is x Leerders moet vertroud wees met die volgende verwantskappe: Direkte en Indirekte eweredigheid 'n Motor wat teen 'n konstante spoed beweeg l\u00ea 60 km in 18 minute af. Hoe ver sal die motor in 1uur 12 minute beweeg as die motor teen dieselfde konstante spoed beweeg ? a) \u2022 Oplossing van probleme in konteks, insluitend: -- verhouding en koers; en Voorbeelde: \u2022 Maak seker dat leerders die eenhede vir tyd en afstand herken en in staat is om korrek tussen die twee te kan omskakel. \u2022 Spoed word normaalweg as konstante of gemiddelde spoed gegee. tyd = afstand = spoed x tyd b) c) spoed = a) afstand tyd \u2022 Dit moet probleme oor afstand, spoed en tyd insluit. Leerders moet met die volgende formules vir berekeninge vertroud wees. Verhouding- en koersprobleme -- Pi (\u03c0) is 'n irrasionale getal, alhoewel ons 7 of 3,14 as rasionale getal in die benadering van \u03c0 in berekeninge gebruik. 22 -- Irrasionale getalle is getalle wat nie as rasionale getalle in die vorm b uitgedruk kan word nie. VERDUIDELIKENDE NOTAS OF ONDERRIG-RIGLYNE Probleemoplossing: BEGRIPPE EN VAARDIGHEDE TYDSDUUR (in ure) WISKUNDE GRAAD 7-9 125 Getalle, bewerkings en verwantskappe INHOUDSAREA 126 Heelgetalle 1.3 Heelgetalle 1.1 ONDERWERPE r n KURRIKULUM EN ASSESSERINGSBELEIDSVERKLARINGSBELEID (KABV) \u2022 Los probleme in konteks op wat veelvoudige bewerkings met heelgetalle behels. Probleemoplossing: -- optelling- en vermenigvuldiginginverses vir heelgetalle. -- herken en gebruik die kommutatiewe, assosiatiewe en distributiewe eienskappe van heelgetalle, \u2022 Hersien: Eienskappe van heelgetalle: -- Doen berekeninge wat al vier bewerkings met heelgetalle in eksponensi\u00eble vorm, insluitend kwadrate,\u2026",
+          "assessment_notes": []
+        },
+        {
+          "week": 7,
+          "topics": [
+            "Transformation Geometry",
+            "Transformations",
+            "Recognize, describe and perform transformations",
+            "points",
+            "line segments",
+            "simple geometric figures",
+            "co-ordinate plane"
+          ],
+          "skills": [
+            "Perform transformations",
+            "Transformations with points"
+          ],
+          "content_area": "TRANSFORMATION GEOMETRY",
+          "short_phrases": [
+            "Transformation Geometry",
+            "Transformations",
+            "points",
+            "line segments",
+            "simple geometric figures",
+            "co-ordinate plane"
+          ],
+          "caps_excerpt": "AREA KABV a afstand spoed 'n Motor wat teen 'n gemiddelde spoed van 100 km/h beweeg, l\u00ea 'n sekere afstand in 3 uur 20 minute af. Teen watter konstante spoed moet die motor beweeg om dieselfde afstand in 2 uur 40 minute af te l\u00ea? b) -- direkte en indirekte eweredigheid \u2022 Die indirekte eweredige verwantskap word deur 'n nie-linie\u00eare kurwe voorgestel. \u2022 x en y is indirek eweredig as, soos die waarde van x toeneem of afneem dan neem die waarde van y in dieselfde verhouding af of toe. \u2022 x is indirek of omgekeerd eweredig aan y as x x y konstant is. Met ander woorde, y = cx \u2022 Die direkte eweredige verwantskap word deur 'n reguitlyngrafiek voorgestel. \u2022 x en y is direk eweredig as, soos die waarde van x toeneem of afneem dan neem die waarde van y in dieselfde verhouding toe of af. \u2022 x is direk eweredig aan y as y konstant is x Leerders moet vertroud wees met die volgende verwantskappe: Direkte en Indirekte eweredigheid 'n Motor wat teen 'n konstante spoed beweeg l\u00ea 60 km in 18 minute af. Hoe ver sal die motor in 1uur 12 minute beweeg as die motor teen dieselfde konstante spoed beweeg ? a) \u2022 Oplossing van probleme in konteks, insluitend: -- verhouding en koers; en Voorbeelde: \u2022 Maak seker dat leerders die eenhede vir tyd en afstand herken en in staat is om korrek tussen die twee te kan omskakel. \u2022 Spoed word normaalweg as konstante of gemiddelde spoed gegee. tyd = afstand = spoed x tyd b) c) spoed = a) afstand tyd \u2022 Dit moet probleme oor afstand, spoed en tyd insluit. Leerders moet met die volgende formules vir berekeninge vertroud wees. Verhouding- en koersprobleme -- Pi (\u03c0) is 'n irrasionale getal, alhoewel ons 7 of 3,14 as rasionale getal in die benadering van \u03c0 in berekeninge gebruik. 22 -- Irrasionale getalle is getalle wat nie as rasionale getalle in die vorm b uitgedruk kan word nie. VERDUIDELIKENDE NOTAS OF ONDERRIG-RIGLYNE Probleemoplossing: BEGRIPPE EN VAARDIGHEDE TYDSDUUR (in ure) WISKUNDE GRAAD 7-9 125 Getalle, bewerkings en verwantskappe INHOUDSAREA 126 Heelgetalle 1.3 Heelgetalle 1.1 ONDERWERPE r n KURRIKULUM EN ASSESSERINGSBELEIDSVERKLARINGSBELEID (KABV) \u2022 Los probleme in konteks op wat veelvoudige bewerkings met heelgetalle behels. Probleemoplossing: -- optelling- en vermenigvuldiginginverses vir heelgetalle. -- herken en gebruik die kommutatiewe, assosiatiewe en distributiewe eienskappe van heelgetalle, \u2022 Hersien: Eienskappe van heelgetalle: -- Doen berekeninge wat al vier bewerkings met heelgetalle in eksponensi\u00eble vorm, insluitend kwadrate,\u2026",
+          "assessment_notes": [
+            "focusing on"
+          ]
+        },
+        {
+          "week": 10,
+          "topics": [
+            "reflection in the x-axis or y-axis",
+            "translation within and across quadrants",
+            "reflection in the line y=x",
+            "rotation around a given point",
+            "enlargements and reductions"
+          ],
+          "skills": [
+            "identify the transformation of a point",
+            "given the coordinates of its image"
+          ],
+          "content_area": "Measurement",
+          "short_phrases": [
+            "enlargements and",
+            "given the coordinates"
+          ],
+          "caps_excerpt": "algebra\u00efese uitdrukkings en vergelykings. Dit word verwag dat hulle bedrewe in al vier bewerkings met heelgetalle sal wees en dat waar nodig, hulle die eienskappe van heelgetalle gepas kan gebruik. In graad 9 moet leerders getalbegrip en berekeningstegnieke vir heelgetalle wat in graad 8 ontwikkel is, konsolideer. -- Doen berekeninge met al vier bewerkings met heelgetalle. Hoe verskil graad 9 van graad 8? Gebruik die formule A = P(1 + 100 ) om die saamgestelde rente op 'n lening van R3 450 teen 6,5% per jaar vir 5 jaar te bereken. \u2022 Hersien: e) Temoso leen R500 by die bank vir 3 jaar teen 8% p.j. saamgestelde rente. Bereken (sonder om 'n formule te gebruik) hoeveel Temoso aan die einde van die drie jaar die bank skuld. d) Berekeninge met heelgetalle: -- saamgestelde rente. -- huur; -- wisselkoerse en kommissie; Hoe lank sal dit R3 000, wat bel\u00ea word teen 6% per jaar enkelvoudige rente, neem om tot R4 260 te groei? R800 wat teen r% per jaar enkelvoudige rente vir 3 jaar bel\u00ea word, lewer R168. Bereken die waarde van r. b) -- enkelvoudige rente; c) Bereken die enkelvoudige rente op R600 teen 7% p.j. vir 3 jaar. Gebruik die P.n.r r formule SI = 100 of si = p.n.i vir i = 100 . a) -- begrotings; -- rekeninge en lenings; Voorbeelde: \u2022 Sodra leerders genoeg berekeninge deur herhaalde berekening oor enkelvoudige en saamgestelde rente gedoen het, kan hulle gegewe formules vir hierdie berekeninge gebruik. Finansi\u00eble kontekste VERDUIDELIKENDE NOTAS OF ONDERRIG-RIGLYNE -- wins, verlies, afslag en BTW; \u2022 Oplossing van probleme wat heelgetalle, persentasies en desimale breuke in finansi\u00eble kontekste behels soos: BEGRIPPE EN VAARDIGHEDE 4,5 ure Totale tyd vir Heelgetalle: TYDSDUUR (in ure) WISKUNDE GRAAD 7-9 INHOUDS",
+          "assessment_notes": [
+            "formal assessment task",
+            "test: term 1-4 topics",
+            "reflection in the x-axis or y-axis",
+            "translation within and across quadrants",
+            "reflection in the line y=x",
+            "rotation around a given point",
+            "enlargements and reductions"
+          ]
         }
       ]
     }
   ],
   "term_count": 4,
-  "week_count": 41,
-  "source_pdf": "/code/riv/kyno/data/syllabus/grade-9/mathematics/atp-mathematics-2026.pdf"
+  "week_count": 23
 }

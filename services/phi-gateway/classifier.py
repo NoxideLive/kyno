@@ -24,8 +24,12 @@ MODEL_DIR = Path(__file__).resolve().parent / "models"
 SKLEARN_MODEL_PATH = MODEL_DIR / "domain_classifier.joblib"
 TOKEN_WEIGHTS_PATH = MODEL_DIR / "token_weights.json"
 
+HYBRID_OVERRIDE_CONFIDENCE = 0.85
+
 ON_TOPIC_PATTERNS = [
-    r"\bcaps\b",
+    r"\bcaps mathematics\b",
+    r"\bcaps maths\b",
+    r"\bcaps wiskunde\b",
     r"\batp\b",
     r"\bannual teaching plan\b",
     r"\bmathematics\b",
@@ -71,7 +75,77 @@ OFF_TOPIC_PATTERNS = [
     r"\bworld war\b",
     r"\bhome language\b",
     r"\bpoetry analysis\b",
+    r"\bpeanut",
 ]
+
+HOMOGRAPH_PATTERNS = [
+    re.compile(r"\bpeanut", re.IGNORECASE),
+]
+
+TYPOGRAPHY_CAPS_PATTERNS = [
+    re.compile(r"^caps?$", re.IGNORECASE),
+    re.compile(r"^all caps$", re.IGNORECASE),
+    re.compile(r"^write in caps$", re.IGNORECASE),
+    re.compile(r"^don't type in caps$", re.IGNORECASE),
+    re.compile(r"^uppercase$", re.IGNORECASE),
+]
+
+
+def is_typography_caps(text: str) -> bool:
+    stripped = text.strip()
+    if not stripped:
+        return False
+    for pattern in TYPOGRAPHY_CAPS_PATTERNS:
+        if pattern.search(stripped):
+            return True
+    lower = stripped.lower()
+    if lower in {"caps", "cap"} and not re.search(
+        r"\b(caps mathematics|caps maths|caps wiskunde|what is caps|grade\s*\d)\b",
+        lower,
+    ):
+        return True
+    return False
+
+
+def apply_hybrid_overrides(text: str, result: dict) -> dict:
+    """Post-Phi corrections for known production failure modes."""
+    lower = text.lower().strip()
+    label = result["label"]
+    confidence = float(result["confidence"])
+    backend = result.get("backend", "phi-lora")
+
+    if is_typography_caps(text):
+        return {
+            "label": "off_topic",
+            "confidence": max(confidence, 0.9),
+            "backend": f"{backend}+hybrid",
+        }
+
+    for pattern in HOMOGRAPH_PATTERNS:
+        if pattern.search(text):
+            return {
+                "label": "off_topic",
+                "confidence": max(confidence, 0.9),
+                "backend": f"{backend}+hybrid",
+            }
+
+    off_score = sum(2 for p in OFF_TOPIC_PATTERNS if re.search(p, lower))
+    if off_score > 0:
+        return {
+            "label": "off_topic",
+            "confidence": max(confidence, 0.85),
+            "backend": f"{backend}+hybrid",
+        }
+
+    on_score = sum(1 for p in ON_TOPIC_PATTERNS if re.search(p, lower))
+    if label == "off_topic" and on_score > 0 and confidence < HYBRID_OVERRIDE_CONFIDENCE:
+        return {
+            "label": "on_topic",
+            "confidence": max(confidence, 0.65),
+            "backend": f"{backend}+hybrid",
+        }
+
+    return result
 
 
 class DomainClassifier:
@@ -106,7 +180,7 @@ class DomainClassifier:
 
         phi_result = classify_with_phi(trimmed)
         if phi_result is not None:
-            return phi_result
+            return apply_hybrid_overrides(trimmed, phi_result)
 
         if self._sklearn_model is not None:
             pipeline = self._sklearn_model
@@ -115,21 +189,23 @@ class DomainClassifier:
             on_idx = classes.index("on_topic")
             off_idx = classes.index("off_topic")
             if proba[on_idx] >= proba[off_idx]:
-                return {
+                result = {
                     "label": "on_topic",
                     "confidence": float(proba[on_idx]),
                     "backend": "sklearn",
                 }
-            return {
-                "label": "off_topic",
-                "confidence": float(proba[off_idx]),
-                "backend": "sklearn",
-            }
+            else:
+                result = {
+                    "label": "off_topic",
+                    "confidence": float(proba[off_idx]),
+                    "backend": "sklearn",
+                }
+            return apply_hybrid_overrides(trimmed, result)
 
         if self._token_model is not None:
-            return _token_classify(trimmed, self._token_model)
+            return apply_hybrid_overrides(trimmed, _token_classify(trimmed, self._token_model))
 
-        return _keyword_classify(trimmed)
+        return apply_hybrid_overrides(trimmed, _keyword_classify(trimmed))
 
 
 def _token_classify(text: str, model: dict) -> dict:
@@ -157,6 +233,9 @@ def _token_classify(text: str, model: dict) -> dict:
 
 def _keyword_classify(text: str) -> dict:
     lower = text.lower()
+    if is_typography_caps(text):
+        return {"label": "off_topic", "confidence": 0.9, "backend": "keywords"}
+
     on_score = sum(1 for p in ON_TOPIC_PATTERNS if re.search(p, lower))
     off_score = sum(2 for p in OFF_TOPIC_PATTERNS if re.search(p, lower))
 

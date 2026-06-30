@@ -1,0 +1,2 @@
+# Optional deps for training data scripts (rapidfuzz speeds lexical dedupe)
+rapidfuzz>=3.0.0

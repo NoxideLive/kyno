@@ -1,0 +1,28 @@
+{
+  "models": {
+    "extract": "openai/gpt-oss-120b",
+    "generate": "openai/gpt-oss-20b"
+  },
+  "parallelism": {
+    "workers": 8
+  },
+  "generation": {
+    "examples_per_week": 6,
+    "on_off_ratio": 0.5,
+    "min_short_per_chunk": 2,
+    "off_topic_per_grade": 12,
+    "hard_off_ratio": 0.7,
+    "target_off_ratio": 0.45,
+    "ground_threshold": 0.85
+  },
+  "dedupe": {
+    "enabled": true,
+    "threshold": 0.88
+  },
+  "paths": {
+    "syllabus_root": "data/syllabus",
+    "output_dir": "training/domain",
+    "curated": "training/domain/curated.jsonl"
+  },
+  "seed": 42
+}

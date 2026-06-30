@@ -2,98 +2,80 @@
 
 Self-hosted FastAPI service that classifies chat messages as on-topic (CAPS Maths Gr 1–12) or off-topic before the main LLM.
 
-Follows [Microsoft Phi-4-mini-instruct sample_finetune.py](https://huggingface.co/microsoft/Phi-4-mini-instruct/blob/main/sample_finetune.py).
+**Full two-machine workflow:** [`docs/domain-gateway-runbook.md`](../../docs/domain-gateway-runbook.md)
 
-## 1. Python environment (PEP 668 / Ubuntu)
+## Quick reference
 
-Do not install packages into system Python. Use a project venv:
+### Training machine (GPU + Groq)
+
+```bash
+export GROQ_API_KEY=gsk_...
+python3 scripts/build_domain_training_data.py --all-grades
+python services/phi-gateway/train_phi.py
+python3 scripts/eval_domain_classifier.py
+# commit adapter + training/domain/*.jsonl, push
+```
+
+### Dev machine (after pull)
+
+```bash
+export DOMAIN_CONFIDENCE_THRESHOLD=<from eval_report.json>
+uvicorn server:app --host 0.0.0.0 --port 8090   # in services/phi-gateway
+
+npx convex env set PHI_GATEWAY_URL http://localhost:8090
+npx convex env set DOMAIN_GATEWAY_ENABLED true
+npx convex env set DOMAIN_CONFIDENCE_THRESHOLD <same value>
+
+python3 scripts/eval_domain_classifier.py --gateway-url http://localhost:8090
+```
+
+## Python environment
 
 ```bash
 cd /code/riv/kyno
 python3 -m venv --without-pip .venv
 curl -sS https://bootstrap.pypa.io/get-pip.py | .venv/bin/python
 source .venv/bin/activate
-```
 
-## 2. Install dependencies
-
-**API + CPU fallback classifier:**
-
-```bash
+pip install -r scripts/requirements-data.txt          # data pipeline
 pip install -r services/phi-gateway/requirements.txt
+pip install -r services/phi-gateway/requirements-phi.txt   # train + Phi inference
 ```
 
-**Phi fine-tuning / GPU inference (optional):**
+## Training data
 
-```bash
-pip install -r services/phi-gateway/requirements-phi.txt
-```
+Tuning lives in [`training/domain/pipeline.config.json`](../../training/domain/pipeline.config.json).
 
-Microsoft recommends for Phi training:
+| CLI flag | Purpose |
+|----------|---------|
+| `--grade N` / `--all-grades` | Scope |
+| `--config PATH` | Config file (default: `training/domain/pipeline.config.json`) |
+| `--dry-run` | Count chunks, no Groq calls |
 
-```bash
-pip install accelerate bitsandbytes peft==0.14.0 "transformers>=4.48.1" trl datasets
-```
+Coupled pipeline (recommended): LLM extract → CAPS context → LLM generate → dedupe → splits. Curated rows pinned to train. No regex extract fallback.
 
-## 3. Prepare training data
+Template fallback (no Groq): `python3 scripts/generate_domain_training_data.py --total 800`
 
-```bash
-# Pull DBE CAPS/ATP PDFs (grades 1–12)
-python3 scripts/pull_syllabus.py --all-grades --skip-existing
+Regression eval only: [`training/domain/regression.jsonl`](../../training/domain/regression.jsonl)
 
-# Extract ATP topics
-python3 scripts/extract_atp_topics.py --all-grades
+## Runtime
 
-# Generate labeled jsonl
-python3 scripts/generate_domain_training_data.py
-```
+Backend priority: **Phi LoRA + hybrid overrides → sklearn → token log-odds → keywords**.
 
-## 4. Train
+Blocking: `off_topic`, or `on_topic` with confidence below `DOMAIN_CONFIDENCE_THRESHOLD`.
 
-**Phi QLoRA (primary — requires CUDA GPU):**
-
-```bash
-python services/phi-gateway/train_phi.py
-# or multi-GPU:
-accelerate launch services/phi-gateway/train_phi.py
-```
-
-Adapter saved to `services/phi-gateway/models/phi-domain-lora/`.
-
-**CPU fallback (no GPU):**
-
-```bash
-python services/phi-gateway/train_simple.py
-# or with sklearn when available:
-python services/phi-gateway/train.py
-```
-
-## 5. Run server
-
-```bash
-cd services/phi-gateway
-uvicorn server:app --host 0.0.0.0 --port 8090
-```
-
-Backend priority at runtime: **Phi LoRA → sklearn → token log-odds → keywords**.
-
-## 6. Convex env
-
-```bash
-npx convex env set PHI_GATEWAY_URL http://localhost:8090
-npx convex env set DOMAIN_GATEWAY_ENABLED true
-```
+Convex fail-closed when gateway enabled but unreachable.
 
 ## API
 
 ```
 POST /classify/domain
 { "text": "What does Grade 6 CAPS cover for fractions?" }
-→ { "label": "on_topic", "confidence": 0.92, "backend": "phi-lora", "blocked": false }
+→ { "label": "on_topic", "confidence": 0.92, "backend": "phi-lora+hybrid", "blocked": false }
 ```
 
 ## Phi model
 
 - Base: `microsoft/Phi-4-mini-instruct`
-- LoRA: r=16, alpha=32, dropout=0.05, `target_modules="all-linear"` (Microsoft defaults)
-- Task: SFT chat classification → assistant replies `on_topic` or `off_topic`
+- LoRA: r=16, alpha=32, dropout=0.05, `target_modules="all-linear"`
+- Adapter: `services/phi-gateway/models/phi-domain-lora/`

@@ -1,0 +1,621 @@
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 11
+
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 11 (TERM 1)
+TERM 1
+TOPICS
+
+WEEK 1
+
+WEEK 2
+
+Exponents and surds
+
+WEEK 3
+
+WEEK 4
+
+WEEK 5
+
+WEEK 6
+
+Equations and inequalities
+
+WEEK 7
+
+WEEK 8
+
+WEEK 9
+
+WEEK 10
+
+WEEK 11
+
+WEEK 9
+
+WEEK 10
+
+WEEK 11
+
+Trigonometry (reduction formulae, trig equations & general solutions)
+
+DATE
+COMPLETED
+SBA
+
+Investigation or project & test (content of Term 1)
+
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 11 (TERM 2)
+TERM 2
+
+WEEK 1
+
+TOPICS
+
+Euclidean Geometry
+
+WEEK 2
+
+WEEK 3
+
+WEEK 4
+
+WEEK 5
+
+WEEK 6
+
+Analytical Geometry
+
+WEEK 7
+
+WEEK 8
+
+Functions (including trigonometric functions)
+
+DATE
+COMPLETED
+SBA
+
+Assignment & mid-year exam
+
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 11 (TERM 3)
+TERM 3
+TOPICS
+
+WEEK 1
+
+WEEK 2
+
+WEEK 3
+
+Trigonometry (sine, cosine and area rules)
+
+WEEK 4
+
+WEEK 5
+
+WEEK 6
+
+Statistics
+
+WEEK 7
+
+WEEK 8
+
+Probability
+
+WEEK 9
+
+WEEK 10
+
+WEEK 11
+
+Finance, growth and decay
+
+DATE
+COMPLETED
+SBA
+
+Test
+
+Test
+
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 11 (TERM 4)
+TERM 4
+
+WEEK 1
+
+TOPICS
+
+Number patterns
+
+WEEK 2
+
+DATE
+COMPLETED
+SBA
+
+Test
+
+TOTAL NUMBER OF SBA TASKS 7
+TERM 1 INVESTIGATION/PROJECT (15%) AND TEST (14%)
+TERM 2 ASSIGNMENT (15%) AND MID-YEAR EXAM (14%)
+TERM 3 TEST (14%) AND TEST (14%)
+TERM 4 TEST (14%)
+
+WEEK 3
+
+WEEK 4
+Revision of measurement
+
+WEEK 5
+Revision of
+Algebra
+
+WEEK 6
+Revision of
+Trigonometry
+
+WEEK 7
+Examination
+
+WEEK 8
+
+WEEK 9
+
+WEEK 10
+
+EXAM
+PAPER 1 150 marks 3 hours
+Algebraic Expressions, equations
+and inequalities
+Number patterns
+Finance, growth and decay
+Functions and graphs
+Probability
+
+PAPER 2 150 marks 3 hours
+Statistics
+Analytical Geometry
+Trigonometry
+Euclidean Geometry
+
+45
+25
+15
+45
+20
+
+20
+30
+50
+50
+
+1
+
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 11
+
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 11 (TERM 1)
+TERM 1
+TOPICS
+
+WEEK 1
+
+WEEK 2
+
+WEEK 3
+
+WEEK 4
+
+EXPONENTS AND SURDS
+
+EQUATIONS AND INEQUALITIES
+
+1. Simplify expressions and
+solve equations using the
+laws of exponents for rational
+
+1.
+2.
+3.
+
+𝑝
+
+𝑞
+
+exponents were, 𝑥 𝑞 = √𝑥 𝑝 ;
+𝑥 > 0 ,𝑞 > 0
+2. Add, subtract, multiply and
+divide simple surds
+3. Solve simple equations
+involving surds
+
+4.
+5.
+
+WEEK 5
+
+WEEK 6
+
+Complete the square
+Solve quadratic equations (by factorisation and by using the quadratic formula)
+Solve quadratic inequalities in one unknown (interpret solutions graphically). NB: It is
+recommended that the solving of equations in two unknowns is important to be used
+in other equations like hyperbola-straight line as this is normal in the case of graphs
+Equations in two unknowns, one of which is linear and the other quadratic
+Nature of roots
+
+WEEK 7
+
+WEEK 8
+
+WEEK 9
+
+WEEK 10
+
+WEEK 11
+
+TRIGONOMETRY (REDUCTION FORMULAE, TRIG EQUATIONS & GENERAL SOLUTIONS)
+
+sin  , 𝜃 ≠ 𝑘. 90° , 𝑘 an odd integer, and sin2 𝜃 + cos 2 𝜃 = 1
+cos 
+2. Derive and use reduction formulae to simplify the following expressions:
+2.1. sin(90° ± 𝜃) , cos (90° ± 𝜃),
+2.2. sin(180° ± 𝜃) , cos (180° ± 𝜃) and tan (180° ± 𝜃),
+2.3. sin(360° ± 𝜃) , cos (360° ± 𝜃) and tan (360° ± 𝜃),
+2.4. sin(−𝜃) , cos (−𝜃) and tan (−𝜃),
+3. Determine for which values of a variable an identity holds
+4. Determine the general solutions of trigonometric equations. Also, determine solutions in specific intervals
+1. Derive and use the identities: tan  =
+
+DATE
+COMPLETED
+SBA
+
+Investigation or project
+
+&
+
+Test (content of Term 1)
+
+2
+
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 11
+
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 11 (TERM 2)
+TERM 2
+TOPICS
+
+WEEK 1
+
+WEEK 2
+
+WEEK 3
+
+WEEK 4
+
+WEEK 5
+
+WEEK 6
+
+WEEK 7
+
+WEEK 8
+
+EUCLIDEAN GEOMETRY
+
+ANALYTICAL GEOMETRY
+
+FUNCTIONS (INCLUDING TRIGONOMETRIC FUNCTIONS)
+
+1.
+
+Accept results established in earlier grades as axioms that a tangent to a circle is
+perpendicular to the radius drawn to the point of contact
+
+1.
+
+2.
+
+Then investigate and prove the theorems of the geometry of circles:
+• The line drawn from the centre of a circle perpendicular to a chord bisects the
+chord
+• The line drawn from the centre of a circle to the midpoint of a chord is
+perpendicular to the chord
+• The perpendicular bisector of a chord passes through the centre of the circle
+• The angle subtended by an arc at the centre of a circle is double the size of the
+angle subtended by the same arc at the circle (on the same side of the chord as
+the centre)
+• Angles subtended by a chord of the circle, on the same side of the chord, are
+equal
+• The opposite angles of a cyclic quadrilateral are supplementary
+• Two tangents drawn to a circle from the same point outside the circle are equal
+in length
+• The angle between the tangent to a circle and the chord drawn from the point of
+contact is equal to the angle in the alternate segment
+Use the above theorems and their converses, where they exist, to solve riders
+
+1. Revise,
+• Distance between the two points
+• Gradient of the line segment connecting the
+two points (and from that identify parallel
+and perpendicular lines)
+• Coordinates of the mid-point of the line
+segment joining the two points
+2. Derive and apply:
+• The equation of a line through two given
+points
+• The equation of a line through one point
+and parallel or perpendicular to a given line
+• The inclination (θ) of a line, where 𝑚 =
+tan 𝜃 is the gradient of the line (0° ≤
+𝜃 ≤ 180° )
+
+WEEK 9
+
+WEEK 10
+
+WEEK 11
+
+Revise the effect of the parameters 𝑎 and q and investigate the effect of p on the graphs of the functions defined by:
+1.1. 𝑦 = 𝑓(𝑥) = 𝑎(𝑥 + 𝑝)2 + 𝑞
+1.2. 𝑦 = 𝑓(𝑥) =
+
+𝑎
+𝑥+𝑝
+
++𝑞
+
+1.3. 𝑦 = 𝑓(𝑥) = 𝑎. 𝑏 𝑥+𝑝 + 𝑞 where 𝑏 > 0, 𝑏 ≠ 1
+2.
+
+Investigate numerically the average gradient between two points on a curve and develop an intuitive understanding of the
+concept of the gradient of a curve at a point
+
+3.
+
+Point by point plotting of basic graphs defined by 𝑦 = sin 𝜃 , 𝑦 = cos 𝜃 and 𝑦 = tan 𝜃 for 𝜃 ∈ [−360° , 360° ]
+
+4.
+
+Investigate the effect of the parameter k on the graphs of the functions defined by,
+𝑦 = sin(𝑘𝑥) , 𝑦 = cos(𝑘𝑥) and 𝑦 = tan(𝑘𝑥)
+
+5.
+
+Investigate the effect of the parameter 𝑝 on the graphs of the functions defined by,
+𝑦 = sin(𝑥 + 𝑝) , 𝑦 = cos(𝑥 + 𝑝) and 𝑦 = tan(𝑥 + 𝑝)
+
+6.
+
+Draw sketch graphs defined by:
+𝑦 = 𝑎 sin 𝑘(𝑥 + 𝑝) ,
+𝑦 = 𝑎 cos 𝑘(𝑥 + 𝑝) and
+𝑦 = 𝑎 tan 𝑘(𝑥 + 𝑝)
+at most two parameters at a time
+
+DATE
+COMPLETED
+SBA
+
+Assignment & mid-year exam
+
+3
+
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 11
+
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 11 (TERM 3)
+TERM 3
+
+WEEK 1
+
+WEEK 2
+
+WEEK 3
+
+WEEK 4
+
+WEEK 5
+
+WEEK 6
+
+WEEK 7
+
+WEEK 8
+
+TOPICS
+
+TRIGONOMETRY (SINE, COSINE AND
+AREA RULES)
+
+STATISTICS
+
+PROBABILITY
+
+FINANCE, GROWTH AND DECAY
+
+1. Prove and apply the sine, cosine and area
+rules
+2. Solve problems in two dimensions using
+the sine, cosine and area rules
+
+1. Revise measures of central
+tendency and dispersion in
+ungrouped and grouped data
+2. Revise five number summary
+(maximum, minimum and
+quartiles) and box and whisker
+diagram
+3. Revise histograms
+4. Frequency polygons
+5. Ogives (cumulative frequency
+curves)
+6. Variance and standard deviation of
+ungrouped data
+7. Symmetric and skewed data
+8. Identification of outliers
+
+1. Revise the use of probability models to compare the relative frequency of events with the theoretical probability
+
+1. Revise the use of the simple and compound growth
+formulae
+[𝐴 =
+𝑃(1 + 𝑖𝑛) and 𝐴 = 𝑃(1 + 𝑖)𝑛 ] to solve
+problems, including interest, hire purchase,
+inflation, population growth and other real-life
+problems
+2. Understand the implication of fluctuating foreign
+exchange rates (e.g., on the petrol price, imports,
+exports, overseas travel)
+3. Use simple and compound decay formulae:
+𝐴 = 𝑃(1 − 𝑖𝑛) and
+𝐴 = 𝑃(1 − 𝑖)𝑛
+To solve problems (including straight line
+depreciation and depreciation on a reducing
+balance)
+4. The effect of different periods of compound growth
+and decay, including nominal and effective interest
+rates
+
+2. Revise the use of Venn diagrams to solve probability problems, deriving and applying the following for any two events in a sample
+space S:
+• Addition rule
+𝑃(𝐴 𝑜𝑟 𝐵) = 𝑃(𝐴) + 𝑃(𝐵) − 𝑃(𝐴 𝑎𝑛𝑑 𝐵),
+•
+•
+
+𝐴 and 𝐵 are mutually exclusive if 𝑃(𝐴 𝑎𝑛𝑑 𝐵) = 0, addition rule for mutually exclusive events 𝐴 and 𝐵 is:
+𝑃(𝐴 𝑜𝑟 𝐵) = 𝑃(𝐴) + 𝑃(𝐵)
+A and B are complementary if they are,
+➢ mutually exclusive
+and
+➢ 𝑃(𝐴) + 𝑃(𝐵) = 1
+Then
+𝑃(𝐵) = 𝑃(𝑛𝑜𝑡 𝐴) = 1 − 𝑃(𝐴)
+
+3.
+
+Identify dependent and independent events and the product rule for independent events:
+𝑃(𝐴 𝑎𝑛𝑑 𝐵) = 𝑃(𝐴) × 𝑃(𝐵)
+
+4.
+
+The use of Venn diagrams to solve probability problems, deriving and applying formulae for any three events 𝐴, 𝐵 and 𝐶 in a
+sample space S.
+
+5.
+
+Use tree diagrams for the probability of consecutive or simultaneous events, which are not necessarily independent
+
+6.
+
+Use Venn diagrams, tree diagrams and contingency tables to solve real-life problems
+
+WEEK 9
+
+WEEK 10
+
+WEEK 11
+
+DATE
+COMPLETED
+SBA
+
+Test
+
+Test
+
+4
+
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 11
+
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 11 (TERM 4)
+TERM 4
+TOPICS
+
+WEEK 1
+
+WEEK 2
+
+WEEK 3
+
+NUMBER PATTERNS
+Patterns: Investigate number patterns
+leading to those where there is a
+constant second difference between
+consecutive terms and the general
+term is therefore quadratic
+
+WEEK 4
+REVISION OF MEASUREMENT
+1.
+2.
+
+3.
+
+DATE
+COMPLETED
+SBA
+
+Test
+
+Revise the volume and surface areas of right
+prisms and cylinders
+Study the effect on volume and surface areas
+when multiplying any dimension by a constant
+factor k
+Calculate volume and surface areas of
+spheres, right prisms, right cones and
+combination of those objects (figures)
+
+WEEK 5
+REVISION OF
+ALGEBRA
+
+WEEK 6
+REVISION OF
+TRIGONOMETRY
+
+WEEK 7
+EXAMINATION
+
+WEEK 8
+
+WEEK 9
+
+WEEK 10
+
+EXAM
+PAPER 1 150 marks 3 hours
+Algebraic expressions, equations
+and inequalities
+Number patterns
+Finance, growth and decay
+Functions and graphs
+Probability
+
+PAPER 2 150 marks 3 hours
+Statistics
+Analytical Geometry
+Trigonometry
+Euclidean Geometry
+
+45
+25
+15
+45
+20
+
+20
+30
+50
+50
+
+TOTAL NUMBER OF SBA TASKS 7
+TERM 1 INVESTIGATION/PROJECT (15%) AND TEST (14%)
+TERM 2 ASSIGNMENT (15%) AND MID-YEAR EXAM (14%)
+TERM 3 TEST (14%) AND TEST (14%)
+TERM 4 TEST (14%)
+
+5
+
+

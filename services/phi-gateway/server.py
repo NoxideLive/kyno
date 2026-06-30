@@ -12,6 +12,9 @@ from phi_inference import phi_available, phi_unavailable_reason
 
 THRESHOLD = float(os.environ.get("DOMAIN_CONFIDENCE_THRESHOLD", "0.55"))
 
+# Blocking: label off_topic, or on_topic with confidence below THRESHOLD (low-confidence
+# on_topic is flipped to off_topic before returning blocked=true).
+
 app = FastAPI(title="Kyno Domain Gateway", version="1.0.0")
 classifier = DomainClassifier()
 

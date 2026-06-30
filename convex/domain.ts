@@ -15,6 +15,9 @@ const OFF_TOPIC_MESSAGE =
 const OFF_TOPIC_SUGGESTION =
   'Try asking about a CAPS Maths topic, grade, or ATP week.'
 
+const GATEWAY_UNAVAILABLE_MESSAGE =
+  'Domain check is temporarily unavailable. Please try again shortly.'
+
 export function offTopicUserMessage(): string {
   return OFF_TOPIC_MESSAGE
 }
@@ -23,7 +26,11 @@ export function offTopicSuggestion(): string {
   return OFF_TOPIC_SUGGESTION
 }
 
-function gatewayEnabled(): boolean {
+export function domainGatewayUnavailableMessage(): string {
+  return GATEWAY_UNAVAILABLE_MESSAGE
+}
+
+export function isDomainGatewayEnabled(): boolean {
   const flag = process.env.DOMAIN_GATEWAY_ENABLED?.trim().toLowerCase()
   return flag === 'true' || flag === '1'
 }
@@ -34,7 +41,7 @@ function gatewayUrl(): string | null {
 }
 
 export async function classifyDomain(text: string): Promise<ClassifyDomainResult> {
-  if (!gatewayEnabled()) {
+  if (!isDomainGatewayEnabled()) {
     return { ok: false, reason: 'disabled' }
   }
 

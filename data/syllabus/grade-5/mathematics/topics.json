@@ -1,109 +1,142 @@
 {
   "grade": 5,
+  "phase": "intermediate",
   "subject": "mathematics",
   "curriculum": "CAPS",
+  "sources": {
+    "atp_pdf": "/code/riv/kyno/data/syllabus/grade-5/mathematics/atp-mathematics-2026.pdf",
+    "caps_pdf": "/code/riv/kyno/data/syllabus/grade-5/mathematics/caps-mathematics.pdf"
+  },
+  "caps_summary": {
+    "overview_excerpt": "(a) The National Curriculum Statement Grades R-12 (January 2012) represents a policy statement for learning and teaching in South African schools and comprises the following: (i) Curriculum and Assessment Policy Statements for each approved school subject; (ii) The policy document, National policy pertaining to the programme and promotion requirements of the National Curriculum Statement Grades R-12; and (iii) (b) The policy document, National Protocol for Assessment Grades R-12 (January 2012). The National Curriculum Statement Grades R-12 (January 2012) replaces the two current national curricula statements, namely the (i) Revised National Curriculum Statement Grades R-9, Government Gazette No. 23406 of 31 May 2002, and (ii) National Curriculum Statement Grades 10-12 Government Gazettes, No. 25545 of 6 October 2003 and No. 27594 of 17 May 2005. (c) The national curriculum statements contemplated in subparagraphs b(i) and (ii) comprise the following policy documents which will be incrementally repealed by the National Curriculum Statement Grades R-12 (January 2012) during the period 2012-2014: (i) The Learning Area/Subject Statements, Learning Programme Guidelines and Subject Assessment Guidelines for Grades R-9 and Grades 10-12; (ii) The policy document, National Policy on assessment and qualifications for schools in the General Education and Training Band, promulgated in Government Notice No. 124 in Government Gazette No. 29626 of 12 February 2007; (iii) The policy document, the National Senior Certificate: A qualification at Level 4 on the National Qualifications Framework (NQF), promulgated in Government Gazette No.27819 of 20 July 2005; CAPS 3 MATHEMATICS GRADES 4-6 (iv) The policy document, An addendum to the policy document, the National Senior Certificate: A qualification at Level 4 on the National Qualifications Framework (NQF), regarding learners with special needs, published in Government Gazette, No.29466 of 11 December 2006, is incorporated in the\u2026",
+    "aims_excerpt": "SECTION 2: DEFINITION, AIMS, SKILLS AND CONTENT......................................................................8 2.1 Introduction..................................................................................................................................................... 8 2.2 What is Mathematics?.................................................................................................................................... 8 2.3 Specific aims................................................................................................................................................... 8 2.4 Specific skills.................................................................................................................................................. 8 2.5 Focus of content areas................................................................................................................................... 9 Mathematics content knowledge..................................................................................................................... 10 2.6 Weighting of content areas.......................................................................................................................... 12 2.7 Specification of content................................................................................................................................ 12 \u2022 Numbers, Operations and Relationships................................................................................................... 13 \u2022 Patterns, Functions and Algebra................................................................................................................ 18 \u2022 Space and Shape (Geometry)................................................................................................................... 21 \u2022 Measurement.............................................................................................................................................\u2026",
+    "assessment_excerpt": "SECTION 4: ASSESSMENT ..................................................................................................................293 4.1 Introduction ................................................................................................................................................ 293 4.2 Types of assessment.................................................................................................................................. 293 4.3 Informal or daily assessment..................................................................................................................... 294 4.4 Formal assessment..................................................................................................................................... 294 4.5 Recording and reporting............................................................................................................................ 296 4.6 Moderation of assessment......................................................................................................................... 297 4.7 General 2 .................................................................................................................................................. 297 CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS) MATHEMATICS GRADES 4-6 Section 1: INTRODUCTION AND BACKGROUND 1.1 Background The National Curriculum Statement Grades R-12 (NCS) stipulates policy on curriculum and assessment in the schooling\u2026",
+    "content_area_names": [
+      "Numbers, Operations And Relationships",
+      "Data Handling"
+    ]
+  },
   "terms": [
     {
       "term": 1,
       "weeks": [
-        {
-          "week": 1,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 3,
-          "topics": [],
-          "skills": []
-        },
         {
           "week": 4,
           "topics": [
             "Revision of Grade 4",
             "NUMBER SENTENCES",
             "WHOLE NUMBERS",
-            "Write number",
-            "number sentences by:",
-            "Number range for",
-            "represent numbers to",
-            "at least 6-digit numbers",
-            "Properties of whole",
-            "value of digits in whole",
-            "numbers to at least 6digit numbers",
-            "of operations with",
-            "whole numbers"
+            "Properties of whole numbers"
           ],
-          "skills": []
-        },
-        {
-          "week": 5,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 6,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 7,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 8,
-          "topics": [],
-          "skills": []
+          "skills": [
+            "Write number sentences to describe problem situations",
+            "Order, compare and represent numbers to at least 6-digit numbers",
+            "Recognise the place value of digits in whole numbers to at least 6-digit numbers",
+            "Round off to the nearest 5, 10, 100 and 1 000",
+            "Recognize and use the commutative, associative and distributive properties of operations with whole numbers"
+          ],
+          "content_area": "CAPS Mathematics",
+          "short_phrases": [
+            "Number sentences",
+            "Whole numbers"
+          ],
+          "caps_excerpt": "whole numbers to at least 4-digit numbers \u2022 Represent odd and even numbers to at least 1 000 \u2022 Order, compare and represent numbers to at least 4-digit numbers \u2022 Count forwards and backwards in whole number intervals up to at least 10 000 -- adding and subtracting of units, multiples of 10, 100, 1 000 to/from any 4-digit number -- rounding off to the nearest 10, 100 and 1 000 and compensating -- building up and breaking down numbers -- dividing by 10, 100 and 1 000, -- multiplying by multiples or 10, 100 and 1 000, -- multiplying by 10, 100 and 1 000 -- using multiplication to do division -- doubling and halving \u2022 calculation techniques --",
+          "assessment_notes": [
+            "Checking the solution by substitution"
+          ]
         },
         {
           "week": 9,
           "topics": [
-            "WHOLE NUMBERS:",
-            "ADDITION AND",
-            "MULTIPLICATION",
-            "Number range for calculations",
-            "Number range for",
-            "whole numbers of at least 5digits",
-            "and mental calculations of",
-            "whole numbers including:",
-            "down numbers",
-            "\u2500 Using a number line",
-            "Multiplication of at least whole",
-            "3-digit by 2-digit numbers"
+            "Whole Numbers",
+            "Addition and Subtraction",
+            "Multiplication"
           ],
-          "skills": []
-        },
-        {
-          "week": 10,
-          "topics": [],
-          "skills": []
+          "skills": [
+            "Addition and subtraction of whole numbers of at least 5 digits",
+            "Using any two techniques to perform and check written and mental calculations of whole numbers",
+            "Counting, ordering and representing numbers",
+            "Multiplication of at least whole 3-digit by 2-digit numbers"
+          ],
+          "content_area": "Whole Numbers",
+          "short_phrases": [
+            "Whole Numbers",
+            "Addition and Subtraction",
+            "Multiplication",
+            "Number range",
+            "Calculations",
+            "Assignment",
+            "Number sentences",
+            "Counting",
+            "Ordering",
+            "Representing"
+          ],
+          "caps_excerpt": "whole numbers to at least 4-digit numbers \u2022 Represent odd and even numbers to at least 1 000 \u2022 Order, compare and represent numbers to at least 4-digit numbers \u2022 Count forwards and backwards in whole number intervals up to at least 10 000 -- adding and subtracting of units, multiples of 10, 100, 1 000 to/from any 4-digit number -- rounding off to the nearest 10, 100 and 1 000 and compensating -- building up and breaking down numbers -- dividing by 10, 100 and 1 000, -- multiplying by multiples or 10, 100 and 1 000, -- multiplying by 10, 100 and 1 000 -- using multiplication to do division -- doubling and halving \u2022 calculation techniques --",
+          "assessment_notes": [
+            "Formal Assessment",
+            "Assignment to be completed in class within three hours"
+          ]
         },
         {
           "week": 11,
           "topics": [
-            "mental calculations of whole",
-            "numbers including:",
-            "down numbers",
-            "Number range for multiples and",
-            "Multiples of 2-digits whole",
-            "numbers to at least 100",
-            "Factors of 2-digit whole",
-            "\u2500 Measurement contexts",
-            "whole numbers, including:",
-            "PREREQUISITE",
-            "value of digits in whole",
-            "numbers to at least 4digit numbers",
-            "Divide numbers to",
-            "Solve problems involving whole",
-            "numbers, including:",
-            "4-digit numbers",
-            "2-digit numbers",
-            "4-digit whole numbers",
-            "Multiples of 1-digit numbers to",
-            "to/from any 4-digit number"
+            "Estimation",
+            "Building up and breaking down numbers",
+            "Doubling and halving",
+            "Using multiplication and division as inverse operations",
+            "Multiples of 2-digits whole numbers to at least 100",
+            "Factors of 2-digit whole numbers to at least 100",
+            "Solving problems in measurement contexts",
+            "Comparing two or more quantities of the same kind (ratio)",
+            "Comparing two quantities of different kinds (rate)",
+            "Counting ordering, comparing, and representing place value of 4-digit numbers",
+            "Recognising the place value of digits in whole numbers to at least 4-digit numbers",
+            "Rounding off to the nearest 100",
+            "Multiplying 2, 3, 4, 5 and 10 to at least 100",
+            "Dividing numbers to 100 by 2, 3, 4, 5 and 10",
+            "Addition and subtraction of 4-digit numbers",
+            "Multiplying at least and 2-digit by 2-digit numbers",
+            "Doubling and halving",
+            "Multiplication facts for units by multiples of 10, 100 and 1 000",
+            "Building up and breaking down 4-digit whole numbers",
+            "Multiples of 1-digit numbers to at least 100",
+            "Adding and subtracting units, multiples of 10 and multiples of 100, 1 000 to/from any 4-digit number"
           ],
           "skills": [
-            "SKILL OR PREKNOWLEDGE"
+            "Counting ordering, comparing, and representing place value of 4-digit numbers",
+            "Recognise the place value of digits in whole numbers to at least 4-digit numbers",
+            "Rounding off to the nearest 100",
+            "Multiply 2, 3, 4, 5 and 10 to at least 100",
+            "Divide numbers to 100 by 2, 3, 4, 5 and 10",
+            "Use of appropriate symbols (+, \u2212, \u00d7, \u00f7, =)",
+            "Addition and subtraction of 4-digit numbers",
+            "Multiplying at least and 2-digit by 2-digit numbers",
+            "Round off to the nearest 10, 100, 1 000 and estimate answers",
+            "Doubling and halving",
+            "Multiplication facts for units by multiples of 10, 100 and 1 000",
+            "Building up and breaking down 4-digit whole numbers",
+            "Round off to the nearest 10, 100 and 1 000 to estimate answers",
+            "Multiples of 1-digit numbers to at least 100",
+            "1 in terms of its multiplicative property",
+            "Adding and subtracting units, multiples of 10 and multiples of 100, 1 000 to/from any 4-digit number"
+          ],
+          "content_area": "Numeracy",
+          "short_phrases": [
+            "Whole numbers",
+            "Estimation",
+            "Multiples",
+            "Factors",
+            "Financial contexts",
+            "Measurement contexts",
+            "Rounding off",
+            "Doubling and halving",
+            "Multiplication facts"
+          ],
+          "caps_excerpt": "whole numbers to at least 4-digit numbers \u2022 Represent odd and even numbers to at least 1 000 \u2022 Order, compare and represent numbers to at least 4-digit numbers \u2022 Count forwards and backwards in whole number intervals up to at least 10 000 -- adding and subtracting of units, multiples of 10, 100, 1 000 to/from any 4-digit number -- rounding off to the nearest 10, 100 and 1 000 and compensating -- building up and breaking down numbers -- dividing by 10, 100 and 1 000, -- multiplying by multiples or 10, 100 and 1 000, -- multiplying by 10, 100 and 1 000 -- using multiplication to do division -- doubling and halving \u2022 calculation techniques --",
+          "assessment_notes": [
+            "Formal Assessment",
+            "Test: All topics",
+            "Revision"
           ]
         }
       ]
@@ -113,95 +146,184 @@
       "weeks": [
         {
           "week": 1,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 4,
-          "topics": [],
-          "skills": []
+          "topics": [
+            "Formal"
+          ],
+          "skills": [
+            "Assessme"
+          ],
+          "content_area": "Formal",
+          "short_phrases": [
+            "Formal"
+          ],
+          "caps_excerpt": "(a) The National Curriculum Statement Grades R-12 (January 2012) represents a policy statement for learning and teaching in South African schools and comprises the following: (i) Curriculum and Assessment Policy Statements for each approved school subject; (ii) The policy document, National policy pertaining to the programme and promotion requirements of the National Curriculum Statement Grades R-12; and (iii) (b) The policy document, National Protocol for Assessment Grades R-12 (January 2012). The National Curriculum Statement Grades R-12 (January 2012) replaces the two current national curricula statements, namely the (i) Revised National Curriculum Statement Grades R-9, Government Gazette No. 23406 of 31 May 2002, and (ii) National Curriculum Statement Grades 10-12 Government Gazettes, No. 25545 of 6 October 2003 and No. 27594 of 17 May 2005. (c) The national curriculum statements contemplated in subparagraphs b(i) and (ii) comprise the following policy documents which will be incrementally repealed by the National Curriculum Statement Grades R-12 (January 2012) during the period 2012-2014: (i) The Learning Area/Subject Statements, Learning Programme Guidelines and Subject Assessment Guidelines for Grades R-9 and Grades 10-12; (ii) The policy document, National Policy on assessment and qualifications for schools in the General Education and Training Band, promulgated in Government Notice No. 124 in Government Gazette No. 29626 of 12 February 2007; (iii) The policy document, the National Senior Certificate: A qualification at Level 4 on the National Qualifications Framework (NQF), promulgated in Government Gazette No.27819 of 20 July 2005; CAPS 3 MATHEMATICS GRADES 4-6 (iv) The policy document, An addendum to the policy document, the National Senior Certificate: A qualification at Level 4 on the National Qualifications Framework (NQF), regarding learners with special needs, published in Government Gazette, No.29466 of 11 December 2006, is incorporated in the\u2026 SECTION 2: DEFINITION, AIMS, SKILLS AND CONTENT......................................................................8 2.1 Introduction..................................................................................................................................................... 8 2.2 What is Mathematics?.................................................................................................................................... 8 2.3 Specific aims................................................................................................................................................... 8 2.4 Specific skills.................................................................................................................................................. 8 2.5 Focus of content areas................................................................................................................................... 9 Mathematics content knowledge..................................................................................................................... 10 2.6 Weighting of content areas.......................................................................................................................... 12 2.7 Specification of content................................................................................................................................ 12 \u2022 Numbers, Operations and\u2026",
+          "assessment_notes": [
+            "Assessme"
+          ]
         },
         {
           "week": 5,
           "topics": [
             "WHOLE NUMBERS: DIVISION",
             "COMMON FRACTIONS",
-            "Number range for",
+            "Number range for calculations",
+            "Describing and ordering fractions",
             "Division of at least whole",
+            "Calculation techniques",
             "3-digit by 2-digit numbers",
-            "check written and mental",
-            "calculations with whole",
-            "numbers including:",
-            "inverse operations",
-            "backwards in fractions"
+            "Estimation",
+            "Building up and breaking down numbers",
+            "Using multiplication and division as inverse operations",
+            "Count forwards and backwards in fractions"
           ],
-          "skills": []
+          "skills": [
+            "Describing and ordering fractions",
+            "Performing and checking written and mental calculations",
+            "Building up and breaking down numbers",
+            "Using multiplication and division as inverse operations"
+          ],
+          "content_area": "Numbers, Operations And Relationships",
+          "short_phrases": [
+            "Whole numbers division",
+            "Common fractions",
+            "Number range",
+            "Calculation techniques",
+            "3-digit numbers",
+            "Estimation",
+            "Inverse operations"
+          ],
+          "caps_excerpt": "whole numbers to at least 4-digit numbers \u2022 Represent odd and even numbers to at least 1 000 \u2022 Order, compare and represent numbers to at least 4-digit numbers \u2022 Count forwards and backwards in whole number intervals up to at least 10 000 -- adding and subtracting of units, multiples of 10, 100, 1 000 to/from any 4-digit number -- rounding off to the nearest 10, 100 and 1 000 and compensating -- building up and breaking down numbers -- dividing by 10, 100 and 1 000, -- multiplying by multiples or 10, 100 and 1 000, -- multiplying by 10, 100 and 1 000 -- using multiplication to do division -- doubling and halving \u2022 calculation techniques --",
+          "assessment_notes": [
+            "Administer an investigation",
+            "Ensure strategies do not compromise conceptual understanding"
+          ]
         },
         {
           "week": 6,
           "topics": [
-            "common fractions to at",
-            "of common fractions with",
-            "of mixed numbers",
-            "Fractions of whole",
-            "numbers which result in",
-            "whole numbers",
-            "division and fractions"
+            "Geometric Patterns",
+            "Common Fractions",
+            "Calculations with Fractions",
+            "Fractions of Whole Numbers",
+            "Division and Fractions"
           ],
-          "skills": []
+          "skills": [
+            "Investigate and extend patterns",
+            "Compare and order common fractions",
+            "Addition and subtraction of common fractions",
+            "Addition and subtraction of mixed numbers",
+            "Recognize, describe and use the equivalence of division and fractions"
+          ],
+          "content_area": "GEOMETRIC PATTERNS",
+          "short_phrases": [
+            "Geometric Patterns",
+            "Common Fractions",
+            "Addition and Subtraction",
+            "Mixed Numbers",
+            "Division and Fractions"
+          ],
+          "caps_excerpt": "whole numbers to at least 4-digit numbers \u2022 Represent odd and even numbers to at least 1 000 \u2022 Order, compare and represent numbers to at least 4-digit numbers \u2022 Count forwards and backwards in whole number intervals up to at least 10 000 -- adding and subtracting of units, multiples of 10, 100, 1 000 to/from any 4-digit number -- rounding off to the nearest 10, 100 and 1 000 and compensating -- building up and breaking down numbers -- dividing by 10, 100 and 1 000, -- multiplying by multiples or 10, 100 and 1 000, -- multiplying by 10, 100 and 1 000 -- using multiplication to do division -- doubling and halving \u2022 calculation techniques --",
+          "assessment_notes": [
+            "Compare and order common fractions to at least twelfths",
+            "Fractions of whole numbers which result in whole numbers"
+          ]
         },
         {
           "week": 7,
           "topics": [
-            "patterns looking for",
-            "rules of patterns:",
-            "for the patterns and"
+            "Investigate and extend geometric patterns",
+            "Describe observed relationships or rules",
+            "Input and output values",
+            "Determine input values, output values and rules"
           ],
-          "skills": []
-        },
-        {
-          "week": 8,
-          "topics": [],
-          "skills": []
+          "skills": [
+            "looking for relationships or rules of patterns",
+            "in sequences not limited to a constant difference or ratio",
+            "of learner\u2019s own creation",
+            "Describe observed relationships or rules in learner\u2019s own words",
+            "using flow diagrams"
+          ],
+          "content_area": "Geometry",
+          "short_phrases": [
+            "geometric patterns",
+            "observed relationships",
+            "input values",
+            "output values",
+            "rules of patterns",
+            "flow diagrams"
+          ],
+          "caps_excerpt": "whole numbers to at least 4-digit numbers \u2022 Represent odd and even numbers to at least 1 000 \u2022 Order, compare and represent numbers to at least 4-digit numbers \u2022 Count forwards and backwards in whole number intervals up to at least 10 000 -- adding and subtracting of units, multiples of 10, 100, 1 000 to/from any 4-digit number -- rounding off to the nearest 10, 100 and 1 000 and compensating -- building up and breaking down numbers -- dividing by 10, 100 and 1 000, -- multiplying by multiples or 10, 100 and 1 000, -- multiplying by 10, 100 and 1 000 -- using multiplication to do division -- doubling and halving \u2022 calculation techniques --",
+          "assessment_notes": [
+            "Describe observed relationships or rules",
+            "Determine input values, output values and rules"
+          ]
         },
         {
           "week": 10,
           "topics": [
-            "NUMERIC PATTERNS:",
-            "INVESTIGATE AND",
-            "EXTEND PATTERNS",
-            "PROPERTIES OF 2D",
-            "SHAPES: RANGE",
-            "numeric patterns",
-            "difference or ratio",
-            "difference or ratio in",
-            "for patterns and",
-            "name 2D shapes",
-            "involving whole numbers,",
-            "\u2012 Measurement contexts",
-            "kind (ratio)",
-            "fractions, including",
-            "\u2012 By a number",
-            "fractions (fractions in",
-            "shapes in terms of",
-            "\u2012 Number of sides",
-            "Draw 2D shapes on",
-            "in 2-D shapes",
-            "Division of 3-digit numbers",
-            "by 1-digit numbers",
-            "and measurement",
-            "contexts with whole",
-            "numbers including sharing,",
-            "numbers to at least 100",
-            "Factors of 2-digit whole",
-            "order common fractions",
-            "eighths) fractions in",
-            "Equivalent fractions",
-            "Adding fractions in",
-            "Investigate and extend patterns",
-            "Describe patterns in own words"
+            "NUMERIC PATTERNS",
+            "PROPERTIES OF 2D SHAPES: RANGE OF SHAPES",
+            "SEQUENCES",
+            "FLOW DIAGRAMS",
+            "TABLES",
+            "REVISION ASSESSMENT TASK TEST",
+            "SOLVING PROBLEMS",
+            "EQUIVALENT FORMS",
+            "CHARACTERISTICS OF SHAPES",
+            "SYMMETRY",
+            "DIVISION OF 3-DIGIT NUMBERS BY 1-DIGIT NUMBERS",
+            "SOLVE PROBLEMS IN FINANCIAL AND MEASUREMENT CONTEXTS",
+            "MULTIPLES OF 2-DIGIT NUMBERS",
+            "FACTORS OF 2-DIGIT WHOLE NUMBERS",
+            "DESCRIBE, COMPARE AND ORDER COMMON FRACTIONS",
+            "EQUIVALENT FRACTIONS",
+            "ADDING FRACTIONS IN CONTEXT",
+            "INVESTIGATE AND EXTEND PATTERNS",
+            "DESCRIBE PATTERNS IN OWN WORDS",
+            "IDENTIFY CIRCLES, TRIANGLES, SQUARES AND RECTANGLES",
+            "DESCRIBE, SORT AND COMPARE 2D SHAPES"
           ],
-          "skills": []
+          "skills": [
+            "Investigate and extend numeric patterns",
+            "Describe observed relationships or rules for sequences involving constant difference or ratio",
+            "Determine input values, output values and rules for patterns and relationships",
+            "Recognise, visualise and name 2D shapes in the environment and geometric setting",
+            "Solve problems in contexts involving whole numbers",
+            "Solve problems in contexts involving common fractions",
+            "Determine equivalence of different descriptions of the same relationship or rule presented",
+            "Describe, sort and compare 2D shapes in terms of the following: straight and curved sides, number of sides",
+            "Draw 2D shapes on grid paper",
+            "Recognize, draw and describe line(s) of symmetry in 2-D shapes",
+            "Describe, compare and order common fractions of different denominators",
+            "Describe patterns in own words",
+            "Identify circles, triangles, squares and rectangles"
+          ],
+          "content_area": "CAPS Mathematics",
+          "short_phrases": [
+            "NUMERIC PATTERNS",
+            "SEQUENCES",
+            "FLOW DIAGRAMS",
+            "TABLES",
+            "REVISION ASSESSMENT TASK",
+            "SOLVING PROBLEMS",
+            "EQUIVALENT FORMS",
+            "SYMMETRY",
+            "SOLVE PROBLEMS",
+            "DESCRIBE 1",
+            "EQUIVALENT FRACTIONS",
+            "ADDING FRACTIONS",
+            "INVESTIGATE AND EXTEND",
+            "DESCRIBE PATTERNS"
+          ],
+          "caps_excerpt": "whole numbers to at least 4-digit numbers \u2022 Represent odd and even numbers to at least 1 000 \u2022 Order, compare and represent numbers to at least 4-digit numbers \u2022 Count forwards and backwards in whole number intervals up to at least 10 000 -- adding and subtracting of units, multiples of 10, 100, 1 000 to/from any 4-digit number -- rounding off to the nearest 10, 100 and 1 000 and compensating -- building up and breaking down numbers -- dividing by 10, 100 and 1 000, -- multiplying by multiples or 10, 100 and 1 000, -- multiplying by 10, 100 and 1 000 -- using multiplication to do division -- doubling and halving \u2022 calculation techniques --",
+          "assessment_notes": [
+            "Revision Assessment Task Test",
+            "Solve problems in financial and measurement contexts",
+            "Solve problems in contexts involving whole numbers",
+            "Solve problems in contexts involving common fractions",
+            "Determine equivalence of different descriptions of the same relationship or rule presented",
+            "Describe, sort and compare 2D shapes in terms of the following: straight and curved sides, number of sides"
+          ]
         }
       ]
     },
@@ -209,98 +331,113 @@
       "term": 3,
       "weeks": [
         {
-          "week": 1,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 2,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 3,
-          "topics": [],
-          "skills": []
-        },
-        {
           "week": 4,
           "topics": [
-            "PROPERTIES OF 3D",
-            "OBJECTS: RANGE OF",
-            "\u2500 shape of faces",
-            "\u2500 number of faces"
+            "PROPERTIES OF 3D OBJECTS",
+            "RECTANGULAR PRISMS AND OTHER PRISMS",
+            "CUBES",
+            "CYLINDERS",
+            "CONES",
+            "PYRAMIDS",
+            "SIMILARITIES AND DIFFERENCES BETWEEN CUBES AND RECTANGULAR PRISMS",
+            "CHARACTERISTICS OF OBJECTS",
+            "SHAPE OF FACES",
+            "NUMBER OF FACES",
+            "FLAT AND CURVED SURFACES"
           ],
-          "skills": []
-        },
-        {
-          "week": 5,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 6,
-          "topics": [],
-          "skills": []
+          "skills": [
+            "NAME 3-D OBJECTS",
+            "COMPARE 3-D OBJECTS"
+          ],
+          "content_area": "GEOMETRY",
+          "short_phrases": [
+            "RECTANGULAR PRISMS",
+            "CUBES",
+            "CHARACTERISTICS OF OBJECTS"
+          ],
+          "caps_excerpt": "whole numbers to at least 4-digit numbers \u2022 Represent odd and even numbers to at least 1 000 \u2022 Order, compare and represent numbers to at least 4-digit numbers \u2022 Count forwards and backwards in whole number intervals up to at least 10 000 -- adding and subtracting of units, multiples of 10, 100, 1 000 to/from any 4-digit number -- rounding off to the nearest 10, 100 and 1 000 and compensating -- building up and breaking down numbers -- dividing by 10, 100 and 1 000, -- multiplying by multiples or 10, 100 and 1 000, -- multiplying by 10, 100 and 1 000 -- using multiplication to do division -- doubling and halving \u2022 calculation techniques --",
+          "assessment_notes": [
+            "ASSESSMENT TASK",
+            "PROJECT"
+          ]
         },
         {
           "week": 7,
           "topics": [
-            "Collecting and organising data",
-            "shapes and 3-D",
-            "Collect data using tally marks and tables",
-            "Order data from smallest group to largest",
-            "Representing data",
-            "Draw a variety of graphs to display and",
-            "interpret data including:",
-            "\u2500 pictographs (many-to-one",
-            "correspondence) data and",
-            "\u2500 bar graphs",
-            "Interpreting data",
-            "Critically read and interpret data",
-            "\u2500 pictographs",
-            "measure 2D shapes and 3D",
-            "lengths of shapes and objects"
+            "Data Cycle",
+            "Length",
+            "Collecting and Organising Data",
+            "Practical Measuring of 2-D Shapes and 3-D Objects",
+            "Representing Data",
+            "Interpreting Data",
+            "Estimate and Practically Measure 2D Shapes and 3D Objects"
           ],
-          "skills": []
+          "skills": [
+            "Collect data using tally marks and tables",
+            "Order data from smallest group to largest group",
+            "Draw a variety of graphs to display and interpret data",
+            "Record, compare and order lengths of shapes and objects in millimetres (mm), centimetres (cm), metres (m), and kilometres (km)",
+            "Estimate and practically measure 2D shapes and 3D objects using measuring instruments"
+          ],
+          "content_area": "DATA CYCLE",
+          "short_phrases": [
+            "Practical Measuring",
+            "Representing Data",
+            "Interpreting Data",
+            "Data Cycle",
+            "Length"
+          ],
+          "caps_excerpt": "DATA HANDLING CAPS Analysing, interpreting and reporting data 5.3 Representing data 5.2 Collecting and organising data TOPICS CONTENT",
+          "assessment_notes": [
+            "Practical measuring of 2-D shapes and 3-D objects",
+            "Interpreting data represented in words, pictographs, bar graphs"
+          ]
         },
         {
           "week": 8,
           "topics": [
-            "PERIMETER, AREA",
-            "Measurement of",
-            "irregular shapes by",
-            "Analysing data",
-            "Analyse data by answering questions",
-            "\u2500 data categories",
-            "\u2500 data sources and contexts",
-            "Reporting data",
-            "Summarise data verbally and in short",
-            "written paragraphs that include",
-            "\u2500 drawing conclusions about the data",
-            "\u2500 making predictions based on the data",
-            "Conversions limited to whole",
-            "numbers and common",
-            "measure 2D shapes and 3D",
-            "Ungrouped data",
-            "Examine ungrouped numerical data to",
-            "score in the data set (mode)",
-            "Probability experiments",
-            "OR PREKNOWLED",
-            "Collect data using tally marks and tables",
-            "Draw a variety of graphs to display and",
-            "interpret data including pictographs (one-",
-            "\u2012 Shapes of faces",
-            "to-one correspondence between data and",
-            "representation), bar graphs",
-            "Critically read and interpret data",
-            "represented in words, pictographs, bar",
-            "graphs, pie charts",
-            "lengths of shapes and objects",
-            "related to data categories",
-            "written paragraphs"
+            "Perimeter, Area and Volume",
+            "Measurement of Area",
+            "Measurement of Volume",
+            "Analysing Data",
+            "Reporting Data",
+            "Probability"
           ],
-          "skills": []
+          "skills": [
+            "Measure perimeter using rulers or measuring tapes",
+            "Find areas of regular and irregular shapes by counting squares on grids",
+            "Find volume/capacity of objects by packing or filling them",
+            "Make 3-D models using cut out polygons",
+            "Cut open boxes to trace and describe their nets",
+            "Analyse data by answering questions related to data categories",
+            "Report data verbally and in short written paragraphs",
+            "Solve problems in contexts involving length",
+            "Estimate and practically measure 2D shapes and 3D objects using measuring instruments",
+            "Examine ungrouped numerical data to determine the most frequently occurring score in the data set (mode)",
+            "Perform simple repeated events and list possible outcomes for experiments such as tossing a coin and rolling a die",
+            "Recognise, visualise and name rectangular prisms, spheres, cylinders and pyramids",
+            "Count and compare the frequency of actual outcomes for a series of trials up to 20 trials",
+            "Collect data using tally marks and tables for recording",
+            "Critically read and interpret data represented in words, pictographs, bar graphs and pie charts",
+            "Record, compare and order lengths of shapes and objects between consecutive units",
+            "Summarise data verbally and in short written paragraphs",
+            "Make predictions based on the data"
+          ],
+          "content_area": "CAPS Mathematics",
+          "short_phrases": [
+            "Measure perimeter",
+            "Measurement of volume",
+            "Analysing data",
+            "Reporting data",
+            "Probability experiments"
+          ],
+          "caps_excerpt": "DATA HANDLING CAPS Analysing, interpreting and reporting data 5.3 Representing data 5.2 Collecting and organising data TOPICS CONTENT",
+          "assessment_notes": [
+            "Revision for Formal Assessment Task",
+            "Test: All Term 3 topics",
+            "Formal Assessment Task",
+            "Test: All Term 3 topics"
+          ]
         }
       ]
     },
@@ -309,55 +446,105 @@
       "weeks": [
         {
           "week": 1,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 4,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 5,
-          "topics": [],
-          "skills": []
+          "topics": [
+            "WEEK 1",
+            "WEEK",
+            "EK 3"
+          ],
+          "skills": [],
+          "content_area": "",
+          "short_phrases": [
+            "WEEK 1",
+            "WEEK",
+            "EK 3"
+          ],
+          "caps_excerpt": "(a) The National Curriculum Statement Grades R-12 (January 2012) represents a policy statement for learning and teaching in South African schools and comprises the following: (i) Curriculum and Assessment Policy Statements for each approved school subject; (ii) The policy document, National policy pertaining to the programme and promotion requirements of the National Curriculum Statement Grades R-12; and (iii) (b) The policy document, National Protocol for Assessment Grades R-12 (January 2012). The National Curriculum Statement Grades R-12 (January 2012) replaces the two current national curricula statements, namely the (i) Revised National Curriculum Statement Grades R-9, Government Gazette No. 23406 of 31 May 2002, and (ii) National Curriculum Statement Grades 10-12 Government Gazettes, No. 25545 of 6 October 2003 and No. 27594 of 17 May 2005. (c) The national curriculum statements contemplated in subparagraphs b(i) and (ii) comprise the following policy documents which will be incrementally repealed by the National Curriculum Statement Grades R-12 (January 2012) during the period 2012-2014: (i) The Learning Area/Subject Statements, Learning Programme Guidelines and Subject Assessment Guidelines for Grades R-9 and Grades 10-12; (ii) The policy document, National Policy on assessment and qualifications for schools in the General Education and Training Band, promulgated in Government Notice No. 124 in Government Gazette No. 29626 of 12 February 2007; (iii) The policy document, the National Senior Certificate: A qualification at Level 4 on the National Qualifications Framework (NQF), promulgated in Government Gazette No.27819 of 20 July 2005; CAPS 3 MATHEMATICS GRADES 4-6 (iv) The policy document, An addendum to the policy document, the National Senior Certificate: A qualification at Level 4 on the National Qualifications Framework (NQF), regarding learners with special needs, published in Government Gazette, No.29466 of 11 December 2006, is incorporated in the\u2026 SECTION 2: DEFINITION, AIMS, SKILLS AND CONTENT......................................................................8 2.1 Introduction..................................................................................................................................................... 8 2.2 What is Mathematics?.................................................................................................................................... 8 2.3 Specific aims................................................................................................................................................... 8 2.4 Specific skills.................................................................................................................................................. 8 2.5 Focus of content areas................................................................................................................................... 9 Mathematics content knowledge..................................................................................................................... 10 2.6 Weighting of content areas.......................................................................................................................... 12 2.7 Specification of content................................................................................................................................ 12 \u2022 Numbers, Operations and\u2026",
+          "assessment_notes": []
         },
         {
           "week": 6,
           "topics": [
-            "CAPACITY/VOLUME",
-            "TRANSFORMATION",
-            "make composite shapes",
-            "FORMAL ASSESSMENT TASK",
-            "whole numbers and fractions)",
-            "examples with whole",
-            "numbers and fractions",
-            "shape in one or more of the",
-            "shapes including shapes",
-            "Make tessellated patterns",
-            "patterns with line symmetry",
-            "shapes in one or more of",
+            "Reading time and time instruments",
+            "Practical measuring",
+            "Use transformations to make composite shapes",
+            "Reading calendars",
+            "Estimate and practically measure 3D objects using measuring instruments",
+            "Record, compare and order the capacity and volume of 3D objects in millilitres (ml) and litres (\u2113)",
+            "Convert between millilitres and litres (limited to examples with whole numbers and fractions)",
+            "Solve problems in contexts involving mass",
+            "Convert between grams and kilograms limited to examples with whole numbers and fractions",
+            "TEST: Term 1- 4 topics with line symmetry by tracing and moving a 2-D shape in one or more of the following ways",
+            "Make composite 2-D shapes including shapes",
+            "Use transformations to make tessellations",
+            "Make tessellated patterns including some patterns with line symmetry",
             "Describe patterns",
-            "Calculation of the number of",
-            "Refer to lines, 2-D shapes,",
-            "when describing patterns",
-            "OR PREKNOWLED",
-            "Practical measurement and",
-            "Put 2-D shapes together to",
-            "make different composite 2D shapes including some",
-            "shapes with line symmetry.",
-            "Pack out 2-D shapes to",
-            "make tessellated patterns",
-            "including some patterns",
-            "describing patterns in",
-            "symmetry, 2-D shapes, 3-D"
+            "Calculations and problem-solving with regard to time include the following",
+            "Refer to lines, 2-D shapes, 3-D objects, lines of symmetry, rotations, reflections and translations when describing patterns"
           ],
-          "skills": []
+          "skills": [
+            "Read, tell and write time in 12-hour and 24-hour formats on both analogue and digital instruments in the following: Hours, Minutes, Seconds",
+            "Estimate and practically measure 3D objects using measuring instruments such as the following: Measuring spoons, bathroom scales, Measuring cups, kitchen scales and Measuring jugs, balances",
+            "Record, compare and order the capacity and volume of 3D objects in millilitres (ml) and litres (\u2113)",
+            "Solve problems in contexts involving capacity/volume",
+            "Convert between millilitres and litres (limited to examples with whole numbers and fractions)",
+            "Solve problems in contexts involving mass",
+            "Convert between grams and kilograms limited to examples with whole numbers and fractions",
+            "TEST: Term 1- 4 topics with line symmetry by tracing and moving a 2-D shape in one or more of the following ways: by rotation",
+            "Make composite 2-D shapes including shapes by translation, by reflection",
+            "Use transformations to make tessellations",
+            "Make tessellated patterns including some patterns with line symmetry by tracing and moving 2-D shapes in one or more of the following ways: by rotation, by translation, by reflection",
+            "Describe patterns",
+            "Solve problems in contexts involving time",
+            "Calculation of the number of days between any two dates within the same or consecutive years",
+            "Read, tell and write time in 12-hour and 24-hour formats on both analogue and digital instruments in hours, minutes and seconds",
+            "Calculation of the number of days between any two dates within the same or consecutive years",
+            "Calculation of time intervals where time is given in minutes or hours only",
+            "Reading calendars",
+            "Estimate, measure, compare, order and record length using non-standard measures, e.g. hand spans, paces, pencil lengths, counters, etc.",
+            "Describe the length of objects by counting and stating the length in informal units",
+            "Practical measurement and estimation using bathroom scale, kitchen scale and balance.",
+            "Put 2-D shapes together to make different composite 2D shapes including some shapes with line symmetry.",
+            "Measuring units (g and kg) converting between grams and kilograms limited to examples with whole numbers and fractions",
+            "Pack out 2-D shapes to make tessellated patterns including some patterns with line symmetry.",
+            "describing patterns in nature, from modern everyday life and our cultural heritage with reference to lines of symmetry, 2-D shapes, 3-D objects"
+          ],
+          "content_area": "CAPS Mathematics",
+          "short_phrases": [
+            "Practical measuring",
+            "Reading calendars",
+            "Make tessellated patterns",
+            "Describe patterns"
+          ],
+          "caps_excerpt": "whole numbers to at least 4-digit numbers \u2022 Represent odd and even numbers to at least 1 000 \u2022 Order, compare and represent numbers to at least 4-digit numbers \u2022 Count forwards and backwards in whole number intervals up to at least 10 000 -- adding and subtracting of units, multiples of 10, 100, 1 000 to/from any 4-digit number -- rounding off to the nearest 10, 100 and 1 000 and compensating -- building up and breaking down numbers -- dividing by 10, 100 and 1 000, -- multiplying by multiples or 10, 100 and 1 000, -- multiplying by 10, 100 and 1 000 -- using multiplication to do division -- doubling and halving \u2022 calculation techniques --",
+          "assessment_notes": [
+            "FORMAL ASSESSMENT TASK",
+            "Calculations and problem-solving",
+            "TEST: Term 1- 4 topics",
+            "Practical measuring",
+            "Record, compare and order the capacity and volume of 3D objects",
+            "Solve problems in contexts involving capacity/volume",
+            "Convert between millilitres and litres",
+            "Solve problems in contexts involving mass",
+            "Convert between grams and kilograms",
+            "Make composite 2-D shapes",
+            "Use transformations to make tessellations",
+            "Make tessellated patterns",
+            "Describe patterns",
+            "Solve problems in contexts involving time",
+            "Calculation of the number of days between any two dates",
+            "Calculation of time intervals",
+            "Read, tell and write time in 12-hour and 24-hour formats",
+            "Estimate, measure, compare, order and record length",
+            "Describe the length of objects",
+            "Practical measurement and estimation",
+            "Put 2-D shapes together to make different composite 2D shapes",
+            "Measuring units (g and kg)",
+            "Pack out 2-D shapes to make tessellated patterns"
+          ]
         }
       ]
     }
   ],
   "term_count": 4,
-  "week_count": 29,
-  "source_pdf": "/code/riv/kyno/data/syllabus/grade-5/mathematics/atp-mathematics-2026.pdf"
+  "week_count": 13
 }

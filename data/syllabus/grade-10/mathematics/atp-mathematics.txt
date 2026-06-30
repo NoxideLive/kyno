@@ -1,0 +1,607 @@
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 10
+
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 10 (TERM 1)
+TERM 1
+
+WEEK 1
+
+TOPICS
+
+Algebraic expressions
+
+WEEK 2
+
+WEEK 3
+
+WEEK 4
+
+WEEK 5
+
+WEEK 6
+
+WEEK 7
+
+WEEK 8
+
+Exponents, equations and inequalities
+
+WEEK 9
+
+WEEK 10
+
+WEEK 11
+
+Trigonometry
+
+DATE
+COMPLETED
+SBA
+
+Investigation or project & test (content of Term 1)
+
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 10 (TERM 2)
+TERM 2
+
+WEEK 1
+
+TOPICS
+
+Euclidean Geometry
+
+WEEK 2
+
+WEEK 3
+
+WEEK 4
+
+WEEK 5
+
+WEEK 6
+
+Analytical Geometry
+
+WEEK 7
+
+WEEK 8
+
+WEEK 9
+
+WEEK 10
+
+WEEK 11
+
+Functions (including trigonometric functions)
+
+DATE
+COMPLETED
+SBA
+
+Assignment & mid-year exam
+
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 10 (TERM 3)
+TERM 3
+
+WEEK 1
+
+TOPICS
+
+Trigonometry (2D)
+
+WEEK 2
+
+WEEK 3
+
+WEEK 4
+
+WEEK 5
+
+Statistics
+
+WEEK 6
+
+WEEK 7
+
+WEEK 8
+
+Probability
+
+WEEK 9
+
+WEEK 10
+
+WEEK 11
+
+Finance and growth
+
+DATE
+COMPLETED
+SBA
+
+Test
+
+Test
+
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 10 (TERM 4)
+TERM 4
+TOPICS
+
+WEEK 1
+
+WEEK 2
+
+Measurement
+
+DATE
+COMPLETED
+SBA
+
+Test
+
+TOTAL NUMBER OF SBA TASKS 7
+TERM 1 INVESTIGATION/PROJECT (15%) AND TEST (14%)
+TERM 2 ASSIGNMENT (15%) AND MID-YEAR EXAM (14%)
+TERM 3 TEST (14%) AND TEST (14%)
+TERM 4 TEST (14%)
+
+WEEK 3
+Number patterns
+
+WEEK 4
+
+WEEK 5
+
+WEEK 6
+
+WEEK 7
+
+Revise Algebra
+
+Revise
+Trigonometry &
+Geometry
+
+Revise functions
+
+Examination
+
+WEEK 8
+
+WEEK 9
+
+WEEK 10
+Admin
+
+EXAM
+PAPER 1
+Algebra
+Number patterns
+Finance, growth
+Functions and graphs
+Probability
+PAPER 2
+Statistics
+Analytical Geometry
+Trigonometry
+Euclidean Geometry &
+measurement
+
+30
+15
+10
+30
+15
+15
+15
+40
+30
+
+1
+
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 10
+
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 10 (TERM 1)
+TERM 1
+TOPICS
+
+WEEK 1
+
+WEEK 2
+
+WEEK 3
+
+WEEK 4
+
+WEEK 5
+
+WEEK 6
+
+WEEK 7
+
+WEEK 8
+
+WEEK 9
+
+ALGEBRAIC EXPRESSIONS
+
+EXPONENTS, EQUATIONS AND INEQUALITIES
+
+TRIGONOMETRY
+
+1.
+2.
+3.
+4.
+5.
+
+1.
+
+1.
+
+6.
+
+Understand that real numbers can be rational or irrational
+Establish between which two integers a given simple surd lies
+Round real numbers to an appropriate degree of accuracy
+Multiplication of a binomial by a trinomial
+Factorisation to include types taught in Grade 9 and:
+• Trinomials
+• Grouping in pairs
+• Sum and difference of two cubes
+Simplifying, adding and subtracting algebraic fractions using factorisation with
+denominators of cubes (limited to sum and difference of cubes)
+
+Revise laws of exponents learnt in Grade 9 where 𝒙, 𝒚 > 𝟎; 𝒎, 𝒏 ∈ ℤ :
+•
+
+xm  x n = x m+n
+
+•
+
+x m  x n = x m−n
+
+2.
+3.
+
+•
+
+(x ) = x
+
+4.
+
+•
+
+x m  y m = ( xy )
+
+n
+
+m
+
+mn
+
+m
+
+Also, by definition:
+𝑥 −𝑛 =
+
+1
+𝑥𝑛
+
+5.
+6.
+7.
+
+WEEK 10
+
+WEEK 11
+
+Define the trigonometric ratios sin 𝜃, cos 𝜃 and tan 𝜃
+Using the right – angled triangle
+Extend the definitions of sin 𝜃, cos 𝜃 and tan 𝜃 for 0° ≤ 𝜃 ≤ 360°
+Define the reciprocal of the trigonometric ratios cosec 𝜃, sec 𝜃 and cot 𝜃, using the rightangled triangles (these three reciprocals should be examined in Grade 10 only)
+Derive values of the trigonometric ratios for the special cases (without using a calculator)
+𝜃 ∈ {0°, 30°, 45°, 60°, 90°}
+Solve two-dimensional problems involving right-angled triangle
+Solve simple trigonometric equations for angles between 0° and 90°
+Use a diagram to determine the numerical values of ratios for angles from 0° to 360°
+
+, 𝑥 ≠ 0 and 𝑥 0 = 1,𝑥 ≠ 0
+
+2.Use the laws of exponents to simplify expressions and solve equations, accepting that the rules
+also hold for m, n  Q
+3.
+3.1. Revise the solution of linear equations
+3.2. Solve quadratic equations (by factorisation)
+3.3. Solve simultaneous linear equations in two unknowns
+3.4. Solve word problems involving linear, quadratic or simultaneous linear equations
+3.5. Solve literal equations (changing the subject of a formula)
+3.6. Solve linear inequalities (and show solution graphically)
+Interval notation must be known
+DATE
+COMPLETED
+SBA
+
+Investigation or project
+
+Test (content of Term 1)
+
+2
+
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 10
+
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 10 (TERM 2)
+TERM 2
+TOPICS
+
+WEEK 1
+
+WEEK 2
+
+WEEK 3
+
+WEEK 4
+
+WEEK 5
+
+WEEK 6
+
+WEEK 7
+
+WEEK 8
+
+WEEK 9
+
+WEEK 10
+
+WEEK 11
+
+EUCLIDEAN GEOMETRY
+
+ANALYTICAL GEOMETRY
+
+FUNCTIONS AND GRAPHS (INCLUDING TRIGONOMETRIC FUNCTIONS)
+
+1.
+
+1. Represent quadrilaterals amongst other
+geometric figures on a Cartesian co-ordinate
+system. Derive and apply for any two points
+(𝑥1 , 𝑦1 ) and (𝑥2 , 𝑦2 ) the formulae for
+calculating the:
+• Distance between the two points
+• Gradient of the line segment connecting
+the two points (and from that identify
+parallel and perpendicular lines)
+• Coordinates of the mid-point of the line
+segment joining the two points
+
+1. The concept of a function, where a certain quantity (output value) uniquely depends on another quantity (input value). Work with relationships
+between variables using tables, graphs, words and formulae. Convert flexibly between these representations
+2. Note: That the graph defined by y = x should be known from Grade 9
+
+Revise basic results established in earlier grades regarding lines, angles
+and triangles, especially the similarity and congruence of triangles
+2. Define the following special quadrilaterals: The kite, parallelogram, rectangle,
+rhombus, square and trapezium. Investigate and make conjectures about the
+properties of the sides, angles, diagonals and areas of these quadrilaterals.
+Prove these conjectures
+3. Investigate line segment joining the midpoints of two sides of a triangle
+4. Solve problems and prove riders using the properties of parallel lines,
+triangles, quadrilaterals and midpoint theorem
+
+3. Point by point plotting of basic graphs defined by y = x ,
+2
+
+y=
+
+1
+and y = b x ; b  0 and b  1 to discover shape, domain (input
+x
+
+values), range (output values), asymptotes, axes of symmetry, turning points and intercepts on the axes (where applicable)
+4. Investigate the effect of a and q on the graphs defined by,
+1
+𝑦 = 𝑎. 𝑓(𝑥) + 𝑞, where 𝑓(𝑥) = 𝑥, 𝑓(𝑥) = 𝑥 2 , 𝑓(𝑥) = and 𝑓(𝑥) = 𝑏 𝑥 , 𝑏 > 0, 𝑏 ≠ 1
+𝑥
+5. Point by point plotting of basic graphs defined by 𝑦 = 𝑠𝑖𝑛𝜃 , 𝑦 = cos 𝜃 and 𝑦 = 𝑡𝑎𝑛𝜃 for 𝜃 ∈ [0°, 360°]
+6. Study the effect of a and q on the graphs defined by:
+𝑦 = 𝑎 sin 𝜃 + 𝑞,
+𝑦 = 𝑎 cos 𝜃 + 𝑞, and
+𝑦 = 𝑎 tan 𝜃 + 𝑞 where a and q ∈ 𝑄and 𝜃 ∈ [0°, 360°]
+7. Sketch graphs, find the equations of given graphs and interpret graphs
+Note: Sketching of the graphs must be based on the observation of the effect number 3 and number 5
+
+DATE
+COMPLETED
+SBA
+
+Assignment & mid-year exam
+
+3
+
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 10
+
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 10 (TERM 3)
+TERM 3
+TOPICS
+
+WEEK 1
+
+WEEK 2
+
+WEEK 3
+
+WEEK 4
+
+WEEK 5
+
+WEEK 6
+
+WEEK 7
+
+WEEK 8
+
+WEEK 9
+
+TRIGONOMETRY (2D)
+
+STATISTICS
+
+PROBABILITY
+
+FINANCE AND GROWTH
+
+1. Solve two-dimensional problems
+involving right- angled triangle
+
+1. Measures of central tendency in ungrouped data. Calculate the
+mean. Determine the median and the mode
+2. Measures of central tendency in grouped data: Calculation of mean
+estimate of grouped data and identification of modal interval and
+interval in which the median lies
+3. Range as a measure of dispersion and extension to include
+percentiles, quartiles, inter-quartile and semi-inter-quartile range
+4. Five number summary (maximum, minimum and quartiles) and box
+and whisker diagram
+5. Use the statistical summaries (measures of central tendency and
+dispersion), and graphs to analyse and make meaningful comments
+on the context associated with the given data
+6. Histogram
+
+1. The use of probability models to compare the relative frequency of events with the
+theoretical probability
+
+1.
+
+2. Problems in two dimensional
+
+2. The use of Venn diagrams to solve probability problems, deriving and applying the
+following for any two events in a sample space S:
+• 𝑃(𝐴 𝑜𝑟 𝐵) = 𝑃(𝐴) + 𝑃(𝐵) − 𝑃( 𝐴 𝑎𝑛𝑑 𝐵)
+•
+•
+
+WEEK 10
+
+WEEK 11
+
+Use the simple and compound growth formulae
+[𝐴 = 𝑃(1 + 𝑖𝑛) and 𝐴 = 𝑃(1 + 𝑖)𝑛 ]
+to solve problems, including interest, hire purchase, inflation,
+population growth and other real-life problems
+
+Understand the implication of fluctuating foreign exchange rates (e.g.,
+on the petrol price, imports, exports, overseas travel)
+
+A and B are mutually exclusive if 𝑃(𝐴 𝑎𝑛𝑑 𝐵) = 0,
+A and B are complementary if they are,
+➢ mutually exclusive and 𝑃(𝐴) + 𝑃(𝐵) = 1
+Then
+𝑃(𝐵) = 𝑃(𝑛𝑜𝑡 𝐴) = 1 − 𝑃(𝐴)
+
+DATE
+COMPLETED
+SBA
+
+Test
+
+Test
+
+4
+
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 10
+
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 10 (TERM 4)
+TERM 4
+TOPICS
+
+WEEK 1
+
+WEEK 2
+
+MEASUREMENT
+
+1. Revise the volume and surface areas
+of right-prisms and cylinders
+2. Study the effect on volume and
+surface area when multiplying any
+dimension by a constant factor k
+3. Calculate the volume and surface
+areas of spheres, right pyramids,
+right cones and combination of those
+objects (figures)
+
+WEEK 3
+NUMBER PATTERNS
+
+Patterns: Investigate number
+patterns leading to those
+where there is a constant
+difference between
+consecutive terms, and the
+general term (without using a
+formula – see content
+overview) is therefore linear
+
+DATE
+COMPLETED
+SBA
+TOTAL NUMBER OF SBA TASKS 7
+TERM 1 INVESTIGATION/PROJECT (15%) AND TEST (14%)
+TERM 2 ASSIGNMENT (15%) AND MID-YEAR EXAM (14%)
+TERM 3 TEST (14%) AND TEST (14%)
+TERM 4 TEST (14%)
+
+TEST
+
+WEEK 4
+REVISE
+ALGEBRA
+
+WEEK 5
+REVISE
+TRIGONOMETRY
+& GEOMETRY
+
+WEEK 6
+REVISE
+FUNCTIONS
+
+WEEK 7
+EXAMINATION
+
+WEEK 8
+
+WEEK 9
+
+WEEK 10
+ADMIN
+
+EXAM
+PAPER 1
+Algebra
+Number patterns
+Finance, growth
+Functions and graphs
+Probability
+
+PAPER 2
+Statistics
+Analytical Geometry
+Trigonometry
+Euclidean Geometry &
+Measurement
+
+30
+15
+10
+30
+15
+
+15
+15
+40
+30
+
+5
+
+

@@ -31,6 +31,8 @@ from typing import Literal
 
 DBE_BASE = "https://www.education.gov.za"
 
+from syllabus_phases import grade_to_phase
+
 Phase = Literal["foundation", "intermediate", "senior", "fet"]
 
 PHASE_CONFIG: dict[Phase, dict[str, str]] = {
@@ -64,18 +66,6 @@ class DocumentLink:
     title: str
     url: str
     doc_type: str  # caps | atp
-
-
-def grade_to_phase(grade: int) -> Phase:
-    if grade < 1 or grade > 12:
-        raise ValueError(f"Grade must be 1–12, got {grade}")
-    if grade <= 3:
-        return "foundation"
-    if grade <= 6:
-        return "intermediate"
-    if grade <= 9:
-        return "senior"
-    return "fet"
 
 
 def fetch_html(url: str) -> str:

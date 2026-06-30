@@ -1,0 +1,640 @@
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 12
+
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 12 (TERM 1)
+TERM 1
+TOPICS
+
+WEEK 1
+
+WEEK 2
+
+WEEK 3
+
+WEEK 4
+
+Number patterns, sequences and series
+
+WEEK 5
+
+WEEK 6
+
+WEEK 7
+
+Functions: Formal definition, inverses, exponential and logarithmic
+
+WEEK 8
+
+WEEK 9
+
+WEEK 10
+
+WEEK 11
+
+WEEK 10
+
+WEEK 11
+
+Trigonometry
+
+DATE
+COMPLETED
+SBA
+
+Investigation or project & test (content Term 1)
+
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 12 (TERM 2)
+TERM 2
+TOPICS
+
+WEEK 1
+
+WEEK 2
+
+Euclidean Geometry
+
+WEEK 3
+
+WEEK 4
+
+Analytical Geometry
+
+WEEK 5
+
+WEEK 6
+
+WEEK 7
+
+WEEK 8
+
+WEEK 9
+
+Differential Calculus, including polynomials
+
+DATE
+COMPLETED
+SBA
+
+JUNE EXAM/CONTROL TEST
+
+Assignment
+
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 12 (TERM 3)
+TERM 3
+TOPICS
+
+WEEK 1
+
+WEEK 2
+
+WEEK 3
+
+Finance, growth and decay (continuation)
+
+WEEK 4
+
+WEEK 5
+
+Statistics
+
+WEEK 6
+
+WEEK 7
+
+Counting and probability
+
+WEEK 8
+
+WEEK 9
+
+WEEK 10
+
+WEEK 11
+
+Revision
+
+DATE
+COMPLETED
+SBA
+
+Test
+
+TRIAL EXAMINATION
+
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 12 (TERM 4)
+TERM 4
+TOPICS
+
+WEEK 1
+
+WEEK 2
+
+Revision
+
+SBA
+
+TOTAL NUMBER OF SBA TASKS 6
+TERM 1 INVESTIGATION/PROJECT 15%) AND TEST (15%)
+TERM 2 ASSIGNMENT (15%) AND JUNE EXAM/CONTROL TEST (15%)
+TERM 3 TEST (15%) AND TRIAL (25%)
+TERM 4 FINAL EXAMINATION
+
+WEEK 3
+
+WEEK 4
+
+WEEK 5
+Final examination
+
+WEEK 6
+
+WEEK 7
+
+WEEK 8
+
+WEEK 9
+
+WEEK 10
+
+EXAM
+PAPER 1 150 marks 3 hours
+Algebraic expressions, equations
+and inequalities
+Number patterns
+Functions and graphs
+Finance, growth and decay
+Differential Calculus
+Counting principle and probability
+PAPER 2 150 marks 3 hours
+Statistics
+Analytical Geometry
+Trigonometry
+Euclidean Geometry
+
+25
+25
+35
+15
+35
+15
+
+20
+40
+40
+50
+
+1
+
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 12
+
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 12 (TERM 1)
+TERM 1
+TOPICS
+
+WEEK 1
+
+WEEK 2
+
+WEEK 3
+
+WEEK 4
+
+WEEK 5
+
+WEEK 6
+
+WEEK 7
+
+WEEK 8
+
+WEEK 9
+
+PATTERNS, SEQUENCES AND SERIES
+
+FUNCTIONS
+
+TRIGONOMETRY
+
+1.
+
+1. Definition of a function
+2. General concept of the inverse of a function and how the domain of the function may
+need to be restricted (in order to obtain a one-to-one function) to ensure that the
+inverse is a function
+3. Determine and sketch graphs of the inverses of the functions defined by
+𝑦 = 𝑎𝑥 + 𝑞,
+𝑦 = 𝑎𝑥 2 ,
+𝑦 = 𝑏 𝑥 , 𝑏 > 0,
+𝑏≠1
+Focus on the following characteristics:
+Domain and range, intercepts with the axes, turning points, minima, maxima,
+asymptotes (horizontal and vertical), shape and symmetry, average gradient (average
+rate of change), intervals on which the function increases/decreases
+4. Revision of the exponential function and the exponential laws and graph of the
+
+1. Compound angle identities:
+sin(   ) = sin  cos   sin  cos 
+
+2.
+3.
+4.
+
+Patterns: Revise number patterns leading to those where there is a constant
+second difference between consecutive terms and the general term is therefore
+quadratic
+Number patterns, including arithmetic and geometric sequences and series
+Sigma notation
+Derivation and application of the formulae for the sum of arithmetic and
+geometric series:
+𝑛
+𝑛
+4.1 𝑆𝑛 = [2𝑎 + (𝑛 − 1)𝑑], 𝑆𝑛 = (𝑎 + 𝑙)
+2
+
+4.2 𝑆𝑛 =
+4.3 𝑆𝑛 =
+
+2
+
+𝑎(𝑟 𝑛 −1)
+𝑟−1
+𝑎
+
+1−𝑟
+
+; (𝑟 ≠ 1),
+
+and
+
+; (−1 < 𝑟 < 1), (𝑟 ≠ 1)
+
+WEEK 10
+
+WEEK 11
+
+cos(   ) = cos  cos   sin  sin 
+
+sin 2 = 2 sin  cos 
+cos 2 = cos  − sin 
+2
+
+2
+
+= 2 cos 2  − 1
+= 1 − 2 sin 2 
+2. Revise the proof of the sine, cosine and area rules
+3. Solve problems in two and three dimensions applying the sine, cosine and area rules
+
+function defined by y = b where b  0 and b  0
+x
+
+5. Understand the definition of a logarithm:
+
+y = log b x  x = b y
+
+where b  0 and b  1
+6. The graph of the function, 𝑦 = 𝑙𝑜𝑔𝑏 𝑥 for both the cases
+0 < 𝑏 < 1 and 𝑏 > 1.
+DATE
+COMPLETED
+SBA
+
+Investigation or project
+
+&
+
+Test (content Term 1)
+
+2
+
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 12
+
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 12 (TERM 2)
+TERM 2
+
+WEEK 1
+
+WEEK 2
+
+WEEK 3
+
+WEEK 4
+
+TOPICS
+
+EUCLIDEAN GEOMETRY
+
+ANALYTICAL GEOMETRY
+
+DIFFERENTIAL CALCULUS, INCLUDING POLYNOMIALS
+
+1. Revise earlier work on the necessary and
+sufficient conditions for polygons to be similar
+2. Prove (accepting results established in earlier
+grades):
+• That a line drawn parallel to one side of a
+triangle divides the other two sides
+proportionally (and the Mid-point Theorem as
+a special case of the converse of this
+theorem)
+• That equiangular triangles are similar
+• That triangles with sides in proportion are
+similar
+• The Pythagorean Theorem by similar
+triangles
+
+1. Revise the following, including Grade 10 concepts:
+• The equation of a line through two given points
+• The equation of a line through one point and parallel
+or perpendicular to a given line
+• The inclination (θ) of a line, where
+𝑚 = tan 𝜃 is the gradient of the line
+(0° ≤ 𝜃 ≤ 180° )
+
+1. Factorise third-degree polynomials. Apply the remainder and factor theorems to
+polynomials of degree at most 3 (no proofs required)
+2. An intuitive understanding of the limit concept, in the context of approximating the
+rate of change or gradient of a function at a point
+3. Use limits to define the derivative of a function f at any 𝑥:
+f ( x + h) − f ( x )
+f ( x) = lim
+h →0
+h
+Generalise to find the derivative of f at any point x in the domain of f i.e., define the
+derivative function f '(x) of the function f (x) Understand intuitively that f '(a) is the
+gradient of the tangent to the graph of f at the point with x -coordinate a
+4. Using the definition (first principle), determine the derivative, f '(x) where a, b and c are
+constants:
+
+2. Apply the equation
+(𝑥 − 𝑎)2 + (𝑦 − 𝑏)2 = 𝑟 2
+that defines a circle with radius r and centre (a , b).
+3. Determine the equation of a tangent to a given circle
+
+WEEK 5
+
+WEEK 6
+
+4.1
+
+f ( x) = ax 2 + bx + c ,
+
+4.2
+
+f ( x) = ax3 ,
+
+4.3 f ( x ) =
+
+WEEK 7
+
+WEEK 8
+
+WEEK 9
+
+WEEK 10
+
+WEEK 11
+
+JUNE EXAMINATION/CONTROL TEST
+
+a and
+x
+
+4.4 f (x) = c
+5. Use the formula,
+
+𝑑
+𝑑𝑥
+
+(𝑎𝑥 𝑛 ) = 𝑎𝑛𝑥 𝑛−1
+
+(for any real number n) together with the rules
+d
+d
+d
+5.1
+[ f ( x)  g ( x)] =
+[ f ( x)] 
+[ g ( x)]
+dx
+dx
+dx
+and
+d
+d
+5.2
+[ kf ( x)] = k
+[ f ( x)], ( k a constant)
+dx
+dx
+6. Determine equations of tangents to graphs of functions
+7. Introduce the second derivative
+𝑓 ′′ (𝑥) =
+
+𝑑
+𝑑𝑥
+
+(𝑓 ′ (𝑥)) of f (x)
+
+and how it determines the concavity of a function
+Sketch graphs of cubic polynomial functions using differentiation to determine the
+coordinates of stationary points, and points of inflection (where concavity changes).
+Also, determine the x -intercepts of the graph using the factor theorem and other
+techniques
+9. Solve practical problems concerning optimisation and rate of change, including
+calculus of motion
+8.
+
+DATE
+COMPLETED
+SBA
+
+Assignment
+
+JUNE EXAM/CONTROL TEST
+
+3
+
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 12
+
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 12 (TERM 3)
+TERM 3
+TOPICS
+
+WEEK 1
+
+WEEK 2
+
+WEEK 3
+
+WEEK 4
+
+WEEK 5
+
+WEEK 6
+
+WEEK 7
+
+FINANCE, GROWTH AND DECAY
+
+STATISTICS
+
+COUNTING AND PROBABILITY
+
+1.
+
+1.
+
+Revise:
+• Histograms
+• Frequency polygons
+• Ogives (cumulative frequency curves)
+• Variance and standard deviation of ungrouped data
+• Symmetric and skewed data
+• Identification of outliers
+2. Use statistical summaries, scatterplots, regression (in
+particular the least squares regression line) and
+correlation to analyse and make meaningful comments on
+the context associated with given bivariate data, including
+interpolation, extrapolation and discussions on skewness
+
+1. Revise,
+• The identity:
+P(A or B) = P(A) + P(B) − P(A and B)
+• The addition rule for mutually exclusive events:
+P(A or B) = P(A) + P(B)
+• The complementary rule:
+P(not A) = 1 − P(A)
+• Identifying dependent and independent events and,
+• The product rule for independent events:
+P(A and B) = P(A) × P(B)
+• The use of Venn diagrams to solve probability
+problems, deriving and applying formulae for any
+three events A, B and C in a sample space S
+• The use of tree diagrams for the probability of
+consecutive or simultaneous events, which are not
+necessarily independent
+2. Apply the fundamental counting principle to solve
+probability problems
+3. Probability problems using Venn diagrams, tree
+diagrams, two-way contingency tables and other
+techniques (like the Fundamental Counting Principle) to
+solve probability problems (where events are not
+necessarily independent)
+
+2.
+3.
+
+Revise and use simple and compound growth and
+decay formulae:
+𝐴 = 𝑃(1 ± 𝑖𝑛) and 𝐴 = 𝑃(1 ± 𝑖)𝑛
+to solve problems (including straight line, depreciation
+and depreciation on a reducing balance)
+Solve problems involving present value and future value
+annuities
+Make use of logarithms to calculate the value of n, the
+time period, in the equations
+𝐴 = 𝑃(1 + 𝑖)𝑛 𝑜𝑟 𝐴 = 𝑃(1 − 𝑖)𝑛 .
+
+4.
+
+Critically analyse investment and loan options and make
+informed decisions as to best option(s) (including
+pyramid)
+
+WEEK 8
+REVISION
+
+WEEK 9
+
+WEEK 10
+
+WEEK 11
+
+TRIAL EXAMINATION
+
+DATE
+COMPLETED
+SBA
+
+Test
+
+TRIAL EXAMINATION
+
+4
+
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 12
+
+2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 12 (TERM 4)
+TERM 4
+TOPICS
+
+WEEK 1
+
+WEEK 2
+
+REVISION
+
+TOTAL NUMBER OF SBA TASKS 6
+TERM 1 INVESTIGATION/PROJECT 15%) AND TEST (15%)
+TERM 2 ASSIGNMENT (15%), JUNE EXAM/CONTROL TEST (15%)
+TERM 3 TEST (15%) AND TRIAL (25%)
+TERM 4 FINAL EXAMINATION
+
+WEEK 3
+
+WEEK 4
+
+WEEK 5
+
+WEEK 6
+
+FINAL EXAMINATION
+
+WEEK 7
+
+WEEK 8
+
+WEEK 9
+
+WEEK 10
+
+EXAM
+PAPER 1
+
+150 MARKS 3 HOURS
+
+MARKS
+
+Algebraic expressions, equations
+and inequalities
+Number patterns
+Functions and graphs
+Finance, growth and decay
+Differential Calculus
+Counting principle and probability
+
+25
+
+PAPER 2 150 marks 3 hours
+
+Marks
+
+Statistics
+Analytical Geometry
+Euclidean Geometry
+Trigonometry
+
+20
+40
+40
+50
+
+25
+35
+15
+35
+15
+
+5
+
+

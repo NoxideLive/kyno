@@ -10,6 +10,8 @@ import {
 import { logGroq, systemPromptMeta, truncate } from './chatLogging'
 import {
   classifyDomain,
+  domainGatewayUnavailableMessage,
+  isDomainGatewayEnabled,
   offTopicSuggestion,
   offTopicUserMessage,
   shouldBlockDomain,
@@ -525,7 +527,14 @@ export const sendMessage = authedAction(Permissions.readProfile, {
     }
 
     const domainResult = await classifyDomain(lastUserMessage.content)
-    if (domainResult.ok && shouldBlockDomain(domainResult.classification)) {
+    if (!domainResult.ok) {
+      if (isDomainGatewayEnabled()) {
+        throw new ConvexError({
+          code: 'DOMAIN_GATEWAY_UNAVAILABLE',
+          message: domainGatewayUnavailableMessage(),
+        })
+      }
+    } else if (shouldBlockDomain(domainResult.classification)) {
       throw new ConvexError({
         code: 'OFF_TOPIC',
         message: offTopicUserMessage(),

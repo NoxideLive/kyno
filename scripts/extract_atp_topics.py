@@ -22,6 +22,22 @@ DEFAULT_SYLLABUS_ROOT = Path("data/syllabus")
 TERM_PATTERN = re.compile(r"TERM\s+(\d+)", re.IGNORECASE)
 WEEK_PATTERN = re.compile(r"WEEK\s+(\d+)", re.IGNORECASE)
 
+EMPTY_CAPS_SUMMARY = {
+    "overview_excerpt": "",
+    "aims_excerpt": "",
+    "assessment_excerpt": "",
+    "content_area_names": [],
+}
+
+
+def empty_week_fields() -> dict:
+    return {
+        "content_area": "",
+        "short_phrases": [],
+        "caps_excerpt": "",
+        "assessment_notes": [],
+    }
+
 
 def pdf_to_text(pdf_path: Path) -> str:
     result = subprocess.run(
@@ -103,7 +119,7 @@ def extract_topics_from_text(text: str, grade: int) -> dict:
             flush_week()
             week_num = int(week_match.group(1))
             if 1 <= week_num <= 15:
-                current_week = {"week": week_num, "topics": [], "skills": []}
+                current_week = {"week": week_num, "topics": [], "skills": [], **empty_week_fields()}
             continue
 
         if current_week is None:
@@ -118,6 +134,9 @@ def extract_topics_from_text(text: str, grade: int) -> dict:
             bucket = "skills" if "skill" in lower or "concept" in lower else "topics"
             if line not in current_week[bucket]:
                 current_week[bucket].append(line[:200])
+            if "assessment" in lower or "afl" in lower:
+                if line not in current_week["assessment_notes"]:
+                    current_week["assessment_notes"].append(line[:200])
 
     flush_term()
 
@@ -146,9 +165,67 @@ def _fallback_terms(lines: list[str], grade: int) -> list[dict]:
     return [
         {
             "term": 1,
-            "weeks": [{"week": 1, "topics": snippets[:20], "skills": snippets[20:40]}],
+            "weeks": [
+                {
+                    "week": 1,
+                    "topics": snippets[:20],
+                    "skills": snippets[20:40],
+                    **empty_week_fields(),
+                }
+            ],
         }
     ]
+
+
+def enrich_topics_document(topics: dict, grade: int, syllabus_root: Path) -> dict:
+    """Add CAPS metadata when caps_chunker and PDFs are available."""
+    script_dir = Path(__file__).resolve().parent
+    if str(script_dir) not in sys.path:
+        sys.path.insert(0, str(script_dir))
+
+    from caps_chunker import (  # noqa: WPS433
+        caps_excerpt_for_week,
+        find_caps_pdf,
+        grade_caps_summary,
+        load_phase_caps_sections,
+    )
+    from syllabus_phases import grade_to_phase  # noqa: WPS433
+
+    grade_dir = syllabus_root / f"grade-{grade}" / "mathematics"
+    caps_pdf = find_caps_pdf(grade_dir)
+    atp_pdf = find_atp_pdf(grade_dir)
+
+    topics["phase"] = grade_to_phase(grade)
+    topics["sources"] = {
+        "atp_pdf": str(atp_pdf.resolve()) if atp_pdf else topics.get("source_pdf", ""),
+        "caps_pdf": str(caps_pdf.resolve()) if caps_pdf else "",
+    }
+    topics.pop("source_pdf", None)
+
+    phase_sections = load_phase_caps_sections(syllabus_root, grade_to_phase(grade))
+    caps_summary = (
+        grade_caps_summary(phase_sections, grade)
+        if phase_sections.get("loaded")
+        else dict(EMPTY_CAPS_SUMMARY)
+    )
+    topics["caps_summary"] = caps_summary
+
+    for term_block in topics.get("terms", []):
+        for week_block in term_block.get("weeks", []):
+            for key, default in empty_week_fields().items():
+                week_block.setdefault(key, default if not isinstance(default, list) else [])
+            if phase_sections.get("loaded"):
+                excerpt, matched = caps_excerpt_for_week(
+                    phase_sections,
+                    grade,
+                    week_block.get("topics", []),
+                    week_block.get("skills", []),
+                )
+                week_block["caps_excerpt"] = excerpt
+                if matched and not week_block.get("content_area"):
+                    week_block["content_area"] = matched
+
+    return topics
 
 
 def extract_grade(grade: int, syllabus_root: Path) -> Path:
@@ -159,7 +236,7 @@ def extract_grade(grade: int, syllabus_root: Path) -> Path:
 
     text = pdf_to_text(atp_pdf)
     topics = extract_topics_from_text(text, grade)
-    topics["source_pdf"] = str(atp_pdf.resolve())
+    topics = enrich_topics_document(topics, grade, syllabus_root)
 
     out_path = grade_dir / "topics.json"
     out_path.write_text(json.dumps(topics, indent=2), encoding="utf-8")

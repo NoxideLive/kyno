@@ -1,110 +1,177 @@
 {
   "grade": 4,
+  "phase": "intermediate",
   "subject": "mathematics",
   "curriculum": "CAPS",
+  "sources": {
+    "atp_pdf": "/code/riv/kyno/data/syllabus/grade-4/mathematics/atp-mathematics-2026.pdf",
+    "caps_pdf": "/code/riv/kyno/data/syllabus/grade-4/mathematics/caps-mathematics.pdf"
+  },
+  "caps_summary": {
+    "overview_excerpt": "(a) The National Curriculum Statement Grades R-12 (January 2012) represents a policy statement for learning and teaching in South African schools and comprises the following: (i) Curriculum and Assessment Policy Statements for each approved school subject; (ii) The policy document, National policy pertaining to the programme and promotion requirements of the National Curriculum Statement Grades R-12; and (iii) (b) The policy document, National Protocol for Assessment Grades R-12 (January 2012). The National Curriculum Statement Grades R-12 (January 2012) replaces the two current national curricula statements, namely the (i) Revised National Curriculum Statement Grades R-9, Government Gazette No. 23406 of 31 May 2002, and (ii) National Curriculum Statement Grades 10-12 Government Gazettes, No. 25545 of 6 October 2003 and No. 27594 of 17 May 2005. (c) The national curriculum statements contemplated in subparagraphs b(i) and (ii) comprise the following policy documents which will be incrementally repealed by the National Curriculum Statement Grades R-12 (January 2012) during the period 2012-2014: (i) The Learning Area/Subject Statements, Learning Programme Guidelines and Subject Assessment Guidelines for Grades R-9 and Grades 10-12; (ii) The policy document, National Policy on assessment and qualifications for schools in the General Education and Training Band, promulgated in Government Notice No. 124 in Government Gazette No. 29626 of 12 February 2007; (iii) The policy document, the National Senior Certificate: A qualification at Level 4 on the National Qualifications Framework (NQF), promulgated in Government Gazette No.27819 of 20 July 2005; CAPS 3 MATHEMATICS GRADES 4-6 (iv) The policy document, An addendum to the policy document, the National Senior Certificate: A qualification at Level 4 on the National Qualifications Framework (NQF), regarding learners with special needs, published in Government Gazette, No.29466 of 11 December 2006, is incorporated in the\u2026",
+    "aims_excerpt": "SECTION 2: DEFINITION, AIMS, SKILLS AND CONTENT......................................................................8 2.1 Introduction..................................................................................................................................................... 8 2.2 What is Mathematics?.................................................................................................................................... 8 2.3 Specific aims................................................................................................................................................... 8 2.4 Specific skills.................................................................................................................................................. 8 2.5 Focus of content areas................................................................................................................................... 9 Mathematics content knowledge..................................................................................................................... 10 2.6 Weighting of content areas.......................................................................................................................... 12 2.7 Specification of content................................................................................................................................ 12 \u2022 Numbers, Operations and Relationships................................................................................................... 13 \u2022 Patterns, Functions and Algebra................................................................................................................ 18 \u2022 Space and Shape (Geometry)................................................................................................................... 21 \u2022 Measurement.............................................................................................................................................\u2026",
+    "assessment_excerpt": "SECTION 4: ASSESSMENT ..................................................................................................................293 4.1 Introduction ................................................................................................................................................ 293 4.2 Types of assessment.................................................................................................................................. 293 4.3 Informal or daily assessment..................................................................................................................... 294 4.4 Formal assessment..................................................................................................................................... 294 4.5 Recording and reporting............................................................................................................................ 296 4.6 Moderation of assessment......................................................................................................................... 297 4.7 General 2 .................................................................................................................................................. 297 CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS) MATHEMATICS GRADES 4-6 Section 1: INTRODUCTION AND BACKGROUND 1.1 Background The National Curriculum Statement Grades R-12 (NCS) stipulates policy on curriculum and assessment in the schooling\u2026",
+    "content_area_names": [
+      "Numbers, Operations And Relationships",
+      "Data Handling"
+    ]
+  },
   "terms": [
     {
       "term": 1,
       "weeks": [
         {
-          "week": 1,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 2,
-          "topics": [],
-          "skills": []
-        },
-        {
           "week": 3,
           "topics": [
-            "Revision of Grade 3 work (to be",
-            "WHOLE NUMBERS",
-            "NUMBER SENTENCES",
-            "Write number sentences to",
-            "Solve and complete number",
-            "Number range for counting,",
-            "represent numbers to at least",
-            "four-digit numbers",
-            "numbers to at least 1 000.",
-            "digits in whole numbers to at",
-            "least four-digit numbers"
+            "Revision of Grade 3 work",
+            "Whole Numbers",
+            "Number Sentences"
           ],
-          "skills": []
+          "skills": [
+            "Write number sentences",
+            "Solve and complete number sentences",
+            "Count forwards and backwards",
+            "Order, compare and represent numbers",
+            "Recognise the place value of digits",
+            "Round off to the nearest 10, 100 and 1 000"
+          ],
+          "content_area": "Whole Numbers",
+          "short_phrases": [
+            "Whole Numbers",
+            "Number Sentences",
+            "Count forwards"
+          ],
+          "caps_excerpt": "number -- building up and breaking down numbers, -- rounding off to the nearest 10 and compensating -- dividing by 10, 100 and 1 000 -- multiplying by multiples 10 and 100 -- multiplying by 10 and 100 -- using multiplication to do division, -- doubling and halving, \u2022 Calculation techniques --",
+          "assessment_notes": [
+            "Revision"
+          ]
         },
         {
           "week": 4,
           "topics": [
+            "Inspection",
+            "Trial and improvement",
+            "Checking the solution",
             "Properties of whole numbers",
-            "of operations with whole"
+            "0 in terms of its additive property"
           ],
-          "skills": []
-        },
-        {
-          "week": 5,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 6,
-          "topics": [],
-          "skills": []
+          "skills": [
+            "Recognize and use the commutative, associative and distributive properties of operations with whole numbers"
+          ],
+          "content_area": "DBE CAPS Mathematics ATP",
+          "short_phrases": [
+            "Checking the solution",
+            "Trial and improvement"
+          ],
+          "caps_excerpt": "number -- building up and breaking down numbers, -- rounding off to the nearest 10 and compensating -- dividing by 10, 100 and 1 000 -- multiplying by multiples 10 and 100 -- multiplying by 10 and 100 -- using multiplication to do division, -- doubling and halving, \u2022 Calculation techniques --",
+          "assessment_notes": [
+            "by substitution"
+          ]
         },
         {
           "week": 7,
           "topics": [
-            "WHOLE NUMBERS: ADDITION",
-            "AND SUBTRACTION",
-            "Number range for calculations",
-            "whole numbers of at least",
-            "and mental calculations of",
-            "whole numbers including:",
-            "down numbers",
-            "\u2012 Using a number line",
-            "WHOLE NUMBERS:",
-            "MULTIPLICATION"
+            "Whole Numbers: Addition and Subtraction",
+            "Formal Assessment",
+            "Calculation Techniques",
+            "Whole Numbers: Multiplication"
           ],
-          "skills": []
-        },
-        {
-          "week": 11,
-          "topics": [
-            "numbers by numbers up to 10",
-            "two-digit number by a onedigit number",
-            "whole two-digit number by",
-            "two-digit numbers"
+          "skills": [
+            "Use any two techniques to perform and check written and mental calculations of whole numbers",
+            "Estimation",
+            "Building up and breaking down numbers",
+            "Using a number line",
+            "Rounding off and compensating",
+            "Using addition and subtraction as inverse operations"
           ],
-          "skills": []
+          "content_area": "Whole Numbers",
+          "short_phrases": [
+            "Whole Numbers",
+            "Addition and Subtraction",
+            "Formal Assessment",
+            "Calculation Techniques",
+            "Multiplication"
+          ],
+          "caps_excerpt": "number -- building up and breaking down numbers, -- rounding off to the nearest 10 and compensating -- dividing by 10, 100 and 1 000 -- multiplying by multiples 10 and 100 -- multiplying by 10 and 100 -- using multiplication to do division, -- doubling and halving, \u2022 Calculation techniques --",
+          "assessment_notes": [
+            "Formal Assessment",
+            "Note: Ensure that the strategies used do not compromise conceptual understanding",
+            "Assignment to be completed in class within three hours"
+          ]
         },
         {
           "week": 9,
           "topics": [
-            "and mental calculations of",
-            "whole numbers including:",
-            "down numbers",
-            "Number range for multiples",
-            "whole numbers, including",
-            "Multiples of one-digit numbers",
-            "Factors of one-digit whole",
-            "numbers to at least 10",
-            "Factors of two-digit whole",
-            "numbers to at least 100",
-            "\u2500 Measurement contexts",
-            "whole numbers, including:",
-            "\u2012 Measurement contexts",
-            "kind (ratio)",
-            "OR PREKNOWLED",
-            "value of three-digit numbers",
-            "digits in whole numbers to at",
-            "least three-digit numbers up",
-            "\uf0b7 Divide numbers to 100 by",
-            "numbers up to 800",
-            "Multiply 1 by one-digit whole",
-            "down three-digit whole",
-            "number up to 800"
+            "Calculation techniques",
+            "Solving problems",
+            "Counting ordering comparing and representing the place value of three-digit numbers",
+            "Halving and doubling",
+            "Multiplication facts for units by multiples of 10 and 100",
+            "Building up and breaking down three-digit whole numbers"
           ],
-          "skills": []
+          "skills": [
+            "Use any two techniques to perform and check written and mental calculations of whole numbers",
+            "Solve problems involving number range for multiples and factors",
+            "Counting ordering comparing and representing the place value of three-digit numbers up to 800",
+            "Recognise the place value of digits in whole numbers to at least three-digit numbers up to 800",
+            "Divide numbers to 100 by 2, 3, 4, 5 and 10",
+            "Multiply 2, 3, 4, 5 and 10 to at least 100",
+            "Add up to 800",
+            "Subtract from 800",
+            "Recognise the place value of digits in whole numbers to at least 800",
+            "Building up and breaking down three-digit whole numbers",
+            "Round off to the nearest 10 and estimate answers",
+            "Round off to the nearest 10, 100 and 1 000",
+            "Adding and subtracting units, multiples of 10 and multiples of 100 to/from any three-digit number up to 800"
+          ],
+          "content_area": "Mathematics",
+          "short_phrases": [
+            "Calculation techniques",
+            "Solving problems",
+            "Halving and doubling"
+          ],
+          "caps_excerpt": "number -- building up and breaking down numbers, -- rounding off to the nearest 10 and compensating -- dividing by 10, 100 and 1 000 -- multiplying by multiples 10 and 100 -- multiplying by 10 and 100 -- using multiplication to do division, -- doubling and halving, \u2022 Calculation techniques --",
+          "assessment_notes": [
+            "Ensure that the strategies used do not compromise conceptual understanding",
+            "Financial contexts",
+            "Measurement contexts",
+            "Comparing two or more quantities of the same kind (ratio)",
+            "Comparing two quantities of different kinds (rate)"
+          ]
+        },
+        {
+          "week": 11,
+          "topics": [
+            "Multiplication of one-digit numbers by numbers up to 10",
+            "Multiplication of at least a two-digit number by a one-digit number",
+            "Multiplication of at least a whole two-digit number by two-digit numbers",
+            "Counting, ordering and representing numbers",
+            "Number sentences",
+            "Whole numbers: Addition and subtraction"
+          ],
+          "skills": [
+            "Multiplication of one-digit numbers by numbers up to 10",
+            "Multiplication of at least a two-digit number by a one-digit number",
+            "Multiplication of at least a whole two-digit number by two-digit numbers"
+          ],
+          "content_area": "Whole numbers",
+          "short_phrases": [
+            "Multiplication",
+            "one-digit",
+            "two-digit",
+            "Counting",
+            "ordering",
+            "representing",
+            "numbers",
+            "sentences",
+            "Addition",
+            "subtraction"
+          ],
+          "caps_excerpt": "number -- building up and breaking down numbers, -- rounding off to the nearest 10 and compensating -- dividing by 10, 100 and 1 000 -- multiplying by multiples 10 and 100 -- multiplying by 10 and 100 -- using multiplication to do division, -- doubling and halving, \u2022 Calculation techniques --",
+          "assessment_notes": [
+            "TEST: All topics",
+            "FORMAL ASSESSM ENT"
+          ]
         }
       ]
     },
@@ -112,93 +179,56 @@
       "term": 2,
       "weeks": [
         {
-          "week": 1,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 2,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 3,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 4,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 5,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 6,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 7,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 8,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 9,
-          "topics": [],
-          "skills": []
-        },
-        {
           "week": 10,
           "topics": [
-            "WHOLE NUMBERS: DIVISION",
-            "GEOMETRIC PATTERNS:",
-            "Number range for",
-            "Division of at least a twodigit number by a one-digit",
-            "Division of at least a whole",
-            "three-digit number by onedigit numbers",
-            "check written and mental",
-            "calculations with whole",
-            "numbers including:",
-            "extend patterns",
-            "geometric patterns",
-            "or rules of patterns:",
-            "the patterns and",
-            "difference or ratio",
-            "PROPERTIES OF 2D",
-            "PROPERTIES OF 3D",
-            "Range of shapes",
-            "patterns looking for",
-            "rules of patterns",
-            "and name 2-D shapes",
-            "\u2012 shapes of faces",
-            "involving whole numbers,",
-            "\u2012 Measurement contexts",
-            "kind (ratio)",
-            "\u2012 By a number",
-            "for patterns and",
-            "compare 2-D shapes",
-            "\u2012 Number of sides",
-            "Draw 2-D shapes on",
-            "symmetry in 2-D shapes",
-            "OR PREKNOWLED",
-            "Divide numbers to 100 by 2,",
-            "down three-digit whole",
-            "Describe patterns in own",
-            "Describe patterns",
-            "compare 2D shapes in",
-            "\u2012 ball shapes",
-            "\u2012 box shapes"
+            "Whole Numbers: Division",
+            "Geometric Patterns",
+            "Numeric Patterns",
+            "Properties of 2D Shapes",
+            "Properties of 3D Objects",
+            "Revision"
           ],
-          "skills": []
+          "skills": [
+            "Division of at least a two-digit number by a one-digit number",
+            "Division of at least a whole three-digit number by one-digit numbers",
+            "Estimation",
+            "Building up and breaking down numbers",
+            "Using multiplication and division as inverse operations",
+            "Investigate and extend patterns",
+            "Determine input values, output values and rules for the patterns and relationships using flow diagrams",
+            "Describe observed relationships or rules for sequences involving constant difference or ratio in learners' own words",
+            "Recognise, visualise and name 2-D shapes in the environment and geometric setting, focusing on regular and irregular polygons",
+            "Recognise, visualise and name 2-D shapes in the environment and geometric setting, focusing on circles",
+            "Describe, sort and compare 3-D objects in terms of shapes of faces, flat and curved surfaces",
+            "Solve problems in contexts involving whole numbers, including equivalent forms",
+            "Determine equivalence of different descriptions of the same relationship or rule presented in the following ways: input and output values, flow diagrams, tables",
+            "Describe, sort and compare 2-D shapes in terms of the following: straight and curved sides, number of sides",
+            "Recognize, draw and describe line(s) of symmetry in 2-D shapes",
+            "Divide numbers to 100 by 2, 3, 4, 5 and 10",
+            "Halving and doubling",
+            "Building up and breaking down three-digit whole numbers",
+            "Round off to the nearest 10 and estimate answers",
+            "Identify circles, triangles, squares and rectangles",
+            "Describe, sort and compare 2D shapes in terms of the following: shape, straight sides, round sides",
+            "Recognise and name 3D objects in the classroom and in pictures"
+          ],
+          "content_area": "Mathematics",
+          "short_phrases": [
+            "Whole Numbers: Division",
+            "Geometric Patterns",
+            "Numeric Patterns",
+            "Revision",
+            "Estimation",
+            "Halving and doubling"
+          ],
+          "caps_excerpt": "number -- building up and breaking down numbers, -- rounding off to the nearest 10 and compensating -- dividing by 10, 100 and 1 000 -- multiplying by multiples 10 and 100 -- multiplying by 10 and 100 -- using multiplication to do division, -- doubling and halving, \u2022 Calculation techniques --",
+          "assessment_notes": [
+            "Administer an investigation on any ONE of the Term 2 topics before teaching it",
+            "Ensure that the strategies used do not compromise conceptual understanding",
+            "Note: Ensure that the strategies used do not compromise conceptual understanding",
+            "ASSESSMENT",
+            "TEST: All Term 1 & 2 topics"
+          ]
         }
       ]
     },
@@ -206,100 +236,163 @@
       "term": 3,
       "weeks": [
         {
-          "week": 1,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 2,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 3,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 4,
-          "topics": [],
-          "skills": []
-        },
-        {
           "week": 5,
-          "topics": [],
-          "skills": []
+          "topics": [
+            "Formal"
+          ],
+          "skills": [
+            "Assessment"
+          ],
+          "content_area": "Mathematics",
+          "short_phrases": [
+            "Formal",
+            "Assessment"
+          ],
+          "caps_excerpt": "(a) The National Curriculum Statement Grades R-12 (January 2012) represents a policy statement for learning and teaching in South African schools and comprises the following: (i) Curriculum and Assessment Policy Statements for each approved school subject; (ii) The policy document, National policy pertaining to the programme and promotion requirements of the National Curriculum Statement Grades R-12; and (iii) (b) The policy document, National Protocol for Assessment Grades R-12 (January 2012). The National Curriculum Statement Grades R-12 (January 2012) replaces the two current national curricula statements, namely the (i) Revised National Curriculum Statement Grades R-9, Government Gazette No. 23406 of 31 May 2002, and (ii) National Curriculum Statement Grades 10-12 Government Gazettes, No. 25545 of 6 October 2003 and No. 27594 of 17 May 2005. (c) The national curriculum statements contemplated in subparagraphs b(i) and (ii) comprise the following policy documents which will be incrementally repealed by the National Curriculum Statement Grades R-12 (January 2012) during the period 2012-2014: (i) The Learning Area/Subject Statements, Learning Programme Guidelines and Subject Assessment Guidelines for Grades R-9 and Grades 10-12; (ii) The policy document, National Policy on assessment and qualifications for schools in the General Education and Training Band, promulgated in Government Notice No. 124 in Government Gazette No. 29626 of 12 February 2007; (iii) The policy document, the National Senior Certificate: A qualification at Level 4 on the National Qualifications Framework (NQF), promulgated in Government Gazette No.27819 of 20 July 2005; CAPS 3 MATHEMATICS GRADES 4-6 (iv) The policy document, An addendum to the policy document, the National Senior Certificate: A qualification at Level 4 on the National Qualifications Framework (NQF), regarding learners with special needs, published in Government Gazette, No.29466 of 11 December 2006, is incorporated in the\u2026 SECTION 2: DEFINITION, AIMS, SKILLS AND CONTENT......................................................................8 2.1 Introduction..................................................................................................................................................... 8 2.2 What is Mathematics?.................................................................................................................................... 8 2.3 Specific aims................................................................................................................................................... 8 2.4 Specific skills.................................................................................................................................................. 8 2.5 Focus of content areas................................................................................................................................... 9 Mathematics content knowledge..................................................................................................................... 10 2.6 Weighting of content areas.......................................................................................................................... 12 2.7 Specification of content................................................................................................................................ 12 \u2022 Numbers, Operations and\u2026",
+          "assessment_notes": [
+            "Assessment",
+            "ASSESSME"
+          ]
         },
         {
-          "week": 7,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 8,
-          "topics": [],
-          "skills": []
+          "week": 6,
+          "topics": [
+            "Compare and order common fractions with different denominators",
+            "Describe and compare common fractions in diagram form",
+            "Recognise, describe and use the equivalence of division and fractions",
+            "Addition of common fractions with same denominators",
+            "Solve problems in contexts involving fractions, including grouping and equal sharing",
+            "Equivalent forms",
+            "Recognise and use equivalent forms of common fractions",
+            "Draw a variety of graphs to display and interpret data",
+            "Interpreting data",
+            "Critically read and interpret data represented in",
+            "Solving problems",
+            "Representing data",
+            "Calculations with fractions",
+            "Collect data using tally marks and tables for recording",
+            "Analysing data",
+            "Estimate and practically measure 3D objects using measuring instruments",
+            "Put 2-D shapes together to make different composite 2-D shapes",
+            "Tessellations",
+            "Record, compare and order the mass in grams and kilograms",
+            "Solve problems in contexts involving mass",
+            "Convert between grams and kilograms",
+            "Pack out 2-D shapes to make tessellated patterns",
+            "Describe patterns",
+            "Refer to lines, 2-D shapes, 3D objects and lines of symmetry when describing patterns",
+            "Analyse data by answering questions related to data categories",
+            "Reporting data",
+            "Probability experiments",
+            "Perform simple repeated events and list possible outcomes for experiments",
+            "Use and name unitary and non-unitary fractions in familiar contexts",
+            "Recognise fractions in diagrammatic form",
+            "Collect data about the class or school to answer questions posed by the teacher",
+            "Organise data supplied by teacher or workbook/textbook",
+            "Organise data in lists, tally marks and tables",
+            "Represent data in",
+            "Estimate, measure, compare, order and record mass",
+            "Compare, order and record the mass of commercially packaged objects",
+            "Recognise and draw line of symmetry in 2-D geometrical and non-geometrical shapes",
+            "Write fractions as one half, two thirds",
+            "Answer questions about data presented in"
+          ],
+          "skills": [
+            "Use equivalence of division and fractions",
+            "Draw graphs to display and interpret data",
+            "Interpret data",
+            "Critically read and interpret data",
+            "Solve problems",
+            "Represent data",
+            "Analyse data",
+            "Measure 3D objects",
+            "Put 2-D shapes together",
+            "Convert between grams and kilograms",
+            "Pack out 2-D shapes to make tessellations",
+            "Describe patterns",
+            "Refer to lines, 2-D shapes, 3D objects and lines of symmetry",
+            "Analyse data by answering questions",
+            "Use and name unitary and non-unitary fractions",
+            "Recognise fractions in diagrammatic form",
+            "Collect data about the class or school",
+            "Organise data supplied by teacher or workbook/textbook",
+            "Organise data in lists, tally marks and tables",
+            "Represent data in",
+            "Estimate, measure, compare, order and record mass",
+            "Compare, order and record the mass of commercially packaged objects",
+            "Recognise and draw line of symmetry",
+            "Write fractions as one half, two thirds",
+            "Answer questions about data presented"
+          ],
+          "content_area": "Mathematics",
+          "short_phrases": [
+            "Use equivalence",
+            "Solve problems",
+            "Interpret data",
+            "Critically read data",
+            "Solve problems",
+            "Represent data",
+            "Collect data",
+            "Analyse data",
+            "Measure 3D objects",
+            "Record mass",
+            "Describe patterns",
+            "Analyse data",
+            "Recognise fractions",
+            "Organise data",
+            "Represent data",
+            "Write fractions"
+          ],
+          "caps_excerpt": "number -- building up and breaking down numbers, -- rounding off to the nearest 10 and compensating -- dividing by 10, 100 and 1 000 -- multiplying by multiples 10 and 100 -- multiplying by 10 and 100 -- using multiplication to do division, -- doubling and halving, \u2022 Calculation techniques --",
+          "assessment_notes": [
+            "Test all Term 3 topics",
+            "Solve problems in contexts involving fractions",
+            "Solve problems in contexts involving mass",
+            "Convert between grams and kilograms",
+            "Perform simple repeated events and list possible outcomes for experiments",
+            "Use and name unitary and non-unitary fractions in familiar contexts",
+            "Recognise fractions in diagrammatic form",
+            "Collect data about the class or school to answer questions posed by the teacher",
+            "Organise data supplied by teacher or workbook/textbook",
+            "Organise data in lists, tally marks and tables",
+            "Represent data in",
+            "Estimate, measure, compare, order and record mass",
+            "Compare, order and record the mass of commercially packaged objects",
+            "Recognise and draw line of symmetry in 2-D geometrical and non-geometrical shapes",
+            "Write fractions as one half, two thirds",
+            "Answer questions about data presented in"
+          ]
         },
         {
           "week": 9,
           "topics": [
             "COMMON FRACTIONS",
+            "DATA CYCLE",
+            "MASS",
             "TRANSFORMATIONS",
+            "REVISION"
+          ],
+          "skills": [
+            "Describing and ordering fractions",
             "Collecting and organising data",
+            "Practical measuring",
             "Build composite shapes"
           ],
-          "skills": []
-        },
-        {
-          "week": 6,
-          "topics": [
-            "fractions with different",
-            "fractions in diagram form",
-            "Addition of common fractions",
-            "involving fractions, including",
-            "forms of common fractions",
-            "Draw a variety of graphs to",
-            "display and interpret data",
-            "\u2012 pictographs (one-to-one",
-            "correspondence) data",
-            "\u2012 bar graphs",
-            "Interpreting data",
-            "data represented in",
-            "Representing data",
-            "Calculations with fractions",
-            "Collect data using tally marks",
-            "Analysing data",
-            "Put 2-D shapes together to make",
-            "different composite 2-D shapes",
-            "including some shapes with line",
-            "with whole numbers and",
-            "Pack out 2-D shapes to make",
-            "tessellated patterns including",
-            "some patterns with line",
-            "Describe patterns",
-            "Refer to lines, 2-D shapes, 3D objects and lines of",
-            "Analyse data by answering",
-            "questions related to data",
-            "Reporting data",
-            "Summarise data verbally and",
-            "in short written paragraphs",
-            "Probability experiments",
-            "OR PREKNOWLED",
-            "Use and name unitary and nonunitary fractions in familiar",
-            "Recognise fractions in",
-            "three thirds make one whole and",
-            "Collect data about the class or",
-            "Organise data supplied by",
-            "Organise data in lists, tally",
-            "Represent data in",
-            "non-geometrical shapes",
-            "\u2012 pictograph (limited to",
-            "pictographs with one-toone correspondence)",
-            "Write fractions as one half, two",
-            "Answer questions about data",
-            "\u2500 pictographs (limited to"
+          "content_area": "CAPS Mathematics",
+          "short_phrases": [
+            "common fractions",
+            "data cycle",
+            "mass",
+            "transformations",
+            "practical measuring",
+            "build composite shapes"
           ],
-          "skills": []
+          "caps_excerpt": "number -- building up and breaking down numbers, -- rounding off to the nearest 10 and compensating -- dividing by 10, 100 and 1 000 -- multiplying by multiples 10 and 100 -- multiplying by 10 and 100 -- using multiplication to do division, -- doubling and halving, \u2022 Calculation techniques --",
+          "assessment_notes": [
+            "FORMAL ASSESSMENT TASKS",
+            "PROJECT",
+            "completed before the end of Term 3"
+          ]
         }
       ]
     },
@@ -307,55 +400,86 @@
       "term": 4,
       "weeks": [
         {
-          "week": 1,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 2,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 3,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 4,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 5,
-          "topics": [],
-          "skills": []
-        },
-        {
           "week": 6,
           "topics": [
-            "Calculation of the number of days",
-            "measure 2D shapes and 3D",
-            "lengths of shapes and objects in",
-            "irregular shapes by",
-            "FORMAL ASSESSMENT TASK",
+            "Reading time and time instruments",
+            "Practical measuring",
+            "Reading calendars",
+            "Calculations and problem solving with regard to time",
+            "Estimate and practically measure 2D shapes and 3D objects using measuring instruments",
+            "Record, compare and order lengths of shapes and objects in millimetres (mm) and centimetres (cm), metres (m) and kilometres (km)",
+            "Solve problems in contexts involving length",
+            "Convert between the following: Millimetres (mm) and centimetres (cm), Centimetres (cm) and metres (m), Metres (m) and kilometres (km)",
+            "Measure perimeter using rulers or measuring tapes",
+            "Find areas of regular and irregular shapes by counting squares on grids",
+            "Find volume/capacity of objects by packing or filling them",
+            "Estimate and practically measure 3D objects using measuring instruments",
             "Measurement of volume",
-            "CAPACITY/VOLUME",
             "Measurement of area",
-            "PERIMETER, AREA AND",
-            "whole numbers and fractions)",
-            "Conversions limited to whole",
-            "numbers and common fractions",
-            "OR PREKNOWLED",
-            "numbered millilitre gradation",
-            "than/exactly the number of"
+            "Rulers",
+            "Metre sticks",
+            "Tape measures",
+            "Trundle wheels",
+            "Solving problems",
+            "PERIMETER, AREA AND VOLUME",
+            "Record, compare and order the capacity and volume of 3D objects in millilitres (ml) and litres (\u2113)",
+            "Calculations and problem-solving",
+            "Solve problems in contexts involving capacity/volume",
+            "Convert between millilitres and litres (limited to examples with whole numbers and fractions)",
+            "Read dates on calendars",
+            "Place birthdays, religious festivals, public holidays, historical events and school events on a calendar",
+            "Use calendars to calculate and describe lengths of time in days or weeks or months",
+            "Estimate, measure, compare, order and record length using non-standard measures",
+            "Describe the length of objects by counting and stating the length in informal units",
+            "Solve problems in contexts involving length",
+            "Convert between the following: Millimetres (mm) and centimetres (cm), Centimetres (cm) and metres (m), Metres (m) and kilometres (km)",
+            "Estimate, measure, compare, order and record the capacity of objects by measuring in litres, half litres and quarter litres",
+            "Describe the volume on jugs where the volume is near to a numbered millilitre gradation line",
+            "Use clocks to calculate length of time in hours, half hours and quarters of an hour"
           ],
-          "skills": []
+          "skills": [
+            "Read, tell and write time in 12-hour and 24-hour formats on both analogue and digital instruments",
+            "Calculate the number of days between any two dates within the same or consecutive years",
+            "Calculate time intervals where time is given in seconds and/or minutes, minutes and/or hours, hours and/or days, days, weeks and/or months, years and/or decades",
+            "Estimate and practically measure 2D shapes and 3D objects using measuring instruments",
+            "Record, compare and order lengths of shapes and objects in millimetres (mm) and centimetres (cm), metres (m) and kilometres (km)",
+            "Solve problems in contexts involving length",
+            "Measure perimeter using rulers or measuring tapes",
+            "Find areas of regular and irregular shapes by counting squares on grids",
+            "Find volume/capacity of objects by packing or filling them",
+            "Estimate and practically measure 3D objects using measuring instruments",
+            "Measurement of volume",
+            "Measurement of area",
+            "Use calendars to calculate and describe lengths of time in days or weeks or months",
+            "Estimate, measure, compare, order and record length using non-standard measures",
+            "Describe the length of objects by counting and stating the length in informal units",
+            "Solve problems in contexts involving length",
+            "Convert between millilitres and litres (limited to examples with whole numbers and fractions)",
+            "Read dates on calendars",
+            "Place birthdays, religious festivals, public holidays, historical events and school events on a calendar",
+            "Use clocks to calculate length of time in hours, half hours and quarters of an hour"
+          ],
+          "content_area": "Measurement and Time",
+          "short_phrases": [
+            "Practical measuring",
+            "Reading calendars",
+            "Measure perimeter",
+            "Measurement of volume",
+            "Measurement of area"
+          ],
+          "caps_excerpt": "number -- building up and breaking down numbers, -- rounding off to the nearest 10 and compensating -- dividing by 10, 100 and 1 000 -- multiplying by multiples 10 and 100 -- multiplying by 10 and 100 -- using multiplication to do division, -- doubling and halving, \u2022 Calculation techniques --",
+          "assessment_notes": [
+            "FORMAL ASSESSMENT TASK",
+            "TEST: Tem 1- 4 topics",
+            "Solving problems",
+            "Practical measuring",
+            "Calculations and problem-solving",
+            "Solve problems in contexts involving capacity/volume"
+          ]
         }
       ]
     }
   ],
   "term_count": 4,
-  "week_count": 34,
-  "source_pdf": "/code/riv/kyno/data/syllabus/grade-4/mathematics/atp-mathematics-2026.pdf"
+  "week_count": 10
 }

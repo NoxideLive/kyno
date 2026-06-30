@@ -1,0 +1,6372 @@
+National Curriculum Statement (NCS)
+
+MATHEMATICS
+
+Curriculum and Assessment
+Policy Statement
+
+Further Education and Training Phase
+Grades 10-12
+
+
+
+
+
+
+Curriculum and Assessment Policy Statement
+GRADES 10-12
+
+MATHEMATICS
+
+CAPS
+
+MATHEMATICS GRADES 10-12
+
+Department of Basic Education
+222 Struben Street
+Private Bag X895
+Pretoria 0001
+South Africa
+Tel: +27 12 357 3000
+Fax: +27 12 323 0601
+
+120 Plein Street Private Bag X9023
+Cape Town 8000
+South Africa
+Tel: +27 21 465 1701
+Fax: +27 21 461 8110
+Website: http://www.education.gov.za
+
+© 2011 Department of Basic Education
+
+Isbn: 978-1-4315-0573-9
+Design and Layout by: Ndabase Printing Solution
+Printed by: Government Printing Works
+
+CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS)
+
+AGRICULTURAL MANAGEMENT
+PRACTICES GRADES 10-12
+MATHEMATICS
+
+FOREWORD by thE ministER
+Our national curriculum is the culmination of our efforts over a period of seventeen
+years to transform the curriculum bequeathed to us by apartheid. From the start of
+democracy we have built our curriculum on the values that inspired our Constitution
+(Act 108 of 1996). the Preamble to the Constitution states that the aims of the
+Constitution are to:
+
+•
+
+•
+
+heal the divisions of the past and establish a society based on democratic
+values, social justice and fundamental human rights;
+
+•
+
+improve the quality of life of all citizens and free the potential of each person;
+
+•
+
+lay the foundations for a democratic and open society in which government is
+based on the will of the people and every citizen is equally protected by law;
+and
+
+build a united and democratic South Africa able to take its rightful place as a sovereign state in the family of
+nations.
+
+Education and the curriculum have an important role to play in realising these aims.
+in 1997 we introduced outcomes-based education to overcome the curricular divisions of the past, but the experience
+of implementation prompted a review in 2000. This led to the first curriculum revision: the Revised National Curriculum
+Statement Grades R-9 and the National Curriculum Statement Grades 10-12 (2002).
+Ongoing implementation challenges resulted in another review in 2009 and we revised the Revised National
+Curriculum Statement (2002) to produce this document.
+From 2012 the two 2002 curricula, for Grades R-9 and Grades 10-12 respectively, are combined in a single document
+and will simply be known as the National Curriculum Statement Grades R-12. the National Curriculum Statement for
+Grades R-12 builds on the previous curriculum but also updates it and aims to provide clearer specification of what
+is to be taught and learnt on a term-by-term basis.
+the National Curriculum Statement Grades R-12 accordingly replaces the subject statements, Learning Programme
+Guidelines and subject Assessment Guidelines with the
+(a)
+
+Curriculum and Assessment Policy statements (CAPs) for all approved subjects listed in this document;
+
+(b)
+
+National policy pertaining to the programme and promotion requirements of the National Curriculum Statement
+Grades R-12; and
+
+(c)
+
+National Protocol for Assessment Grades R-12.
+
+MRS ANGIE MOTSHEKGA, MP
+MINISTER OF BASIC EDUCATION
+
+CAPS
+
+MATHEMATICS GRADES 10-12
+
+CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS)
+
+MATHEMATICS GRADES 10-12
+
+contents
+Section 1: INTRODUCTION TO THE CURRICULUM AND ASSESSMENT POLICY STATEMENTS... 3
+1.1
+
+Background .....................................................................................................................................................3
+
+1.2	Overview...........................................................................................................................................................3
+1.3
+
+General aims of the South African Curriculum.............................................................................................4
+
+1.4
+
+Time allocation.................................................................................................................................................6
+1.4.1 Foundation Phase....................................................................................................................................6
+1.4.2 Intermediate Phase..................................................................................................................................6
+1.4.3 Senior Phase...........................................................................................................................................7
+1.4.4 Grades 10-12...........................................................................................................................................7
+
+SECTION 2: INTRODUCTION TO MATHEMATICS................................................................................... 8
+2.1
+
+What is Mathematics?.....................................................................................................................................8
+
+2.2
+
+Specific Aims....................................................................................................................................................8
+
+2.3
+
+Specific Skills...................................................................................................................................................8
+
+2.4
+
+Focus of Content Areas...................................................................................................................................9
+
+2.5
+
+Weighting of Content Areas............................................................................................................................9
+
+2.6	Mathematics in the FET.................................................................................................................................10
+
+SECTION 3: OVERVIEW OF TOPICS PER TERM AND ANNUAL TEACHING PLANS........................ 11
+3.1
+
+Specification of content to show Progression............................................................................................11
+3.1.1	Overview of topics..................................................................................................................................12
+
+3.2
+
+Content clarification with teaching guidelines............................................................................................16
+3.2.1 Allocation of teaching time.....................................................................................................................16
+3.2.2 Sequencing and pacing of topics...........................................................................................................18
+3.2.3 Topic allocation per term........................................................................................................................21
+
+		
+
+Grade 10 Term: 1...................................................................................................................................21
+
+		
+
+Grade 10 Term: 2...................................................................................................................................24
+
+		
+
+Grade 10 Term: 3...................................................................................................................................26
+
+		
+
+Grade 10 Term: 4...................................................................................................................................29
+
+		
+
+Grade 11 Term: 1...................................................................................................................................30
+
+		
+
+Grade 11 Term: 2...................................................................................................................................32
+
+		
+
+Grade 11 Term: 3...................................................................................................................................34
+
+CAPS
+
+1
+
+MATHEMATICS GRADES 10-12
+		
+
+Grade 11 Term: 4...................................................................................................................................39
+
+		Grade 12 Term:1....................................................................................................................................40
+		
+
+Grade 12 Term: 2...................................................................................................................................44
+
+		
+
+Grade 12 Term: 3...................................................................................................................................48
+
+		
+
+Grade 12 Term: 4...................................................................................................................................50
+
+SECTION 4: ASSESSMENT IN MATHEMATICS..................................................................................... 51
+4.1.
+
+Introduction....................................................................................................................................................51
+
+4.2.
+
+Informal or Daily Assessment.......................................................................................................................51
+
+4.3.
+
+Formal Assessment.......................................................................................................................................52
+
+4.4.
+
+Programme of Assessment...........................................................................................................................53
+
+4.5.
+
+Recording and reporting...............................................................................................................................55
+
+4.6.
+
+Moderation of Assessment...........................................................................................................................56
+
+4.7.
+
+General............................................................................................................................................................56
+
+2
+
+CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS)
+
+MATHEMATICS GRADES 10-12
+
+sECTION 1
+INTRODUCTION TO THE Curriculum and Assessment Policy StatementS for
+MATHEMATICS gradeS 10-12
+1.1
+
+Background
+
+The National Curriculum Statement Grades R-12 (NCS) stipulates policy on curriculum and assessment in the
+schooling sector.
+To improve implementation, the National Curriculum Statement was amended, with the amendments coming into
+effect in January 2012. A single comprehensive Curriculum and Assessment Policy document was developed for
+each subject to replace Subject Statements, Learning Programme Guidelines and Subject Assessment Guidelines
+in Grades R-12.
+
+1.2	Overview
+(a)
+
+(b)
+
+(c)
+
+The National Curriculum Statement Grades R-12 (January 2012) represents a policy statement for learning
+and teaching in South African schools and comprises the following:
+(i)
+
+Curriculum and Assessment Policy Statements for each approved school subject;
+
+(ii)
+
+The policy document, National policy pertaining to the programme and promotion requirements of the
+National Curriculum Statement Grades R-12; and
+
+(iii)
+
+The policy document, National Protocol for Assessment Grades R-12 (January 2012).
+
+The National Curriculum Statement Grades R-12 (January 2012) replaces the two current national curricula
+statements, namely the
+(i)
+
+Revised National Curriculum Statement Grades R-9, Government Gazette No. 23406 of 31 May 2002,
+and
+
+(ii)
+
+National Curriculum Statement Grades 10-12 Government Gazettes, No. 25545 of 6 October 2003 and
+No. 27594 of 17 May 2005.
+
+The national curriculum statements contemplated in subparagraphs b(i) and (ii) comprise the following policy
+documents which will be incrementally repealed by the National Curriculum Statement Grades R-12 (January
+2012) during the period 2012-2014:
+(i)
+
+The Learning Area/Subject Statements, Learning Programme Guidelines and Subject Assessment
+Guidelines for Grades R-9 and Grades 10-12;
+
+(ii)
+
+The policy document, National Policy on assessment and qualifications for schools in the General
+Education and Training Band, promulgated in Government Notice No. 124 in Government Gazette No.
+29626 of 12 February 2007;
+
+(iii)
+
+The policy document, the National Senior Certificate: A qualification at Level 4 on the National
+Qualifications Framework (NQF), promulgated in Government Gazette No.27819 of 20 July 2005;
+
+CAPS
+
+3
+
+MATHEMATICS GRADES 10-12
+(iv)
+
+The policy document, An addendum to the policy document, the National Senior Certificate: A
+qualification at Level 4 on the National Qualifications Framework (NQF), regarding learners with special
+needs, published in Government Gazette, No.29466 of 11 December 2006, is incorporated in the policy
+document, National policy pertaining to the programme and promotion requirements of the National
+Curriculum Statement Grades R-12; and
+
+(v)
+
+The policy document, An addendum to the policy document, the National Senior Certificate: A
+qualification at Level 4 on the National Qualifications Framework (NQF), regarding the National Protocol
+for Assessment (Grades R-12), promulgated in Government Notice No.1267 in Government Gazette
+No. 29467 of 11 December 2006.
+
+(d)
+
+The policy document, National policy pertaining to the programme and promotion requirements of the
+National Curriculum Statement Grades R-12, and the sections on the Curriculum and Assessment Policy as
+contemplated in Chapters 2, 3 and 4 of this document constitute the norms and standards of the National
+Curriculum Statement Grades R-12. It will therefore, in terms of section 6A of the South African Schools Act,
+1996 (Act No. 84 of 1996,) form the basis for the Minister of Basic Education to determine minimum outcomes
+and standards, as well as the processes and procedures for the assessment of learner achievement to be
+applicable to public and independent schools.
+
+1.3
+
+General aims of the South African Curriculum
+
+(a)
+
+The National Curriculum Statement Grades R-12 gives expression to the knowledge, skills and values worth
+learning in South African schools. This curriculum aims to ensure that children acquire and apply knowledge
+and skills in ways that are meaningful to their own lives. In this regard, the curriculum promotes knowledge in
+local contexts, while being sensitive to global imperatives.
+
+(b)
+
+The National Curriculum Statement Grades R-12 serves the purposes of:
+• equipping learners, irrespective of their socio-economic background, race, gender, physical ability or
+intellectual ability, with the knowledge, skills and values necessary for self-fulfilment, and meaningful
+participation in society as citizens of a free country;
+• providing access to higher education;
+• facilitating the transition of learners from education institutions to the workplace; and
+• providing employers with a sufficient profile of a learner’s competences.
+
+(c)
+
+The National Curriculum Statement Grades R-12 is based on the following principles:
+• Social transformation: ensuring that the educational imbalances of the past are redressed, and that equal
+educational opportunities are provided for all sections of the population;
+• Active and critical learning: encouraging an active and critical approach to learning, rather than rote and
+uncritical learning of given truths;
+• High knowledge and high skills: the minimum standards of knowledge and skills to be achieved at each
+grade are specified and set high, achievable standards in all subjects;
+• Progression: content and context of each grade shows progression from simple to complex;
+
+4
+
+CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS)
+
+MATHEMATICS GRADES 10-12
+• Human rights, inclusivity, environmental and social justice: infusing the principles and practices of social and
+environmental justice and human rights as defined in the Constitution of the Republic of South Africa. The
+National Curriculum Statement Grades R-12 is sensitive to issues of diversity such as poverty, inequality,
+race, gender, language, age, disability and other factors;
+• Valuing indigenous knowledge systems: acknowledging the rich history and heritage of this country as
+important contributors to nurturing the values contained in the Constitution; and
+• Credibility, quality and efficiency: providing an education that is comparable in quality, breadth and depth to
+those of other countries.
+(d)
+
+The National Curriculum Statement Grades R-12 aims to produce learners that are able to:
+• identify and solve problems and make decisions using critical and creative thinking;
+• work effectively as individuals and with others as members of a team;
+• organise and manage themselves and their activities responsibly and effectively;
+• collect, analyse, organise and critically evaluate information;
+• communicate effectively using visual, symbolic and/or language skills in various modes;
+• use science and technology effectively and critically showing responsibility towards the environment and
+the health of others; and
+• demonstrate an understanding of the world as a set of related systems by recognising that problem solving
+contexts do not exist in isolation.
+
+(e)
+
+Inclusivity should become a central part of the organisation, planning and teaching at each school. This can
+only happen if all teachers have a sound understanding of how to recognise and address barriers to learning,
+and how to plan for diversity.
+The key to managing inclusivity is ensuring that barriers are identified and addressed by all the relevant support
+structures within the school community, including teachers, District-Based Support Teams, Institutional-Level
+Support Teams, parents and Special Schools as Resource Centres. To address barriers in the classroom,
+teachers should use various curriculum differentiation strategies such as those included in the Department of
+Basic Education’s Guidelines for Inclusive Teaching and Learning (2010).
+
+CAPS
+
+5
+
+MATHEMATICS GRADES 10-12
+1.4	Time Allocation
+1.4.1 Foundation Phase
+(a)
+
+The instructional time in the Foundation Phase is as follows:
+SUBJECT
+Home Language
+
+GRADE R
+(HOURS)
+
+GRADES 1-2
+(HOURS)
+
+GRADE 3
+(HOURS)
+
+10
+
+8/7
+
+8/7
+
+2/3
+
+3/4
+
+First Additional Language
+Mathematics
+
+7
+
+7
+
+7
+
+Life Skills
+
+6
+
+6
+
+7
+
+• Beginning Knowledge
+
+(1)
+
+(1)
+
+(2)
+
+• Creative Arts
+
+(2)
+
+(2)
+
+(2)
+
+• Physical Education
+
+(2)
+
+(2)
+
+(2)
+
+• Personal and Social Well-being
+
+(1)
+
+(1)
+
+(1)
+
+TOTAL
+
+23
+
+23
+
+25
+
+(b)
+
+Instructional time for Grades R, 1 and 2 is 23 hours and for Grade 3 is 25 hours.
+
+(c)
+
+Ten hours are allocated for languages in Grades R-2 and 11 hours in Grade 3. A maximum of 8 hours and a
+minimum of 7 hours are allocated for Home Language and a minimum of 2 hours and a maximum of 3 hours for
+Additional Language in Grades 1-2. In Grade 3 a maximum of 8 hours and a minimum of 7 hours are allocated
+for Home Language and a minimum of 3 hours and a maximum of 4 hours for First Additional Language.
+
+(d)
+
+In Life Skills Beginning Knowledge is allocated 1 hour in Grades R-2 and 2 hours as indicated by the hours in
+brackets for Grade 3.
+
+1.4.2	Intermediate Phase
+(a)
+
+The instructional time in the Intermediate Phase is as follows:
+SUBJECT
+
+HOURS
+
+Home Language
+
+6
+
+First Additional Language
+
+5
+
+Mathematics
+
+6
+
+Natural Sciences and Technology
+
+3,5
+
+Social Sciences
+
+3
+
+Life Skills
+
+4
+
+• Creative Arts
+
+(1,5)
+
+• Physical Education
+
+(1)
+
+• Personal and Social Well-being
+
+(1,5)
+
+TOTAL
+
+27,5
+
+6
+
+CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS)
+
+MATHEMATICS GRADES 10-12
+1.4.3	Senior Phase
+(a)
+
+The instructional time in the Senior Phase is as follows:
+SUBJECT
+
+HOURS
+
+Home Language
+
+5
+
+First Additional Language
+
+4
+
+Mathematics
+
+4,5
+
+Natural Sciences
+
+3
+
+Social Sciences
+
+3
+
+Technology
+
+2
+
+Economic Management Sciences
+
+2
+
+Life Orientation
+
+2
+
+Creative Arts
+
+2
+
+TOTAL
+
+27,5
+
+1.4.4 Grades 10-12
+(a)
+
+The instructional time in Grades 10-12 is as follows:
+Subject
+
+Time allocation per week (hours)
+
+Home Language
+
+4.5
+
+First Additional Language
+
+4.5
+
+Mathematics
+
+4.5
+
+Life Orientation
+
+2
+
+ minimum of any three subjects selected from Group B
+A
+Annexure B, Tables B1-B8 of the policy document, National policy
+pertaining to the programme and promotion requirements of
+the National Curriculum Statement Grades R-12, subject to the
+provisos stipulated in paragraph 28 of the said policy document.
+TOTAL
+
+12 (3x4h)
+
+27,5
+
+The allocated time per week may be utilised only for the minimum required NCS subjects as specified above,
+and may not be used for any additional subjects added to the list of minimum subjects. Should a learner wish
+to offer additional subjects, additional time must be allocated for the offering of these subjects
+
+CAPS
+
+7
+
+MATHEMATICS GRADES 10-12
+
+sECTION 2
+Introduction
+In Chapter 2, the Further Education and Training (FET) Phase Mathematics CAPS provides teachers with a definition
+of mathematics, specific aims, specific skills, focus of content areas and the weighting of content areas.
+
+2.1
+
+What is Mathematics?
+
+Mathematics is a language that makes use of symbols and notations for describing numerical, geometric and
+graphical relationships. It is a human activity that involves observing, representing and investigating patterns and
+qualitative relationships in physical and social phenomena and between mathematical objects themselves. It helps to
+develop mental processes that enhance logical and critical thinking, accuracy and problem solving that will contribute
+in decision-making.Mathematical problem solving enables us to understand the world (physical, social and economic)
+around us, and, most of all, to teach us to think creatively.
+
+2.2
+
+Specific Aims
+
+1.
+
+To develop fluency in computation skills without relying on the usage of calculators.
+
+2.
+
+Mathematical modeling is an important focal point of the curriculum. Real life problems should be incorporated
+into all sections whenever appropriate. Examples used should be realistic and not contrived. Contextual problems
+should include issues relating to health, social, economic, cultural, scientific, political and environmental issues
+whenever possible.
+
+3.
+
+To provide the opportunity to develop in learners the ability to be methodical, to generalize, make conjectures
+and try to justify or prove them.
+
+4.
+
+To be able to understand and work with number system.
+
+5.
+
+To show Mathematics as a human creation by including the history of Mathematics.
+
+6.
+
+To promote accessibility of Mathematical content to all learners. It could be achieved by catering for learners
+with different needs.
+
+7.
+
+To develop problem-solving and cognitive skills. Teaching should not be limited to “how”but should rather
+feature the “when” and “why” of problem types. Learning procedures and proofs without a good understanding
+of why they are important will leave learners ill-equipped to use their knowledge in later life.
+
+8.
+
+To prepare the learners for further education and training as well as the world of work.
+
+2.3
+
+Specific Skills
+
+To develop essential mathematical skills the learner should:
+•
+
+develop the correct use of the language of Mathematics;
+
+•
+
+collect, analyse and organise quantitative data to evaluate and critique conclusions;
+
+8
+
+CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS)
+
+MATHEMATICS GRADES 10-12
+•
+
+use mathematical process skills to identify, investigate and solve problems creatively and critically;
+
+•
+
+use spatial skills and properties of shapes and objects to identify, pose and solve problems creatively and
+critically;
+
+•
+
+participate as responsible citizens in the life of local, national and global communities; and
+
+•
+
+communicate appropriately by using descriptions in words, graphs, symbols, tables and diagrams.
+
+2.4
+
+Focus of Content Areas
+
+Mathematics in the FET Phase covers ten main content areas. Each content area contributes towards the acquisition
+of the specific skills. The table below shows the main topics in the FET Phase.
+The Main Topics in the FET Mathematics Curriculum
+
+2.5
+
+1.
+
+Functions
+
+2.
+
+Number Patterns, Sequences, Series
+
+3.
+
+Finance, growth and decay
+
+4.
+
+Algebra
+
+5.
+
+Differential Calculus
+
+6.
+
+Probability
+
+7.
+
+Euclidean Geometry and Measurement
+
+8.
+
+Analytical Geometry
+
+9.
+
+Trigonometry
+
+10.
+
+Statistics
+
+Weighting of Content Areas
+
+The weighting of mathematics content areas serves two primary purposes: firstly the weighting gives guidance on
+the amount of time needed to address adequately the content within each content area; secondly the weighting gives
+guidance on the spread of content in the examination (especially end of the year summative assessment).
+
+CAPS
+
+9
+
+MATHEMATICS GRADES 10-12
+Weighting of Content Areas
+Description
+
+Grade 10
+
+Grade 11
+
+Grade. 12
+
+Algebra and Equations (and inequalities)
+
+30 ± 3
+
+45 ± 3
+
+25 ± 3
+
+Patterns and Sequences
+
+15 ± 3
+
+25 ± 3
+
+25 ± 3
+
+Finance and Growth
+
+10 ± 3
+15 ± 3
+
+15 ± 3
+
+45 ± 3
+
+35 ± 3
+
+PAPER 1 (Grades 12:bookwork: maximum 6 marks)
+
+Finance, growth and decay
+Functions and Graphs
+
+30 ± 3
+
+Differential Calculus
+
+35 ± 3
+
+Probability
+
+15 ± 3
+
+20 ± 3
+
+15 ± 3
+
+TOTAL
+
+100
+
+150
+
+150
+
+PAPER 2: Grades 11 and 12: theorems and/or trigonometric proofs: maximum 12 marks
+Description
+
+Grade 10
+
+Grade 11
+
+Grade 12
+
+Statistics
+
+15 ± 3
+
+20 ± 3
+
+20 ± 3
+
+Analytical Geometry
+
+15 ± 3
+
+30 ± 3
+
+40 ± 3
+
+Trigonometry
+
+40 ± 3
+
+50 ± 3
+
+40 ± 3
+
+Euclidean Geometry and Measurement
+
+30 ± 3
+
+50 ± 3
+
+50 ± 3
+
+TOTAL
+
+100
+
+150
+
+150
+
+2.6	Mathematics in the FET
+The subject Mathematics in the Further Education and Training Phase forges the link between the Senior Phase
+and the Higher/Tertiary Education band. All learners passing through this phase acquire a functioning knowledge
+of the Mathematics that empowers them to make sense of society. It ensures access to an extended study of the
+mathematical sciences and a variety of career paths.
+In the FET Phase, learners should be exposed to mathematical experiences that give them many opportunities to
+develop their mathematical reasoning and creative skills in preparation for more abstract mathematics in Higher/
+Tertiary Education institutions.
+
+10
+
+CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS)
+
+MATHEMATICS GRADES 10-12
+
+sECTION 3
+Introduction
+Chapter 3 provides teachers with:
+•
+
+specification of content to show progression;
+
+•
+
+clarification of content with teaching guidelines; and
+
+•
+
+allocation of time.
+
+3.1
+
+Specification of Content to show Progression
+
+The specification of content shows progression in terms of concepts and skills from Grade 10 to 12 for each content
+area. However, in certain topics the concepts and skills are similar in two or three successive grades. The clarification
+of content gives guidelines on how progression should be addressed in these cases. The specification of content
+should therefore be read in conjunction with the clarification of content.
+
+CAPS
+
+11
+
+12
+Problem solving and graph work involving the
+prescribed functions. Average gradient between
+two points.
+
+Problem solving and graph work involving the
+prescribed functions.
+
+CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS)
+
+The implications of fluctuating foreign exchange
+rates.
+
+and A = P(1 + i)n to solve problems
+(including interest, hire purchase, inflation,
+population growth and other real life problems).
+
+Use simple and compound growth formulae
+
+3. FINANCE, GROWTH AND DECAY
+
+Investigate number patterns leading to those
+where there is constant difference between
+consecutive terms, and the general term is
+therefore linear.
+
+The effect of different periods of compounding
+growth and decay (including effective and nominal
+interest rates).
+
+Use simple and compound decay formulae
+A = P(1 + in) and A = P(1- i)n to solve problems
+(including straight line depreciation and
+depreciation on a reducing balance). Link to work
+on functions.
+
+Investigate number patterns leading to those
+where there is a constant second difference
+between consecutive terms, and the general term
+is therefore quadratic.
+
+Generate as many graphs as necessary, initially
+by means of point-by-point plotting, supported by
+available technology, to make and test conjectures
+and hence generalise the effects of the parameter
+which results in a horizontal shift and that which
+results in a horizontal stretch and/or reflection
+about the y axis.
+
+Generate as many graphs as necessary, initially
+by means of point-by-point plotting, supported by
+available technology, to make and test conjectures
+and hence generalise the effect of the parameter
+which results in a vertical shift and that which
+results in a vertical stretch and /or a reflection
+about the x axis.
+
+2. NUMBER PATTERNS, SEQUENCES AND SERIES
+
+Introduce a more formal definition of a function
+and extend Grade 11 work on the relationships
+between variables in terms of numerical,
+graphical, verbal and symbolic representations
+of functions and convert flexibly between these
+representations (tables, graphs, words and
+formulae). Include linear, quadratic and some
+cubic polynomial functions, exponential and
+logarithmic functions, and some rational functions.
+
+Extend Grade 10 work on the relationships
+between variables in terms of numerical,
+graphical, verbal and symbolic representations
+of functions and convert flexibly between these
+representations (tables, graphs, words and
+formulae). Include linear and quadratic polynomial
+functions, exponential functions, some rational
+functions and trigonometric functions.
+
+Work with relationships between variables in
+terms of numerical, graphical, verbal and
+symbolic representations of functions and
+convert flexibly between these representations
+(tables, graphs, words and formulae). Include
+linear and some quadratic polynomial functions,
+exponential functions, some rational functions and
+trigonometric functions.
+
+Critically analyse different loan options.
+
+(b) Apply knowledge of geometric series to solve
+annuity and bond repayment problems.
+
+A = P(1 + i)n and A = P(1- i)n
+
+(a) Calculate the value of n in the formulae
+
+Identify and solve problems involving number
+patterns that lead to arithmetic and geometric
+sequences and series, including infinite geometric
+series.
+
+logarithmic function).
+
+the prescribed functions (including the
+
+Problem solving and graph work involving
+
+The inverses of prescribed functions and be
+aware of the fact that, in the case of many-to-one
+functions, the domain has to be restricted if the
+inverse is to be a function.
+
+Grade 12
+
+Grade 10
+
+Grade 11
+
+1. FUNCTIONS
+
+3.1.1	Overview of topics
+
+MATHEMATICS GRADES 10-12
+
+CAPS
+
+factorising trinomials;
+
+factorising the difference and sums of two
+cubes;
+
+factorising by grouping in pairs; and
+
+simplifying, adding and subtracting algebraic
+fractions with denominators of cubes (limited
+to sum and difference of cubes).
+
+•
+
+•
+
+•
+
+•
+
+quadratic inequalities in one variable and
+interpret the solution graphically; and
+equations in two unknowns, one of which is
+linear the other quadratic, algebraically or
+graphically.
+
+•
+•
+
+quadratic equations;
+
+literal equations (changing the subject of a
+formula);
+
+exponential equations;
+
+linear inequalities;
+
+system of linear equations; and
+
+word problems.
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+quadratic equations;
+
+•
+
+linear equations;
+
+Solve:
+
+•
+
+Solve:
+
+multiplying a binomial by a trinomial;
+
+•
+
+Manipulate algebraic expressions by:
+Revise factorisation.
+
+(b) Add, subtract, multiply and divide simple surds.
+
+(b)	Establish between which two integers a given
+simple surd lies.
+
+(c) Round real numbers to an appropriate degree
+of accuracy (to a given number of decimal
+digits).
+
+(a) Apply the laws of exponents to expressions
+involving rational exponents.
+
+Nature of roots.
+
+Take note that there exist numbers other than
+those on the real number line, the so-called nonreal numbers. It is possible to square certain nonreal numbers and obtain negative real numbers as
+answers.
+
+(a) Simplify expressions using the laws of
+exponents for rational exponents.
+
+(a) Understand that real numbers can be irrational
+or rational.
+
+4. ALGEBRA
+
+•
+
+•
+
+Factorise third-degree polynomials (including
+examples which require the Factor Theorem).
+
+Take note and understand, the Remainder and
+Factor Theorems for polynomials up to the
+third degree.
+
+Demonstrate an understanding of the definition of
+a logarithm and any laws needed to solve real life
+problems.
+
+MATHEMATICS GRADES 10-12
+
+13
+
+14
+
+(c) Properties of special quadrilaterals.
+
+(b) Investigate line segments joining the midpoints of two sides of a triangle.
+
+(a) Revise basic results established in earlier
+grades.
+
+7. Euclidean Geometry and Measurement
+
+P(A or B) = P(A) + (B) - P(A and B)
+
+(d) The identity for any two events A and B:
+
+(c) Mutually exclusive events and complementary
+events.
+
+(b) Venn diagrams as an aid to solving probability
+problems.
+
+(a) Compare the relative frequency of an
+experimental outcome with the theoretical
+probability of the outcome.
+
+6. PROBABILITY
+
+5. DIFFERENTIAL CALCULUS
+
+CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS)
+(c) Prove riders.
+
+(b) Solve circle geometry problems, providing
+reasons for statements when required.
+
+(a) Investigate and prove theorems of the
+geometry of circles assuming results from
+earlier grades, together with one other result
+concerning tangents and radii of circles.
+
+(b) Venn diagrams or contingency tables and
+tree diagrams as aids to solving probability
+problems (where events are not necessarily
+independent).
+
+(a) Dependent and independent events.
+
+that a line drawn parallel to one side of
+a triangle divides the other two sides
+proportionally (and the Mid-point Theorem
+as a special case of this theorem);
+that equiangular triangles are similar;
+that triangles with sides in proportion are
+similar;
+the Pythagorean Theorem by similar
+triangles; and
+riders.
+
+•
+
+•
+•
+•
+•
+
+(b) Prove (accepting results established in earlier
+grades):
+
+(a) Revise earlier (Grade 9) work on the
+necessary and sufficient conditions for
+polygons to be similar.
+
+(b) Probability problems using the fundamental
+counting principle.
+
+(a) Generalisation of the fundamental counting
+principle.
+
+(f) Practical problems involving optimization and
+rates of change (including the calculus of
+motion).
+
+(e) The ability to sketch graphs of cubic functions.
+
+(d) The equations of tangents to graphs.
+
+(c) Use of the specified rules of differentiation.
+
+(b) Differentiation of specified functions from first
+principles.
+
+(a) An intuitive understanding of the concept of a
+limit.
+
+MATHEMATICS GRADES 10-12
+
+CAPS
+
+the gradient of the line segment joining the
+points;
+
+conditions for parallel and perpendicular lines;
+and
+
+the co-ordinates of the mid-point of the line
+segment joining the points.
+
+•
+
+•
+
+•
+
+and sin2 θ + sin2 θ = 1.
+
+•
+
+the equation of a line through one point and
+parallel or perpendicular to a given line; and
+the inclination of a line.
+
+•
+•
+
+•
+
+five number summary;
+
+box and whisker diagrams; and
+
+measures of dispersion.
+
+•
+
+•
+
+•
+
+calculating the variance and standard
+deviation of sets of data manually (for
+small sets of data) and using calculators
+(for larger sets of data) and representing
+results graphically.
+
+using ogives; and
+
+(b) Represent Skewed data in box and whisker
+diagrams, and frequency polygons. Identify
+outliers.
+
+•
+
+measures of central tendency;
+
+(a) Represent measures of central tendency and
+dispersion in univariate numerical data by:
+
+the equation of a circle (any centre); and
+•
+
+the equation of a line through two given points;
+
+•
+
+(c) Use a calculator to calculate the correlation
+co-efficient of a set of bivariate numerical data
+and make relevant deductions.
+
+(b) Use a calculator to calculate the linear
+regression line which best fits a given set of
+bivariate numerical data.
+
+(a) Represent bivariate numerical data as a
+scatter plot and suggest intuitively and by
+simple investigation whether a linear, quadratic
+or exponential function would best fit the data.
+
+the equation of a tangent to a circle at a given
+point on the circle.
+
+Use a two-dimensional Cartesian co-ordinate
+system to derive and apply:
+
+Solve problems in two and three dimensions.
+
+double angle identities
+
+Proof and use of the compound angle and
+
+Use a Cartesian co-ordinate system to derive and
+apply :
+
+Solve problems in 2-dimensions.
+
+(d) Establish the sine, cosine and area rules.
+
+(c) Determine the general solution and / or specific
+solutions of trigonometric equations.
+
+(b) Derive the reduction formulae.
+
+sin θ
+tan θ = cos θ
+
+(a) Derive and use the identities:
+
+Revise Grade 10 work.
+
+•
+
+(a) Collect, organise and interpret univariate
+numerical data in order to determine:
+
+10. STATISTICS
+
+the distance between the two points;
+
+•
+
+Represent geometric figures in a Cartesian coordinate system, and derive and apply, for any
+two points (x1 ; y1) and (x2 ; y2), a formula for
+calculating:
+
+9. ANALYTICAL GEOMETRY
+
+So Solve problems in two dimensions.
+
+(d) Define the reciprocals of trigonometric ratios.
+
+special angles θ ∈ {0o;30o;45o;60o;90o}
+
+(c) Derive and use values of the trigonometric
+ratios (without using a calculator for the
+
+(b) Extend the definitions of sin θ, cos θ and tan θ
+to 0o ≤ θ ≤ 360o.
+
+(a) Definitions of the trigonometric ratios sin θ,
+cos θ and tan θ in a right-angled triangles.
+
+8. TRIGONOMETRY
+
+Solve problems involving volume and surface
+area of solids studied in earlier grades as well as
+spheres, pyramids and cones and combinations of
+those objects.
+
+MATHEMATICS GRADES 10-12
+
+15
+
+MATHEMATICS GRADES 10-12
+3.2
+
+Content Clarification with teaching guidelines
+
+In Chapter 3, content clarification includes:
+•
+
+teaching guidelines;
+
+•
+
+sequencing of topics per term; and
+
+•
+
+pacing of topics over the year.
+
+•
+
+Each content area has been broken down into topics. The sequencing of topics within terms gives an idea of
+how content areas can be spread and re-visited throughout the year.
+
+•
+
+The examples discussed in the Clarification Column in the annual teaching plan which follows are by no
+means a complete representation of all the material to be covered in the curriculum. They only serve as an
+indication of some questions on the topic at different cognitive levels. Text books and other resources should
+be consulted for a complete treatment of all the material.
+
+•
+
+The order of topics is not prescriptive, but ensure that part of trigonometry is taught in the first term and more
+than six topics are covered / taught in the first two terms so that assessment is balanced between paper 1 and 2.
+
+16
+
+CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS)
+
+MATHEMATICS GRADES 10-12
+3.2.1 	Allocation of Teaching Time
+Time allocation for Mathematics: 4 hours and 30 minutes, e.g. six forty five-minutes periods, per week in grades 10,
+11 and 12.
+Terms
+
+Grade 10
+
+Grade 11
+No. of
+
+No. of
+weeks
+
+weeks
+Term 1
+
+Grade 12
+No. of
+weeks
+
+Algebraic expressions
+
+3
+
+Exponents and surds
+
+3
+
+Patterns, sequences and
+
+Exponents
+
+2
+
+3
+
+series
+
+Number patterns
+
+1
+
+Equations and
+inequalities
+
+Equations and
+inequalities
+
+2
+
+Number patterns
+
+2
+
+Analytical Geometry
+
+3
+
+Trigonometry
+
+3
+
+3
+
+Functions and inverse
+
+3
+
+functions
+Exponential and
+
+1
+
+logarithmic functions
+Finance, growth and
+decay
+
+2
+
+Trigonometry - compound
+
+2
+
+angles
+Term 2
+
+Term 3
+
+Term 4
+
+Functions
+
+4
+
+Functions
+
+4
+
+Trigonometry 2D and 3D
+
+2
+
+Trigonometric functions
+
+1
+
+Trigonometry (reduction
+
+4
+
+Polynomial functions
+
+1
+
+Euclidean Geometry
+
+3
+
+formulae, graphs,
+
+Differential calculus
+
+3
+
+MID-YEAR EXAMS
+
+3
+
+equations)
+
+Analytical Geometry
+
+2
+
+MID-YEAR EXAMS
+
+3
+
+MID-YEAR EXAMS
+
+3
+
+Analytical Geometry
+
+2
+
+Measurement
+
+1
+
+Geometry
+
+2
+
+Finance and growth
+
+2
+
+Euclidean Geometry
+
+3
+
+Statistics (regression and
+
+2
+
+Statistics
+
+2
+
+2
+
+correlation)
+
+Trigonometry
+
+2
+
+Trigonometry (sine,
+area,
+
+Euclidean Geometry
+
+1
+
+Measurement
+
+1
+
+Probability
+Revision
+EXAMS
+
+cosine rules)
+
+Counting and Probability
+
+2
+
+Revision
+
+1
+
+TRIAL EXAMS
+
+3
+
+Probability
+
+2
+
+Finance, growth and
+decay
+
+2
+
+2
+
+Statistics
+
+3
+
+Revision
+
+3
+
+4
+
+Revision
+
+3
+
+EXAMS
+
+6
+
+3
+
+EXAMS
+
+3
+
+The detail which follows includes examples and numerical references to the Overview.
+
+CAPS
+
+17
+
+18
+
+CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS)
+
+Date
+completed
+
+Assessment
+
+Topics
+
+Weeks
+
+WEEK WEEK
+1
+2
+Probability
+
+Test
+
+WEEK
+3
+
+WEEK 1
+WEEK 2
+Analytical Geometry
+
+WEEK 4
+
+TERM 4
+WEEK WEEK WEEK WEEK
+4
+7
+5
+6
+Revision
+
+WEEK 3
+WEEK 4
+Finance and growth
+Test
+
+Assignment / Test
+
+WEEK 3
+
+WEEK 5
+
+WEEK 6
+
+TERM 2
+
+Total marks
+
+100
+
+10
+30
+15
+15
+
+30
+
+WEEK 8
+
+WEEK 8
+
+Paper 1: 2 hours
+WEEK Algebraic
+WEEK 8 WEEK 9
+10
+expressions
+Admin and equations (and
+inequalities)
+exponents
+Number Patterns
+Examinations
+Functions and graphs
+Finance and growth
+Probability
+
+WEEK 7
+Trigonometry
+
+Euclidean Geometry
+
+WEEK 7
+
+Equations and inequalities
+
+Number
+patterns
+
+WEEK 8
+
+WEEK 7
+
+WEEK 6
+
+TERM 3
+WEEK 5
+WEEK 6
+Statistics
+
+Trigonometric
+functions
+
+WEEK 5
+
+Exponents
+
+WEEK 4
+
+MATHEMATICS: GRADE 10 PACE SETTER
+TERM 1
+
+Investigation or project
+
+WEEK 3
+
+Assessment
+Date
+completed
+3
+Weeks
+Topics
+Assessment
+Date
+completed
+4
+
+WEEK 2
+
+Algebraic expressions
+
+WEEK 2
+
+Functions
+
+WEEK 1
+
+WEEK 1
+
+Topics
+
+Weeks
+
+Assessment
+Date
+completed
+2
+
+Topics
+
+Weeks
+
+1
+
+3.2.2	Sequencing and Pacing of Topics
+
+WEEK 10
+
+Trigonometry
+
+WEEK 10
+
+WEEK
+11
+
+WEEK
+11
+
+15
+Statistics
+
+100
+
+50
+Trigonometry
+
+Total marks
+
+15
+
+Paper 2: 2 hours
+20
+
+WEEK 10
+Measurement
+
+Analytical geometry
+
+and measurement
+
+Euclidean geometry
+
+WEEK 9
+Euclidean Geometry
+Test
+
+MID-YEAR EXAMINATION
+
+WEEK 9
+
+Test
+
+WEEK 9
+
+MATHEMATICS GRADES 10-12
+
+CAPS
+
+Date
+completed
+
+Topics
+Assessment
+
+WEEK
+1
+
+WEEK 1
+Measurement
+
+Topics
+Assessment
+Date
+completed
+3
+Weeks
+Topics
+
+Assessment
+Date
+completed
+4
+Weeks
+
+WEEK 1
+
+Topics
+Assessment
+Date
+completed
+2
+Weeks
+
+WEEK 2
+
+WEEK 3
+
+WEEK 3
+
+WEEK WEEK
+2
+3
+Statistics
+Test
+
+WEEK 2
+
+WEEK
+4
+
+WEEK 6
+
+WEEK 4
+
+TERM 2
+WEEK 6
+WEEK 7
+
+WEEK 8
+
+TERM 3
+WEEK 5
+WEEK 6
+Trigonometry (sine, cosine and
+area rules)
+
+Test
+
+WEEK 7
+WEEK 8
+Finance, growth and decay
+
+Trigonometry (reduction formulae, graphs, equations)
+
+WEEK 5
+
+WEEK 8
+
+Number patterns
+
+WEEK 7
+
+TERM 4
+Paper 1: 3 hours
+WEEK WEEK WEEK WEEK WEEK 9 WEEK Algebraic expressions
+5
+6
+7
+8
+10
+and equations (and
+Revision
+FINAL EXAMINATION
+Admin inequalities)
+Number patterns
+Functions and graphs
+Finance, growth and decay
+Probability
+Total marks
+
+Test
+
+WEEK 5
+
+Equations and inequalities
+Investigation or project
+
+WEEK 4
+
+MATHEMATICS: GRADE 11 PACE SETTER
+TERM 1
+
+WEEK 3
+WEEK 4
+Euclidean Geometry
+
+Functions
+Assignment / Test
+
+WEEK 2
+
+Exponents and surds
+
+WEEK 1
+
+Weeks
+
+1
+
+Total marks
+
+150
+
+30
+60
+20
+
+40
+
+WEEK
+11
+
+WEEK 10
+Probability
+
+Paper 2: 3 hours
+Euclidean Geometry
+and measurement
+Analytical geometry
+Trigonometry
+Statistics
+
+WEEK 9
+
+25
+45
+15
+20
+150
+
+WEEK 10
+
+WEEK
+11
+
+MID-YEAR EXAMINATION
+
+WEEK 9
+
+45
+
+WEEK 10
+
+Analytical Geometry
+Test
+
+WEEK 9
+
+MATHEMATICS GRADES 10-12
+
+19
+
+20
+
+CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS)
+
+Date
+completed
+
+Topics
+Assessment
+
+Assessment
+Date
+completed
+3
+Weeks
+Topics
+Assessment
+Date
+completed
+4
+Weeks
+
+Topics
+
+Assessment
+Date
+completed
+2
+Weeks
+
+WEEK 2
+
+WEEK
+1
+
+WEEK WEEK
+2
+3
+Revision
+
+WEEK 1
+WEEK 2
+Geometry
+
+Trigonometry
+
+WEEK 1
+
+WEEK
+4
+
+TERM 2
+WEEK 6
+WEEK 8
+
+WEEK 10
+
+15
+35
+15
+
+Finance, growth and decay
+Differential Calculus
+Counting and probability
+
+150
+
+35
+
+Functions and graphs
+
+Total marks
+
+25
+
+Number patterns
+
+Total marks
+
+Statistics
+
+Trigonometry
+
+Analytical Geometry
+
+and measurement
+
+Paper 2: 3 hours
+Euclidean Geometry
+25
+
+150
+
+20
+
+40
+
+40
+
+50
+
+WEEK
+11
+MID-YEAR EXAMINATION
+
+WEEK 9
+
+TERM 4
+Paper 1: 3 hours
+WEEK WEEK WEEK WEEK WEEK 9 WEEK Algebraic expressions
+5
+6
+7
+8
+10
+and equations (and
+FINAL EXAMINATION
+Admin
+inequalities)
+
+WEEK 7
+Revision
+
+Analytical Geometry
+
+WEEK 7
+
+Assignment
+
+WEEK
+11
+Trigonometry
+
+WEEK 10
+
+WEEK 9
+WEEK 10
+TRIAL EXAMINATION
+
+TERM 3
+WEEK 5
+WEEK 6
+Counting and Probability
+
+Differential Calculus
+
+WEEK 5
+
+WEEK 9
+
+Finance, growth and decay
+
+WEEK 8
+
+WEEK 8
+
+Test
+
+WEEK 4
+
+and
+logarithmic
+Investigation or project
+
+Functions:
+exponential
+
+MATHEMATICS: GRADE 12 PACE SETTER
+TERM 1
+WEEK 5
+WEEK 6
+WEEK 7
+
+Functions: Formal definition; inverses
+
+WEEK 4
+
+WEEK 3
+WEEK 4
+Statistics
+Test
+
+Functions:
+polynomials
+
+WEEK 3
+
+Test
+
+Number patterns, sequences and series
+
+WEEK 3
+
+Topics
+
+WEEK 2
+
+WEEK 1
+
+1
+Weeks
+
+MATHEMATICS GRADES 10-12
+
+CAPS
+
+2
+
+3
+
+No of
+Weeks
+
+21
+
+•
+
+0
+
+x ≠ 0 	
+  , and
+
+m , n	
+   ∈ Q.
+€
+
+• x = 1, x ≠ 0 	
+  
+2. Use the laws of exponents to simplify expressions and
+€
+solve€
+equations, accepting that the rules also hold for
+
+€
+
+,
+
+Also by definition:
+
+x m × y m = (xy) m
+
+x, y > 0 and m , n	
+  ∈ Z:
+m
+n
+m +n
+• x ×x =x
+m
+n
+m −n
+• x ÷x =x
+m n
+mn
+• €(x€) = x 	
+  
+
+1. Revise laws of exponents learnt in Grade 9 where
+
+•
+
+€
+
+Curriculum statement
+
+Clarification
+
+13y
++ 18
+2
+
+3.4
+
+3.3
+
+	
+  
+
+	
+  
+
+(C)
+
+(C)
+
+(R)
+
+3.2 2x 2 = 54
+
+3
+
+(P)
+
+(R)
+
+(C)
+
+(R)
+
+(R)
+
+x
+
+Assuming this type of question has not been taught,
+spotting that the numerator can be factorised as a
+difference of squares requires insight.
+
+A simple two-step procedure is involved.
+
+when an expression has been “fully factorised”.
+
+Learners are required to work with fractions and
+identify
+
+(R)
+(R)
+
+= 0,125
+3.1 2
+
+3. Solve for x :
+
+2. Simplify
+
+Examples:
+1. Simplify: (3 x 52)3 - 75
+
+2. Simplify
+
+1.3. 2 -
+
+y2
+
+Examples to illustrate the different cognitive levels involved in factorisation:
+1. Factorise fully:
+1.1. m2 - 2m + 1 (revision) Learners must be able to recognise the simplest
+perfect squares.
+This type is routine and appears in all texts.
+1.2. 2x2 - x - 3
+
+Where an example is given, the cognitive demand is suggested: knowledge (K),
+routine procedure (R), complex procedure (C) or problem-solving (P)
+
+GRADE 10: TERM 1
+
+1. Understand that real numbers can be rational or
+irrational.
+2. 	Establish between which two integers a given simple
+surd lies.
+3. Round real numbers to an appropriate degree of
+accuracy.
+4. Multiplication of a binomial by a trinomial.
+5. Factorisation to include types taught in grade 9 and:
+• trinomials
+• grouping in pairs
+• sum and difference of two cubes
+6. Simplification of algebraic fractions using factorization
+with denominators of cubes (limited to sum and
+difference of cubes).
+
+€
+€
+€
+
+€ €
+
+Exponents
+
+€
+
+Algebraic
+expressions
+
+Topic
+
+3.2.3	Topic allocation per term
+
+MATHEMATICS GRADES 10-12
+
+22
+
+2
+
+1
+
+No of
+Weeks
+
+Inequalities
+
+Equations and
+
+Numbers and
+patterns
+
+Topic
+
+6. Solve linear inequalities (and show solution graphically).
+Interval notation must be known.
+
+5. Solve literal equations (changing the subject of a
+formula).
+
+4. Solve word problems involving linear, quadratic or
+simultaneous linear equations.
+
+3. Solve simultaneous linear equations in two unknowns.
+
+2. Solve quadratic equations (by factorisation).
+
+1. Revise the solution of linear equations.
+
+Patterns: Investigate number patterns leading to those
+where there is a constant difference between consecutive
+terms, and the general term (without using a formula-see
+content overview) is therefore linear.
+
+Curriculum statement
+
+Clarification
+
+Arithmetic sequence is done in Grade 12, hence
+Grade 10.
+
+	
+  is not used in
+th
+
+=1
+
+(C)
+
+(C)
+
+2
+
+y
+
+5. Solve for x: -1 ≤ 2 - 3x ≤ 8
+
++
+
+(R)
+
+(R)
+
+(R)
+
+3
+
+x
+
+	
+  
+
+(P)
+
+(R)
+
+4. Solve for r in terms of V, ∏ and h: V =∏r2h
+
+3. Solve for x and y: x + 2y = 1;
+
+2. Solve for m: 2m2 - m = 1
+
+1. Solve for x:
+
+Examples:
+
+2. If the pattern MATHSMATHSMATHS… is continued in this way, what will the 267
+letter be? It is not immediately obvious how one should proceed, unless similar
+questions have been tackled.
+
+1. Determine the 5th and the nth terms of the number pattern 10; 7; 4; 1; …. There is
+an algorithmic approach to answering such questions.
+
+Examples:
+
+•
+
+Comment:
+
+GRADE 10: TERM 1
+
+MATHEMATICS GRADES 10-12
+
+CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS)
+
+CAPS
+
+Trigonometry
+
+3
+
+	
+   for
+
+(C)
+
+(K)
+
+Care needs to be taken to set questions on all four cognitive levels: approximately 20% knowledge, approximately 35% routine procedures, 30% complex procedures and 15%
+problem-solving.
+
+2. Test (at least 50 marks and 1 hour). Make sure all topics are tested.
+
+Imagine a cube of white wood which is dipped into red paint so that the surface is red, but the inside still white. If one cut is made, parallel to each face of the cube (and through the
+centre of the cube), then there will be 8 smaller cubes. Each of the smaller cubes will have 3 red faces and 3 white faces. Investigate the number of smaller cubes which will have 3,
+2, 1 and 0 red faces if 2/3/4/…/n equally spaced cuts are made parallel to each face. This task provides the opportunity to investigate, tabulate results, make conjectures and justify
+or prove them.
+
+	Example of an investigation:
+
+4. Solve for x:
+
+ˆ 0, Aˆ == D
+ˆ 0 and AB = 10cm
+Bˆ == E
+90
+30
+
+3. Determine the length of the hypotenuse of a right-angled triangle ABC, where
+
+(P)
+
+2. Let ABCD be a rectangle, with AB = 2cm. Let E be on AD such that A Bˆ E==Eˆ450
+and BÊC = 750. Determine the area of the rectangle.
+
+7. Use diagrams to determine the numerical values of
+ratios for angles from 00 to 3600.
+
+5. Solve two-dimensional problems involving right-angled
+triangles.
+
+(R)
+
+Solve equation of the form sin x = c , or 2 cos x = c , or tan 2 x = c , where c is a
+constant.
+
+•
+
+1. If 5sin θ + 4 = 0 and 00 ≤ θ ≤ 2700 , calculate the value of sin2 θ + cos2 θ without
+using a calculator.
+
+doubling a ratio has a different effect from doubling an angle, for example, generally
+2sin θ ≠ sin 2θ; and
+
+•
+
+6. Solve simple trigonometric equations for angles
+between 00 and 900.
+
+trigonometric ratios are independent of the lengths of the sides of a similar
+right-angled triangle and depend (uniquely) only on the angles, hence we consider
+them as functions of the angles;
+
+•
+
+Examples:
+
+similarity of triangles is fundamental to the trigonometric ratios sin θ, cos θ and tan θ;
+
+•
+
+It is important to stress that:
+
+Comment:
+
+Clarification
+
+4. Derive values of the trigonometric ratios for the special
+cases (without using a calculator)
+θ ∈ {00; 300; 450; 600; 900}.
+
+3. Define the reciprocals of the trigonometric ratios
+cosec θ, sec θ and cot θ, using right-angled triangles
+(these three reciprocals should be examined in grade
+10 only).
+
+2. Extend the definitions of sin θ, cos θ and tan θ for
+00 ≤ θ ≤ 3600.
+
+1. Define the trigonometric ratios sin θ, cos θ and tan θ,
+using right-angled triangles.
+
+Curriculum statement
+
+1. Investigation or project (only one project per year) (at least 50 marks)
+
+Assessment Term 1:
+
+Topic
+
+No of
+Weeks
+
+GRADE 10: TERM 1
+
+MATHEMATICS GRADES 10-12
+
+23
+
+24
+
+5
+
+(4 + 1)
+
+Weeks
+
+Functions
+
+Topic
+
+x
+
+1
+x
+
+and y = b ;
+
+CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS)
+
+defined by
+for
+,
+
+and
+	
+  
+
+Point by point plotting of basic graphs
+
+1
+x
+
+; and
+
+Note: Sketching of the graphs must be based
+on the observation of number 3 and 5.
+
+.
+6. Sketch graphs, find the equations of given
+graphs and interpret graphs.
+
+y =where
+a. yf (=x)a+.,fq( x∈) +Qqfor
+
+;
+
+y =ofa.af (and
+x) + q on the graphs
+5. Study the effect
+defined by:
+
+4.
+
+and f ( x ) = b , b > 0,
+
+x
+
+where f ( x ) = x , f ( x ) = x , f ( x ) =
+
+2
+
+graphs defined by y = a. f ( x) + q ,
+
+fx()x+) q+ qon the
+y =yof=a. af .(and
+3. Investigate the effect
+
+b > 0 and
+to discover shape, domain
+(input values), range (output values),
+asymptotes, axes of symmetry, turning
+points and intercepts on the axes (where
+applicable).
+
+defined by y = x , y =
+
+2
+
+2. Point by point plotting of basic graphs
+
+should be known from Grade 9.
+
+Note: that the graph defined by y = x
+
+1. The concept of a function, where a
+certain quantity (output value) uniquely
+depends on another quantity (input
+value). Work with relationships between
+variables using tables, graphs, words and
+formulae. Convert flexibly between these
+representations.
+
+Curriculum statement
+
+2.
+
+x
+
+O
+
+(1; -1)
+
+(2; 0)
+
+Sketch the graph defined by
+
+y
+
+x
+
+Determine the values of a , b , n , q and t .
+
+	
+  for
+
+The horizontal asymptote of both graphs is the line y = 1.
+
+1. Sketched below are graphs of f ( x ) =
+
++ q and
+
+.
+
+(R)
+
+(C)
+
+Remember that graphs in some practical applications may be either discrete or continuous.
+
+•
+
+a
+
+After summaries have been compiled about basic features of prescribed graphs and the effects
+of parameters a and q have been investigated: a: a vertical stretch (and/or a reflection about the
+x-axis) and q a vertical shift. The following examples might be appropriate:
+
+•
+
+Examples:
+
+A more formal definition of a function follows in Grade 12. At this level it is enough to investigate
+the way (unique) output values depend on how input values vary. The terms independent (input)
+and dependent (output) variables might be useful.
+
+Clarification
+•
+
+Comments:
+
+GRADE 10: TERM 2
+
+MATHEMATICS GRADES 10-12
+
+CAPS
+
+examinations
+
+Mid-year
+
+Geometry
+
+Euclidean
+
+Topic
+
+.
+
+(P)
+
+2. KT is perpendicular to IE.
+As it is not obvious, first prove that
+
+(R)
+
+1. IM = ME and
+
+In quadrilateral KITE, KI = KE and IT = ET. The diagonals intersect at M. Prove that:
+
+One paper of 2 hours (100 marks) or Two papers - one, 1 hour (50 marks) and the other, 1 hour (50 marks)
+
+2. Mid-year examination (at least 100 marks)
+
+It must be explained that a single counter example can disprove a Conjecture, but numerous
+specific examples supporting a conjecture do not constitute a general proof.
+
+•
+Example:
+
+We could define a parallelogram as a quadrilateral with two pairs of opposite sides parallel.
+Then we investigate and prove that the opposite sides of the parallelogram are equal, opposite
+angles of a parallelogram are equal, and diagonals of a parallelogram bisect each other.
+
+•
+
+similar if
+
+Bˆ = Eˆ and Cˆ = Fˆ . They are also
+
+Triangles are similar if their corresponding angles are equal, or if the ratios of their sides are
+
+.
+
+3. Define the following special quadrilaterals:
+the kite, parallelogram, rectangle, rhombus,
+square and trapezium. Investigate and
+make conjectures about the properties of
+the sides, angles, diagonals and areas
+of these quadrilaterals. Prove these
+conjectures.
+
+•
+
+2. Investigate line segments joining the midpoints of two sides of a triangle.
+
+Comments:
+
+Clarification
+
+ˆ = Dˆ ,
+equal: Triangles ABC and DEF are similar if A
+
+Curriculum statement
+
+1. Revise basic results established in earlier
+grades regarding lines, angles and
+triangles, especially the similarity and
+congruence of triangles.
+
+1. Assignment / test (at least 50 marks)
+
+Assessment term 2:
+
+3
+
+3
+
+Weeks
+
+GRADE 10: TERM 2
+
+MATHEMATICS GRADES 10-12
+
+25
+
+26
+
+2
+
+2
+
+Weeks
+
+Finance and
+growth
+
+Geometry
+
+Analytical
+
+Topic
+
+n
+
+including annual interest, hire purchase,
+inflation, population growth and other reallife problems. Understand the implication of
+fluctuating foreign exchange rates (e.g. on the
+petrol price, imports, exports, overseas travel).
+
+and A = P (1 + i ) ] to solve problems,
+
+growth formulae
+
+Use the simple and compound
+
+3. coordinates of the mid-point of the line
+segment joining the two points.
+
+2. gradient of the line segment connecting the
+two points (and from that identify parallel
+and perpendicular lines); and
+
+1. distance between the two points;
+
+calculating the:
+1.4 Is PQRS a rectangle? Why or why not?
+
+1.3 Determine the coordinates of S if PQRS is a parallelogram.
+
+(R)
+
+(C)
+
+(R)
+
+1.2 Find the coordinates of R if M
+
+( x1 ; y1 ) and ( x 2 ; y 2 ) the formulae for
+
+is the mid-point of PR.
+
+(K)
+
+in the Cartesian plane.
+
+1.1. Calculate the distance PQ.
+
+Consider the points P ( 2;5) and
+
+co-ordinate system.
+
+Clarification
+
+Derive and apply for any two points
+
+Example:
+
+Represent geometric figures on a Cartesian
+
+Curriculum statement
+
+GRADE 10: TERM 3
+
+MATHEMATICS GRADES 10-12
+
+CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS)
+
+CAPS
+
+2
+
+Weeks
+
+Statistics
+
+Topic
+
+5. Use the statistical summaries (measures
+of central tendency and dispersion), and
+graphs to analyse and make meaningful
+comments on the context associated with
+the given data.
+
+4. Five number summary (maximum, minimum
+and quartiles) and box and whisker
+diagram.
+
+3. Revision of range as a measure of
+dispersion and extension to include
+percentiles, quartiles, interquartile and semi
+interquartile range.
+
+calculation of mean estimate of grouped
+and ungrouped data and identification of
+modal interval and interval in which the
+median lies.
+
+2. Measures of central tendency in grouped
+data:
+
+1. Revise measures of central tendency in
+ungrouped data.
+
+Curriculum statement
+
+Clarification
+
+24
+20
+
+70≤x<80
+80≤x<100
+
+(R)
+(R)
+(R)
+(R)
+
+2.2. the lower quartile;
+2.3. the upper quartile; and
+2.4. the thirtieth percentile.
+
+(R)
+
+2.1. the median;
+
+2. Identify the interval in which each of the following data items lies:
+
+1. Calculate the approximate mean mark for the examination.
+
+26
+
+43
+
+40≤x<50
+
+60≤x<70
+
+37
+
+30≤x<40
+
+36
+
+10
+
+20≤x<30
+
+50≤x<60
+
+4
+
+Number of candidates
+
+0≤x<20
+
+Percentage obtained
+
+The mathematics marks of 200 grade 10 learners at a school can be summarised as follows:
+
+Example:
+
+In grade 10, the intervals of grouped data should be given using inequalities, that is, in the form
+0≤x<20 rather than in the form 0-19, 20-29, …
+
+Comment:
+
+GRADE 10: TERM 3
+
+MATHEMATICS GRADES 10-12
+
+27
+
+28
+
+CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS)
+
+Measurement
+
+Geometry
+
+Euclidean
+
+Trigonometry
+
+Topic
+
+Problem types must include composite figure.
+
+•
+
+(C)
+
+In case of pyramids, bases must either be an equilateral triangle or a square.
+
+E
+
+•
+
+N
+
+3. Calculate the volume and surface areas of
+spheres, right pyramids and right cones.
+
+H
+
+M
+
+F
+
+The height of a cylinder is 10 cm, and the radius of the circular base is 2 cm. A hemisphere is
+attached to one end of the cylinder and a cone of height 2 cm to the other end. Calculate the
+volume and surface area of the solid, correct to the nearest cm3 and cm2, respectively.
+(R)
+Comments:
+
+Example:
+
+G
+
+EFGH is a parallelogram. Prove that MFNH is a parallelogram.
+
+Example:
+
+Use congruency and properties of quads, esp. parallelograms.
+
+Comment:
+
+Two flagpoles are 30 m apart. The one has height 10 m, while the other has height 15 m. Two
+tight ropes connect the top of each pole to the foot of the other. At what height above the
+ground do the two ropes intersect? What if the poles were at different distance apart?
+(P)
+
+Example:
+
+Clarification
+
+2. Study the effect on volume and surface
+area when multiplying any dimension by a
+constant factor k.
+
+1. Revise the volume and surface areas of
+right-prisms and cylinders.
+
+Solve problems and prove riders using the
+properties of parallel lines, triangles and
+quadrilaterals.
+
+Problems in two dimensions.
+
+Curriculum statement
+
+Assessment term 3: Two (2) Tests (at least 50 marks and 1 hour) covering all topics in approximately the ratio of the allocated teaching time.
+
+2
+
+1
+
+2
+
+Weeks
+
+GRADE 10: TERM 3
+
+MATHEMATICS GRADES 10-12
+
+CAPS
+
+Revision
+
+Examinations
+
+4
+
+3
+
+and B );
+
+P ( B ) = P ( not
+
+Then
+
+P ( A) + P ( B ) = 1.
+
+are mutually exclusive ; and
+
+.
+
+A and B are complementary if they
+
+P( A and B ) = 0;
+
+A and B are mutually exclusive if
+
+P( A or
+
+events A and B in a sample space S:
+
+applying the following for any two
+
+probability problems, deriving and
+
+2. The use of Venn diagrams to solve
+
+probability.
+
+events with the theoretical
+
+compare the relative frequency of
+
+1. The use of probability models to
+
+Curriculum statement
+
+It generally takes a very large number of trials before the relative frequency of a coin falling
+heads up when tossed approaches 0,5.
+
+(C)
+(C)
+
+2. D only; and
+3. both D and S.
+
+The value of working through past papers cannot be over emphasised.
+
+Comment:
+
+(C)
+
+1. S only;
+
+Use a Venn diagram to find how many read
+
+S or D or both. The survey revealed that 45 read D, 30 read S and 10 read neither.
+
+In a survey 80 people were questioned to find out how many read newspaper
+
+Example:
+
+•
+
+Comment:
+
+Clarification
+
+Paper 2: 2 hours (100 marks made up as follows: 40±3 on trigonometry, 15±3 on Analytical Geometry, 30±3 on Euclidean Geometry and Measurement, and 15±3 on Statistics
+
+Paper 1: 2 hours (100 marks made up as follows: 15±3 on number patterns, 30±3 on algebraic expressions, equations and inequalities , 30±3 on functions, 10±3 on finance and
+growth and 15±3 on probability.
+
+2. Examination
+
+1. Test (at least 50 marks)
+
+Assessment term 4
+
+Probability
+
+Topic
+
+2
+
+No of
+Weeks
+
+GRADE 10: TERM 4
+
+MATHEMATICS GRADES 10-12
+
+29
+
+30
+
+CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS)
+
+2
+
+3
+
+3
+
+No
+fWeeks
+
+patterns
+
+Number
+
+Inequalities
+
+Equations and
+
+and surds
+
+Exponents
+
+Topic
+
+p
+
+3
+
+3. Solve for x :
+4. Solve for x :
+
+4. Equations in two unknowns, one of which is
+linear and the other quadratic.
+
+In the first stage of the World Cup Soccer Finals there are teams from four different countries
+in each group. Each country in a group plays every other country in the group once. How many
+matches are there for each group in the first stage of the finals? How many games would there
+be if there were five teams in each group? Six teams? n teams?
+(P)
+
+Example:
+
+(R)
+
+Patterns: Investigate number patterns leading
+to those where there is a constant second
+difference between consecutive terms, and the
+general term is therefore quadratic.
+
+	
+  .
+
+(R)
+
+5. Two machines, working together, take 2 hours 24 minutes to complete a job. Working on its
+own, one machine takes 2 hours longer than the other to complete the job. How long does
+the slower machine take on its own?
+(P)
+
+.
+
+(R)
+
+(R)
+
+5. Nature of roots.
+
+2
+
+	
+  are irrational.
+
+2.2. Show that x + x + 1 = 0 has no real roots.
+
+2.1. Show that the roots of
+
+(Without the hint this would probably be problem solving.)
+
+NB: It is recommended that the solving of
+equations in two unknowns is important to
+be used in other equations like hyperbolastraight line as this is normal in the case of
+graphs.
+
+3. Quadratic inequalities in one unknown
+(Interpret solutions graphically).
+
+1. I have 12 metres of fencing. What are the dimensions of the largest rectangular area I can
+enclose with this fencing by using an existing wall as one side?Hint: let the length of the equal
+sides of the rectangle be x metres and formulate an expression for the area of the rectangle.(C)
+
+(P)
+
+2. Quadratic equations (by factorisation and
+by using the quadratic formula).
+
+	
+  .
+
+(R)
+
+(R)
+
+Example:
+
+3. Solve for x :
+
+2. Simplify:
+
+1. Determine the value of 9 2 .
+
+Example:
+
+routine procedure (R), complex procedure (C) or problem solving (P)
+
+Where an example is given, the cognitive demand is suggested: knowledge (K),
+
+Clarification
+
+1. Complete the square.
+
+3. Solve simple equations involving surds.
+
+2. Add, subtract, multiply and divide simple
+surds.
+
+q
+
+x = x ; x > 0; q > 0 .
+
+p
+q
+
+1. Simplify expressions and solve equations
+using the laws of exponents for rational
+exponents where
+
+Curriculum statement
+
+GRADE 11: TERM 1
+
+MATHEMATICS GRADES 10-12
+
+CAPS
+
+Analytical
+Geometry
+
+Topic
+
+Derive and apply:
+1. the equation of a line though two given
+points;
+2. the equation of a line through one point and
+parallel or perpendicular to a given line; and
+3. the inclination (θ) of a line, where
+is the gradient of the line
+
+Curriculum statement
+
+(R)
+(C)
+
+Example:
+Given the points A(2;5) ; B(-3;-4) and C(4;-2) determine:
+1. the equation of the line AB; and
+
+ˆC .
+2. the size of BA
+
+Clarification
+
+x
+if it is given that 2x2 - 5xy + y2 = 0
+y
+
+y
+x 1
+x 1
+or x = y . Hence the ratio
+= or = . In the same way find the possible values of
+2
+y 2
+y 1
+
+Example of project: Collect the heights of at least 50 sixteen-year-old girls and at least 50 sixteen-year-old boys. Group your data appropriately and use these two sets of grouped data
+to draw frequency polygons of the relative heights of boys and of girls, in different colours, on the same sheet of graph paper. Identify the modal intervals, the intervals in which the
+medians lie and the approximate means as calculated from the frequencies of the grouped data. By how much does the approximate mean height of your sample of sixteen-year-old
+girls differ from the actual mean? Comment on the symmetry of the two frequency polygons and any other aspects of the data which are illustrated by the frequency polygons.
+2. Test (at least 50 marks and 1 hour). Make sure all topics are tested.
+Care needs to be taken to ask questions on all four cognitive levels: approximately 20% knowledge, approximately 35% routine procedures, 30% complex procedures and
+15% problem-solving.
+
+The golden rectangle has been recognised through the ages as being aesthetically pleasing. It can be seen in the architecture of the Greeks, in sculptures and in Renaissance
+paintings. Any golden rectangle with length x and breadth y has the property that when a square the length of the shorter side (y) is cut from it, another rectangle similar to it is left. The
+process can be continued indefinitely, producing smaller and smaller rectangles. Using this information, calculate the ratio x: y in surd form.
+
+x = y of A0, A1, A2, …, A7 paper (in simplest surd form).
+sheet, the A2 sheet is half the size of the A1 sheet and similar to the A1 sheet, etc. Find the ratio of the length x =to ythe breadth
+Task 3
+
+Most paper is cut to internationally agreed sizes: A0, A1, A2, …, A7 with the property that the A1 sheet is half the size of the A0 sheet and similar to the A0
+
+Task
+
+the ratio
+
+If 2x2 - 3xy + y2 = 0 then (2x - y)(x-y) = 0 so x =
+
+1. An Investigation or a project (a maximum of one project in a year) (at least 50 marks)
+Notice that an assignment is generally an extended piece of work undertaken at home. Linear programming questions can be used as projects.
+Example of an assignment: Ratios and equations in two variables.
+(This assignment brings in an element of history which could be extended to include one or two ancient paintings and examples of architecture which are in the shape of a rectangle
+with the ratio of sides equal to the golden ratio.)
+Task 1
+
+Assessment Term 1:
+
+3
+
+No
+fWeeks
+
+GRADE 11: TERM 1
+
+MATHEMATICS GRADES 10-12
+
+31
+
+32
+
+4
+
+No of
+Weeks
+
+Functions
+
+Topic
+
+€
+
+€
+
++ q where
+
+	
+  and
+
+CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS)
+
+at a time.
+
+𝑦=𝑎  𝑡𝑎𝑛  𝑘  (𝑥+𝑝) at most two parameters
+
+𝑦=𝑎  𝑠𝑖𝑛  𝑘  (𝑥+𝑝),
+𝑦=𝑎  𝑐𝑜𝑠  𝑘  (𝑥+𝑝) and
+
+6. Draw sketch graphs defined by:
+
+y = tan(x + p), .
+
+by y = sin( x + p), , y = cos( x + p), and
+
+5. Investigate the effect of the parameter
+p on the graphs of the functions defined
+
+.
+
+y = sin(kx),
+
+and
+	
+  
+
+4. Investigate the effect of the parameter k
+on the graphs of the functions defined by
+
+defined by
+,
+for θ ∈ [−360°; 360°] 	
+  
+
+3. Point by point plotting of basic graphs
+
+2. Investigate numerically the average
+gradient between two points on a curve and
+develop an intuitive understanding of the
+concept of the gradient of a curve at a point.
+
+  b>0, b≠1
+
+x+ p
+
+a
++q
+x+ p
+
+1.3. y = f ( x) = a.b
+
+1.2. y = f ( x) =
+
+1.1. y = f ( x) = a( x + p) + q
+
+2
+
+1. Revise the effect of the parameters a and q
+and investigate the effect of p on the graphs
+of the functions defined by:
+
+Curriculum statement
+
+on the same set of axes, where
+
+Sketch the graphs defined by
+
+€
+
+.	
+  
+
+and f (x) = cos(2x − 120°) 	
+  
+
+Two parameters at a time can be varied in tests or examinations.
+
+•
+Example:
+
+Once the effects of the parameters have been established, various problems need to be set:
+drawing sketch graphs, determining the defining equations of functions from sufficient data,
+making deductions from graphs. Real life applications of the prescribed functions should be
+studied.
+
+Clarification
+
+•
+
+Comment:
+
+GRADE 11: TERM 2
+
+(C)
+
+MATHEMATICS GRADES 10-12
+
+CAPS
+
+examinations
+
+Mid-year
+
+Trigonometry
+
+Topic
+
+Curriculum statement
+
+.	
+  
+
+4. Determine the general solutions of
+
+and
+
+Mid-year examination:
+
+2.
+
+	
+  
+
+.
+
+	
+   undefined?
+
+Paper 2: 2 hours (100 marks made up as follows: analytical geometry (30±3) and trigonometry (70±3)).
+
+Paper 1: 2 hours (100 marks made up as follows: general algebra (25±3) equations and inequalities (35±3); number patterns (15±3); functions (25±3)
+
+Assignment ( at least 50 marks)
+
+4. Determine the general solutions of
+trigonometric equations. Also, determine
+solutions in specific intervals.
+
+2
+
+tan ( 540° + x ) sin( 90° + x ) cos(−x )
+
+cos(180° − x ) sin( x − 90°) − 1
+
+is
+
+	
+  .
+
+3. Simplify
+
+2. For which values of
+
+1. Prove that
+
+€
+
+Clarification
+
+Teachers should explain where reduction formulae come from.
+
+Examples:
+
+•
+
+Comment:
+
+	
+  
+
+;
+
+2.4.
+	
+  .
+3. Determine for which values of a variable an
+identity holds.
+
+2.3.
+
+2.2.
+
+2.1.
+
+2. Derive and use reduction formulae to
+simplify the following expressions:
+
+and
+
+k an odd integer;
+
+1. Derive and use the identities
+
+1.
+
+Assessment term 2:
+
+3
+
+4
+
+No of
+Weeks
+
+GRADE 11: TERM 2
+
+(C)
+
+(R)
+
+(R)
+
+(R)
+
+MATHEMATICS GRADES 10-12
+
+33
+
+34
+
+Geometry
+
+Euclidean
+
+Measurement
+
+1
+
+3
+
+Topic
+
+No. of
+weeks
+
+(wherever they hold) cannot be asked.
+Example:
+1. AB and CD are two chords of a circle with centre O. M is on AB and N is on CD such that
+OM ⊥ AB and ON ⊥ CD. Also, AB = 50mm, OM = 40mm and ON = 20mm. Determine the
+radius of the circle and the length of CD.
+(C)
+
+is perpendicular to the radius, drawn to the
+
+point of contact.
+
+Then investigate and prove the theorems of
+
+CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS)
+
+The perpendicular bisector of a chord
+passes through the centre of the circle;
+
+The angle subtended by an arc at the
+centre of a circle is double the size of the
+angle subtended by the same arc at the
+circle (on the same side of the chord as the
+centre);
+
+Angles subtended by a chord of the circle,
+on the same side of the chord, are equal;
+
+The opposite angles of a cyclic quadrilateral
+are supplementary;
+
+Two tangents drawn to a circle from the
+same point outside the circle are equal in
+length;
+
+The angle between the tangent to a circle
+and the chord drawn from the point of
+contact is equal to the angle in the alternate
+segment.
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+converses, where they exist, to solve riders.
+
+Use the above theorems and their
+
+The line drawn from the centre of a circle
+perpendicular to a chord bisects the chord;
+
+•
+
+(R)
+(R)
+
+2.4. Write down your observation regarding the measures of K̂ 2 and M̂ .
+
+(R)
+
+2.2. Determine K̂1 and K̂ 2 in terms of x .
+2.3. Determine Kˆ1 + Mˆ . What do you notice?
+
+(R)
+
+2.1. Determine Ô2 and M̂ in terms of x .
+
+2. O is the centre of the circle below and Oˆ1 = 2x .
+
+Proofs of theorems can be asked in examinations, but their converses
+
+as axioms and also that a tangent to a circle
+
+the geometry of circles:
+
+Comments:
+
+Clarification
+
+Accept results established in earlier grades
+
+1. Revise the Grade 10 work.
+
+Curriculum Statement
+
+GRADE 11: TERM 3
+
+MATHEMATICS GRADES 10-12
+
+No. of
+weeks
+
+Topic
+
+Curriculum Statement
+
+CAPS
+Clarification
+
+	
+  
+
+	
+  
+
+(P)
+
+T	
+  
+
+4.2 AB is a tangent to circle ADP.
+
+ˆ = Bˆ . .
+and A
+2
+2
+
+P	
+  
+
+x
+
+O	
+   y	
+  
+
+3	
+  
+2	
+  
+
+B	
+  
+
+(C)
+
+(P)
+
+,
+
+z	
+  
+
+	
+  .
+
+4.1 PAL is a tangent to circle ABC;
+
+Prove that:
+
+4. Given:
+
+M	
+  
+
+A	
+  
+
+3. O is the centre of the circle above and MPT is a tangent. Also,
+Determine, with reasons, x, y and z .
+
+GRADE 11: TERM 3
+
+MATHEMATICS GRADES 10-12
+
+35
+
+No. of
+weeks
+
+Topic
+
+Curriculum Statement
+
+36
+
+Clarification
+
+(C)
+(P)
+(P)
+
+5.1 BT // CE
+5.2 BCEF is a parallelogram
+5.3 AC = BF
+
+Prove that:
+
+that FD = FE. CDE is a straight line and chord AC and BF cut at K.
+
+BFT is a tangent to the smaller circle at F. Straight line AFE is drawn such
+
+5. In the accompanying figure, two circles intersect at F and D.
+
+GRADE 11: TERM 3
+
+MATHEMATICS GRADES 10-12
+
+CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS)
+
+CAPS
+
+2
+
+2
+
+No. of
+weeks
+
+Finance, growth
+and decay
+
+Trigonometry
+
+Topic
+
+2. The effect of different periods of compound
+growth and decay, including nominal and
+effective interest rates.
+
+to solve problems (including straight line
+depreciation and depreciation on a reducing
+balance).
+
+A = P(1- i)n
+
+A = P(1 - in) and
+
+1. Use simple and compound decay formulae:
+
+2. Solve problems in two dimensions using the
+sine, cosine and area rules.
+
+1. Prove and apply the sine, cosine and area
+rules.
+
+Curriculum Statement
+
+Clarification
+
+.	
+  
+
+	
+  .
+
+(C)
+
+3. R50 000 is invested in an account which offers 8% p.a. interest compounded quarterly for
+the first 18 months. The interest then changes to 6% p.a. compounded monthly. Two years
+after the money is invested, R10 000 is withdrawn. How much will be in the account after
+4 years?
+The use of a timeline to solve problems is a useful technique.
+
+Stress the importance of not working with rounded answers, but of using the maximum accuracy
+afforded by the calculator right to the final answer when rounding might be appropriate.
+
+•
+•
+
+Comment:
+
+(R)
+
+(C)
+
+1.2 reducing balance?
+2. Which is the better investment over a year or longer: 10,5% p.a. compounded daily or
+10,55% p.a. compounded monthly?
+
+(R)
+
+(P)
+
+1.1 straight line method; and
+
+1. The value of a piece of equipment depreciates from R10 000 to R5 000 in four years.
+What is the rate of depreciation if calculated on the:
+
+Examples:
+
+Show that
+
+In
+D is on BC, ADC = θ, DA = DC = r, bd = 2r, AC = k, and
+
+The proofs of the sine, cosine and area rules are examinable.
+
+Example:
+
+•
+
+Comment:
+
+GRADE 11: TERM 3
+
+MATHEMATICS GRADES 10-12
+
+37
+
+No. of
+weeks
+
+2
+
+Probability
+
+Topic
+
+4. Use tree diagrams for the probability of
+consecutive or simultaneous events which
+are not necessarily independent.
+
+events A, B and C in a sample space S.
+
+applying formulae for any three
+
+probability problems, deriving and
+
+3. The use of Venn diagrams to solve
+
+𝑃(𝐴  𝑎𝑛𝑑  𝐵)=𝑃(𝐴)×𝑃(𝐵).
+
+2. Identify dependent and independent events
+and the product rule for independent
+events:
+
+P(A or B) = P(A) + P(B) - P(A and B)
+
+(C)
+(K)
+(R)
+(R)
+
+4.2 How many subjects got no relief from any of the drugs?
+4.3 How many subjects got relief from drugs A and B, but not C?
+4.4 What is the probability that a randomly chosen subject got relief from at least one of the
+drugs?
+
+(R)
+
+(C)
+
+(C)
+
+(R)
+
+4.1 Record this information in a Venn diagram.
+
+7 reported relief from all three drugs.
+
+68 reported relief from at least one of the drugs
+
+18 reported relief from drugs B and C
+
+21 reported relief from both drugs A and C
+
+40 reported relief from drug C
+
+35 reported relief from drug B
+
+40 reported relief from drug A
+
+headaches. Over the period covered by the study, 80 patients were given the opportunity
+to use all two drugs. The following results were obtained:from at least one of the drugs?
+
+4. A study was done to test how effective three different drugs, A, B and C were in relieving
+
+of the two. If a learner is chosen at random from this group, what is the probability that
+he/she takes both Mathematics and History?
+
+3. In a group of 50 learners, 35 take Mathematics and 30 take History, while 12 take neither
+
+2. What is the probability of throwing at least one six in four rolls of a regular six sided die?
+
+independent or neither mutually exclusive nor independent?
+
+1. P(A) = 0,45, P(B) = 0,3 and P(A or B) = 0,615. Are the events A and B mutually exclusive,
+
+𝑃(𝑛𝑜𝑡 𝐴)=1−𝑃(𝐴)  and the identity
+
+Venn Diagrams or Contingency tables can be used to study dependent and independent
+events.
+
+Examples:
+
+•
+
+Comment:
+
+Clarification
+
+the complementary rule:
+
+𝑃(𝐴  𝑜𝑟  𝐵)=𝑃𝐴+𝑃(𝐵), 
+
+1. Revise the addition rule for mutually
+exclusive events:
+
+Curriculum Statement
+
+GRADE 11: TERM 3
+
+MATHEMATICS GRADES 10-12
+
+38
+
+CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS)
+
+CAPS
+
+Revision
+
+Examinations
+
+3
+
+3
+
+Test (at least 50 marks)
+
+Identification of outliers should be done in the context of a scatter plot as well as the box and
+whisker diagrams.
+
+•
+
+6. Identification of outliers
+
+5. Symmetric and skewed data
+
+Problems should cover topics related to health, social, economic, cultural, political and
+environmental issues.
+
+•
+
+4. Variance and standard deviation of
+ungrouped data
+
+Variance and standard deviation may be calculated using calculators.
+
+•
+
+3. 	Ogives (cumulative frequency curves)
+
+Comments:
+
+Clarification
+
+2. Frequency polygons
+
+1. Histograms
+
+Curriculum Statement
+
+Paper 2: 3 hours (150 marks made up as follows: (50±3) on trigonometry, (30±3) on Analytical Geometry, (50±3) on Euclidean Geometry and Measurement, (20±3) on Statistics.
+
+Paper 1: 3 hours (150 marks made up as follows: (25±3) on number patterns, on (45±3) exponents and surds, equations and inequalities, (45±3) on functions, (15±3) on finance
+growth and decay, (20±3) on probability).
+
+2. 	Examination (300 marks)
+
+1.
+
+Assessment term 4:
+
+Statistics
+
+Topic
+
+3
+
+No. of
+weeks
+
+GRADE 11: TERM 4
+
+MATHEMATICS GRADES 10-12
+
+39
+
+40
+
+Functions
+
+3
+
+3
+
+Topic
+
+Patterns,
+sequences,
+series
+
+Weeks
+
+No. of
+
+,
+
+3.3
+
+.
+
+CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS)
+
+	
+  
+
+Focus on the following characteristics:
+domain and range, intercepts with the axes,
+turning points, minima, maxima,
+asymptotes (horizontal and vertical), shape
+and symmetry, average gradient (average
+rate of change), intervals on which the
+function increases /decreases.
+
+	
+  
+
+	
+  and
+
+	
+  .
+
+	
+   and y = x line on the same set of axes.
+
+x , the reciprocal is 1 , while
+x
+
+for x ≥ 0	
+  .
+
+(C)
+
+(R)
+
+(R)
+
+(R)
+
+(K)
+
+(P)
+
+(R)
+
+(C)
+
+(R)
+
+(K)
+
+€
+
+2. Note that the notation
+	
+  is used only for one-to-one relation and must not be
+used for inverses of many-to-one relations, since in these cases the inverses are not functions.
+
+for the function where f ( x) =
+
+1. Do not confuse the inverse function
+
+f ,
+
+.	
+  
+
+	
+  with the reciprocal f 1(x) . For example,
+
+Sketch the graphs of the functions
+What do you notice?
+
+2. Repeat Question 1 for the function
+Caution:
+
+1.4
+
+	
+  .
+
+1.3
+
+3. Determine and sketch graphs of the
+inverses of the functions defined by
+
+Determine the inverse function
+
+Show that f is a one-to-one relation.
+
+1.2
+
+.
+
+Write down the domain and range of f .
+
+Consider the function f where
+1.1
+
+1.
+
+Examples:
+
+5. Show that 0,999 9 = 1 .
+
+.
+
+4. Determine the largest value of n such that
+
+3. Determine the 5th term of the geometric sequence of which the 8th term is 6 and the 12th
+term is 14.
+
+2. Calculate
+
+	
+  .
+
+Comment:
+Derivation of the formulae is examinable.
+Examples:
+1. Write down the first five terms of the sequence with general term
+
+Clarification
+
+2. General concept of the inverse of a function
+and how the domain of the function may
+need to be restricted (in order to obtain
+a one-to-one function) to ensure that the
+inverse is a function.
+
+1. Definition of a function.
+
+; and
+
+;
+
+;
+
+3.2
+
+3.1
+
+3. Derivation and application of the formulae
+for the sum of arithmetic and geometric
+series:
+
+2. Sigma notation
+
+1. Number patterns, including arithmetic and
+geometric sequences and series
+
+Curriculum statement
+
+GRADE 12: TERM 1
+
+MATHEMATICS GRADES 10-12
+
+CAPS
+
+1
+
+Weeks
+
+No. of
+
+and
+
+.
+
+Clarification
+
+log A
+.
+log B
+
+;
+
+Manipulation involving the logarithmic laws will not be examined.
+
+x
+
+a > 0.
+
+	
+  
+
+.	
+  
+
+	
+  ?
+
+41
+
+2.8 Represent all these functions graphically.
+
+	
+  , k and p .
+
+2.7 Write down the domain and range for each of the functions
+
+two units to the left.
+
+2.6 Determine the function p if the graph of p is obtained by shifting the graph of f
+
+through the x -axis.
+
+2.5 Determine the function k if the graph of k is the reflection of the graph of f
+
+through the y -axis.
+
+2.4 Determine the function h if the graph of h is the reflection of the graph of f
+
+2.3 For which values of x is
+
+2.2 Determine the function
+
+2.1 Determine a if the graph of f goes through the point
+
+2. Let f ( x) = a ,
+
+1. Solve for x :
+
+logarithmic
+
+2. Manipulation involving the logarithmic laws will not be examined.
+
+1. Make sure learners know the difference between the two functions defined by
+y = b x and y = x b where b is a positive (constant) real number.
+
+Caution:
+
+•
+
+They follow from the basic exponential laws (term 1 of grade 10).
+
+log B A =
+
+	
+  ; and
+
+;
+
+related to finance, growth and decay, are:
+
+The four logarithmic laws that will be applied, only in the context of real-life problems
+
+Comment:
+
+Examples:
+
+3. The graph of the function define y = logb x
+for both the cases 0 < b < 1 and b > 1 .
+
+where
+
+2. Understand the definition of a logarithm:
+,
+
+1. Revision of the exponential function and the
+exponential laws and graph of the function
+defined by
+where
+and
+
+Curriculum statement
+
+exponential and
+
+Functions:
+
+Topic
+
+GRADE 12: TERM 1
+
+(R)
+
+(R)
+
+(C)
+
+(C)
+
+(C)
+
+(C)
+
+(R)
+
+(R)
+
+(R)
+
+MATHEMATICS GRADES 10-12
+
+42
+
+CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS)
+
+2
+
+2
+
+Weeks
+
+No. of
+
+Trigonometry
+
+decay
+
+growth and
+
+Finance,
+
+Topic
+
+.
+
+.	
+  
+
+;
+; and
+
+;
+
+Compound angle identities:
+;
+
+; 	
+  
+
+3. Critically analyse investment and loan
+options and make informed decisions as to
+best option(s) (including pyramid).
+
+A = P(1 + i)n or
+
+2. Make use of logarithms to calculate
+the value of n , the time period, in the
+equations
+
+1. Solve problems involving present value and
+future value annuities.
+
+Curriculum statement
+
+Clarification
+
+i
+
+n
+
+x[(1 + i) − 1]
+and
+
+€
+
+In order to buy a car, John takes out a loan of R25 000 from the bank. The bank charges
+an annual interest rate of 11%, compounded monthly. The instalments start a month after
+he has received the money from the bank.
+
+4. Prove that
+
+sin 2x + cos x = 0 .
+
+3. Determine the general solution of
+
+2. Accepting
+identities.
+
+.
+
+, derive the other compound angle
+
+1.2 Calculate the outstanding balance of his loan after two years (immediately after the 24
+instalment).
+
+th
+
+1.1 Calculate his monthly instalments if he has to pay back the loan over a period of 5 years.
+
+1.
+
+Given that a population increased from 120 000 to 214 000 in 10 years, at what annual
+(compound) rate did the population grow?
+
+Examples:
+
+The use of a timeline to analyse problems is a useful technique.
+
+Comment:
+
+payment commences one period from the present and ends after n periods.
+
+The two annuity formulae: F =
+
+hold only when
+
+should be part of the teaching process to ensure that
+
+the learners understand where the formulae come from.
+
+formula,
+
+Derivation of the formulae for present and future values using the geometric series
+
+Comment:
+
+GRADE 12: TERM 1
+
+(C)
+
+(R)
+
+(C)
+
+(C)
+
+(R)
+
+(R)
+
+MATHEMATICS GRADES 10-12
+
+CAPS
+
+Topic
+
+Curriculum statement
+
+Which of these triangles has the greatest area?
+
+What regular polygons can be made using all 12 matches?
+
+Investigate the areas of polygons with a perimeter of 12 matches in an effort to establish the maximum area that can be enclosed by the matches.
+
+•
+
+•
+
+•
+
+3. Test. (at least 50 marks)
+
+2. Assignment or Test. (at least 50 marks)
+
+conjectures, validating, proving and communicating mathematical ideas.
+
+The focus of this task is on mathematical processes. Some of these processes are: specialising, classifying, comparing, inferring, estimating, generalising, making
+
+Assessment:
+
+producing a large number of trivial observations.
+
+Any extensions or generalisations that can be made, based on this task, will enhance your investigation. But you need to strive for quality, rather than simply
+
+How many different triangles can be made with a perimeter of 12 matches?
+
+Grade 12 Investigation: Polygons with 12 Matches
+
+Example of an investigation which revises the sine, cosine and area rules:
+
+Clarification
+
+•
+
+•
+
+Only one investigation or project per year is required.
+
+1. Investigation or project. (at least 50 marks)
+
+Assessment Term 1:
+
+Weeks
+
+No. of
+
+GRADE 12: TERM 1
+
+MATHEMATICS GRADES 10-12
+
+43
+
+44
+
+CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS)
+
+1
+
+2
+
+Weeks
+
+No. of
+
+polynomials
+
+Functions:
+
+continued
+
+Trigonometry
+
+Topic
+
+Factorise third-degree polynomials. Apply
+the Remainder and Factor Theorems to
+polynomials of degree at most 3 (no proofs
+required).
+
+1. Solve problems in two and three
+dimensions.
+
+Curriculum statement
+
+y
+a
+
+x
+Q
+150°
+
+R
+
+	
+  is a tower. Its foot, P , and the points Q and R are on the same horizontal plane.
+
+P
+
+T
+
+Clarification
+
+a + b + c = (b + c) cos A + (c + a) cos B + (a + b) cos C .
+
+	
+  ).
+
+	
+  ).
+
+and
+
+	
+  .
+
+,
+
+	
+  
+
+2. If
+	
+  is divided by
+Determine the value of p .
+
+1. Solve for x :
+
+, the remainder is
+
+	
+  .
+
+(P)
+
+(R)
+
+( P)
+
+(P)
+
+(P)
+
+(R)
+
+(C)
+
+Any method may be used to factorise third degree polynomials but it should include examples
+which require the Factor Theorem.
+Examples:
+
+2.4
+
+	
+  (on condition that
+2.3
+
+	
+  
+
+(on condition that
+
+a = b cos C + c cos B where
+
+	
+  . Prove that:
+
+2.2
+
+2.1
+
+,
+
+	
+  
+
+	
+  y and the distance between P and R is a metres. Prove that
+
+From Q the angle of elevation to the top of the building is x. Furthermore,
+
+2. In
+
+1.
+
+Examples:
+
+GRADE 12: TERM 2
+
+MATHEMATICS GRADES 10-12
+
+CAPS
+
+3
+
+Weeks
+
+No. of
+
+Calculus
+
+Differential
+
+Topic
+
+.
+
+;
+
+3.3 f ( x) = c .
+
+a
+3.3 f ( x) =
+; and
+x
+
+3.2
+
+3.1
+
+derivative, f ' ( x) for a, b and c constants:
+
+3. Using the definition (first principle), find the
+
+f at the point with x -coordinate a .
+
+the gradient of the tangent to the graph of
+
+f (x) . Understand intuitively that f ' (a) is
+
+the derivative function f ' ( x) of the function
+
+any point x in the domain of f , i.e., define
+
+Generalise to find the derivative of f at
+
+of a function f at any x :
+
+Examples:
+
+2. Use limits to define the derivative
+
+Clarification
+
+	
+  
+
+, using
+
+(C)
+
+(R)
+
+(R)
+
+(R)
+
+.
+
+Write down your observation.
+
+Determine
+
+Determine
+
+.
+
+'
+
+	
+  
+
+3
+
+2.2 Determine f ( x) if f ( x) = ( x + 2)
+x
+
+2.1 Determine f ( x) if
+
+'
+
+2. Use differentiation rules to do the following:
+
+•
+
+•
+
+•
+
+(P)
+
+(C)
+
+(R)
+
+Care should be taken not to apply the sum rule for differentiation 4.1 in a similar way to products.
+
+Caution:
+
+1.4
+
+1.3
+
+1.2
+
+1.1 f ( x) = x + 2
+
+2
+
+1. In each of the following cases, find the derivative of f (x) at the point where
+the definition of the derivative:
+
+Differentiation from first principles will be examined on any of the types
+described in 3.1, 3.2 and 3.3.
+
+Comment:
+
+1. An intuitive understanding of the limit
+concept, in the context of approximating
+the rate of change or gradient of a function
+at a point.
+
+Curriculum statement
+
+GRADE 12: TERM 2
+
+MATHEMATICS GRADES 10-12
+
+45
+
+Weeks
+
+No. of
+
+Topic
+
+46
+	
+  (for
+
+and
+( k a constant)
+
+CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS)
+
+8. Solve practical problems concerning
+optimisation and rate of change, including
+calculus of motion.
+
+7. Sketch graphs of cubic polynomial functions
+using differentiation to determine the coordinate of stationary points, and points
+of inflection (where concavity changes).
+Also, determine the x -intercepts of the
+graph using the factor theorem and other
+techniques.
+
+determines the concavity of a function.
+
+of f (x) and how it
+
+6. Introduce the second derivative
+
+5. Find equations of tangents to graphs of
+functions.
+
+4.2
+
+4.1
+
+any real number n) together with the rules
+
+4. Use the formula
+
+Curriculum statement
+
+if
+if
+
+	
+  
+
+Clarification
+
+2
+
+3
+4.
+
+	
+  .
+
+(R)
+(C)
+(C)
+(P)
+
+5.2 Determine the area of the material needed to manufacture the can (that is, determine
+the total surface area of the can) in terms of x .
+5.3 Determine the value of x for which the least amount of material is needed to
+manufacture such a can.
+5.4 If the cost of the material is R500 per m 2 , what is the cost of the cheapest can
+(labour excluded)?
+
+(P)
+
+5.1 Determine the height of the can in terms of x .
+
+5. The radius of the base of a circular cylindrical can is x cm, and its volume is 430 cm3.
+
+(Remember: To understand points of inflection, an understanding of concavity is necessary.
+This is where the second derivative plays a role.)
+
+	
+  and as
+
+(R)
+
+4.3 looking at the behaviour of y as
+
+(C)
+
+4.2 finding maxima, minima and the co-ordinate of the point of inflection;
+
+by:
+
+(C)
+
+(C)
+
+(R)
+
+4.1 finding the intercepts with the axes;
+
+4. Sketch the graph defined by
+
+where x =
+
+3. Determine the equation of the tangent to the graph defined by y = (2x + 1) ( x + 2)
+
+2.4 Determine
+
+2.3 Determine
+
+GRADE 12: TERM 2
+
+MATHEMATICS GRADES 10-12
+
+CAPS
+
+Examinations
+
+Mid-Year
+
+Geometry
+
+Analytical
+
+Topic
+
+2. Examination (300 marks)
+
+Curriculum statement
+defines
+
+2. Determination of the equation of a tangent
+to a given circle.
+
+a circle with radius r and centre (a; b) .
+
+1. The equation
+
+1. Assignment (at least 50 marks)
+
+Assessment term 2:
+
+3
+
+2
+
+Weeks
+
+No. of
+Clarification
+
+	
+  and radius 6
+
+	
+  as diameter.
+
+.
+
+.
+
+.
+
+with the equation
+
+	
+  .
+
+5.8 Determine the equations of the two tangents to the circle, both parallel to the line
+
+5.7 Verify that
+
+(P)
+
+(R)
+
+(C)
+
+5.6 Determine the co-ordinates of the point C where the two tangents in 5.5 intersect.
+
+(C)
+
+(K)
+
+(C)
+
+, where O is the origin.
+
+.
+
+(K)
+
+(R)
+
+at A and B .
+
+(C)
+
+(P)
+
+(R)
+
+(K)
+
+5.5 Determine the equations of the tangents to the circle at the points
+A and B .
+
+5.4 Show that
+
+5.3 Determine the co-ordinates of M , the midpoint of
+
+5.2 Determine the length of chord
+
+5.1 Determine the co-ordinates of A and B .
+
+5. The line with the equation y = x + 2 intersects the circle defined by
+
+	
+  at the point
+
+4. Determine the equation of the tangent that touches the circle defined by
+
+	
+  and the y -axis at (0;3) . How many such circles are there?
+
+3. Determine the equation of a circle with a radius of 6 units, which intersects the x -axis at
+
+and
+
+2. Determine the equation of the circle which has the line segment with endpoints (5;3)
+
+1. Determine the equation of the circle with centre
+
+Examples:
+
+GRADE 12: TERM 2
+
+MATHEMATICS GRADES 10-12
+
+47
+
+48
+
+1
+
+2
+
+Weeks
+
+No. of
+
+correlation)
+
+(regression and
+
+Statistics
+
+Geometry
+
+Euclidean
+
+Topic
+
+that a line drawn parallel to one side
+of a triangle divides the other two
+sides proportionally (and the Mid-point
+Theorem as a special case of this
+theorem) ;
+
+	
+   in terms of a and c .
+
+.
+(P)
+
+580
+
+y
+
+1030
+
+500
+
+1420
+
+600
+
+1880
+
+700
+
+(R)
+
+3. Roughly how fast is the engine running when it has an output of 1200 horse power?
+
+(K)
+(R)
+
+	
+  
+
+2100
+
+750
+
+2. Use this line to estimate the power output when the engine runs at 800m.
+
+1. Find the least squares regression line
+
+400
+
+x
+
+The following table summarises the number of revolutions x (per minute) and the corresponding
+power output y (horse power) of a Diesel engine:
+
+. Determine the length of
+
+and
+
+Example:
+
+such that
+
+. Let
+
+2. Use statistical summaries, scatterplots,
+regression (in particular the least squares
+regression line) and correlation to analyse
+and make meaningful comments on the
+context associated with given bivariate
+data, including interpolation, extrapolation
+and discussions on skewness.
+
+Let D be on
+
+Consider a right triangle ABC with
+
+Example:
+
+Clarification
+
+1. Revise symmetric and skewed data.
+
+• the Pythagorean Theorem by similar
+triangles.
+
+• that triangles with sides in proportion are
+similar; and
+
+• that equiangular triangles are similar;
+
+•
+
+2. Prove (accepting results established in
+earlier grades):
+
+1. Revise earlier work on the necessary and
+sufficient conditions for polygons to be
+similar.
+
+Curriculum statement
+
+GRADE 12 TERM 3
+
+MATHEMATICS GRADES 10-12
+
+CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS)
+
+CAPS
+
+Examinations /
+Revision
+
+probability
+
+Counting and
+
+Topic
+
+P( not
+
+the complementary rule:
+
+P( A or
+
+the identity:
+
+3. Apply the fundamental counting principle to
+solve probability problems.
+
+(K)
+(R)
+
+(C)
+(P)
+
+1. How many three-character codes can be formed if the first character must be a letter and
+the second two characters must be digits?
+2. What is the probability that a random arrangement of the letters BAFANA starts and ends
+with an ‘A’?
+3. A drawer contains twenty envelopes. Eight of the envelopes each contain five blue and
+three red sheets of paper. The other twelve envelopes each contain six blue and two red
+sheets of paper. One envelope is chosen at random. A sheet of paper is chosen at random
+from it. What is the probability that this sheet of paper is red?
+4. Assuming that it is equally likely to be born in any of the 12 months of the year, what is the
+probability that in a group of six, at least two people have birthdays in the same month?
+
+Examples:
+
+Clarification
+
+Take note that at least one of the examinations in terms 2 and 3 must consist of two three-hour papers with the same or very similar structure to the final NSC papers. The other
+examination can be replaced by tests on relevant sections.
+
+Important:
+
+and
+	
+   B)
+
+2. probability problems using Venn diagrams,
+trees, two-way contingency tables and
+other techniques (like the fundamental
+counting principle) to solve probability
+problems (where events are not necessarily
+independent).
+
+•
+
+•
+
+P( A or B) = P( A) + P(B)
+
+the sum rule for mutually exclusive
+events A and B:
+
+the product rule for independent events:
+P(A and B) = P(A) × P(B).
+
+•
+
+•
+
+dependent and independent events;
+
+Curriculum statement
+
+•
+
+1. Revise:
+
+2. Preliminary examinations (300 marks)
+
+1. Test ( at least 50 marks)
+
+Assessment Term 3:
+
+3
+
+2
+
+Weeks
+
+No. of
+
+GRADE 12 TERM 3
+
+MATHEMATICS GRADES 10-12
+
+49
+
+50
+
+Examinations
+
+6
+
+(25±3)
+
+(15±3)
+
+(35±3)
+
+(25±3)
+
+(35±3)
+
+(15±3)
+
+Patterns and sequences
+
+Finance, growth and decay
+
+Functions and graphs
+
+Algebra and equations
+
+Calculus
+
+Probability
+
+Paper 1: 150 marks: 3 hours
+
+Final examination:
+
+Assessment Term 4:
+
+Revision
+
+Topic
+
+3
+
+Weeks
+
+No of
+
+Curriculum statement
+
+Trigonometry
+
+Statistics and regression
+
+Analytical Geometry
+
+Euclidean Geometry and Measurement
+
+Paper 2: 150 marks: 3 hours
+
+GRADE 12: TERM 4
+
+(40±3)
+
+(20±3)
+
+(40±3)
+
+(50±3)
+
+Clarification
+
+MATHEMATICS GRADES 10-12
+
+CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS)
+
+MATHEMATICS GRADES 10-12
+
+sECTION 4
+4.1	Introduction
+assessment is a continuous planned process of identifying, gathering and interpreting information about the
+performance of learners, using various forms of assessment. It involves four steps: generating and collecting evidence
+of achievement; evaluating this evidence; recording the findings and using this information to understand and assist
+in the learner’s development to improve the process of learning and teaching.
+Assessment should be both informal (Assessment for Learning) and formal (Assessment of Learning). In both cases
+regular feedback should be provided to learners to enhance the learning experience.
+Although assessment guidelines are included in the Annual Teaching Plan at the end of each term, the following
+general principles apply:
+1.
+
+Tests and examinations are assessed using a marking memorandum.
+
+2.
+
+Assignments are generally extended pieces of work completed at home. They can be collections of past
+examination questions, but should focus on the more demanding aspects as any resource material can be
+used, which is not the case when a task is done in class under strict supervision.
+
+3.
+
+At most one project or assignment should be set in a year. The assessment criteria need to be clearly indicated
+on the project specification. The focus should be on the mathematics involved and not on duplicated pictures
+and regurgitation of facts from reference material. The collection and display of real data, followed by deductions
+that can be substantiated from the data, constitute good projects.
+
+4.
+
+Investigations are set to develop the skills of systematic investigation into special cases with a view to observing
+general trends, making conjecures and proving them. To avoid having to assess work which is copied without
+understanding, it is recommended that while the initial investigation can be done at home, the final write up
+should be done in class, under supervision, without access to any notes. Investigations are marked using
+rubrics which can be specific to the task, or generic, listing the number of marks awarded for each skill:
+• 40% for communicating individual ideas and discoveries, assuming the reader has not come across the text
+before. The appropriate use of diagrams and tables will enhance the investigation.
+• 35% for the effective consideration of special cases;
+• 20% for generalising, making conjectures and proving or disproving these conjectures; and
+• 5% for presentation: neatness and visual impact.
+
+4.2	Informal or Daily Assessment
+the aim of assessment for learning is to collect continually information on a learner’s achievement that can be used
+to improve individual] learning.
+Informal assessment involves daily monitoring of a learner’s progress. This can be done through observations,
+discussions, practical demonstrations, learner-teacher conferences, informal classroom interactions, etc. Although
+informal assessment may be as simple as stopping during the lesson to observe learners or to discuss with learners
+
+CAPS
+
+51
+
+MATHEMATICS GRADES 10-12
+how learning is progressing. Informal assessment should be used to provide feedback to the learners and to inform
+planning for teaching, it need not be recorded. This should not be seen as separate from learning activities taking
+place in the classroom. Learners or teachers can evaluate these tasks.
+Self assessment and peer assessment actively involve learners in assessment. Both are important as these allow
+learners to learn from and reflect on their own performance. Results of the informal daily assessment activities are
+not formally recorded, unless the teacher wishes to do so. The results of daily assessment tasks are not taken into
+account for promotion and/or certification purposes.
+4.3
+
+Formal Assessment
+
+All assessment tasks that make up a formal programme of assessment for the year are regarded as Formal
+Assessment. Formal assessment tasks are marked and formally recorded by the teacher for progress and certification
+purposes. All Formal Assessment tasks are subject to moderation for the purpose of quality assurance.
+Formal assessments provide teachers with a systematic way of evaluating how well learners are progressing in a
+grade and/or in a particular subject. Examples of formal assessments include tests, examinations, practical tasks,
+projects, oral presentations, demonstrations, performances, etc. Formal assessment tasks form part of a year-long
+formal Programme of Assessment in each grade and subject.Formal assessments in Mathematics include tests, a
+June examination, a trial examination(for Grade 12), a project or an investigation.
+The forms of assessment used should be age- and developmental- level appropriate. The design of these tasks
+should cover the content of the subject and include a variety of activities designed to achieve the objectives of the
+subject.
+Formal assessments need to accommodate a range of cognitive levels and abilities of learners as shown below:
+
+52
+
+CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS)
+
+Programme of Assessment
+
+CAPS
+
+20%
+
+53
+
+Identification of correct formula on the information sheet (no changing
+of the subject)
+
+•
+
+Identification and use (after changing the subject) of correct formula
+
+Generally similar to those encountered in class
+
+•
+
+•
+
+•
+
+Might require the ability to break the problem down into its constituent
+parts
+
+Higher order reasoning and processes are involved
+
+•
+
+Require conceptual understanding
+
+•
+
+Non-routine problems (which are not necessarily difficult)
+
+Could involve making significant connections between different
+representations
+
+•
+
+•
+
+Problems need not be based on a real world context
+
+•
+
+There is often not an obvious route to the solution
+
+Derivation from given information may be involved
+
+•
+
+•
+
+Simple applications and calculations which might involve few steps
+
+•
+
+Problems involve complex calculations and/or higher order reasoning
+
+Perform well known procedures
+
+•
+
+•
+
+Identification and direct use of correct formula on the information
+sheet (no changing of the subject)
+
+Proofs of prescribed theorems and derivation of formulae
+
+•
+
+•
+
+Estimation and appropriate rounding of numbers
+
+Appropriate use of mathematical vocabulary
+
+•
+
+•
+
+Use of mathematical facts
+
+Straight recall
+
+•
+
+Description of skills to be demonstrated
+
+Examples
+
+(Grade 10)
+
+	
+  
+
+(Grade 10)
+(Grade 11)
+
+( x + 2)2
+with respect to x.
+x
+
+(Grade 12)
+Suppose a piece of wire could be tied tightly around the earth at the
+equator. Imagine that this wire is then lengthened by exactly one metre
+and held so that it is still around the earth at the equator. Would a mouse
+be able to crawl between the wire and the earth? Why or why not?
+(Any grade)
+
+2. Differentiate
+
+1. What is the average speed covered on a round trip to and from
+a destination if the average speed going to the destination is
+and the average speed for the return journey is
+(Grade 11)
+
+ˆ which the same arc
+of a circle is double the size of the angle ACB
+subtends at the circle.
+(Grade 11)
+
+ˆ subtended by arc AB at the centre O
+2. Prove that the angle AOB
+
+	
+  
+
+2. Determine the general solution of the equation
+
+1. Solve for
+
+ˆ subtended by arc AB at the centre O of a circle
+2. The angle AOB
+.......
+
+	
+  
+
+1. Write down the domain of the function
+
+The Programme of Assessment is designed to set formal assessment tasks in all subjects in a school throughout the year.
+
+15%
+
+Problem Solving
+
+30%
+
+Complex Procedures
+
+35%
+
+Routine Procedures
+
+Knowledge
+
+Cognitive levels
+
+level and the approximate percentages of tasks, tests and examinations which should be at each level are given below:
+
+The four cognitive levels used to guide all assessment tasks are based on those suggested in the TIMSS study of 1999. Descriptors for each
+
+4.4
+
+MATHEMATICS GRADES 10-12
+
+54
+10
+10
+
+Test
+
+Term 4
+
+100%
+
+75%
+
+25%
+
+Test
+
+Test
+
+Test
+
+Mid-Year Examination
+
+Assignment/Test
+
+Test
+
+Project /Investigation
+
+TASKS
+
+GRADE 11
+
+100%
+
+75%
+
+25%
+
+100
+
+10
+
+10
+
+10
+
+30
+
+10
+
+10
+
+20
+
+WEIGHT (%)
+
+Trial Examination
+
+Test
+
+Mid-Year Examination
+
+Test
+
+Assignment
+
+Project /Investigation
+
+Test
+
+CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS)
+
+•
+
+•
+
+None graphic and none programmable calculators are allowed (for example, to factorise
+be used to perform standard numerical computations and to verify calculations by hand.
+Formula sheet must not be provided for tests and for final examinations in Grades 10 and 11.  
+
+GRADE 12
+TASKS
+
+25%
+
+100
+
+25
+
+10
+
+15
+
+10
+
+10
+
+20
+
+10
+
+WEIGHT (%)
+
+,	
+   or to find roots of equations) will be allowed. Calculators should only
+
+Note:
+• Although the project/investigation is indicated in the first term, it could be scheduled in term 2. Only ONE project/investigation should be set per year.
+• Tests should be at least ONE hour long and count at least 50 marks.
+• Project or investigation must contribute 25% of term 1 marks while the test marks contribute 75% of the term 1 marks.
+The combination (25% and 75%) of the marks must appear in the learner’s report.
+
+Promotion mark
+
+examinations
+
+End-of-year
+
+promotion mark)
+
+mark (as % of
+
+Assessment
+
+School-based
+
+Assessment mark
+
+100
+
+10
+
+30
+
+Mid-Year Examination
+
+Test
+
+10
+
+Assignment/Test
+
+Test
+
+10
+
+20
+
+WEIGHT (%)
+
+Test
+
+Project /Investigation
+
+TASKS
+
+GRADE 10
+
+Term 3
+
+Term 2
+
+Term 1
+
+School-based
+
+School-based Assessment
+
+Learners are expected to have seven (7) formal assessment tasks for their school-based assessment. The number of tasks and their weighting are listed below:
+
+a)	Number of Assessment Tasks and Weighting:
+
+MATHEMATICS GRADES 10-12
+
+MATHEMATICS GRADES 10-12
+b)	Examinations:
+In Grades 10, 11 and 12, 25% of the final promotion mark is a year mark and 75% is an examination mark.
+All assessments in Grade 10 and 11 are internal while in Grade 12 the 25% year mark assessment is internally set
+and marked but externally moderated and the 75% examination is externally set, marked and moderated.
+Mark distribution for Mathematics NCS end-of-year papers: Grades 10-12
+PAPER 1: Grades 12: bookwork: maximum 6 marks
+Description
+
+Grade 10
+
+Grade 11
+
+Grade. 12
+
+Algebra and equations (and inequalities)
+
+30 ± 3
+
+45 ± 3
+
+25 ± 3
+
+Patterns and sequences
+
+15 ± 3
+
+25 ± 3
+
+25 ± 3
+
+Finance and growth
+
+10 ± 3
+15 ± 3
+
+15 ± 3
+
+45 ± 3
+
+35 ± 3
+
+Finance, growth and decay
+Functions and graphs
+
+30 ± 3
+
+Differential Calculus
+
+35 ± 3
+
+Probability
+
+15 ± 3
+
+20 ± 3
+
+15 ± 3
+
+TOTAL
+
+100
+
+150
+
+150
+
+PAPER 2: Grades 11 and 12: theorems and/or trigonometric proofs: maximum 12 marks
+Description
+
+Grade 10
+
+Grade 11
+
+Grade 12
+
+Statistics
+
+15 ± 3
+
+20 ± 3
+
+20 ± 3
+
+Analytical Geometry
+
+15 ± 3
+
+30 ± 3
+
+40 ± 3
+
+Trigonometry
+
+40 ± 3
+
+50 ± 3
+
+40 ± 3
+
+Euclidean Geometry and Measurement
+
+30 ± 3
+
+50 ± 3
+
+50 ± 3
+
+TOTAL
+
+100
+
+150
+
+150
+
+Note:
+•
+
+Modelling as a process should be included in all papers, thus contextual questions can be set on any topic.
+
+•
+
+Questions will not necessarily be compartmentalised in sections, as this table indicates. Various topics can be integrated
+in the same question.
+
+•
+
+Formula sheet must not be provided for tests and for final examinations in Grades 10 and 11.  
+
+4.5	Recording and reporting
+•
+
+Recording is a process in which the teacher is able to document the level of a learner’s performance in a
+specific assessment task.
+-
+
+It indicates learner progress towards the achievement of the knowledge as prescribed in the
+Curriculum and Assessment Policy Statements.
+
+-
+
+Records of learner performance should provide evidence of the learner’s conceptual progression
+within a grade and her / his readiness to progress or to be promoted to the next grade.
+
+-
+
+Records of learner performance should also be used to monitor the progress made by teachers and
+learners in the teaching and learning process.
+
+•
+
+Reporting is a process of communicating learner performance to learners, parents, schools and other
+stakeholders. Learner performance can be reported in a number of ways.
+
+CAPS
+
+55
+
+MATHEMATICS GRADES 10-12
+--
+
+These include report cards, parents’ meetings, school visitation days, parent-teacher conferences,
+phone calls, letters, class or school newsletters, etc.
+
+--
+
+Teachers in all grades report percentages for the subject. Seven levels of competence have been
+described for each subject listed for Grades R-12. The individual achievement levels and their
+corresponding percentage bands are shown in the Table below.
+
+CODES AND PERCENTAGES FOR RECORDING AND REPORTING
+RATING CODE
+
+DESCRIPTION OF COMPETENCE
+
+PERCENTAGE
+
+7
+
+Outstanding achievement
+
+80 – 100
+
+6
+
+Meritorious achievement
+
+70 – 79
+
+5
+
+Substantial achievement
+
+60 – 69
+
+4
+
+Adequate achievement
+
+50 – 59
+
+3
+
+Moderate achievement
+
+40 – 49
+
+2
+
+Elementary achievement
+
+30 – 39
+
+1
+
+Not achieved
+
+0 - 29
+
+Note: The seven-point scale should have clear descriptors that give detailed information for each level.
+Teachers will record actual marks for the task on a record sheet; and indicate percentages for each subject
+on the learners’ report cards.
+
+4.6	Moderation of Assessment
+Moderation refers to the process that ensures that the assessment tasks are fair, valid and reliable. Moderation
+should be implemented at school, district, provincial and national levels. Comprehensive and appropriate moderation
+practices must be in place to ensure quality assurance for all subject assessments.
+
+4.7
+
+General
+
+This document should be read in conjunction with:
+4.7.1 National policy pertaining to the programme and promotion requirements of the National Curriculum Statement
+Grades R – 12; and
+4.7.2 The policy document, National Protocol for Assessment Grades R – 12.
+
+56
+
+CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS)
+
+

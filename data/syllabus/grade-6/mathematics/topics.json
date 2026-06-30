@@ -1,123 +1,241 @@
 {
   "grade": 6,
+  "phase": "intermediate",
   "subject": "mathematics",
   "curriculum": "CAPS",
+  "sources": {
+    "atp_pdf": "/code/riv/kyno/data/syllabus/grade-6/mathematics/atp-mathematics.pdf",
+    "caps_pdf": "/code/riv/kyno/data/syllabus/grade-6/mathematics/caps-mathematics.pdf"
+  },
+  "caps_summary": {
+    "overview_excerpt": "(a) The National Curriculum Statement Grades R-12 (January 2012) represents a policy statement for learning and teaching in South African schools and comprises the following: (i) Curriculum and Assessment Policy Statements for each approved school subject; (ii) The policy document, National policy pertaining to the programme and promotion requirements of the National Curriculum Statement Grades R-12; and (iii) (b) The policy document, National Protocol for Assessment Grades R-12 (January 2012). The National Curriculum Statement Grades R-12 (January 2012) replaces the two current national curricula statements, namely the (i) Revised National Curriculum Statement Grades R-9, Government Gazette No. 23406 of 31 May 2002, and (ii) National Curriculum Statement Grades 10-12 Government Gazettes, No. 25545 of 6 October 2003 and No. 27594 of 17 May 2005. (c) The national curriculum statements contemplated in subparagraphs b(i) and (ii) comprise the following policy documents which will be incrementally repealed by the National Curriculum Statement Grades R-12 (January 2012) during the period 2012-2014: (i) The Learning Area/Subject Statements, Learning Programme Guidelines and Subject Assessment Guidelines for Grades R-9 and Grades 10-12; (ii) The policy document, National Policy on assessment and qualifications for schools in the General Education and Training Band, promulgated in Government Notice No. 124 in Government Gazette No. 29626 of 12 February 2007; (iii) The policy document, the National Senior Certificate: A qualification at Level 4 on the National Qualifications Framework (NQF), promulgated in Government Gazette No.27819 of 20 July 2005; CAPS 3 MATHEMATICS GRADES 4-6 (iv) The policy document, An addendum to the policy document, the National Senior Certificate: A qualification at Level 4 on the National Qualifications Framework (NQF), regarding learners with special needs, published in Government Gazette, No.29466 of 11 December 2006, is incorporated in the\u2026",
+    "aims_excerpt": "SECTION 2: DEFINITION, AIMS, SKILLS AND CONTENT......................................................................8 2.1 Introduction..................................................................................................................................................... 8 2.2 What is Mathematics?.................................................................................................................................... 8 2.3 Specific aims................................................................................................................................................... 8 2.4 Specific skills.................................................................................................................................................. 8 2.5 Focus of content areas................................................................................................................................... 9 Mathematics content knowledge..................................................................................................................... 10 2.6 Weighting of content areas.......................................................................................................................... 12 2.7 Specification of content................................................................................................................................ 12 \u2022 Numbers, Operations and Relationships................................................................................................... 13 \u2022 Patterns, Functions and Algebra................................................................................................................ 18 \u2022 Space and Shape (Geometry)................................................................................................................... 21 \u2022 Measurement.............................................................................................................................................\u2026",
+    "assessment_excerpt": "SECTION 4: ASSESSMENT ..................................................................................................................293 4.1 Introduction ................................................................................................................................................ 293 4.2 Types of assessment.................................................................................................................................. 293 4.3 Informal or daily assessment..................................................................................................................... 294 4.4 Formal assessment..................................................................................................................................... 294 4.5 Recording and reporting............................................................................................................................ 296 4.6 Moderation of assessment......................................................................................................................... 297 4.7 General 2 .................................................................................................................................................. 297 CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS) MATHEMATICS GRADES 4-6 Section 1: INTRODUCTION AND BACKGROUND 1.1 Background The National Curriculum Statement Grades R-12 (NCS) stipulates policy on curriculum and assessment in the schooling\u2026",
+    "content_area_names": [
+      "Numbers, Operations And Relationships",
+      "Space And Shape",
+      "Measurement",
+      "Data Handling"
+    ]
+  },
   "terms": [
     {
       "term": 1,
       "weeks": [
         {
-          "week": 1,
-          "topics": [],
-          "skills": []
-        },
-        {
           "week": 2,
           "topics": [
-            "REVISION OF GRADE 5 WORK (to be",
-            "WHOLE NUMBERS",
-            "representing and place value (6-9digit numbers)",
-            "numbers up to at least 9-digit",
-            "\u2022 Represent prime numbers to at",
-            "in whole numbers to at least 9-digit"
+            "Revision of Grade 5 Work",
+            "Whole Numbers",
+            "Counting, ordering, comparing, representing and place value (6-9digit numbers)",
+            "Round off to the nearest 5, 10, 100 and 1 000"
           ],
-          "skills": []
-        },
-        {
-          "week": 3,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 4,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 5,
-          "topics": [],
-          "skills": []
+          "skills": [
+            "Order, compare and represent numbers up to at least 9-digit numbers",
+            "Represent prime numbers to at least 100",
+            "Recognize the place value of digits in whole numbers to at least 9-digit numbers"
+          ],
+          "content_area": "Numeracy",
+          "short_phrases": [
+            "Whole Numbers"
+          ],
+          "caps_excerpt": "RATION (in hours) MATHEMATICS GRADES 4-6 NUMBERS, OPERATIONS AND RELATIONSHIPS CONTENT",
+          "assessment_notes": [
+            "Revision of Grade 5 Work (to be integrated into the topics, accordingly)",
+            "to at least 9-digit numbers",
+            "to at least 100"
+          ]
         },
         {
           "week": 6,
           "topics": [
-            "WHOLE NUMBERS",
+            "Addition and subtraction",
+            "Multiplication",
             "Number range for calculations",
-            "Addition and subtraction of whole numbers with at",
-            "least 5-digit and 6-digit numbers",
-            "perform and check written and mental calculations",
-            "with whole numbers including:",
-            "Multiple operations on whole numbers with or without",
             "Properties of whole numbers",
-            "whole numbers",
+            "Solving problems",
+            "Estimation",
+            "Long division",
+            "Building up and breaking down numbers",
+            "Using multiplication and division as inverse operations",
+            "Using a calculator"
+          ],
+          "skills": [
+            "Addition and subtraction of whole numbers with at least 5-digit and 6-digit numbers",
+            "Use any two of the range of techniques to perform and check written and mental calculations with whole numbers",
+            "Multiple operations on whole numbers with or without brackets",
+            "Ensure that the strategies used do not compromise conceptual understanding",
+            "Recognise and use the distributive property of whole numbers",
             "Factors of 2-digit and 3-digit whole numbers",
             "Prime factors of numbers to at least 100",
-            "distributive properties of whole numbers",
-            "Solve problems involving whole numbers, including:",
-            "digit numbers)",
-            "\u2022 Represent odd and even numbers to",
-            "Solve problems involving whole numbers,",
-            "Building up and breaking down numbers"
+            "Recognise and use the commutative, associative, distributive properties of whole numbers",
+            "Solve problems involving whole numbers, including",
+            "Represent odd and even numbers to at least 1 000",
+            "Using multiplication and division as inverse operations"
           ],
-          "skills": []
-        },
-        {
-          "week": 11,
-          "topics": [
-            "perform and check written and mental calculations",
-            "with whole numbers including:"
+          "content_area": "Whole Numbers",
+          "short_phrases": [
+            "Addition and subtraction",
+            "Solving problems",
+            "Estimation",
+            "Long division",
+            "Inverse operations",
+            "Using a calculator"
           ],
-          "skills": []
-        },
-        {
-          "week": 10,
-          "topics": [
-            "Multiples of 2-digit and 3-digit numbers",
-            "Measurement contexts",
-            "Multiple operations on whole numbers with or",
-            "Number range for multiples and factors",
-            "Solve problems involving whole numbers,",
-            "distributive properties of whole numbers",
-            "Division of at least whole 4-digit by 3-digit",
-            "Properties of whole numbers",
-            "Building up and breaking down numbers",
-            "Whole numbers",
-            "check written and mental calculations with whole numbers",
-            "Number range for calculations"
-          ],
-          "skills": []
-        },
-        {
-          "week": 9,
-          "topics": [
-            "WHOLE NUMBERS",
-            "ASSESSMENT TASK Division",
-            "Multiplication of at least whole 4-digit by 3-digit",
-            "Building up and breaking down numbers",
-            "Using a number line"
-          ],
-          "skills": []
-        },
-        {
-          "week": 8,
-          "topics": [],
-          "skills": []
+          "caps_excerpt": "RATION (in hours) MATHEMATICS GRADES 4-6 NUMBERS, OPERATIONS AND RELATIONSHIPS CONTENT",
+          "assessment_notes": [
+            "Formal Assessment Task",
+            "Test",
+            "Revision"
+          ]
         },
         {
           "week": 7,
           "topics": [
-            "Measurement contexts",
-            "same kind (ratio)",
+            "Comparing two or more quantities of the same kind",
+            "Comparing two quantities of different kinds",
+            "Grouping and equal sharing with remainders",
             "Addition and subtraction of 5-digit numbers",
             "Multiplication of 3-digit by 2-digit numbers",
             "Division of 3-digit by 2-digit numbers",
             "Properties of operations with whole numbers",
             "Prime numbers",
             "Multiples of 2-digits whole numbers to at least 100",
-            "Factors of 2-digit whole numbers to at least 100",
-            "2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 6"
+            "Factors of 2-digit whole numbers to at least 100"
           ],
-          "skills": []
+          "skills": [
+            "Comparing two or more quantities of the same kind (ratio)",
+            "Comparing two quantities of different kinds (rate)",
+            "Grouping and equal sharing with remainders",
+            "Addition and subtraction of 5-digit numbers",
+            "Multiplication of 3-digit by 2-digit numbers",
+            "Division of 3-digit by 2-digit numbers",
+            "Properties of operations with whole numbers",
+            "Prime numbers",
+            "Multiples of 2-digits whole numbers to at least 100",
+            "Factors of 2-digit whole numbers to at least 100"
+          ],
+          "content_area": "Mathematics",
+          "short_phrases": [
+            "Addition and subtraction",
+            "Properties of operations",
+            "Prime numbers"
+          ],
+          "caps_excerpt": "RATION (in hours) MATHEMATICS GRADES 4-6 NUMBERS, OPERATIONS AND RELATIONSHIPS CONTENT",
+          "assessment_notes": [
+            "Financial contexts",
+            "Measurement contexts"
+          ]
+        },
+        {
+          "week": 8,
+          "topics": [],
+          "skills": [],
+          "content_area": "",
+          "short_phrases": [],
+          "caps_excerpt": "(a) The National Curriculum Statement Grades R-12 (January 2012) represents a policy statement for learning and teaching in South African schools and comprises the following: (i) Curriculum and Assessment Policy Statements for each approved school subject; (ii) The policy document, National policy pertaining to the programme and promotion requirements of the National Curriculum Statement Grades R-12; and (iii) (b) The policy document, National Protocol for Assessment Grades R-12 (January 2012). The National Curriculum Statement Grades R-12 (January 2012) replaces the two current national curricula statements, namely the (i) Revised National Curriculum Statement Grades R-9, Government Gazette No. 23406 of 31 May 2002, and (ii) National Curriculum Statement Grades 10-12 Government Gazettes, No. 25545 of 6 October 2003 and No. 27594 of 17 May 2005. (c) The national curriculum statements contemplated in subparagraphs b(i) and (ii) comprise the following policy documents which will be incrementally repealed by the National Curriculum Statement Grades R-12 (January 2012) during the period 2012-2014: (i) The Learning Area/Subject Statements, Learning Programme Guidelines and Subject Assessment Guidelines for Grades R-9 and Grades 10-12; (ii) The policy document, National Policy on assessment and qualifications for schools in the General Education and Training Band, promulgated in Government Notice No. 124 in Government Gazette No. 29626 of 12 February 2007; (iii) The policy document, the National Senior Certificate: A qualification at Level 4 on the National Qualifications Framework (NQF), promulgated in Government Gazette No.27819 of 20 July 2005; CAPS 3 MATHEMATICS GRADES 4-6 (iv) The policy document, An addendum to the policy document, the National Senior Certificate: A qualification at Level 4 on the National Qualifications Framework (NQF), regarding learners with special needs, published in Government Gazette, No.29466 of 11 December 2006, is incorporated in the\u2026 SECTION 2: DEFINITION, AIMS, SKILLS AND CONTENT......................................................................8 2.1 Introduction..................................................................................................................................................... 8 2.2 What is Mathematics?.................................................................................................................................... 8 2.3 Specific aims................................................................................................................................................... 8 2.4 Specific skills.................................................................................................................................................. 8 2.5 Focus of content areas................................................................................................................................... 9 Mathematics content knowledge..................................................................................................................... 10 2.6 Weighting of content areas.......................................................................................................................... 12 2.7 Specification of content................................................................................................................................ 12 \u2022 Numbers, Operations and\u2026",
+          "assessment_notes": []
+        },
+        {
+          "week": 9,
+          "topics": [
+            "Division",
+            "Multiplication of at least whole 4-digit by 3-digit numbers",
+            "Estimation",
+            "Adding, subtracting in columns",
+            "Building up and breaking down numbers",
+            "Rounding off and compensating",
+            "Using a number line",
+            "Using addition and subtraction as inverse operations",
+            "Using a calculator"
+          ],
+          "skills": [
+            "Multiplication of at least whole 4-digit by 3-digit numbers",
+            "Estimation",
+            "Adding, subtracting in columns",
+            "Rounding off and compensating",
+            "Using a number line",
+            "Using addition and subtraction as inverse operations",
+            "Using a calculator"
+          ],
+          "content_area": "Formal",
+          "short_phrases": [
+            "Division",
+            "Multiplication",
+            "Estimation",
+            "Adding",
+            "Subtracting",
+            "Rounding",
+            "Number line",
+            "Inverse operations",
+            "Calculator"
+          ],
+          "caps_excerpt": "RATION (in hours) MATHEMATICS GRADES 4-6 NUMBERS, OPERATIONS AND RELATIONSHIPS CONTENT",
+          "assessment_notes": [
+            "Assessment Task",
+            "Division",
+            "Multiplication",
+            "Estimation"
+          ]
+        },
+        {
+          "week": 10,
+          "topics": [
+            "Calculation techniques",
+            "Multiples of 2-digit and 3-digit numbers",
+            "Financial contexts",
+            "Measurement contexts",
+            "Multiple operations on whole numbers with or without brackets",
+            "Number range for multiples and factors",
+            "Solve problems involving whole numbers",
+            "Recognise and use the commutative, associative, distributive properties of whole numbers",
+            "Division of at least whole 4-digit by 3-digit numbers",
+            "Properties of whole numbers",
+            "Estimation",
+            "Multiplying in columns",
+            "Building up and breaking down numbers",
+            "Doubling and halving",
+            "Using multiplication and division as inverse operations",
+            "Using a calculator",
+            "Whole numbers"
+          ],
+          "skills": [
+            "Ensure that the strategies used do not compromise conceptual understanding",
+            "Counting",
+            "Ordering",
+            "Comparing",
+            "Representing and place value",
+            "Solving problems",
+            "Estimation",
+            "Using a calculator"
+          ],
+          "content_area": "Calculation techniques",
+          "short_phrases": [
+            "Whole numbers"
+          ],
+          "caps_excerpt": "RATION (in hours) MATHEMATICS GRADES 4-6 NUMBERS, OPERATIONS AND RELATIONSHIPS CONTENT",
+          "assessment_notes": [
+            "Solving problems",
+            "ASSIGNMENT"
+          ]
+        },
+        {
+          "week": 11,
+          "topics": [],
+          "skills": [
+            "Perform and check written and mental calculations"
+          ],
+          "content_area": "Numbers, Operations And Relationships",
+          "short_phrases": [
+            "Range of techniques",
+            "Additive property",
+            "Whole numbers"
+          ],
+          "caps_excerpt": "RATION (in hours) MATHEMATICS GRADES 4-6 NUMBERS, OPERATIONS AND RELATIONSHIPS CONTENT",
+          "assessment_notes": [
+            "Check the correctness of the solution",
+            "Calculator must only be used to check"
+          ]
         }
       ]
     },
@@ -126,114 +244,126 @@
       "weeks": [
         {
           "week": 1,
-          "topics": [],
-          "skills": [
-            "CONCEPTS AND"
-          ]
-        },
-        {
-          "week": 2,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 3,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 4,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 6,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 7,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 8,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 9,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 10,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 11,
           "topics": [
-            "NUMBER SENTENCES",
-            "ASSESSMENT TASK \u2022 Write number sentences to",
-            "NUMERIC PATTERNS",
-            "GEOMETRIC PATTERNS",
-            "COMMON FRACTIONS",
-            "DECIMAL FRACTIONS",
-            "Investigate and extend patterns",
-            "Describing and ordering fractions",
-            "INVESTIGATION",
-            "of decimal fractions",
-            "Solve and complete number",
-            "numeric patterns looking for",
-            "Number sentences at the level of",
-            "Calculations with fractions:",
-            "difference or ratio",
-            "patterns and relationships",
-            "By a number sentence",
-            "Describe patterns in own",
-            "observed in patterns",
-            "decimal places",
-            "Fractions of whole numbers",
-            "Calculations with decimal fractions",
-            "common fractions, including",
-            "Compare and order decimal",
-            "fractions to at least two decimal",
-            "decimal fractions to at least two",
-            "fractions in which one denominator",
-            "fractions, including specifically",
-            "rules for the patterns and relationships",
-            "Investigate and extend geometric patterns",
-            "PREREQUISITE"
+            "TOPICS",
+            "CONCEPTS AND SKILLS"
           ],
           "skills": [
-            "SKILL OR PREKNOWLEDGE"
-          ]
+            "HOURS PER"
+          ],
+          "content_area": "Mathematics",
+          "short_phrases": [
+            "TOPICS",
+            "CONCEPTS AND SKILLS",
+            "HOURS PER"
+          ],
+          "caps_excerpt": "angle and write another multiplication number sentence to describe it. It is useful to confirm this by using arrays and",
+          "assessment_notes": []
         },
         {
           "week": 5,
           "topics": [
             "Find percentages of whole numbers",
-            "of common fractions with 1-digit or",
-            "2-digit denominators (fractions in",
-            "Addition and subtraction of decimal",
-            "fractions of at least two decimal",
-            "Multiply decimal fractions by 10 and",
-            "decimal fractions",
-            "common fraction and decimal",
-            "fraction forms of the same number",
-            "common fraction and percentage",
-            "forms of the same number",
-            "common fraction, decimal fraction",
-            "and percentage forms of the same",
+            "Equivalent forms",
+            "Solving problems",
+            "Recognise and use equivalent forms of common fractions with 1-digit or 2-digit denominators (fractions in which one denominator is a multiple of another)",
+            "Addition and subtraction of decimal fractions of at least two decimal places",
+            "Multiply decimal fractions by 10 and 100",
+            "Recognise equivalence between common fraction and decimal fraction forms of the same number",
+            "Recognise equivalence between common fraction and percentage forms of the same number",
+            "Recognise equivalence between common fraction, decimal fraction and percentage forms of the same number",
             "Investigate and extend patterns",
             "Whole numbers",
             "Common fractions",
             "Describe patterns in own words",
+            "Equal sharing",
+            "Percentages",
             "Fractions of whole numbers",
-            "2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 6"
+            "Compare and order tenths and hundredths",
+            "Fractions of whole numbers"
           ],
-          "skills": []
+          "skills": [
+            "Recognise and use equivalent forms of common fractions with 1-digit or 2-digit denominators (fractions in which one denominator is a multiple of another)",
+            "Addition and subtraction of decimal fractions of at least two decimal places",
+            "Multiply decimal fractions by 10 and 100",
+            "Recognise equivalence between common fraction and decimal fraction forms of the same number",
+            "Recognise equivalence between common fraction and percentage forms of the same number",
+            "Recognise equivalence between common fraction, decimal fraction and percentage forms of the same number",
+            "Investigate and extend patterns",
+            "Describe patterns in own words",
+            "Equal sharing",
+            "Compare and order tenths and hundredths"
+          ],
+          "content_area": "CAPS Mathematics",
+          "short_phrases": [
+            "Find percentages",
+            "Equivalent forms",
+            "Solving problems",
+            "Recognise equivalence",
+            "Addition and subtraction",
+            "Multiply decimal fractions",
+            "Whole numbers",
+            "Common fractions",
+            "Percentages",
+            "Compare and order"
+          ],
+          "caps_excerpt": "RATION (in hours) MATHEMATICS GRADES 4-6 NUMBERS, OPERATIONS AND RELATIONSHIPS CONTENT",
+          "assessment_notes": [
+            "ASSESSMENT",
+            "TEST",
+            "WORK",
+            "REVISION OF TERM 1 & 2"
+          ]
+        },
+        {
+          "week": 11,
+          "topics": [
+            "NUMBER SENTENCES",
+            "NUMERIC PATTERNS",
+            "GEOMETRIC PATTERNS",
+            "COMMON FRACTIONS",
+            "DECIMAL FRACTIONS"
+          ],
+          "skills": [
+            "Write number sentences",
+            "Investigate and extend patterns",
+            "Describing and ordering fractions",
+            "Recognising, ordering and place value of decimal fractions",
+            "Describe problem situations",
+            "Solve and complete number sentences",
+            "Investigate and extend numeric patterns",
+            "Calculations with fractions",
+            "Describe observed relationships or rules in learner's own words",
+            "Determine input values, output values and rules for the patterns and relationships",
+            "Addition and subtraction of mixed numbers",
+            "Place value of digits to at least two decimal places",
+            "Fractions of whole numbers",
+            "Solving problems",
+            "Compare and order decimal fractions to at least two decimal places",
+            "Count forwards and backwards in decimal fractions to at least two decimal places",
+            "Addition and subtraction of common fractions in which one denominator is a multiple of another",
+            "Determine equivalence of different descriptions of the same relationship or rule presented",
+            "Investigate and extend geometric patterns",
+            "Check solutions by substitution"
+          ],
+          "content_area": "Mathematics",
+          "short_phrases": [
+            "Write number sentences",
+            "Describe problem situations",
+            "Calculations with fractions",
+            "Solving problems",
+            "Count decimal fractions",
+            "Check solutions"
+          ],
+          "caps_excerpt": "RATION (in hours) MATHEMATICS GRADES 4-6 NUMBERS, OPERATIONS AND RELATIONSHIPS CONTENT",
+          "assessment_notes": [
+            "Administer an investigation on any ONE of the term 2 topics before teaching it",
+            "Note: Administer an investigation on any ONE of the term 2 topics before teaching it",
+            "Solve problems in contexts involving common fractions, including grouping and sharing",
+            "Compare and order decimal fractions to at least two decimal places",
+            "Percentages",
+            "Determine equivalence of different descriptions of the same relationship or rule presented"
+          ]
         }
       ]
     },
@@ -242,166 +372,214 @@
       "weeks": [
         {
           "week": 1,
-          "topics": [],
+          "topics": [
+            "HOURS PER",
+            "TOPIC",
+            "PREREQUISITE",
+            "SKILL OR PREKNOWLEDGE"
+          ],
           "skills": [
-            "CONCEPTS AND"
-          ]
-        },
-        {
-          "week": 2,
-          "topics": [],
-          "skills": []
+            "HOURS PER",
+            "TOPIC",
+            "PREREQUISITE",
+            "SKILL OR PREKNOWLEDGE"
+          ],
+          "content_area": "Mathematics",
+          "short_phrases": [
+            "HOURS PER",
+            "TOPIC",
+            "PREREQUISITE",
+            "SKILL"
+          ],
+          "caps_excerpt": "(a) The National Curriculum Statement Grades R-12 (January 2012) represents a policy statement for learning and teaching in South African schools and comprises the following: (i) Curriculum and Assessment Policy Statements for each approved school subject; (ii) The policy document, National policy pertaining to the programme and promotion requirements of the National Curriculum Statement Grades R-12; and (iii) (b) The policy document, National Protocol for Assessment Grades R-12 (January 2012). The National Curriculum Statement Grades R-12 (January 2012) replaces the two current national curricula statements, namely the (i) Revised National Curriculum Statement Grades R-9, Government Gazette No. 23406 of 31 May 2002, and (ii) National Curriculum Statement Grades 10-12 Government Gazettes, No. 25545 of 6 October 2003 and No. 27594 of 17 May 2005. (c) The national curriculum statements contemplated in subparagraphs b(i) and (ii) comprise the following policy documents which will be incrementally repealed by the National Curriculum Statement Grades R-12 (January 2012) during the period 2012-2014: (i) The Learning Area/Subject Statements, Learning Programme Guidelines and Subject Assessment Guidelines for Grades R-9 and Grades 10-12; (ii) The policy document, National Policy on assessment and qualifications for schools in the General Education and Training Band, promulgated in Government Notice No. 124 in Government Gazette No. 29626 of 12 February 2007; (iii) The policy document, the National Senior Certificate: A qualification at Level 4 on the National Qualifications Framework (NQF), promulgated in Government Gazette No.27819 of 20 July 2005; CAPS 3 MATHEMATICS GRADES 4-6 (iv) The policy document, An addendum to the policy document, the National Senior Certificate: A qualification at Level 4 on the National Qualifications Framework (NQF), regarding learners with special needs, published in Government Gazette, No.29466 of 11 December 2006, is incorporated in the\u2026 SECTION 2: DEFINITION, AIMS, SKILLS AND CONTENT......................................................................8 2.1 Introduction..................................................................................................................................................... 8 2.2 What is Mathematics?.................................................................................................................................... 8 2.3 Specific aims................................................................................................................................................... 8 2.4 Specific skills.................................................................................................................................................. 8 2.5 Focus of content areas................................................................................................................................... 9 Mathematics content knowledge..................................................................................................................... 10 2.6 Weighting of content areas.......................................................................................................................... 12 2.7 Specification of content................................................................................................................................ 12 \u2022 Numbers, Operations and\u2026",
+          "assessment_notes": []
         },
         {
           "week": 3,
-          "topics": [],
-          "skills": []
+          "topics": [
+            "combination of topics from term 1-3"
+          ],
+          "skills": [],
+          "content_area": "FORMAL",
+          "short_phrases": [
+            "project",
+            "combination",
+            "term"
+          ],
+          "caps_excerpt": "(a) The National Curriculum Statement Grades R-12 (January 2012) represents a policy statement for learning and teaching in South African schools and comprises the following: (i) Curriculum and Assessment Policy Statements for each approved school subject; (ii) The policy document, National policy pertaining to the programme and promotion requirements of the National Curriculum Statement Grades R-12; and (iii) (b) The policy document, National Protocol for Assessment Grades R-12 (January 2012). The National Curriculum Statement Grades R-12 (January 2012) replaces the two current national curricula statements, namely the (i) Revised National Curriculum Statement Grades R-9, Government Gazette No. 23406 of 31 May 2002, and (ii) National Curriculum Statement Grades 10-12 Government Gazettes, No. 25545 of 6 October 2003 and No. 27594 of 17 May 2005. (c) The national curriculum statements contemplated in subparagraphs b(i) and (ii) comprise the following policy documents which will be incrementally repealed by the National Curriculum Statement Grades R-12 (January 2012) during the period 2012-2014: (i) The Learning Area/Subject Statements, Learning Programme Guidelines and Subject Assessment Guidelines for Grades R-9 and Grades 10-12; (ii) The policy document, National Policy on assessment and qualifications for schools in the General Education and Training Band, promulgated in Government Notice No. 124 in Government Gazette No. 29626 of 12 February 2007; (iii) The policy document, the National Senior Certificate: A qualification at Level 4 on the National Qualifications Framework (NQF), promulgated in Government Gazette No.27819 of 20 July 2005; CAPS 3 MATHEMATICS GRADES 4-6 (iv) The policy document, An addendum to the policy document, the National Senior Certificate: A qualification at Level 4 on the National Qualifications Framework (NQF), regarding learners with special needs, published in Government Gazette, No.29466 of 11 December 2006, is incorporated in the\u2026 SECTION 2: DEFINITION, AIMS, SKILLS AND CONTENT......................................................................8 2.1 Introduction..................................................................................................................................................... 8 2.2 What is Mathematics?.................................................................................................................................... 8 2.3 Specific aims................................................................................................................................................... 8 2.4 Specific skills.................................................................................................................................................. 8 2.5 Focus of content areas................................................................................................................................... 9 Mathematics content knowledge..................................................................................................................... 10 2.6 Weighting of content areas.......................................................................................................................... 12 2.7 Specification of content................................................................................................................................ 12 \u2022 Numbers, Operations and\u2026",
+          "assessment_notes": [
+            "ASSESSMENT",
+            "TASK",
+            "PROJECT"
+          ]
         },
         {
           "week": 4,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 5,
-          "topics": [],
-          "skills": []
+          "topics": [
+            "Estimating, measuring, recording, comparing and ordering length",
+            "Similarities and differences between squares and rectangles",
+            "Use measuring instruments",
+            "Units of length",
+            "Recognise and describe angles in 2D shapes",
+            "Solve problems in contexts",
+            "Right angles",
+            "Conversions limited to whole numbers and common fractions"
+          ],
+          "skills": [
+            "Estimating",
+            "Measuring",
+            "Recording",
+            "Comparing",
+            "Ordering",
+            "Using measuring instruments"
+          ],
+          "content_area": "CAPS Mathematics",
+          "short_phrases": [
+            "Ordering lengths",
+            "Squares and rectangles",
+            "Measuring instruments",
+            "Units of length",
+            "Right angles",
+            "Conversions"
+          ],
+          "caps_excerpt": "RATION (in hours) MATHEMATICS GRADES 4-6 NUMBERS, OPERATIONS AND RELATIONSHIPS CONTENT",
+          "assessment_notes": [
+            "Solve problems in contexts",
+            "Conversions limited to whole numbers and common fractions"
+          ]
         },
         {
           "week": 6,
-          "topics": [],
-          "skills": []
+          "topics": [
+            "2D shapes",
+            "Symmetry",
+            "Similarities and differences between cubes and rectangular prisms",
+            "Angles smaller than right angles",
+            "Angles greater than right angles",
+            "Shape of faces",
+            "Number of faces",
+            "Flat and curved surfaces",
+            "Straight and curved sides",
+            "Number of sides",
+            "Lengths of sides",
+            "Angles in shapes, limited to right angles, angles smaller than right angles and angles greater than right angles"
+          ],
+          "skills": [
+            "Describe, sort and compare 3-D objects in terms of: Angles greater than right angles",
+            "Describe, sort and compare 2D shapes in terms of: Number of faces",
+            "Describe, sort and compare 2D shapes in terms of: Number of sides"
+          ],
+          "content_area": "Geometry",
+          "short_phrases": [
+            "2D shapes",
+            "Symmetry",
+            "Shape of faces",
+            "Number of faces",
+            "Number of sides",
+            "Lengths of sides"
+          ],
+          "caps_excerpt": "RATION (in hours) MATHEMATICS GRADES 4-6 NUMBERS, OPERATIONS AND RELATIONSHIPS CONTENT",
+          "assessment_notes": [
+            "Describe, sort and compare"
+          ]
         },
         {
           "week": 7,
           "topics": [
             "PROPERTIES OF 2D SHAPES",
             "PROPERTIES OF 3D OBJECTS",
-            "Range of shapes",
-            "symmetry in 2-D shapes",
-            "2D shapes and 3D objects using",
-            "of shapes and objects in",
-            "Features of shapes",
-            "Describe, sort and compare 2D shapes in\u2012",
-            "Number of sides",
-            "common fractions and decimal",
-            "fractions forms to 2 decimal places",
-            "Draw 2D shapes on grid paper",
-            "Draw circles, patterns in circles and",
-            "patterns with circles using a pair of",
-            "Make composite 2D shapes including shapes",
-            "shape in one or more of the following ways:",
-            "Make tessellated patterns including some",
-            "patterns with line symmetry by tracing and",
-            "moving 2D shapes in one or more of the following",
-            "number and shape of faces",
-            "number of vertices",
-            "number of edges",
-            "Refer to lines, 2D shapes, 3D objects and/or lines",
-            "and/or translations when describing patterns:"
-          ],
-          "skills": []
-        },
-        {
-          "week": 10,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 11,
-          "topics": [
-            "shapes by counting squares on",
-            "Measurement of volume",
-            "Describe patterns",
-            "AREA, PERIMETER AND",
-            "Measurement of area"
-          ],
-          "skills": []
-        },
-        {
-          "week": 9,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 8,
-          "topics": [
-            "\u2022 Draw enlargement and reductions of 2D shapes",
-            "in 2D shapes:",
-            "to compare size and shape of",
-            "2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 6"
-          ],
-          "skills": []
-        },
-        {
-          "week": 1,
-          "topics": [
-            "PREREQUISITE"
+            "TRANSFORMATIONS"
           ],
           "skills": [
-            "SKILL OR PREKNOWLEDGE"
+            "Recognize, draw and describe lines of symmetry in 2-D shapes",
+            "Estimate and practically measure 2D shapes and 3D objects",
+            "Record, compare and order lengths of shapes and objects",
+            "Describe, sort and compare 2D shapes",
+            "Solve problems in contexts involving length",
+            "Draw 2D shapes on grid paper",
+            "Use transformations to make composite shapes",
+            "Make tessellations",
+            "Recognise, visualize and name 3-D objects",
+            "Describe, sort and compare 3-D objects",
+            "Make tessellated patterns"
+          ],
+          "content_area": "Measurement",
+          "short_phrases": [
+            "TRANSFORMATIONS",
+            "Range of shapes",
+            "Range of objects",
+            "Features of shapes",
+            "Number of sides",
+            "Length of sides",
+            "Size of angles",
+            "Acute",
+            "Right",
+            "Obtuse",
+            "Straight",
+            "Reflex",
+            "Revolution",
+            "Tetrahedrons",
+            "Pyramids",
+            "Lines of symmetry",
+            "Rotations",
+            "Reflections",
+            "Translations",
+            "Nets"
+          ],
+          "caps_excerpt": "angle and write another multiplication number sentence to describe it. It is useful to confirm this by using arrays and",
+          "assessment_notes": [
+            "Record, compare and order lengths of shapes and objects",
+            "Solve problems in contexts involving length",
+            "Use transformations to make composite shapes",
+            "Make tessellations",
+            "Recognise, visualize and name 3-D objects",
+            "Describe, sort and compare 3-D objects",
+            "Make tessellated patterns"
           ]
         },
         {
-          "week": 2,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 3,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 4,
-          "topics": [
-            "Conversions limited to whole",
-            "numbers and common fractions"
-          ],
-          "skills": []
-        },
-        {
-          "week": 5,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 6,
-          "topics": [
-            "Shape of faces",
-            "Describe, sort and compare 2D shapes in",
-            "Number of faces",
-            "Number of sides",
-            "Angles in shapes, limited to right"
-          ],
-          "skills": []
-        },
-        {
-          "week": 7,
-          "topics": [],
-          "skills": []
-        },
-        {
           "week": 8,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 9,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 10,
-          "topics": [],
-          "skills": []
+          "topics": [
+            "Relationship between perimeter and area of rectangles and squares.",
+            "Relationship between surface area and volume of rectangular prisms",
+            "Enlargement and reductions",
+            "Recognise and name the following angles",
+            "Draw enlargement and reductions of 2D shapes",
+            "Acute",
+            "Triangles",
+            "Right",
+            "Quadrilaterals",
+            "Obtuse",
+            "Straight",
+            "Reflex",
+            "Revolution"
+          ],
+          "skills": [
+            "Investigate",
+            "Recognise and name",
+            "Draw enlargement and reductions"
+          ],
+          "content_area": "Measurement",
+          "short_phrases": [
+            "perimeter and area",
+            "enlargement and reductions",
+            "revolution"
+          ],
+          "caps_excerpt": "angle and write another multiplication number sentence to describe it. It is useful to confirm this by using arrays and",
+          "assessment_notes": [
+            "Investigate",
+            "Recognise and name",
+            "Draw enlargement and reductions"
+          ]
         },
         {
           "week": 11,
-          "topics": [
-            "2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 6"
-          ],
-          "skills": []
+          "topics": [],
+          "skills": [],
+          "content_area": "Mathematics",
+          "short_phrases": [],
+          "caps_excerpt": "(a) The National Curriculum Statement Grades R-12 (January 2012) represents a policy statement for learning and teaching in South African schools and comprises the following: (i) Curriculum and Assessment Policy Statements for each approved school subject; (ii) The policy document, National policy pertaining to the programme and promotion requirements of the National Curriculum Statement Grades R-12; and (iii) (b) The policy document, National Protocol for Assessment Grades R-12 (January 2012). The National Curriculum Statement Grades R-12 (January 2012) replaces the two current national curricula statements, namely the (i) Revised National Curriculum Statement Grades R-9, Government Gazette No. 23406 of 31 May 2002, and (ii) National Curriculum Statement Grades 10-12 Government Gazettes, No. 25545 of 6 October 2003 and No. 27594 of 17 May 2005. (c) The national curriculum statements contemplated in subparagraphs b(i) and (ii) comprise the following policy documents which will be incrementally repealed by the National Curriculum Statement Grades R-12 (January 2012) during the period 2012-2014: (i) The Learning Area/Subject Statements, Learning Programme Guidelines and Subject Assessment Guidelines for Grades R-9 and Grades 10-12; (ii) The policy document, National Policy on assessment and qualifications for schools in the General Education and Training Band, promulgated in Government Notice No. 124 in Government Gazette No. 29626 of 12 February 2007; (iii) The policy document, the National Senior Certificate: A qualification at Level 4 on the National Qualifications Framework (NQF), promulgated in Government Gazette No.27819 of 20 July 2005; CAPS 3 MATHEMATICS GRADES 4-6 (iv) The policy document, An addendum to the policy document, the National Senior Certificate: A qualification at Level 4 on the National Qualifications Framework (NQF), regarding learners with special needs, published in Government Gazette, No.29466 of 11 December 2006, is incorporated in the\u2026 SECTION 2: DEFINITION, AIMS, SKILLS AND CONTENT......................................................................8 2.1 Introduction..................................................................................................................................................... 8 2.2 What is Mathematics?.................................................................................................................................... 8 2.3 Specific aims................................................................................................................................................... 8 2.4 Specific skills.................................................................................................................................................. 8 2.5 Focus of content areas................................................................................................................................... 9 Mathematics content knowledge..................................................................................................................... 10 2.6 Weighting of content areas.......................................................................................................................... 12 2.7 Specification of content................................................................................................................................ 12 \u2022 Numbers, Operations and\u2026",
+          "assessment_notes": []
         }
       ]
     },
@@ -410,108 +588,220 @@
       "weeks": [
         {
           "week": 1,
-          "topics": [],
-          "skills": [
-            "CONCEPTS AND"
-          ]
-        },
-        {
-          "week": 2,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 4,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 5,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 6,
           "topics": [
-            "CAPACITY AND VOLUME",
-            "DATA HANDLING",
-            "Collecting and organising data",
-            "PREREQUISITE"
+            "TOPICS",
+            "CONCEPTS AND SKILLS"
           ],
           "skills": [
-            "SKILL OR PREKNOWLEDGE"
-          ]
+            "HOURS PER"
+          ],
+          "content_area": "CAPS Mathematics ATP",
+          "short_phrases": [
+            "TOPICS",
+            "CONCEPTS AND SKILLS",
+            "HOURS PER"
+          ],
+          "caps_excerpt": "angle and write another multiplication number sentence to describe it. It is useful to confirm this by using arrays and",
+          "assessment_notes": []
         },
         {
           "week": 3,
           "topics": [
-            "kilograms to include fraction",
-            "and decimal forms (to 2",
-            "decimal places)",
-            "Conversions limited to whole",
-            "numbers and common",
-            "Calculation of the number of days",
+            "Measuring spoons",
+            "Minutes",
+            "Measuring cups",
+            "Seconds",
+            "Measuring jugs",
+            "Read time zone maps and calculating time differences based on time zones",
+            "Convert between grams and kilograms to include fraction and decimal forms (to 2 decimal places)",
+            "Calculation of time intervals where time is given in: Hours",
+            "Use measuring instruments",
+            "Units of mass",
+            "Estimate and practically measure 3D objects using measuring instruments",
+            "Reading calendars",
+            "Estimating, measuring, recording, comparing and ordering mass",
+            "Calculation of the number of days between any two dates within the same or consecutive years",
+            "Calculation of time intervals where time is given in minutes or hours only",
+            "Record, compare and order capacity and volume of 3D objects in millilitres (ml), litres (l) and kilolitres (kl)",
             "Collect data",
+            "Use tally marks and tables for recording",
+            "Use simple questionnaires (yes/no type response)",
             "Order data from smallest group to largest group",
-            "millilitres to include fraction and",
-            "decimal forms (to 2 decimal places)",
-            "All operations with whole numbers,",
-            "common fractions and decimal fractions"
+            "Solve problems in contexts involving capacity/volume",
+            "Convert between kilolitres, litres and millilitres to include fraction and decimal forms (to 2 decimal places)",
+            "All operations with whole numbers, common fractions and decimal fractions"
           ],
-          "skills": []
+          "skills": [
+            "Solve problems in contexts involving time",
+            "Solve problems in contexts involving mass",
+            "Read time zone maps and calculating time differences based on time zones",
+            "Convert between grams and kilograms to include fraction and decimal forms (to 2 decimal places)",
+            "Use measuring instruments",
+            "Estimate and practically measure 3D objects using measuring instruments",
+            "Reading calendars",
+            "Estimating, measuring, recording, comparing and ordering mass",
+            "Calculation of the number of days between any two dates within the same or consecutive years",
+            "Calculation of time intervals where time is given in minutes or hours only",
+            "Record, compare and order capacity and volume of 3D objects in millilitres (ml), litres (l) and kilolitres (kl)",
+            "Collect data",
+            "Use tally marks and tables for recording",
+            "Use simple questionnaires (yes/no type response)",
+            "Order data from smallest group to largest group",
+            "Solve problems in contexts involving capacity/volume",
+            "Convert between kilolitres, litres and millilitres to include fraction and decimal forms (to 2 decimal places)",
+            "All operations with whole numbers, common fractions and decimal fractions"
+          ],
+          "content_area": "Mathematics",
+          "short_phrases": [
+            "Measuring spoons",
+            "Minutes",
+            "Measuring cups",
+            "Seconds",
+            "Measuring jugs",
+            "Use measuring instruments",
+            "Units of mass",
+            "Reading calendars",
+            "Collect data",
+            "Use simple questionnaires"
+          ],
+          "caps_excerpt": "RATION (in hours) MATHEMATICS GRADES 4-6 NUMBERS, OPERATIONS AND RELATIONSHIPS CONTENT",
+          "assessment_notes": [
+            "Solve problems in contexts involving time",
+            "Solve problems in contexts involving mass",
+            "Read time zone maps and calculating time differences based on time zones",
+            "Convert between grams and kilograms to include fraction and decimal forms (to 2 decimal places)",
+            "Use measuring instruments",
+            "Estimate and practically measure 3D objects using measuring instruments",
+            "Reading calendars",
+            "Estimating, measuring, recording, comparing and ordering mass",
+            "Calculation of the number of days between any two dates within the same or consecutive years",
+            "Calculation of time intervals where time is given in minutes or hours only",
+            "Record, compare and order capacity and volume of 3D objects in millilitres (ml), litres (l) and kilolitres (kl)",
+            "Collect data",
+            "Use tally marks and tables for recording",
+            "Use simple questionnaires (yes/no type response)",
+            "Order data from smallest group to largest group",
+            "Solve problems in contexts involving capacity/volume",
+            "Convert between kilolitres, litres and millilitres to include fraction and decimal forms (to 2 decimal places)",
+            "All operations with whole numbers, common fractions and decimal fractions"
+          ]
+        },
+        {
+          "week": 4,
+          "topics": [],
+          "skills": [],
+          "content_area": "",
+          "short_phrases": [],
+          "caps_excerpt": "(a) The National Curriculum Statement Grades R-12 (January 2012) represents a policy statement for learning and teaching in South African schools and comprises the following: (i) Curriculum and Assessment Policy Statements for each approved school subject; (ii) The policy document, National policy pertaining to the programme and promotion requirements of the National Curriculum Statement Grades R-12; and (iii) (b) The policy document, National Protocol for Assessment Grades R-12 (January 2012). The National Curriculum Statement Grades R-12 (January 2012) replaces the two current national curricula statements, namely the (i) Revised National Curriculum Statement Grades R-9, Government Gazette No. 23406 of 31 May 2002, and (ii) National Curriculum Statement Grades 10-12 Government Gazettes, No. 25545 of 6 October 2003 and No. 27594 of 17 May 2005. (c) The national curriculum statements contemplated in subparagraphs b(i) and (ii) comprise the following policy documents which will be incrementally repealed by the National Curriculum Statement Grades R-12 (January 2012) during the period 2012-2014: (i) The Learning Area/Subject Statements, Learning Programme Guidelines and Subject Assessment Guidelines for Grades R-9 and Grades 10-12; (ii) The policy document, National Policy on assessment and qualifications for schools in the General Education and Training Band, promulgated in Government Notice No. 124 in Government Gazette No. 29626 of 12 February 2007; (iii) The policy document, the National Senior Certificate: A qualification at Level 4 on the National Qualifications Framework (NQF), promulgated in Government Gazette No.27819 of 20 July 2005; CAPS 3 MATHEMATICS GRADES 4-6 (iv) The policy document, An addendum to the policy document, the National Senior Certificate: A qualification at Level 4 on the National Qualifications Framework (NQF), regarding learners with special needs, published in Government Gazette, No.29466 of 11 December 2006, is incorporated in the\u2026 SECTION 2: DEFINITION, AIMS, SKILLS AND CONTENT......................................................................8 2.1 Introduction..................................................................................................................................................... 8 2.2 What is Mathematics?.................................................................................................................................... 8 2.3 Specific aims................................................................................................................................................... 8 2.4 Specific skills.................................................................................................................................................. 8 2.5 Focus of content areas................................................................................................................................... 9 Mathematics content knowledge..................................................................................................................... 10 2.6 Weighting of content areas.......................................................................................................................... 12 2.7 Specification of content................................................................................................................................ 12 \u2022 Numbers, Operations and\u2026",
+          "assessment_notes": []
+        },
+        {
+          "week": 6,
+          "topics": [
+            "Mass",
+            "Time",
+            "Capacity and Volume",
+            "Data Handling"
+          ],
+          "skills": [
+            "Estimate and practically measure 3D objects using measuring instruments",
+            "Record, compare and order mass of objects in grams (g) and kilograms (kg)",
+            "Calculations and problem-solving"
+          ],
+          "content_area": "CAPS",
+          "short_phrases": [
+            "Practical measuring",
+            "Bathroom scales",
+            "Kitchen scales",
+            "Balances"
+          ],
+          "caps_excerpt": "DATA HANDLING CAPS Analysing, interpreting and reporting data 5.3 Representing data 5.2 Collecting and organising data TOPICS CONTENT",
+          "assessment_notes": [
+            "Calculations and problemsolving"
+          ]
+        },
+        {
+          "week": 7,
+          "topics": [
+            "Critically read and interpret data represented in",
+            "Analyse data by answering questions related to",
+            "Summarise data verbally and in short written paragraphs that"
+          ],
+          "skills": [
+            "Data categories, including data intervals",
+            "Data sources and contexts",
+            "Central tendencies \u2013 (mode and median)",
+            "Drawing conclusions about the data",
+            "Making predictions based on the data"
+          ],
+          "content_area": "Data Handling",
+          "short_phrases": [
+            "Data categories",
+            "Central tendencies",
+            "Drawing conclusions",
+            "Making predictions"
+          ],
+          "caps_excerpt": "DATA HANDLING CAPS Analysing, interpreting and reporting data 5.3 Representing data 5.2 Collecting and organising data TOPICS CONTENT",
+          "assessment_notes": [
+            "REVISION",
+            "FORMAL ASSESSMENT TASK",
+            "TEST"
+          ]
+        },
+        {
+          "week": 8,
+          "topics": [
+            "Calculations and problem-solving"
+          ],
+          "skills": [
+            "PROVIDE LEARNERS WITH DATA TO SAVE TIME"
+          ],
+          "content_area": "Mathematics",
+          "short_phrases": [
+            "Calculations",
+            "problem-solving"
+          ],
+          "caps_excerpt": "AREA Mental Mathematics TOPICS 214 \u2022 1 in terms of its multiplicative property \u2022 0 in terms of its additive property \u2022 recognize and use the commutative; associative; distributive properties with",
+          "assessment_notes": []
         },
         {
           "week": 10,
           "topics": [
-            "USE ALL FOUR BASIC",
-            "OPERATIONS TO SOLVE",
-            "PROBLEMS IN CONTEXT",
-            "involving whole numbers and",
-            "fractions, including:",
+            "Solving problems",
             "Representing data",
             "Measurement contexts",
-            "Fractions, including",
-            "kind (ratio)",
-            "Draw a variety of graphs to display and interpret data",
+            "Fractions, including grouping and equal sharing",
+            "Comparing two or more quantities of the same kind (ratio)",
+            "Comparing two quantities of different kinds (rate)",
             "Pictographs with many-to-one representations",
             "Bar graphs and double bar graphs",
             "Analysing, interpreting and reporting data",
             "Number sentences"
           ],
-          "skills": []
-        },
-        {
-          "week": 9,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 8,
-          "topics": [
-            "Note: PROVIDE LEARNERS WITH DATA TO SAVE TIME"
+          "skills": [
+            "Use all four basic operations to solve problems in context",
+            "Solve problems in contexts involving whole numbers and fractions",
+            "Draw a variety of graphs to display and interpret data"
           ],
-          "skills": []
-        },
-        {
-          "week": 7,
-          "topics": [
-            "Critically read and interpret data represented in:",
-            "Double bar graphs",
-            "FORMAL ASSESSMENT TASK",
-            "fundamental topics of term 1",
-            "Analyse data by answering questions related to:",
-            "Data categories, including data intervals",
-            "Data sources and contexts",
-            "Summarise data verbally and in short written paragraphs that",
-            "Drawing conclusions about the data",
-            "Making predictions based on the data"
+          "content_area": "Mathematics",
+          "short_phrases": [
+            "Solving problems",
+            "Representing data",
+            "Measurement contexts",
+            "Fractions",
+            "Pictographs",
+            "Bar graphs",
+            "Number sentences"
           ],
-          "skills": []
+          "caps_excerpt": "RATION (in hours) MATHEMATICS GRADES 4-6 NUMBERS, OPERATIONS AND RELATIONSHIPS CONTENT",
+          "assessment_notes": [
+            "Solve problems in contexts",
+            "Draw a variety of graphs to display and interpret data"
+          ]
         }
       ]
     }
   ],
   "term_count": 4,
-  "week_count": 54,
-  "source_pdf": "/code/riv/kyno/data/syllabus/grade-6/mathematics/atp-mathematics.pdf"
+  "week_count": 24
 }

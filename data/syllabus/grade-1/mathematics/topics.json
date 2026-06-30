@@ -1,7 +1,23 @@
 {
   "grade": 1,
+  "phase": "foundation",
   "subject": "mathematics",
   "curriculum": "CAPS",
+  "sources": {
+    "atp_pdf": "/code/riv/kyno/data/syllabus/grade-1/mathematics/atp-mathematics.pdf",
+    "caps_pdf": "/code/riv/kyno/data/syllabus/grade-1/mathematics/caps-mathematics-english.pdf"
+  },
+  "caps_summary": {
+    "overview_excerpt": "1.3 .......................................................................................................................................................3 General aims of the South African Curriculum.............................................................................................4 1.4 Time Allocation.................................................................................................................................................6 1.4.1 Foundation Phase....................................................................................................................................6 1.4.2 Intermediate Phase..................................................................................................................................6 1.4.3 Senior Phase...........................................................................................................................................7 1.4.4 Grades 10-12...........................................................................................................................................7",
+    "aims_excerpt": "Section 2: DEFINITION, AIMS, SKILLS AND CONTENT...................................................................... 8 2.1 Introduction......................................................................................................................................................8 2.2 What is Mathematics?.....................................................................................................................................8 2.3 Specific Aims....................................................................................................................................................8 2.4 Specific Skills...................................................................................................................................................8 2.5 Focus of Content Areas...................................................................................................................................9 2.6 Weighting of content areas...........................................................................................................................10 2.7 Mathematics in the Foundation Phase.........................................................................................................10 2.7.1 Suggested guidelines for classroom management................................................................................ 11 2.7.2 Learners with barriers to learning Mathematics.....................................................................................12 2.7.3 Mental Mathematics ..............................................................................................................................12 2.8 Grade R .....................................................................................................................................................13 2.9 Recommended Resources for the Foundation Phase Mathematics classroom......................................16",
+    "assessment_excerpt": "Section 4: ASSESSMENT................................................................................................................... 485 4.1 Introduction..................................................................................................................................................485 4.2 Informal or Daily Assessment.....................................................................................................................485 4.3 Formal Assessment.....................................................................................................................................485 4.4 Programme of Formal Assessment............................................................................................................486 4.5 Recording and Reporting............................................................................................................................486 4.6 Moderation of Assessment.........................................................................................................................487 4.7 General ...................................................................................................................................................487 4.8 Exemplar Assessment Tasks for Grades 1 to 3........................................................................................487 2 CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS) MATHEMATICS Grade 1-3 Section 1 INTRODUCTION AND BACKGROUND 1.1\u2026",
+    "content_area_names": [
+      "Numbers, Operations And Relationships",
+      "Space And Shape",
+      "Measurement",
+      "Data Handling"
+    ]
+  },
   "terms": [
     {
       "term": 1,
@@ -9,178 +25,144 @@
         {
           "week": 1,
           "topics": [
-            "Whole class teaching"
+            "Readiness Assessment"
           ],
-          "skills": []
-        },
-        {
-          "week": 3,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 5,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 7,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 9,
-          "topics": [
-            "NUMBERS, OPERATIONS AND RELATIONSHIPS",
-            "Counting \u2013 integrate with number patterns and mental maths",
-            "number between 1-20 and describe the",
-            "number between 1-10 and describe the",
-            "Mental maths number range 5: Ask quick maths questions to promote quick thinking (techniques: put large number first in order to count on, number line, doubling and halving, build up and break down)",
-            "- Order a given set of numbers 1-5:",
-            "\u2022 Order a given set of numbers 1-5:",
-            "numbers to 5 say which is more, less:",
-            "\u2022 Compare numbers to 5 say which is more, less:",
-            "- what number comes after, before, between",
-            "\u2013 what number comes after, before, between",
-            "DEVELOPMENT:",
-            "Building number",
-            "Order a given set of numbers 1-5:",
-            "Compare numbers to 5 say which is more, less:",
-            "Recognise, identify, read number symbols from 1-20",
-            "Write number symbols and number names to 10",
-            "Number symbols and number names",
-            "2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 1",
-            "CONTENT AREAS"
+          "skills": [],
+          "content_area": "Mathematics",
+          "short_phrases": [
+            "Readiness Assessment"
           ],
-          "skills": []
-        },
-        {
-          "week": 1,
-          "topics": [],
-          "skills": []
+          "caps_excerpt": "time, e.g. five comes after four, hence a collection of five objects is one more than a collection of four objects or a collection of four objects is one less than a collection of five objects \u2022 Learners could also order",
+          "assessment_notes": [
+            "Readiness Assessment",
+            "Assessment"
+          ]
         },
         {
           "week": 3,
           "topics": [
-            "Describe, compare and order numbers to 5 (use a number line)",
-            "\u2022 Describe and compare numbers:",
-            "\u2022 Describe compare numbers:",
-            "Order numbers:",
-            "\u2022 Order numbers:",
-            "- use the number line 1-5, first, last"
-          ],
-          "skills": []
-        },
-        {
-          "week": 5,
-          "topics": [
-            "Describe and compare numbers:",
-            "Order numbers:",
-            "- use the number line, position first and last",
-            "Solve problems in context and explain solutions to problems. Techniques: Use concrete counters, draw pictures, number lines with concrete beads",
-            "Context-free calculations to 5. Techniques: Use concrete counters, draw pictures, number lines with concrete beads",
-            "Practise number bonds up to 3 (+, -, =, \u25a1)",
-            "\u2022 Practise number bonds up to 4 (+, -, =, \u25a1)",
-            "\u2022 Practise number bonds up to 3 (+, -, =, \u25a1)"
-          ],
-          "skills": []
-        },
-        {
-          "week": 9,
-          "topics": [
-            "Describe and compare numbers:",
-            "Order numbers:",
-            "- use the number line, show position",
-            "Practise number bonds up to 5 (+, -, =, \u25a1)",
-            "Practise number bonds up to 5",
-            "Compare numbers \u2013 which is more, less:",
-            "Identify, read, write numbers symbols and",
-            "number names up to 5:",
-            "\u2013 on the number line, (1st- 5th)",
-            "Describe, compare numbers",
-            "DATA HANDLING (integrates with NOR)",
-            "SPACE AND SHAPE",
-            "PATTERNS, FUNCTIONS AND ALGEBRA",
-            "Geometric patterns",
-            "\u2022 Copy and extend simple patterns using:",
-            "- drawings (use colours and shapes)",
-            "Number patterns:",
-            "- Copy, extend and describe number sequences",
-            "\u2022 Order numbers 1-5 on a number line",
-            "\u2022 Position on the number line, left, right,",
-            "\u2022 Patterns of 3",
-            "\u2022 Match number cards and objects to 4",
-            "\u2022 Relevant vocabulary for comparing number.",
-            "- Measurement comparing shortest, longest by",
-            "- Comparing numbers 1-3, pp. 28-29",
-            "- Sorting patterns, pg. 4",
-            "- Revise numbers 1-5 count objects, pg. 38-39",
-            "- Draw 1, 2, 3, 4, less, take away from 5, number",
-            "SUGGESTED DBE"
-          ],
-          "skills": []
-        },
-        {
-          "week": 7,
-          "topics": [
-            "- Left to right pattern movement, pg. 5",
-            "- Left to right patterns, big, small, pg. 7",
-            "- Sorting, matching shapes. Link number, pp. 8-9",
-            "- Matching, linking patterns: Positions, pg. 12",
-            "- Revision: Shape, colour, size, pp. 16-17",
-            "Position first, last, in the middle on the number",
-            "Thread a bead pattern according colours",
-            "Match number names, objects and number",
-            "- Trace pattern from left to right, pg. 15",
-            "- Revision: Shape, size, colour, pg. 16",
-            "Position in the line, race, on the number line:",
-            "on the number line",
-            "Number bonds of 3 and 4",
-            "- Take away and add: Number line method, pg. 43",
-            "- Show addition and subtraction on number line to",
-            "2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 1"
-          ],
-          "skills": []
-        },
-        {
-          "week": 1,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 3,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 5,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 7,
-          "topics": [
-            "CONSOLIDATION"
-          ],
-          "skills": []
-        },
-        {
-          "week": 9,
-          "topics": [
-            "Revision of work strengthens the learner\u2019s knowledge and supports further learning.",
-            "Assessment for Learning (AfL) is strategically planned for and completed alongside teaching. The teacher is always cognisant of the learning taking place and keeps a record of the learner\u2019s progress",
-            "Space and shape",
-            "Patterns, functions and algebra",
-            "\u2022 Patterns, functions and algebra",
-            "Numbers, operations and relationships",
-            "\u2022 Measurement",
-            "\u2022 Data handling",
-            "Formal assessment must be fair, reliable and valid. The assessment must reveal what the learner knows, the onus is on the teacher to:",
-            "2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 1"
+            "Supporting learning gaps",
+            "Reteaching using another strategy for improved learning"
           ],
           "skills": [
-            "\u2022 Continuous assessment prevails. The onus is on the teacher to teach well and to observe if meaningful learning has occurred. Can the learner communicate his, her understanding of the concepts learnt",
-            "\u2022 Use an appropriate form of assessment so that the learner\u2019s knowledge and skills can be gauged and the evidence of the learner\u2019s achievement can be justified at all times"
+            "Record all findings in the event of further support required"
+          ],
+          "content_area": "Remediation",
+          "short_phrases": [
+            "learning gaps",
+            "another strategy",
+            "further support"
+          ],
+          "caps_excerpt": "number of objects that can be checked by counting. Give a reasonable estimate of a number of objects that can be checked by counting. Count objects Count out objects reliably to 10. Count out objects reliably to 50. FOCUS FOR TERM 1 1.1 CONCEPTS AND SKILLS REQUIREMENT BY YEAR END CONCEPTS AND SKILLS TOPICS Counting on The cardinality principle Working with written texts \u2022 \u2022 \u2022 count forward and backwards; count actions; count in",
+          "assessment_notes": [
+            "INFORMAL ASSESSMENT",
+            "(AFL)",
+            "FORMAL ASSESSMENT",
+            "(AOL)",
+            "ONE FAT PER TERM"
+          ]
+        },
+        {
+          "week": 5,
+          "topics": [
+            "Describe and compare numbers",
+            "Order numbers",
+            "Solve problems in context and explain solutions to problems",
+            "Practically solve problems in context and explain solutions to problems",
+            "Context-free calculations to 5",
+            "Addition and subtraction up to 3",
+            "Addition and subtraction up to 4",
+            "Addition and subtraction up to 3",
+            "Practise number bonds up to 3",
+            "Practise number bonds up to 4",
+            "Practise number bonds up to 3"
+          ],
+          "skills": [
+            "Use greater than, smaller than, more than, less than, is equal to",
+            "Use number line, position first and last",
+            "Use concrete counters, draw pictures, number lines with concrete beads",
+            "Explain solutions to problems",
+            "Practically solve problems in context",
+            "Do context-free calculations to 5",
+            "Do addition and subtraction up to 3",
+            "Do addition and subtraction up to 4",
+            "Do addition and subtraction up to 3",
+            "Practise number bonds up to 3",
+            "Practise number bonds up to 4",
+            "Practise number bonds up to 3"
+          ],
+          "content_area": "Measurement",
+          "short_phrases": [
+            "greater than",
+            "smaller than",
+            "more than",
+            "less than",
+            "is equal to",
+            "before",
+            "after",
+            "between",
+            "in the middle",
+            "addition",
+            "subtraction",
+            "equal sharing",
+            "grouping",
+            "remainders",
+            "number bonds"
+          ],
+          "caps_excerpt": "number of objects that can be checked by counting. Give a reasonable estimate of a number of objects that can be checked by counting. Count objects Count out objects reliably to 10. Count out objects reliably to 50. FOCUS FOR TERM 1 1.1 CONCEPTS AND SKILLS REQUIREMENT BY YEAR END CONCEPTS AND SKILLS TOPICS Counting on The cardinality principle Working with written texts \u2022 \u2022 \u2022 count forward and backwards; count actions; count in",
+          "assessment_notes": [
+            "Practically solve problems in context and explain",
+            "Practically solve problems in context and explain",
+            "Practically solve problems in context and explain"
+          ]
+        },
+        {
+          "week": 7,
+          "topics": [
+            "Consolidation"
+          ],
+          "skills": [
+            "embed knowledge and skills"
+          ],
+          "content_area": "Mathematics",
+          "short_phrases": [
+            "Consolidation",
+            "embed knowledge"
+          ],
+          "caps_excerpt": "number of objects that can be checked by counting. Give a reasonable estimate of a number of objects that can be checked by counting. Count objects Count out objects reliably to 10. Count out objects reliably to 50. FOCUS FOR TERM 1 1.1 CONCEPTS AND SKILLS REQUIREMENT BY YEAR END CONCEPTS AND SKILLS TOPICS Counting on The cardinality principle Working with written texts \u2022 \u2022 \u2022 count forward and backwards; count actions; count in",
+          "assessment_notes": [
+            "practise",
+            "ask questions"
+          ]
+        },
+        {
+          "week": 9,
+          "topics": [
+            "Revision",
+            "Assessment for Learning (AfL)",
+            "Space and shape",
+            "Patterns, functions and algebra",
+            "Numbers, operations and relationships",
+            "Measurement",
+            "Data handling"
+          ],
+          "skills": [
+            "Teach and assess well for learning gains",
+            "Use an appropriate form of assessment"
+          ],
+          "content_area": "MATHEMATICS",
+          "short_phrases": [
+            "Revision",
+            "Space and shape",
+            "Measurement",
+            "Data handling"
+          ],
+          "caps_excerpt": "number of objects that can be checked by counting. Give a reasonable estimate of a number of objects that can be checked by counting. Count objects Count out objects reliably to 10. Count out objects reliably to 50. FOCUS FOR TERM 1 1.1 CONCEPTS AND SKILLS REQUIREMENT BY YEAR END CONCEPTS AND SKILLS TOPICS Counting on The cardinality principle Working with written texts \u2022 \u2022 \u2022 count forward and backwards; count actions; count in",
+          "assessment_notes": [
+            "Continuous assessment",
+            "Fair, reliable and valid assessment",
+            "Teach and assess well for learning gains",
+            "Use an appropriate form of assessment"
           ]
         }
       ]
@@ -190,166 +172,199 @@
       "weeks": [
         {
           "week": 1,
-          "topics": [],
-          "skills": []
+          "topics": [
+            "Diagnostic Assessment"
+          ],
+          "skills": [],
+          "content_area": "Mathematics",
+          "short_phrases": [
+            "Diagnostic Assessment"
+          ],
+          "caps_excerpt": "time, e.g. five comes after four, hence a collection of five objects is one more than a collection of four objects or a collection of four objects is one less than a collection of five objects \u2022 Learners could also order",
+          "assessment_notes": [
+            "Diagnostic Assessment",
+            "Assessment"
+          ]
         },
         {
           "week": 3,
           "topics": [
-            "Whole class teaching"
-          ],
-          "skills": []
-        },
-        {
-          "week": 5,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 7,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 9,
-          "topics": [
-            "NUMBERS, OPERATIONS AND RELATIONSHIPS",
-            "Counting \u2013 integrate with number patterns and mental maths",
-            "any number between 1-50",
-            "any number between 1-20",
-            "Mental maths number range 10: Ask quick maths questions to promote quick thinking (techniques: put large number first in order to count on, number line, doubling and halving, build up and break down)",
-            "\u2022 Order a given set of numbers:",
-            "\u2022 Order a given set of numbers",
-            "\u2022 Compare numbers to 10 say which is more, less:",
-            "\u2022 Compare numbers to 5 say which is more, less:",
-            "the middle, left, right, use number line",
-            "in the middle, use number line",
-            "the middle, use number line",
-            "Order a given set of numbers",
-            "Compare numbers to 10 say which is more, less",
-            "to the right of, use number line",
-            "Recognise, identify, read number symbols from 1-50",
-            "Write number symbols and number names to 10",
-            "Number symbols and number names",
-            "2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 1"
-          ],
-          "skills": []
-        },
-        {
-          "week": 1,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 5,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 7,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 9,
-          "topics": [
-            "Describe, compare and order numbers to 10",
-            "DEVELOPMENT:",
-            "Building number"
-          ],
-          "skills": []
-        },
-        {
-          "week": 3,
-          "topics": [
-            "Describe and compare numbers:",
-            "Order numbers from",
-            "Order numbers:",
-            "- use the number line 1-10",
-            "- use the number line",
-            "Compare numbers- which is more, less:",
-            "Identify, read, write numbers, symbols and",
-            "number names:",
-            "\u2013 on the number line, (1st-10th)",
-            "Describe, compare numbers",
-            "Solve problems in context and explain solutions to problems. Techniques: Use concrete counters, draw pictures, building up and breaking down, doubling and halving, number lines supported by counting b",
-            "\u2022 Practise number bonds up to 6",
-            "\u2022 Practise number bonds up to 7",
-            "\u2022 Practise number bonds up to 5",
-            "Practise number bonds up to 7",
-            "Number bonds to 7",
-            "line, race, on the number line to 7",
-            "Time: During whole class teaching time: morning, afternoon, evening; days of the week; a long time, a short time; sequence days of the week; months of the year; place birthdays on the calendar.",
+            "Describe and compare numbers",
+            "Order numbers",
+            "Compare numbers",
+            "Identify, read, write numbers, symbols and number names",
+            "Solve problems in context and explain solutions to problems",
+            "Addition and subtraction",
+            "Repeated addition",
+            "Equal sharing and grouping",
+            "Recognise SA currency",
+            "Solve money problems involving totals, change",
+            "Context-free calculations",
+            "Number bonds",
+            "Measurement",
+            "Time",
+            "Length",
             "PATTERNS, FUNCTIONS & ALGEBRA",
-            "Geometric patterns:",
-            "\u2022 Copy, extend, describe simple patterns",
-            "Create and describe own patterns",
-            "Draw own simple patterns",
+            "Geometric patterns",
             "SPACE AND SHAPE",
-            "2D shapes: Recognise and name: Circles, triangles, squares",
-            "DATA HANDLING IS INTEGRATED WITH ALL CONTENT AREAS WHERE POSSIBLE. Collect and sort objects; draw picture of sorted objects; answer questions of sorting process; describe sorted collections",
-            "Collect and organise data \u2013 e.g. make class \u201cbirthday calendar\u201d.",
-            "Answer questions about data in pictograph",
-            "Number bonds of 4, 5",
-            "Number bonds to 5",
-            "Number bonds to 6",
-            "Numerosity of numbers 1-6",
-            "2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 1"
-          ],
-          "skills": []
-        },
-        {
-          "week": 1,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 3,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 5,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 7,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 9,
-          "topics": [
-            "- Building up and breaking down of numbers to 5,",
-            "- Doubles up to 2 and on number line, pg. 56-57",
-            "- 2D shapes, data handling, pp. 100-103",
-            "- Shape orientation and position, pp. 134-135",
-            "- Patterns with geometric shapes, pp. 136-137",
-            "- 2D shapes, 3D objects, geometric patterns, pp.",
-            "- Numbers 1-10, pg. 84",
-            "- Numbers, grouping, smallest to biggest on the",
-            "number line, one, 2 more, 1, 2 less, pg. 86",
-            "- Bead line: Fill in missing numbers, pg. 87",
-            "- Making addition sentences and using the number",
-            "- Revise numbers 6-10, pg. 83",
-            "- Addition using the number line method, pg. 95",
-            "- Five patterns to 20, pp. 122-123",
-            "- Ten patterns of 10, number board, pp. 124-125",
-            "CONSOLIDATION",
-            "Assessment for Learning (AfL) is strategically planned for and completed alongside teaching. The teacher is always cognisant of the learning taking place and keeps a record of the learner\u2019s progress",
-            "\u2022 Data handling",
-            "\u2022 Measurement",
-            "\u2022 Patterns functions & algebra",
-            "\u2022 Number operations & relationships",
-            "\u2022 Space & shape",
-            "Formal assessment must be fair, reliable and valid. The assessment must reveal what the learner knows, the onus is on the teacher to:",
-            "2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 1"
+            "3D objects",
+            "2D shapes",
+            "DATA HANDLING",
+            "Collect and sort objects",
+            "Answer questions about data",
+            "Counting",
+            "Number bonds",
+            "Problem solving"
           ],
           "skills": [
-            "understood This practise takes place before any new concepts can be taught. Revision of",
-            "\u2022 Continuous assessment prevails. The onus is on the teacher to teach well and to observe if meaningful learning has occurred. Can the learner communicate his, her understanding of the concepts learnt",
-            "\u2022 Use an appropriate form of assessment so that the learner\u2019s knowledge and skills can be gauged and the evidence of the learner\u2019s achievement can be justified at all times"
+            "Order numbers from smallest to greatest",
+            "Use the number line 1-10",
+            "Recognise SA currency",
+            "Solve money problems involving totals and change",
+            "Use context-free calculations to 10",
+            "Practise number bonds up to 10",
+            "Compare lengths of objects",
+            "Estimate and compare lengths",
+            "Create and describe own patterns",
+            "Follow directions: Right, left, etc.",
+            "Collect and sort objects",
+            "Answer questions about data",
+            "Build up and break down numbers",
+            "Count in multiples of 5, 2 to 10",
+            "Follow directions: Left, right...",
+            "Build up and break down numbers",
+            "Number bonds to 7"
+          ],
+          "content_area": "CAPS Mathematics",
+          "short_phrases": [
+            "is equal to",
+            "before, after, between",
+            "in the middle",
+            "addition and subtraction",
+            "repeated addition",
+            "recognise SA currency",
+            "solve money problems",
+            "context-free calculations",
+            "number bonds",
+            "measurement",
+            "time",
+            "length",
+            "patterns",
+            "functions",
+            "algebra",
+            "geometric patterns",
+            "space and shape",
+            "3D objects",
+            "2D shapes",
+            "data handling",
+            "counting",
+            "problem solving"
+          ],
+          "caps_excerpt": "shapes or objects \u2022 drawings (e.g. using colours and shapes) \u2022 in nature from modern everyday life from our cultural heritage \u2022 \u2022 \u2022 CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS) In some",
+          "assessment_notes": [
+            "Recognise SA currency",
+            "Solve money problems involving totals and change",
+            "Use context-free calculations to 10",
+            "Practise number bonds up to 10",
+            "Compare lengths of objects",
+            "Estimate and compare lengths",
+            "Create and describe own patterns",
+            "Follow directions: Right, left, etc.",
+            "Collect and sort objects",
+            "Answer questions about data",
+            "Build up and break down numbers",
+            "Count in multiples of 5, 2 to 10",
+            "Follow directions: Left, right...",
+            "Build up and break down numbers",
+            "Number bonds to 7"
+          ]
+        },
+        {
+          "week": 9,
+          "topics": [
+            "Building up and breaking down of numbers to 5",
+            "Doubles up to 2 and on number line",
+            "Sort and match up to 5 like objects according to attributes",
+            "Equal sharing up to 4 objects",
+            "Problem solving: Sharing and grouping",
+            "Building towers with 3D objects",
+            "Telling time: months of the year, days of week",
+            "Draw, match and trace 6",
+            "Colour 6, draw 6 more",
+            "Draw, match and trace 7",
+            "Draw 7 more",
+            "Adding",
+            "Collect and sort collections",
+            "Sort leaves accordingly, draw collections",
+            "2D shapes, data handling",
+            "Shape orientation and position",
+            "Patterns with geometric shapes",
+            "2D shapes, 3D objects, geometric patterns",
+            "Draw, match and trace 8",
+            "Colour 8, draw 8 more",
+            "Draw, match and trace 9",
+            "Colour 9, draw 9 more",
+            "Addition: Using counting on",
+            "Doubling and halving",
+            "Groups of two (2)",
+            "Groups of 4 up to 8 problem solving, repeated addition",
+            "More, equal and less",
+            "Numbers 1-10",
+            "Numbers, grouping, smallest to biggest on the number line, one, 2 more, 1, 2 less",
+            "Bead line: Fill in missing numbers",
+            "Addition",
+            "Making addition sentences and using the number line method",
+            "Groups of 3s up to 9, repeated addition of 3s",
+            "Groups of two (2) to 10",
+            "Count fingers on both hands",
+            "Colour 10, draw 10 more",
+            "Count on fingers 1-10 and draw",
+            "Revise numbers 6-10",
+            "Addition using the number line method",
+            "Grouping, repeated addition",
+            "Counting groups of 2",
+            "Five patterns to 20",
+            "Ten patterns of 10, number board",
+            "Money, values, addition, change"
+          ],
+          "skills": [
+            "Building up and breaking down numbers",
+            "Sharing and grouping",
+            "Problem solving",
+            "Telling time",
+            "Adding",
+            "Data handling",
+            "Shape orientation and position",
+            "Patterns with geometric shapes",
+            "Adding",
+            "Doubling and halving",
+            "Repeated addition",
+            "Number lines",
+            "Addition sentences",
+            "Repeated addition",
+            "Counting groups",
+            "Patterns"
+          ],
+          "content_area": "Numbers, Operations And Relationships",
+          "short_phrases": [
+            "Sharing and grouping",
+            "Problem solving",
+            "Telling time",
+            "Adding",
+            "Data handling",
+            "Repeated addition",
+            "Number lines",
+            "Addition sentences"
+          ],
+          "caps_excerpt": "graphs showing a baby grown into an elderly person; the life cycle of animals e.g. egg to chicken, or egg to frog or egg to a butterfly; and regular events in the day (waking up, being at school, playing, eating supper, sleeping). \u2022 \u2022 \u2022 Learners learn the days of the week through songs and rhymes. This is practised daily. Birthdays are placed on the calendar on the relevant day. Learners learn the months of the year through songs and rhymes. \u2022 \u2022 \u2022 Telling the",
+          "assessment_notes": [
+            "Informal assessment (AFL)",
+            "SBA (Formal assessment)",
+            "AOL (Formal assessment)",
+            "Continuous assessment",
+            "Oral, practical, written assessment",
+            "Number operations and relationships, patterns, functions, and algebra",
+            "Number operations and relationships"
           ]
         }
       ]
@@ -360,174 +375,160 @@
         {
           "week": 1,
           "topics": [
-            "NUMBERS, OPERATIONS AND RELATIONSHIPS",
-            "DEVELOPMENT:",
-            "Building number",
-            "Whole class teaching"
-          ],
-          "skills": []
-        },
-        {
-          "week": 3,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 5,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 7,
-          "topics": [
-            "Counting \u2013 integrate with number patterns and mental maths",
-            "number between 1-60",
-            "number between 1-70",
-            "number between 1-80",
-            "any number between 1-50",
-            "Mental maths number range 15. Ask quick maths questions to promote quick thinking (techniques: Put large number first in order to count on, number line, doubling and halving, build up and break down)",
-            "\u2022 Order a given set of numbers 1-12:",
-            "\u2022 Order a given set of numbers 1-15:",
-            "\u2022 Order a given set of numbers 1-15",
-            "\u2022 Order a given set of numbers 1-10:",
-            "\u2022 Compare numbers to 15 say which is more,",
-            "\u2022 Compare numbers to 12 say which is more,",
-            "\u2022 Compare numbers to 10 say which is more,",
-            "the middle, left, right, use number line",
-            "in the middle, use number line",
-            "the middle, use number line",
-            "\u2022 Rapid recall of number bonds to 5",
-            "\u2022 Rapid recall of number bonds",
-            "Number symbols and number names"
-          ],
-          "skills": []
-        },
-        {
-          "week": 9,
-          "topics": [
-            "number between 1-80",
-            "Order a given set of numbers 1-15",
-            "Compare numbers to 15 say which is more, less:",
-            "the right of\u2026, use number line",
-            "Rapid recall of number bonds to 5",
-            "Recognise, identify, read number symbols from 1-80",
-            "Write number symbols and number names to 15",
-            "2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 1",
-            "DEVELOPMENT:",
-            "Building number"
-          ],
-          "skills": []
-        },
-        {
-          "week": 1,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 3,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 5,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 7,
-          "topics": [
-            "Describe, compare and order numbers to 15",
-            "Describe and compare numbers:",
-            "\u2022 Describe and order numbers:",
-            "Describe and order numbers:",
-            "- use the number line 0-15",
-            "Order numbers:",
-            "\u2022 Decompose 2-digit numbers of multiples of ten",
-            "\u2022 Decompose 2-digit numbers of multiples of ten \u2022 Decompose 2-digit numbers of multiples of ten",
-            "Decompose 2-digit numbers of multiples of",
-            "Solve problems in context, explain solutions to problems. Techniques: use concrete counters, draw pictures, building up and breaking down, doubling and halving, number lines with counting beads; See p",
-            "Context-free calculations to 15. Techniques: Use concrete counters, draw pictures, building up and breaking down, doubling and halving, number lines with counting beads",
-            "\u2022 Practise number bonds up to 8",
-            "\u2022 Practise number bonds up to 9",
-            "\u2022 Practise number bonds up to 7",
-            "SPACE AND SHAPE",
-            "PATTERNS, FUNCTIONS AND ALGEBRA",
-            "Geometric patterns:",
-            "\u2022 Copy, extend, describe simple patterns",
-            "\u2022 Draw own simple patterns",
-            "\u2022 Create and describe own patterns",
-            "During whole class teaching time: morning, afternoon, evening; days of the week; a long time, a short time; sequence days of the week; months of the"
-          ],
-          "skills": []
-        },
-        {
-          "week": 9,
-          "topics": [
-            "Practise number bonds up to 9",
-            "\u2022 Number bonds of 7",
-            "\u2022 Number bonds of 8",
-            "\u2022 Number bonds to 5, 6",
-            "\u2022 Compare and order numbers",
-            "2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 1"
-          ],
-          "skills": []
-        },
-        {
-          "week": 1,
-          "topics": [
-            "- Adding to 10 (counting on number line), pg.",
-            "- Addition and subtraction on number line, pg."
-          ],
-          "skills": []
-        },
-        {
-          "week": 3,
-          "topics": [
-            "- Understanding number 11, pp. 2-3",
-            "- Data one more, pp. 28-31"
-          ],
-          "skills": []
-        },
-        {
-          "week": 5,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 7,
-          "topics": [
-            "CONSOLIDATION",
-            "- Counting in fives up to 15, missing numbers,",
-            "number line, pp. 12 -13",
-            "and number line work, pp. 14-15"
-          ],
-          "skills": []
-        },
-        {
-          "week": 9,
-          "topics": [
-            "- Geometric patterns, pp. 50-51",
-            "- Data, pp. 28-31",
-            "- Number patterns of 5 up to 50 using counting",
-            "chart and number lines, pp. 38-39",
-            "- More counting patterns of 5s to 80, pp. 40-41",
-            "- Number patterns in 2s up to 50, pp. 58-59",
-            "- Numbers and place value (10+, -), pp. 62-63",
-            "number line work and views, pp. 16-17",
-            "Assessment for Learning (AfL) is strategically planned for and completed alongside teaching. The teacher is always cognisant of the learning taking place and keeps a record of the learner\u2019s progress",
-            "\u2022 Numbers, operations & relationships",
-            "\u2022 Measurement",
-            "Oral: Data handling",
-            "\u2022 Patterns, functions & algebra",
-            "\u2022 Space & shape",
-            "Data handling",
-            "Formal assessment must be fair, reliable and valid. The assessment must reveal what the learner knows, the onus is on the teacher to:",
-            "2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 1"
+            "Adding to 10",
+            "Counting of 3 to 10",
+            "Repeated addition of 5 to 10",
+            "Understand 11 one more, less",
+            "Addition and subtraction on number line"
           ],
           "skills": [
-            "understood. This practise takes place before any new concepts can be taught. Revision of",
-            "\u2022 Continuous assessment prevails. the onus is on the teacher to teach well and to observe if meaningful learning has occurred, Can the learner communicate his, her understanding of the concepts learnt",
-            "\u2022 Use an appropriate form of assessment so that the learner\u2019s knowledge and skills can be gauged and the evidence of the learner\u2019s achievement can be justified at all times"
+            "Counting on number line",
+            "Reteaching using another strategy"
+          ],
+          "content_area": "Numeracy",
+          "short_phrases": [
+            "Adding to 10",
+            "Repeated addition",
+            "Addition and subtraction"
+          ],
+          "caps_excerpt": "number of objects that can be checked by counting. Give a reasonable estimate of a number of objects that can be checked by counting. Count objects Count out objects reliably to 10. Count out objects reliably to 50. FOCUS FOR TERM 1 1.1 CONCEPTS AND SKILLS REQUIREMENT BY YEAR END CONCEPTS AND SKILLS TOPICS Counting on The cardinality principle Working with written texts \u2022 \u2022 \u2022 count forward and backwards; count actions; count in",
+          "assessment_notes": [
+            "Diagnostic Assessment",
+            "Informal Assessment (AFL)",
+            "Formal Assessment (SBA)",
+            "Formal Assessment (AOL)"
+          ]
+        },
+        {
+          "week": 3,
+          "topics": [
+            "Understand 12 one more, less",
+            "Repeated addition up to 5",
+            "3D objects and their features",
+            "Halves",
+            "Doubles",
+            "Understanding number 11",
+            "Data one more",
+            "Groups of 5, context-free calculations, repeated addition",
+            "Tallest, shortest",
+            "Practise length"
+          ],
+          "skills": [
+            "Repeated addition"
+          ],
+          "content_area": "Mathematics",
+          "short_phrases": [
+            "Repeated addition",
+            "3D objects",
+            "Halves",
+            "Doubles",
+            "Number 11",
+            "Data one more",
+            "Groups of 5",
+            "Tallest shortest",
+            "Practise length"
+          ],
+          "caps_excerpt": "number of objects that can be checked by counting. Give a reasonable estimate of a number of objects that can be checked by counting. Count objects Count out objects reliably to 10. Count out objects reliably to 50. FOCUS FOR TERM 1 1.1 CONCEPTS AND SKILLS REQUIREMENT BY YEAR END CONCEPTS AND SKILLS TOPICS Counting on The cardinality principle Working with written texts \u2022 \u2022 \u2022 count forward and backwards; count actions; count in",
+          "assessment_notes": [
+            "Practice activities",
+            "DBE workbook 2"
+          ]
+        },
+        {
+          "week": 7,
+          "topics": [
+            "Consolidation",
+            "Understand 13 one more, less",
+            "Counting in fives up to 15",
+            "3D objects",
+            "Addition problem solving",
+            "Building up and breaking down method to 10",
+            "Money and change",
+            "Calculate, problem solving",
+            "Money totals and change"
+          ],
+          "skills": [
+            "Embed knowledge and skills",
+            "Ask questions",
+            "Practice activities",
+            "Counting in fives",
+            "Missing numbers",
+            "Addition on the number line",
+            "Problem solving",
+            "Number line work"
+          ],
+          "content_area": "Numeracy",
+          "short_phrases": [
+            "One more, less",
+            "Counting in fives",
+            "3D objects",
+            "Addition problem solving",
+            "Money and change",
+            "Calculate, problem solving",
+            "Money totals"
+          ],
+          "caps_excerpt": "number of objects that can be checked by counting. Give a reasonable estimate of a number of objects that can be checked by counting. Count objects Count out objects reliably to 10. Count out objects reliably to 50. FOCUS FOR TERM 1 1.1 CONCEPTS AND SKILLS REQUIREMENT BY YEAR END CONCEPTS AND SKILLS TOPICS Counting on The cardinality principle Working with written texts \u2022 \u2022 \u2022 count forward and backwards; count actions; count in",
+          "assessment_notes": [
+            "DBE workbook 2 practice activities",
+            "Opportunity for the learner to ask questions"
+          ]
+        },
+        {
+          "week": 9,
+          "topics": [
+            "Revision",
+            "Geometric patterns",
+            "Problem solving",
+            "Addition and subtraction",
+            "More money problems",
+            "Subtraction problem solving with money",
+            "Data",
+            "Groups of 5 to 15",
+            "Repeated addition in 5s to 15",
+            "Use grid boards to draw the other halve",
+            "Number patterns of 5 up to 50 using counting chart and number lines",
+            "More counting patterns of 5s to 80",
+            "Number patterns in 2s up to 50",
+            "Understand 15 one more, less",
+            "Groups of 2 up to 15",
+            "Repeated addition up to 15",
+            "Numbers and place value (10+, -)",
+            "Building up and breaking down method and number line work and views"
+          ],
+          "skills": [
+            "Understand 14 one more, less",
+            "Understand 15 one more, less",
+            "Geometric patterns",
+            "Problem solving",
+            "Addition and subtraction",
+            "More money problems",
+            "Subtraction problem solving with money",
+            "Data",
+            "Groups of 5 to 15",
+            "Repeated addition in 5s to 15",
+            "Use grid boards to draw the other halve",
+            "Number patterns of 5 up to 50 using counting chart and number lines",
+            "More counting patterns of 5s to 80",
+            "Number patterns in 2s up to 50",
+            "Groups of 2 up to 15",
+            "Repeated addition up to 15",
+            "Numbers and place value (10+, -)",
+            "Building up and breaking down method and number line work and views"
+          ],
+          "content_area": "Numbers, Operations And Relationships",
+          "short_phrases": [
+            "Revision",
+            "Geometric patterns",
+            "Problem solving",
+            "Addition and subtraction",
+            "More money problems",
+            "Data"
+          ],
+          "caps_excerpt": "number of objects that can be checked by counting. Give a reasonable estimate of a number of objects that can be checked by counting. Count objects Count out objects reliably to 10. Count out objects reliably to 50. FOCUS FOR TERM 1 1.1 CONCEPTS AND SKILLS REQUIREMENT BY YEAR END CONCEPTS AND SKILLS TOPICS Counting on The cardinality principle Working with written texts \u2022 \u2022 \u2022 count forward and backwards; count actions; count in",
+          "assessment_notes": [
+            "Assessment for Learning (AfL) is strategically planned for and completed alongside teaching.",
+            "Continuous assessment prevails. the onus is on the teacher to teach well and to observe if meaningful learning has occurred, Can the learner communicate his, her understanding of the concepts learnt and can the learner apply his, her knowledge of the concepts learnt aptly",
+            "Formal assessment must be fair, reliable and valid. The assessment must reveal what the learner knows, the onus is on the teacher to: \u2022 Teach and assess well for learning gains (AfL) \u2022 Use an appropriate form of assessment so that the learner\u2019s knowledge and skills can be gauged and the evidence of the learner\u2019s achievement can be justified at all times"
           ]
         }
       ]
@@ -537,190 +538,135 @@
       "weeks": [
         {
           "week": 1,
-          "topics": [
-            "Whole class teaching"
+          "topics": [],
+          "skills": [],
+          "content_area": "End-of-year assessment",
+          "short_phrases": [
+            "End-line assessment"
           ],
-          "skills": []
-        },
-        {
-          "week": 3,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 5,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 7,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 9,
-          "topics": [
-            "NUMBERS, OPERATIONS AND RELATIONSHIPS",
-            "Counting \u2013 integrate with number patterns and mental maths",
-            "number between 1-100:",
-            "any number between 1-80:",
-            "Mental maths number range 20. Ask quick maths questions to promote quick thinking (Techniques: Put large number first in order to count on, number line, doubling and halving, build up and break down)",
-            "\u2022 Order a given set of numbers 1-17:",
-            "\u2022 Order a given set of numbers 1-18:",
-            "\u2022 Order a given set of numbers 1-20",
-            "\u2022 Order a given set of numbers 1-16:",
-            "\u2022 Compare numbers to 15 say which is more, less:",
-            "\u2022 Compare numbers to 16 say which is more,",
-            "middle, left, right, use number line",
-            "- use relationship between more, less (+, \u2022 Number bonds to 10",
-            "the middle, use number line",
-            "\u2022 Rapid recall of number bonds to 8",
-            "last, in the middle, use number line",
-            "\u2022 Number bonds to 9",
-            "Order a given set of numbers 1-15",
-            "Compare numbers to 15 say which is more, less:",
-            "the right of\u2026, use number line",
-            "Number bonds to 5",
-            "Number symbols and number names",
-            "Recognise, identify, read number symbols from 1-100",
-            "Write number symbols and number names to 20",
-            "2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 1",
-            "CONTENT AREAS",
-            "DEVELOPMENT:",
-            "Building number"
-          ],
-          "skills": []
-        },
-        {
-          "week": 1,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 3,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 5,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 7,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 9,
-          "topics": [
-            "Describe, compare and order numbers to 20",
-            "Describe and compare numbers:",
-            "\u2022 Describe and order numbers:",
-            "\u2022 Use ordinal numbers to show order, place,",
-            "- use number line 0-20",
-            "Describe and order numbers:",
-            "Use ordinal numbers to show order, place,",
-            "- order numbers from first to tenth / 1st10th",
-            "Use ordinal numbers to show order, place, position:",
-            "- order numbers from first to tenth / 1st-10th",
-            "\u2022 Decompose two-digit numbers into multiples of",
-            "\u2022 Decompose two-digit numbers into",
-            "\u2022 Decompose two-digit numbers into multiples of ten",
-            "\u2022 Decompose two-digit numbers into multiples of tens",
-            "Decompose two-digit numbers into",
-            "\u2022 Practise number bonds up to 8",
-            "Time: During whole class teaching time: morning, afternoon, evening; days of the week; a long time, a short time; sequence days of the week; months of the year; place birthdays on the calendar.",
-            "DATA HANDLING",
-            "Build up, break down, number line",
-            "Number bonds of 7",
-            "Rapid recall of number facts",
-            "Number bonds of 8",
-            "PATTERNS, FUNCTIONS AND ALGEBRA",
-            "Geometric Patterns",
-            "\u2022 Copy, extend and describe simple patterns - pack out objects",
-            "\u2022 Draw own simple patterns",
-            "\u2022 Create and describe own pattern",
-            "Number patterns are integrated with counting",
-            "\u2022 Number bonds of 9",
-            "Number bonds of 9",
-            "\u2022 Group counting in multiples of 10, 5, 2, and from any number to 100",
-            "\u2022 Build up, break down, number line strategies",
-            "\u2022 Language of position ordinals and know the cardinal value of numbers to 15",
-            "2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 1",
-            "SUGGESTED DBE"
-          ],
-          "skills": []
-        },
-        {
-          "week": 1,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 3,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 5,
-          "topics": [],
-          "skills": []
+          "caps_excerpt": "1.3 .......................................................................................................................................................3 General aims of the South African Curriculum.............................................................................................4 1.4 Time Allocation.................................................................................................................................................6 1.4.1 Foundation Phase....................................................................................................................................6 1.4.2 Intermediate Phase..................................................................................................................................6 1.4.3 Senior Phase...........................................................................................................................................7 1.4.4 Grades 10-12...........................................................................................................................................7 Section 2: DEFINITION, AIMS, SKILLS AND CONTENT...................................................................... 8 2.1 Introduction......................................................................................................................................................8 2.2 What is Mathematics?.....................................................................................................................................8 2.3 Specific Aims....................................................................................................................................................8 2.4 Specific Skills...................................................................................................................................................8 2.5 Focus of Content Areas...................................................................................................................................9 2.6 Weighting of content areas...........................................................................................................................10 2.7 Mathematics in the Foundation Phase.........................................................................................................10 2.7.1 Suggested guidelines for classroom management................................................................................ 11 2.7.2 Learners with barriers to learning Mathematics.....................................................................................12 2.7.3 Mental Mathematics ..............................................................................................................................12 2.8 Grade R .....................................................................................................................................................13 2.9 Recommended Resources for the Foundation Phase Mathematics classroom......................................16 3.5.1 Clarification of Grade 1 content MATHEMATICS Grade 1-3 CAPS 93 94 Give a reasonable estimate of a number of objects that can be checked by counting. Give a reasonable estimate of a number of objects that can be checked by counting. Count objects Count out objects reliably to 10. Count out objects reliably to 50. FOCUS FOR TERM 1 1.1 CONCEPTS AND SKILLS REQUIREMENT BY YEAR END CONCEPTS AND SKILLS TOPICS Counting on The cardinality principle Working\u2026",
+          "assessment_notes": [
+            "End-line assessment"
+          ]
         },
         {
           "week": 7,
           "topics": [
-            "- Understand number 16, pp. 66-67",
-            "- Number patterns 2-50, number line, pp. 5859",
-            "- Number patterns of 5 up to 50, pp. 37-38",
-            "- Bigger number and addition - 10 +, pg. 76",
-            "- Problem solving +, -, number line method",
-            "- Shapes and objects, pp. 84-85",
-            "- Understanding number 17, pp. 68-69",
-            "- 2D shapes sorting, smallest, largest, draw the",
-            "shape in the grid, pp. 90-93",
-            "- Names of 2D shapes, draw the other half of the",
-            "shape, pp. 94-95",
-            "- Ordinal numbers 1st-10th, pp. 82-83",
-            "- Understand number 18, pp. 70-71",
-            "counting chart, number chart, pg. 100",
-            "- Number patterns of 5 to 100: Counting",
-            "chart, number line, clock, pp. 102-103",
-            "- Understanding number 19, pp. 72-73",
-            "- Geometric patterns, pp. 50-51",
-            "- Make groups of 2 up to 20, write the number",
-            "- Understanding number 20, pg. 74",
-            "- Numbers and number names, before and after more",
-            "CONSOLIDATION"
-          ],
-          "skills": []
-        },
-        {
-          "week": 9,
-          "topics": [
-            "- Twos \u2013 pattern up to 100 counting on the",
-            "number line, pp. 110-111",
-            "- Geometric patterns, pp. 126-127",
-            "Assessment for Learning (AfL) is strategically planned for and completed alongside teaching. The teacher is always cognisant of the learning taking place and keeps a record of the learner\u2019s progress",
-            "\u2022 Numbers operations & relationships",
-            "\u2022 Data handling",
-            "\u2022 Measurement",
-            "\u2022 Space and shape",
-            "\u2022 Numbers, operations & relationships",
-            "\u2022 Patterns functions & algebra",
-            "\u2022 Space & shape",
-            "Formal assessment must be fair, reliable and valid. The assessment must reveal what the learner knows, the onus is on the teacher to:"
+            "Number patterns 2-50, number line",
+            "Number patterns of 5 up to 50",
+            "Bigger number and addition - 10 +",
+            "Addition filling the 10",
+            "Problem solving +, -, number line method",
+            "Shapes and objects",
+            "Understanding number 17",
+            "Subtraction \u2013 breaking down, doubles",
+            "2D shapes sorting, smallest, largest, draw the shape in the grid",
+            "Names of 2D shapes, draw the other half of the shape",
+            "Ordinal numbers 1st-10th",
+            "Money: Matching, addition and subtraction, problem solving: Totals and change",
+            "Understand number 18",
+            "Groups of five up to 20, link to repeated +, problem solving",
+            "Share amongst 5, multiples of 5 on counting chart, number chart",
+            "Problem solving: Sharing 10, 6, 11,15, 6 amongst 5 children and repeated addition",
+            "Number patterns of 5 to 100: Counting chart, number line, clock",
+            "Understanding number 19",
+            "Geometric patterns",
+            "Problem solving",
+            "Addition",
+            "Sharing up to 20",
+            "Make groups of 2 up to 20, write the number sentence",
+            "Twos - repeated addition up to 20",
+            "Understanding number 20",
+            "Numbers and number names, before and after more and less",
+            "Position, views and direction"
           ],
           "skills": [
-            "understood. This practise takes place before any new concepts can be taught. Revision",
-            "\u2022 Continuous assessment prevails. The onus is on the teacher to teach well and to observe if meaningful learning has occurred. Can the learner communicate his, her understanding of the concepts learnt",
-            "\u2022 Use an appropriate form of assessment so that the learner\u2019s knowledge and skills can be gauged and the evidence of the learner\u2019s achievement can be justified at all times"
+            "Understanding number 16",
+            "Understanding number 17",
+            "Understanding number 18",
+            "Understanding number 19",
+            "Understanding number 20",
+            "Number patterns 2-50, number line",
+            "Number patterns of 5 up to 50",
+            "Bigger number and addition - 10 +",
+            "Addition filling the 10",
+            "Problem solving +, -, number line method",
+            "Shapes and objects",
+            "Subtraction \u2013 breaking down, doubles",
+            "2D shapes sorting, smallest, largest, draw the shape in the grid",
+            "Names of 2D shapes, draw the other half of the shape",
+            "Ordinal numbers 1st-10th",
+            "Money: Matching, addition and subtraction, problem solving: Totals and change",
+            "Groups of five up to 20, link to repeated +, problem solving",
+            "Share amongst 5, multiples of 5 on counting chart, number chart",
+            "Problem solving: Sharing 10, 6, 11,15, 6 amongst 5 children and repeated addition",
+            "Number patterns of 5 to 100: Counting chart, number line, clock",
+            "Geometric patterns",
+            "Problem solving",
+            "Addition",
+            "Sharing up to 20",
+            "Make groups of 2 up to 20, write the number sentence",
+            "Twos - repeated addition up to 20",
+            "Numbers and number names, before and after more and less",
+            "Position, views and direction"
+          ],
+          "content_area": "Mathematics",
+          "short_phrases": [
+            "Number patterns",
+            "Shapes and objects",
+            "Subtraction",
+            "2D shapes",
+            "Ordinal numbers",
+            "Money",
+            "Groups of five",
+            "Geometric patterns",
+            "Addition",
+            "Sharing",
+            "Twos",
+            "Position"
+          ],
+          "caps_excerpt": "number of objects that can be checked by counting. Give a reasonable estimate of a number of objects that can be checked by counting. Count objects Count out objects reliably to 10. Count out objects reliably to 50. FOCUS FOR TERM 1 1.1 CONCEPTS AND SKILLS REQUIREMENT BY YEAR END CONCEPTS AND SKILLS TOPICS Counting on The cardinality principle Working with written texts \u2022 \u2022 \u2022 count forward and backwards; count actions; count in",
+          "assessment_notes": [
+            "INFORMAL ASSESSMENT (AFL)",
+            "SBA (FORMAL ASSESSMENT) (AOL)",
+            "ONE FAT PER TERM CONSOLIDATION"
+          ]
+        },
+        {
+          "week": 9,
+          "topics": [
+            "Pattern up to 100 counting on the number line",
+            "More counting in groups of 2 linking to repeated addition",
+            "Mass: Heavy and light",
+            "Informal measuring of objects at hand",
+            "Doubling",
+            "Halving",
+            "Geometric patterns"
+          ],
+          "skills": [
+            "Counting on the number line",
+            "Linking to repeated addition",
+            "Informal measuring of objects",
+            "Doubling",
+            "Halving"
+          ],
+          "content_area": "Numbers, Operations And Relationships",
+          "short_phrases": [
+            "Heavy and light",
+            "Informal measuring",
+            "Geometric patterns"
+          ],
+          "caps_excerpt": "number of objects that can be checked by counting. Give a reasonable estimate of a number of objects that can be checked by counting. Count objects Count out objects reliably to 10. Count out objects reliably to 50. FOCUS FOR TERM 1 1.1 CONCEPTS AND SKILLS REQUIREMENT BY YEAR END CONCEPTS AND SKILLS TOPICS Counting on The cardinality principle Working with written texts \u2022 \u2022 \u2022 count forward and backwards; count actions; count in",
+          "assessment_notes": [
+            "Continuous assessment prevails",
+            "Assessment for Learning (AfL) is strategically planned",
+            "Formal assessment must be fair, reliable and valid",
+            "Use an appropriate form of assessment"
           ]
         }
       ]
     }
   ],
   "term_count": 4,
-  "week_count": 60,
-  "source_pdf": "/code/riv/kyno/data/syllabus/grade-1/mathematics/atp-mathematics.pdf"
+  "week_count": 15
 }

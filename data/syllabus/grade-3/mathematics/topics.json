@@ -1,179 +1,230 @@
 {
   "grade": 3,
+  "phase": "foundation",
   "subject": "mathematics",
   "curriculum": "CAPS",
+  "sources": {
+    "atp_pdf": "/code/riv/kyno/data/syllabus/grade-3/mathematics/atp-mathematics.pdf",
+    "caps_pdf": "/code/riv/kyno/data/syllabus/grade-3/mathematics/caps-mathematics-english.pdf"
+  },
+  "caps_summary": {
+    "overview_excerpt": "1.3 .......................................................................................................................................................3 General aims of the South African Curriculum.............................................................................................4 1.4 Time Allocation.................................................................................................................................................6 1.4.1 Foundation Phase....................................................................................................................................6 1.4.2 Intermediate Phase..................................................................................................................................6 1.4.3 Senior Phase...........................................................................................................................................7 1.4.4 Grades 10-12...........................................................................................................................................7",
+    "aims_excerpt": "Section 2: DEFINITION, AIMS, SKILLS AND CONTENT...................................................................... 8 2.1 Introduction......................................................................................................................................................8 2.2 What is Mathematics?.....................................................................................................................................8 2.3 Specific Aims....................................................................................................................................................8 2.4 Specific Skills...................................................................................................................................................8 2.5 Focus of Content Areas...................................................................................................................................9 2.6 Weighting of content areas...........................................................................................................................10 2.7 Mathematics in the Foundation Phase.........................................................................................................10 2.7.1 Suggested guidelines for classroom management................................................................................ 11 2.7.2 Learners with barriers to learning Mathematics.....................................................................................12 2.7.3 Mental Mathematics ..............................................................................................................................12 2.8 Grade R .....................................................................................................................................................13 2.9 Recommended Resources for the Foundation Phase Mathematics classroom......................................16",
+    "assessment_excerpt": "Section 4: ASSESSMENT................................................................................................................... 485 4.1 Introduction..................................................................................................................................................485 4.2 Informal or Daily Assessment.....................................................................................................................485 4.3 Formal Assessment.....................................................................................................................................485 4.4 Programme of Formal Assessment............................................................................................................486 4.5 Recording and Reporting............................................................................................................................486 4.6 Moderation of Assessment.........................................................................................................................487 4.7 General ...................................................................................................................................................487 4.8 Exemplar Assessment Tasks for Grades 1 to 3........................................................................................487 2 CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS) MATHEMATICS Grade 1-3 Section 1 INTRODUCTION AND BACKGROUND 1.1\u2026",
+    "content_area_names": [
+      "Numbers, Operations And Relationships",
+      "Space And Shape",
+      "Measurement",
+      "Data Handling"
+    ]
+  },
   "terms": [
     {
       "term": 1,
       "weeks": [
         {
           "week": 1,
-          "topics": [
-            "Whole class teaching"
-          ],
-          "skills": []
-        },
-        {
-          "week": 3,
           "topics": [],
-          "skills": []
-        },
-        {
-          "week": 5,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 7,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 9,
-          "topics": [
-            "NUMBERS, OPERATIONS AND RELATIONSHIPS",
-            "Counting - integrated with number patterns and mental maths",
-            "number between 0 to 180",
-            "number between 0 to 200",
-            "Mental maths: Number range 200. Ask quick maths questions to promote quick thinking. Calculation strategies: Put the big number first in order to count on or count back, number line, doubling or halvi",
-            "\u2022 Order a given set of numbers",
-            "\u2022 Compare numbers to 150 and say which is:",
-            "\u2022 Compare numbers to 200 and say which is:",
-            "Number symbols and number names",
-            "Order a given set of numbers",
-            "Compare numbers to 200 and say which is:",
-            "Describe and compare numbers to 99",
-            "Decompose two-digit numbers into multiples of",
-            "Recognise, identify, read number symbols up to 500",
-            "Write number symbols and number names to 250",
-            "Describe, compare and order numbers to 99",
-            "Describe and compare numbers to 80",
-            "Describe and order numbers from smallest to",
-            "Place value: Recognise place value of number to 99 allow learners to pack out flard cards / place value cards daily.",
-            "2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 3",
-            "Building number"
+          "skills": [],
+          "content_area": "Mathematics",
+          "short_phrases": [
+            "Baseline Assessment"
           ],
-          "skills": []
-        },
-        {
-          "week": 1,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 3,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 5,
-          "topics": [
-            "Solve problems in context up to 99 \u2013 building up and breaking down, doubling and halving, number lines, rounding off in tens; See pp. 79-80 in CAPS for problem types",
-            "- sharing leading to fractions",
-            "Calculations (context-free) strategies building up and breaking down, doubling and halving, number lines, rounding off in tens",
-            "\u2022 Practise number bonds to 20",
-            "\u2022 Divide numbers to 50 by 2, 5, 10 (\u00f7, \u25a1, =)",
-            "Use and name unitary fractions",
-            "PATTERNS, FUNCTIONS AND ALGEBRA",
-            "Geometric patterns (Integrated with 3D objects)",
-            "- Simple patterns made of physical objects,",
-            "drawings, shapes",
-            "\u2022 Range of patterns",
-            "- Simple patterns in which shapes or groups of",
-            "shapes are repeated in the same way",
-            "\u2022 Create and describe own patterns"
-          ],
-          "skills": []
-        },
-        {
-          "week": 9,
-          "topics": [
-            "- sharing leading to fractions",
-            "Practise number bonds to 20",
-            "Divide numbers to 50 by 2, 5, 10 (\u00f7, \u25a1, =)",
-            ", recognise fractions in diagrammatic form, write as 1 half, 1 third, 1 quarter",
-            "SPACE & SHAPE"
-          ],
-          "skills": []
-        },
-        {
-          "week": 7,
-          "topics": [
-            "Number bonds of 20",
-            "Problem-solving strategies and basic operations",
-            "number names, pp. 6-7",
-            "and completing number patterns in multiples of 10,",
-            "- Fractions: shapes that show halves, pp. 16-17",
-            "Grouping and sharing leading to fractions",
-            "Fractions 1 quarter, 1 half, 1 third",
-            "- Linking halves and doubles to fractions, using",
-            "- Number patterns: 200 number board and",
-            "geometric extended patterns, pp. 21-22",
-            "- Compare and order number, one more, one less,",
-            "Comparing number, more than, less than, is equal",
-            "- Number line strategy for addition of 2-digit",
-            "numbers, pp. 42-44",
-            "- Problem solving using number line strategy",
-            "- Addition \u2013 number line strategy, pp. 44-45",
-            "- Subtraction using the number line and breaking",
-            "DATA HANDLING",
-            "\u2022 Collect data about the class or school",
-            "\u2022 Represent data in",
-            "\u2022 Tables, bar graphs",
-            "\u2022 Analyse data from representations provided",
-            "Interpret bar graphs",
-            "Know 2 and 3-digit numbers and the values of",
-            "- Data handling- analysing and interpreting data,",
-            "- Data handling, pp. 50-51",
-            "- Counting in 10s, number line, pp. 52-53",
-            "number line and multiplication, pp. 54-55",
-            "CONSOLIDATION",
-            "Number bonds up to 20",
-            "- Division on the number line, pp. 70-71",
-            "multiplication and on number line, pp. 62-63",
-            "multiplication and on number line, pp. 64-65",
-            "- Counting grid patterns in 2s, 5s, 4s, 3s",
-            "2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 3",
-            "FOR LEARNING"
-          ],
-          "skills": [
-            "understood. This practice takes place before any new concepts can be taught. Revision of"
+          "caps_excerpt": "1.3 .......................................................................................................................................................3 General aims of the South African Curriculum.............................................................................................4 1.4 Time Allocation.................................................................................................................................................6 1.4.1 Foundation Phase....................................................................................................................................6 1.4.2 Intermediate Phase..................................................................................................................................6 1.4.3 Senior Phase...........................................................................................................................................7 1.4.4 Grades 10-12...........................................................................................................................................7 Section 2: DEFINITION, AIMS, SKILLS AND CONTENT...................................................................... 8 2.1 Introduction......................................................................................................................................................8 2.2 What is Mathematics?.....................................................................................................................................8 2.3 Specific Aims....................................................................................................................................................8 2.4 Specific Skills...................................................................................................................................................8 2.5 Focus of Content Areas...................................................................................................................................9 2.6 Weighting of content areas...........................................................................................................................10 2.7 Mathematics in the Foundation Phase.........................................................................................................10 2.7.1 Suggested guidelines for classroom management................................................................................ 11 2.7.2 Learners with barriers to learning Mathematics.....................................................................................12 2.7.3 Mental Mathematics ..............................................................................................................................12 2.8 Grade R .....................................................................................................................................................13 2.9 Recommended Resources for the Foundation Phase Mathematics classroom......................................16 3.5.3 Clarification of Grade 3 content MATHEMATICS Grade 1-3 CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS) CAPS Count objects 1.1 TOPICS Estimate and count reliably to at least objects. The strategy of grouping is encouraged. Counting concrete Objects REQUIREMENT BY YEAR END CONCEPTS AND SKILLS Group to at least objects to estimate and count reliably Give a reasonable estimate of a number of objects that can be checked by counting \u2022 \u2022 FOCUS FOR TERM\u2026",
+          "assessment_notes": [
+            "Baseline Assessment"
           ]
         },
         {
-          "week": 1,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 3,
-          "topics": [],
-          "skills": []
-        },
-        {
           "week": 5,
-          "topics": [],
-          "skills": []
+          "topics": [
+            "Solve problems in context up to 99",
+            "Repeated addition leading to multiplication",
+            "Addition and subtraction",
+            "Sharing leading to fractions",
+            "Money problems involving totals & change",
+            "Calculations (context-free) strategies",
+            "Addition and subtraction to 80",
+            "Addition and subtraction to 99",
+            "Number bonds to 20",
+            "Multiply, 1 to 10 by 2, 5, 3, 4",
+            "Divide numbers to 50 by 2, 5, 10",
+            "Use and name unitary fractions",
+            "Telling time",
+            "Read dates on calendars",
+            "Tell 12-hour time",
+            "Geometric patterns",
+            "Copy, extend and describe",
+            "Range of patterns",
+            "Create and describe own patterns",
+            "Estimate, measure, compare and record length",
+            "Describe the length of objects",
+            "Use language to talk about comparisons",
+            "Estimate, measure, compare, order and record length",
+            "Estimate and measure lengths in centimetres"
+          ],
+          "skills": [
+            "Building up and breaking down",
+            "Doubling and halving",
+            "Rounding off in tens",
+            "Number lines",
+            "Explain solutions",
+            "Sharing leading to fractions",
+            "Money problems involving totals & change",
+            "Calculations (context-free) strategies",
+            "Addition and subtraction to 80",
+            "Addition and subtraction to 99",
+            "Number bonds to 20",
+            "Multiply, 1 to 10 by 2, 5, 3, 4",
+            "Divide numbers to 50 by 2, 5, 10",
+            "Use and name unitary fractions",
+            "Telling time",
+            "Read dates on calendars",
+            "Tell 12-hour time",
+            "Geometric patterns",
+            "Copy, extend and describe",
+            "Range of patterns",
+            "Create and describe own patterns",
+            "Estimate, measure, compare and record length",
+            "Describe the length of objects",
+            "Use language to talk about comparisons",
+            "Estimate, measure, compare, order and record length",
+            "Estimate and measure lengths in centimetres"
+          ],
+          "content_area": "PATTERNS, FUNCTIONS AND ALGEBRA",
+          "short_phrases": [
+            "Repeated addition",
+            "Addition and subtraction",
+            "Money problems",
+            "Number bonds",
+            "Divide numbers",
+            "Telling time",
+            "Geometric patterns"
+          ],
+          "caps_excerpt": "number of objects that can be checked by counting \u2022 \u2022 FOCUS FOR TERM 1 CONCEPTS AND SKILLS Place value cards \u2022 Each group shows a hundred. Example: The focus is on grouping the objects. Learners should have a strong sense that it is better, more efficient and quicker to count in groups of tens, twenties, fifties and hundreds than in ones. They start counting in hundreds, forwards and backwards during the first term. To support the rote counting, learners can organise the objects in groups of 100s. During the first term learners practise and consolidate counting objects to Dienes blocks \u2022 During Grade learners continue to count out everyday objects. The number range will increase to by the end of the year. This means that careful consideration needs to be given to the kind of apparatus used: SOME CLARIFICATION NOTES OR TEACHING GUIDELINES (in lessons of 1 hour 24 minutes) DURATION MATHEMATICS Grade 1-3 341 342 Count objects 1.1 TOPICS Estimate and count reliably to at least objects. The strategy of grouping is encouraged. Counting concrete Objects REQUIREMENT BY YEAR END CONCEPTS AND SKILLS Group to at least objects to estimate and count reliably Give a reasonable estimate of a number of objects that can be checked by counting \u2022 \u2022 FOCUS FOR TERM 4 CONCEPTS AND SKILLS CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS) understanding the value of a digit; breaking down and building up numbers; and reading number symbols. \u2022 \u2022 \u2022 The focus of these kinds of activities is not only on counting objects. At the same",
+          "assessment_notes": [
+            "See pp. 79-80 in CAPS for problem types",
+            "Practise",
+            "SUGGESTED DBE WORKBOOK ACTIVITIES"
+          ]
         },
         {
           "week": 7,
-          "topics": [],
-          "skills": []
+          "topics": [
+            "Accurate counting in multiples of 2, 5, 10, 3",
+            "Number bonds of 20",
+            "Problem-solving strategies and basic operations",
+            "Grouping and sharing to 20",
+            "Fractions: shapes that show halves",
+            "Range of 3D objects",
+            "Features of objects in terms of: straight sides, round sides, roll, slide",
+            "Language of position: in front of, next to, inside, etc.",
+            "Accurate counting in multiples",
+            "Grouping and sharing leading to fractions",
+            "Problem solving strategies (+, -, \u00d7, \u00f7)",
+            "Fractions 1 quarter, 1 half, 1 third",
+            "Telling time in hours quarters, minutes \u2013 problem solving",
+            "Compare and order number, one more, one less, ten more, ten less, smallest, biggest, more than, less than, is equal to",
+            "Place value: tens & ones and ascending order",
+            "Addition and subtraction fact families",
+            "Data handling- analysing and interpreting data",
+            "Counting in 10s, number line",
+            "Group counting in 5s link to addition on the number line and multiplication",
+            "Count money: Totals",
+            "Division sharing between 2, among 5, 3",
+            "Telling time",
+            "Number bonds up to 20",
+            "Talk about problem solving strategies",
+            "Can link counting in multiples of 5, 2 to multiplication tables",
+            "Division on the number line",
+            "Counting in 3s repeated addition leading to multiplication and on number line",
+            "Counting in 4s repeated addition leading to multiplication and on number line",
+            "Counting grid patterns in 2s, 5s, 4s, 3s repeated addition leading to multiplication",
+            "Time \u2013 analogue clock, calendar"
+          ],
+          "skills": [
+            "Accurate counting",
+            "Number bonds",
+            "Problem-solving strategies",
+            "Grouping and sharing",
+            "Fractions",
+            "3D objects",
+            "Language of position",
+            "Accurate counting in multiples",
+            "Grouping and sharing leading to fractions",
+            "Problem solving strategies (+, -, \u00d7, \u00f7)",
+            "Fractions 1 quarter, 1 half, 1 third",
+            "Telling time in hours quarters, minutes \u2013 problem solving",
+            "Compare and order number",
+            "Place value: tens & ones and ascending order",
+            "Addition and subtraction fact families",
+            "Data handling- analysing and interpreting data",
+            "Counting in 10s, number line",
+            "Group counting in 5s link to addition on the number line and multiplication",
+            "Count money: Totals",
+            "Division sharing between 2, among 5, 3",
+            "Telling time",
+            "Number bonds up to 20",
+            "Talk about problem solving strategies",
+            "Can link counting in multiples of 5, 2 to multiplication tables",
+            "Division on the number line",
+            "Counting in 3s repeated addition leading to multiplication and on number line",
+            "Counting in 4s repeated addition leading to multiplication and on number line",
+            "Counting grid patterns in 2s, 5s, 4s, 3s repeated addition leading to multiplication",
+            "Time \u2013 analogue clock, calendar"
+          ],
+          "content_area": "CAPS Mathematics",
+          "short_phrases": [
+            "Accurate counting",
+            "Number bonds",
+            "Problem-solving strategies",
+            "Grouping and sharing",
+            "Fractions",
+            "3D objects",
+            "Language of position",
+            "Telling time",
+            "Place value",
+            "Data handling",
+            "Counting in 10s",
+            "Count money: Totals",
+            "Division sharing",
+            "Counting in 3s",
+            "Counting in 4s",
+            "Counting grid patterns"
+          ],
+          "caps_excerpt": "number of objects that can be checked by counting \u2022 \u2022 FOCUS FOR TERM 1 CONCEPTS AND SKILLS Place value cards \u2022 Each group shows a hundred. Example: The focus is on grouping the objects. Learners should have a strong sense that it is better, more efficient and quicker to count in groups of tens, twenties, fifties and hundreds than in ones. They start counting in hundreds, forwards and backwards during the first term. To support the rote counting, learners can organise the objects in groups of 100s. During the first term learners practise and consolidate counting objects to Dienes blocks \u2022 During Grade learners continue to count out everyday objects. The number range will increase to by the end of the year. This means that careful consideration needs to be given to the kind of apparatus used: SOME CLARIFICATION NOTES OR TEACHING GUIDELINES (in lessons of 1 hour 24 minutes) DURATION MATHEMATICS Grade 1-3 341 342 Count objects 1.1 TOPICS Estimate and count reliably to at least objects. The strategy of grouping is encouraged. Counting concrete Objects REQUIREMENT BY YEAR END CONCEPTS AND SKILLS Group to at least objects to estimate and count reliably Give a reasonable estimate of a number of objects that can be checked by counting \u2022 \u2022 FOCUS FOR TERM 4 CONCEPTS AND SKILLS CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS) understanding the value of a digit; breaking down and building up numbers; and reading number symbols. \u2022 \u2022 \u2022 The focus of these kinds of activities is not only on counting objects. At the same",
+          "assessment_notes": [
+            "Informal assessment",
+            "Formal assessment",
+            "Assessment for learning (AFL)",
+            "Formal assessment"
+          ]
         },
         {
           "week": 9,
           "topics": [
-            "\u2022 Measurement",
-            "\u2022 Space and shape",
-            "\u2022 Patterns, functions and algebra",
-            "\u2022 Numbers, operations and relationships",
-            "\u2022 Data handling",
-            "Formal assessment must be fair, reliable and valid. The assessment must reveal what the learner knows, the onus is on the teacher to:",
-            "2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 3"
+            "Measurement",
+            "Space and shape",
+            "Patterns, functions and algebra",
+            "Numbers, operations and relationships",
+            "Data handling"
           ],
           "skills": [
-            "Continuous assessment prevails. The onus is on the teacher to teach well and to observe if meaningful learning has occurred, can the learner communicate his, her understanding of the concepts learnt a",
-            "\u2022 Use an appropriate form of assessment so that the learner\u2019s knowledge and skills can be gauged and the evidence of the learner\u2019s achievement can be justified at all times"
+            "Assess core concepts, skills and values",
+            "Teach and assess well for learning gains",
+            "Use an appropriate form of assessment"
+          ],
+          "content_area": "MATHEMATICS",
+          "short_phrases": [
+            "Core concepts",
+            "Meaningful learning",
+            "Observations made",
+            "Learning gains"
+          ],
+          "caps_excerpt": "number of objects that can be checked by counting \u2022 \u2022 FOCUS FOR TERM 1 CONCEPTS AND SKILLS Place value cards \u2022 Each group shows a hundred. Example: The focus is on grouping the objects. Learners should have a strong sense that it is better, more efficient and quicker to count in groups of tens, twenties, fifties and hundreds than in ones. They start counting in hundreds, forwards and backwards during the first term. To support the rote counting, learners can organise the objects in groups of 100s. During the first term learners practise and consolidate counting objects to Dienes blocks \u2022 During Grade learners continue to count out everyday objects. The number range will increase to by the end of the year. This means that careful consideration needs to be given to the kind of apparatus used: SOME CLARIFICATION NOTES OR TEACHING GUIDELINES (in lessons of 1 hour 24 minutes) DURATION MATHEMATICS Grade 1-3 341 342 Count objects 1.1 TOPICS Estimate and count reliably to at least objects. The strategy of grouping is encouraged. Counting concrete Objects REQUIREMENT BY YEAR END CONCEPTS AND SKILLS Group to at least objects to estimate and count reliably Give a reasonable estimate of a number of objects that can be checked by counting \u2022 \u2022 FOCUS FOR TERM 4 CONCEPTS AND SKILLS CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS) understanding the value of a digit; breaking down and building up numbers; and reading number symbols. \u2022 \u2022 \u2022 The focus of these kinds of activities is not only on counting objects. At the same",
+          "assessment_notes": [
+            "Continuous assessment prevails",
+            "Formal assessment must be fair, reliable and valid"
           ]
         }
       ]
@@ -184,184 +235,84 @@
         {
           "week": 1,
           "topics": [
-            "Whole class teaching"
+            "Diagnostic Assessment"
           ],
-          "skills": []
-        },
-        {
-          "week": 3,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 5,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 7,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 9,
-          "topics": [
-            "\u2022 1s from any number between 0 to 300",
-            "\u2022 1s from any number between 0 to 400",
-            "\u2022 1s from any number between 0 to 500",
-            "NUMBERS, OPERATIONS AND RELATIONSHIPS",
-            "Counting - integrated with number patterns and mental maths",
-            "\u2022 1s from any number between 0 to 200",
-            "Mental maths: number range 500. Ask quick maths questions to promote quick thinking. Calculation strategies: Put the big number first in order to count on or count back, number line, doubling or halvi",
-            "\u2022 Order a given set of numbers",
-            "\u2022 Compare numbers to 200 and say which is:",
-            "Order a given set of numbers",
-            "Compare numbers to 500 and say which is:1, 2,",
-            "Number symbols and number names",
-            "Describe and compare numbers to 300",
-            "Describe and order numbers from smallest to",
-            "Describe and compare numbers to 400",
-            "Describe and compare numbers to 500",
-            "Recognise, identify, read number symbols up to 500",
-            "Write number symbols and number names to 250",
-            "Describe, compare and order numbers to 500",
-            "Describe and compare numbers to 200",
-            "Place value: Recognise place value of numbers",
-            "Decompose two-digit numbers up to 200 into",
-            "Decompose two-digit numbers up to 400 into",
-            "Decompose two-digit numbers up to 500 into",
-            "2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 3",
-            "CONTENT AREAS",
-            "Building number"
+          "skills": [],
+          "content_area": "Mathematics",
+          "short_phrases": [
+            "Diagnostic Assessment"
           ],
-          "skills": [
-            "NUMBER CONCEPT"
+          "caps_excerpt": "time learners are: Learners can use the place value cards to show the value of each digit. The value of these base blocks are_____________ Learners should be able to complete the following statement: During this term learners can represent",
+          "assessment_notes": [
+            "Diagnostic Assessment",
+            "Assessment"
           ]
         },
         {
-          "week": 1,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 3,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 5,
-          "topics": [],
-          "skills": []
-        },
-        {
           "week": 7,
           "topics": [
-            "Solve problems in context up to 400 \u2013 building up and breaking down, doubling and halving, number lines, rounding off in tens; See pp. 79-80 in CAPS for problem types.",
-            "- sharing leading to fractions",
-            "Calculations (context-free): building up and breaking down, doubling and halving, number lines, rounding off in tens",
-            "\u2022 Multiply numbers 1 to 10 by 2, 4, 5, 10, 3 and 5",
-            "\u2022 Practise number bonds to 30",
-            "\u2022 Practise number bonds to 20",
-            "\u2022 Divide numbers to 50 by 2, 3, 5, 4, 10 (\u00f7, \u25a1,=)"
-          ],
-          "skills": []
-        },
-        {
-          "week": 9,
-          "topics": [
-            "- sharing leading to fractions",
+            "Solve problems in context up to 400",
+            "Repeated addition leading to multiplication",
+            "Addition and subtraction",
+            "Equal grouping and sharing leading to",
+            "Sharing leading to fractions",
+            "Solve money problems involving totals & change",
+            "Calculations (context-free)",
             "Multiply numbers 1 to 10 by 2, 4, 5, 10, 3 and 5",
-            "Divide numbers to 50 by 2, 3, 5, 4, 10 (\u00f7,\u25a1,=)",
+            "Addition and subtraction to 400",
+            "Addition and subtraction to 200",
             "Practise number bonds to 30",
-            "Use and name unitary fractions",
-            "Recognise fractions in diagrammatic form",
-            "SPACE AND SHAPE",
-            "\u2022 Introduce formal units of measurement read",
-            "Range of 2D shapes (rectangles, triangles,",
-            "Features of shapes",
-            "DATA HANDLING",
-            "\u2022 Collect and sort data",
-            "\u2022 Represent sorted data",
-            "SUGGESTED DBE",
-            "Compare numbers less than, more than to 200",
-            "Describe, order on number line to 200",
-            "Arrange numbers from smallest to greatest and",
-            "free to 100 on number line",
-            "- Division on number line, equal sharing pp. 70-71",
-            "- Fractions and more sharing between 2, 3 pp. 7273",
-            "- Number board counting and filling in missing",
-            "numbers. Order smallest to biggest: pp. 76-77",
-            "- Add 2-digit numbers with base ten blocks pp. 8081",
-            "- Adding 2-digit numbers taking away & putting",
-            "- Add 2-digit numbers with base ten blocks pp.",
-            "- Adding 2-digit numbers taking away & putting 10s",
-            "- Grids, data collecting and answer questions,",
-            "collect data and draw own pictograph. Survey",
-            "Read, write number symbols up to 300",
-            "Compare and order numbers up to 300",
-            "Missing numbers on the number line",
-            "Number bonds to 10",
-            "- 3 numbers that add up, working in 50s pg.93",
-            "- Counting: target 300 number board - calculations,",
-            "fill in the next numbers, break down numbers",
-            "- Counting: Target 400 number board -, fill in the",
-            "next numbers, break down numbers order",
-            "numbers from smallest to greatest pp. 100-101",
-            "PATTERNS, FUNCTIONS AND ALGEBRA",
-            "\u2022 Analyse and interpret data",
-            "Sharing equally leading to fractions",
-            "- Add and subtract 3-digit numbers pp. 106-107",
-            "CONSOLIDATION",
-            "Geometric patterns",
-            "\u2022 Recognise, describe 2d shapes and features",
-            "Number bonds to 12",
-            "Unitary fractions \u2013 making 1 whole",
-            "- Count in 2s, 5s using number grids pp. 116-117",
-            "and backwards from any number-linking to R5",
-            "- Time: \u00bc, \u00bd hours, on the number line, problem",
-            "2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 3",
-            "1 FAT PER TERM"
+            "Practise number bonds to 20",
+            "Divide numbers to 50 by 2, 3, 5, 4, 10"
           ],
           "skills": [
-            "understood. This practice takes place before any new concepts can be taught. Revision of"
+            "Solve problems in context and explain solutions",
+            "Building up and breaking down",
+            "Doubling and halving",
+            "Number lines",
+            "Rounding off in tens",
+            "Explain solutions",
+            "Addition and subtraction to 400",
+            "Addition and subtraction to 200",
+            "Multiply numbers 1 to 10 by 2, 4, 5, 10, 3 and 5",
+            "Practise number bonds to 30",
+            "Practise number bonds to 20",
+            "Divide numbers to 50 by 2, 3, 5, 4, 10"
+          ],
+          "content_area": "Numbers, Operations And Relationships",
+          "short_phrases": [
+            "Addition and subtraction",
+            "Calculations (context-free)"
+          ],
+          "caps_excerpt": "number of objects that can be checked by counting \u2022 \u2022 FOCUS FOR TERM 1 CONCEPTS AND SKILLS Place value cards \u2022 Each group shows a hundred. Example: The focus is on grouping the objects. Learners should have a strong sense that it is better, more efficient and quicker to count in groups of tens, twenties, fifties and hundreds than in ones. They start counting in hundreds, forwards and backwards during the first term. To support the rote counting, learners can organise the objects in groups of 100s. During the first term learners practise and consolidate counting objects to Dienes blocks \u2022 During Grade learners continue to count out everyday objects. The number range will increase to by the end of the year. This means that careful consideration needs to be given to the kind of apparatus used: SOME CLARIFICATION NOTES OR TEACHING GUIDELINES (in lessons of 1 hour 24 minutes) DURATION MATHEMATICS Grade 1-3 341 342 Count objects 1.1 TOPICS Estimate and count reliably to at least objects. The strategy of grouping is encouraged. Counting concrete Objects REQUIREMENT BY YEAR END CONCEPTS AND SKILLS Group to at least objects to estimate and count reliably Give a reasonable estimate of a number of objects that can be checked by counting \u2022 \u2022 FOCUS FOR TERM 4 CONCEPTS AND SKILLS CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS) understanding the value of a digit; breaking down and building up numbers; and reading number symbols. \u2022 \u2022 \u2022 The focus of these kinds of activities is not only on counting objects. At the same",
+          "assessment_notes": [
+            "See pp. 79-80 in CAPS for problem types"
           ]
-        },
-        {
-          "week": 1,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 3,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 5,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 7,
-          "topics": [],
-          "skills": []
         },
         {
           "week": 9,
           "topics": [
-            "ORAL, PRACTICAL, WRITTEN",
-            "\u2022 Patterns, functions & algebra",
-            "\u2022 Numbers, operations & relationships",
-            "\u2022 Space and shape",
-            "\u2022 Numbers, operations & relationships.",
-            "\u2022 Data handling",
-            "\u2022 Measurement numbers, operations &",
-            "Formal assessment must be fair, reliable and valid. The assessment must reveal what the learner knows, the onus is on the teacher to:",
-            "2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 3"
+            "Patterns, functions & algebra",
+            "Numbers, operations & relationships",
+            "Space and shape",
+            "Data handling",
+            "Measurement numbers, operations & relationships"
           ],
           "skills": [
-            "Continuous assessment prevails. The onus is on the teacher to teach well and to observe if meaningful learning has occurred. Can the learner communicate his / her understanding of the concepts learnt ",
-            "\u2022 Use an appropriate form of assessment so that the learner\u2019s knowledge and skills can be gauged and the evidence of the learner\u2019s achievement can be justified at all times"
+            "teach and assess well",
+            "use appropriate form of assessment"
+          ],
+          "content_area": "Mathematics",
+          "short_phrases": [
+            "Space and shape",
+            "Data handling"
+          ],
+          "caps_excerpt": "shapes themselves. D C B A. What fraction of each shape is not shaded? What",
+          "assessment_notes": [
+            "Continuous assessment prevails",
+            "Formal assessment must be fair, reliable and valid",
+            "Teach and assess well for learning gains",
+            "Use an appropriate form of assessment"
           ]
         }
       ]
@@ -371,167 +322,102 @@
       "weeks": [
         {
           "week": 1,
-          "topics": [
-            "Whole class teaching"
+          "topics": [],
+          "skills": [],
+          "content_area": "Diagnostic Assessment",
+          "short_phrases": [
+            "Diagnostic Assessment"
           ],
-          "skills": []
-        },
-        {
-          "week": 3,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 5,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 7,
-          "topics": [],
-          "skills": []
+          "caps_excerpt": "1.3 .......................................................................................................................................................3 General aims of the South African Curriculum.............................................................................................4 1.4 Time Allocation.................................................................................................................................................6 1.4.1 Foundation Phase....................................................................................................................................6 1.4.2 Intermediate Phase..................................................................................................................................6 1.4.3 Senior Phase...........................................................................................................................................7 1.4.4 Grades 10-12...........................................................................................................................................7 Section 2: DEFINITION, AIMS, SKILLS AND CONTENT...................................................................... 8 2.1 Introduction......................................................................................................................................................8 2.2 What is Mathematics?.....................................................................................................................................8 2.3 Specific Aims....................................................................................................................................................8 2.4 Specific Skills...................................................................................................................................................8 2.5 Focus of Content Areas...................................................................................................................................9 2.6 Weighting of content areas...........................................................................................................................10 2.7 Mathematics in the Foundation Phase.........................................................................................................10 2.7.1 Suggested guidelines for classroom management................................................................................ 11 2.7.2 Learners with barriers to learning Mathematics.....................................................................................12 2.7.3 Mental Mathematics ..............................................................................................................................12 2.8 Grade R .....................................................................................................................................................13 2.9 Recommended Resources for the Foundation Phase Mathematics classroom......................................16 3.5.3 Clarification of Grade 3 content MATHEMATICS Grade 1-3 CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS) CAPS Count objects 1.1 TOPICS Estimate and count reliably to at least objects. The strategy of grouping is encouraged. Counting concrete Objects REQUIREMENT BY YEAR END CONCEPTS AND SKILLS Group to at least objects to estimate and count reliably Give a reasonable estimate of a number of objects that can be checked by counting \u2022 \u2022 FOCUS FOR TERM\u2026",
+          "assessment_notes": [
+            "Diagnostic Assessment",
+            "Assessment"
+          ]
         },
         {
           "week": 9,
           "topics": [
-            "\u2022 1s from any number between 0 to 600",
-            "\u2022 1s from any number between 0 to 700",
-            "NUMBERS, OPERATIONS AND RELATIONSHIPS",
-            "Counting - integrated with number patterns and mental maths",
-            "\u2022 1s from any number between 0 to 500",
-            "Mental maths: Number range 700. Ask quick maths questions to promote quick thinking. Calculation strategies: Put the big number first in order to count on or count back, number line, doubling or halvi",
-            "\u2022 Order a given set of numbers",
-            "\u2022 Compare numbers to 600 and say which is:",
-            "\u2022 Compare numbers to 700 and say which is:",
-            "\u2022 Compare numbers to 500 and say which is:",
-            "Order a given set of numbers",
-            "Compare numbers to 700 and say which is:",
-            "Number symbols and number names",
-            "Recognise, identify, read number symbols up to 1000",
-            "Write number symbols and number names to 500",
-            "Describe, compare and order numbers to 700",
-            "Describe and compare numbers to 500",
-            "Describe and order numbers from smallest to",
-            "Describe and compare numbers to 600",
-            "Describe and compare numbers to 700",
-            "2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 3",
-            "Building number"
-          ],
-          "skills": []
-        },
-        {
-          "week": 1,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 3,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 5,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 7,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 9,
-          "topics": [
-            "Place value: Recognise place value of numbers to 700",
-            "Decompose two-digit numbers up to 700 into",
-            "Solve problems in context up to 700 \u2013 building up and breaking down, doubling and halving, number lines, rounding off in tens; See pp. 79-80 in CAPS for problem types.",
-            "\u2022 Sharing leading to fractions",
-            "- sharing leading to fractions",
-            "Calculations (context-free): Building up and breaking down, doubling and halving, number lines, rounding off in tens",
-            "\u2022 Multiply numbers 1 to 10 by 2, 4, 5, 10, 3 and 5",
-            "\u2022 Practise number bonds to 30",
-            "\u2022 Divide numbers to 99 by 2, 3, 5, 4, 10 (\u00f7, \u25a1, =) \u2022 Divide numbers to 99 by 2, 3, 5, 4, 10 (\u00f7, \u25a1, =)",
-            "Practise number bonds to 30",
-            "Multiply numbers 1 to 10 by 2, 4, 5, 10, 3 and 5 to",
-            "Order, compare and describe numbers to 50",
-            "Use, name unitary fractions and non-unitary fractions",
-            "\u2022 Recognise fractions in diagrammatic form",
-            "\u2022 Telling time (dealt with during whole class teaching)",
-            "Copy and extend simple geometric patterns",
-            "\u2022 Number names and symbols to 20",
-            "SPACE AND SHAPE",
-            "DATA HANDLING",
-            "Fractions: Half and quarters",
-            "Collect and sort data",
-            "Represent sorted data",
-            "Analyse and interpret data",
-            "2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 3"
-          ],
-          "skills": []
-        },
-        {
-          "week": 1,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 3,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 5,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 7,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 9,
-          "topics": [
-            "- Fractions , , , ,",
-            "- Data, counting in 10s, pp. 66-67",
-            "- More numbers 500 to 600, count in 2s, 10s, 5s,",
-            "count the base ten blocks, number line, smallest",
-            "digits, number names, pp. 4-5",
-            "- 2D shapes \u2013 features, draw shapes in different",
-            "- Rounding off in tens, number line, money,",
-            "- More numbers 600 to 700, count in 2s, 10s, 5s,",
-            "- Numbers 600 to 700, number sentences, pg.10",
-            "- Numbers 650 to 750, counting in 2s, 5s, 10s,",
-            "- How many blocks, number line, biggest to",
-            "- Add and subtract: Number families: Doubles and",
-            "\u2022 Number lines more than, less than value of",
-            "digits, break down numbers, pg.11",
-            "- Add 3-digit numbers and 2- digit numbers pg.19",
-            "- Add and subtract: number families, number",
-            "- Number patterns to 800, sequences + or \u2013 10,",
-            "number line, pp. 24-25",
-            "- Add and subtract to 800 number board, add or",
-            "subtract 5, complete number sequence, number",
-            "- Sharing leading to fractions, pp. 58- 59",
-            "- Numbers 700-750- write number sentences,",
-            "number line, <, > values of digits, number names,",
-            "- Number patterns in 2 to 800, sequencing",
-            "numbers, add 2 subtract 2, number line, pp. 36-37",
-            "- Number patterns in 4 to 800, sequencing",
-            "numbers, add 4 subtract 4, number line pp. 48-49",
-            "CONSOLIDATION",
-            "ORAL, PRACTICAL, WRITTEN",
-            "Continuous assessment prevails through observations. The onus is on the teacher to be cognisant of learner progress and vigilant about whether the learner learns meaningfully and with understanding",
-            "\u2022 Patterns, functions & algebra",
-            "\u2022 Numbers, operations & relationships",
-            "Data handling",
-            "\u2022 Space and shape",
-            "Formal assessment must be fair, reliable and valid. The assessment must reveal what the learner knows, the onus is on the teacher to:",
-            "2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 3"
+            "Count in 50s",
+            "Fractions",
+            "3D objects language of position",
+            "Halving and doubling working in 10s",
+            "Halving and doubling adding and subtracting",
+            "Group in 4s",
+            "Fun, find the rule",
+            "Data, counting in 10s",
+            "Map work",
+            "More numbers 500 to 600",
+            "Place value cards",
+            "2D shapes",
+            "Rounding off in tens",
+            "Multiply by 5 to 75",
+            "Multiplication in 2s to 75 and division",
+            "Let's go shopping",
+            "More numbers 600 to 700",
+            "Numbers 600 to 700",
+            "Numbers 650 to 750",
+            "Add and subtract: Number families",
+            "Telling time",
+            "Number lines",
+            "Addition and subtraction to 800",
+            "Add 3-digit numbers and 2-digit numbers",
+            "Number patterns to 800",
+            "Add and subtract to 800 number board",
+            "Multiplication: 2s and 5s up to 75",
+            "Multiplication: Threes up to 75",
+            "Multiplication: 2s, 3s and 4s up to 75",
+            "Sharing leading to fractions",
+            "Numbers 650 to 750",
+            "Number patterns in 2 to 800",
+            "Number patterns in 4 to 800",
+            "Multiplication in 4s up to 75",
+            "Multiplication and division: 2s, 3s, 4s and 5s up to 75"
           ],
           "skills": [
-            "This practice takes place before any new concepts can be taught. Revision of work strengthens",
-            "\u2022 Use an appropriate form of assessment so that the learner\u2019s knowledge and skills can be gauged and the evidence of the learner\u2019s achievement can be justified at all times"
+            "Counting in 50s",
+            "Halving and doubling in 10s",
+            "Adding and subtracting in 10s",
+            "Counting in 10s",
+            "Counting in 2s, 5s, 10s",
+            "Place value",
+            "Rounding off in tens",
+            "Shopping",
+            "Counting in 2s, 5s, 10s",
+            "Number sentences",
+            "Counting in 2s, 5s, 10s",
+            "Addition and subtraction to 800",
+            "Adding 3-digit numbers and 2-digit numbers",
+            "Number patterns to 800",
+            "Adding and subtracting to 800",
+            "Sharing leading to fractions",
+            "Counting in 2s, 5s, 10s",
+            "Number patterns in 2 to 800",
+            "Number patterns in 4 to 800"
+          ],
+          "content_area": "Numbers, Operations And Relationships",
+          "short_phrases": [
+            "Count in 50s",
+            "Fractions",
+            "3D objects",
+            "Halving and doubling",
+            "Group in 4s",
+            "Map work",
+            "Place value cards",
+            "2D shapes",
+            "Let's go shopping",
+            "Telling time",
+            "Number lines"
+          ],
+          "caps_excerpt": "number of objects that can be checked by counting \u2022 \u2022 FOCUS FOR TERM 1 CONCEPTS AND SKILLS Place value cards \u2022 Each group shows a hundred. Example: The focus is on grouping the objects. Learners should have a strong sense that it is better, more efficient and quicker to count in groups of tens, twenties, fifties and hundreds than in ones. They start counting in hundreds, forwards and backwards during the first term. To support the rote counting, learners can organise the objects in groups of 100s. During the first term learners practise and consolidate counting objects to Dienes blocks \u2022 During Grade learners continue to count out everyday objects. The number range will increase to by the end of the year. This means that careful consideration needs to be given to the kind of apparatus used: SOME CLARIFICATION NOTES OR TEACHING GUIDELINES (in lessons of 1 hour 24 minutes) DURATION MATHEMATICS Grade 1-3 341 342 Count objects 1.1 TOPICS Estimate and count reliably to at least objects. The strategy of grouping is encouraged. Counting concrete Objects REQUIREMENT BY YEAR END CONCEPTS AND SKILLS Group to at least objects to estimate and count reliably Give a reasonable estimate of a number of objects that can be checked by counting \u2022 \u2022 FOCUS FOR TERM 4 CONCEPTS AND SKILLS CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS) understanding the value of a digit; breaking down and building up numbers; and reading number symbols. \u2022 \u2022 \u2022 The focus of these kinds of activities is not only on counting objects. At the same",
+          "assessment_notes": [
+            "Informal assessment",
+            "Formal assessment",
+            "Oral, practical, written",
+            "Continuous assessment",
+            "Written, oral",
+            "Practical, written",
+            "Data handling",
+            "Measurement"
           ]
         }
       ]
@@ -541,190 +427,92 @@
       "weeks": [
         {
           "week": 1,
-          "topics": [
-            "Whole class teaching"
+          "topics": [],
+          "skills": [],
+          "content_area": "End-line assessment",
+          "short_phrases": [
+            "End-line",
+            "Assessment"
           ],
-          "skills": []
-        },
-        {
-          "week": 3,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 5,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 7,
-          "topics": [],
-          "skills": []
+          "caps_excerpt": "1.3 .......................................................................................................................................................3 General aims of the South African Curriculum.............................................................................................4 1.4 Time Allocation.................................................................................................................................................6 1.4.1 Foundation Phase....................................................................................................................................6 1.4.2 Intermediate Phase..................................................................................................................................6 1.4.3 Senior Phase...........................................................................................................................................7 1.4.4 Grades 10-12...........................................................................................................................................7 Section 2: DEFINITION, AIMS, SKILLS AND CONTENT...................................................................... 8 2.1 Introduction......................................................................................................................................................8 2.2 What is Mathematics?.....................................................................................................................................8 2.3 Specific Aims....................................................................................................................................................8 2.4 Specific Skills...................................................................................................................................................8 2.5 Focus of Content Areas...................................................................................................................................9 2.6 Weighting of content areas...........................................................................................................................10 2.7 Mathematics in the Foundation Phase.........................................................................................................10 2.7.1 Suggested guidelines for classroom management................................................................................ 11 2.7.2 Learners with barriers to learning Mathematics.....................................................................................12 2.7.3 Mental Mathematics ..............................................................................................................................12 2.8 Grade R .....................................................................................................................................................13 2.9 Recommended Resources for the Foundation Phase Mathematics classroom......................................16 3.5.3 Clarification of Grade 3 content MATHEMATICS Grade 1-3 CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS) CAPS Count objects 1.1 TOPICS Estimate and count reliably to at least objects. The strategy of grouping is encouraged. Counting concrete Objects REQUIREMENT BY YEAR END CONCEPTS AND SKILLS Group to at least objects to estimate and count reliably Give a reasonable estimate of a number of objects that can be checked by counting \u2022 \u2022 FOCUS FOR TERM\u2026",
+          "assessment_notes": [
+            "End-line assessment",
+            "Assessment"
+          ]
         },
         {
           "week": 9,
           "topics": [
-            "\u2022 1s from any number between 0 to 800",
-            "\u2022 1s from any number between 0 to 900",
-            "\u2022 1s from any number between 0 to 1000",
-            "NUMBERS, OPERATIONS AND RELATIONSHIPS",
-            "Counting \u2013 integrated with number patterns and mental maths",
-            "\u2022 1s from any number between 0 to 700",
-            "Mental maths: number range 750. Ask quick maths questions to promote quick thinking. Calculation strategies: Put the big number first in order to count on or count back, number line, doubling or halvi",
-            "\u2022 Order a given set of numbers",
-            "\u2022 Compare numbers to 750 and say which is:",
-            "Number symbols and number names",
-            "Order a given set of numbers",
-            "Compare numbers to 1000 and say which is:",
-            "Recognise, identify, read number symbols up to 1000",
-            "Write number symbols and number names to 0-1000",
-            "Describe, compare and order numbers to 999",
-            "Describe and compare numbers to 700",
-            "\u2022 Describe and order numbers from smallest to",
-            "Describe and compare numbers to 800",
-            "Describe and order numbers from smallest to",
-            "Describe and compare numbers to 900",
-            "Describe and order numbers from smallest",
-            "Describe and compare numbers to 999",
-            "2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 3",
-            "Building number"
-          ],
-          "skills": []
-        },
-        {
-          "week": 1,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 3,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 5,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 7,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 9,
-          "topics": [
-            "Place value: Recognise place value of numbers to 999",
-            "\u2022 Decompose two-digit numbers up to 900 into",
-            "Decompose two-digit numbers up to 700 into",
-            "Solve Problems in context up to 999 \u2013 building up and breaking down, doubling and halving, number lines, rounding off in tens; See pp. 79-80 in CAPS for problem types.",
-            "- sharing leading to fractions",
-            "Calculations (context-free): Building up and breaking down, doubling and halving, number lines, rounding off in tens",
-            "\u2022 Practise number bonds to 30",
-            "\u2022 Divide numbers to 99 by 2, 5, 10 (\u00f7, \u25a1, =)",
-            "Decompose two-digit numbers up to 999 into",
-            "Practise number bonds to 30",
-            "Divide numbers to 99 by 2, 5, 10 (\u00f7, \u25a1, =)",
-            "Use, name unitary fractions and non-unitary",
-            "fractions , , , , , , , , , etc. and note",
-            "fractions , , , , , , , , , etc. and",
-            "\u2022 Recognise fractions in diagrammatic form",
-            "SPACE AND SHAPE",
-            "\u2022 Count, compare and order objects and numbers",
-            "\u2022 Compare and order objects and numbers up to",
-            "\u2022 Recognise fractions in diagram and fraction wall",
-            "\u2022 Number names 0-700",
-            "\u2022 Practise number bonds to 20",
-            "\u2022 Solve number problems in context and context",
-            "\u2022 Multiply numbers 1 to 10 by 2, 5, 3, 4 (\u00d7, =, \u25a1)",
-            "\u2022 How to build the fraction wall",
-            "Recognise fractions in diagrammatic form",
-            "DATA HANDLING",
-            "Analyse data from representations provided",
-            "Count, compare and order objects and numbers",
-            "Practise number bonds to 20",
-            "Unitary and non-unitary fractions 1 half = 2",
-            "numbers up to 800 using smaller than, greater",
-            "Solve number problems in context and context",
-            "Practise number bonds to 25",
-            "Work with halves and whole in fractions",
-            "Add and subtract 3-digit numbers",
-            "Number bonds to 30",
-            "Unitary and non-unitary fractions link to division",
-            "2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 3"
-          ],
-          "skills": []
-        },
-        {
-          "week": 1,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 3,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 5,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 7,
-          "topics": [],
-          "skills": []
-        },
-        {
-          "week": 9,
-          "topics": [
-            "- Number 700-800, count and write \u2013 missing",
-            "number patterns of 10,5,2, number line, smallest",
-            "number line, more than, less than, is equal to,",
-            "number names, pp. 72-73",
-            "- Equal parts of a whole: fractions , , ,",
-            "- Number patterns: 10s up to 900, linking with",
-            "groups of 10 and to patterns of 10 and",
-            "- Number patterns: 5s up to 1000, counting in 5s,",
-            "noting the patterns circled and shaded, adding",
-            "- Rounding off to nearest 10, number line and",
-            "- Numbers 800-900 count and write \u2013 missing",
-            "numbers, patterns of 10, 5, 2, number line",
-            "number names, pp. 76-77",
-            "numbers, adding, 125 pg. 94",
-            "- Fill in the missing numbers \u2013 complete patterns",
-            "- Number patterns in 2s up to 900, link to adding",
-            "numbers and solving problems, pp. 108-109",
-            "- Number patterns in 3s up to 1000, number chart",
-            "with patterns, completing the patterns, adding",
-            "- Numbers 900-1000 number board, number",
-            "grids in 10, 5, 2, base ten blocks, number line,",
-            "number names, pp. 84-85",
-            "- Number patterns in 4s up to 1000, number",
-            "chart with patterns, completing the patterns,",
-            "- More fractions: Fraction wall, solve problems,",
-            "- Measurement puzzles: pp. 96-97",
-            "- Tangram fraction: solving problems, pp. 130-131",
-            "More fraction problems, pp. 122-123",
-            "CONSOLIDATION",
-            "ORAL, PRACTICAL, WRITTEN",
-            "Continuous assessment prevails through observations. The onus is on the teacher to be cognisant of learner progress and vigilant about whether the learner learns meaningfully and with understanding",
-            "\u2022 Numbers, operations and relationships",
-            "\u2022 Measurement",
-            "\u2022 Patterns functions and algebra",
-            "\u2022 Space and shape",
-            "\u2022 Data handling",
-            "Formal assessment must be fair, reliable and valid. The assessment must reveal what the learner knows, the onus is on the teacher to:"
+            "Measuring using a ruler \u2013 working in centimetres",
+            "Problem solving, pp. 68-69",
+            "Number 700-800, count and write \u2013 missing number patterns of 10,5,2, number line, smallest to biggest, etc. pp. 70-71",
+            "Addition using flard cards and base ten blocks, number line, more than, less than, is equal to, number names, pp. 72-73",
+            "Problem solving: Weighing things, pp. 78-79",
+            "Problem solving: Baking day, pg. 88",
+            "Weighing objects, problem solving pp. 80-81",
+            "Equal parts of a whole: fractions",
+            "Problem solving: Watering the garden pg. 89",
+            "Money, counting coins and notes, problem solving, pp. 90-91",
+            "More addition and subtraction problem solving, pp. 92-93",
+            "Number patterns: 10s up to 900, linking with groups of 10 and to patterns of 10 and multiplication, pp. 98-99",
+            "Number patterns: 5s up to 1000, counting in 5s, noting the patterns circled and shaded, adding and subtracting five, pg. 104",
+            "Rounding off to nearest 10, number line and solving problems, pp. 100-101",
+            "Multiplication and division input and output diagrams, grids, break down method for division and solve problems to 100, pp.102-103",
+            "Numbers 800-900 count and write \u2013 missing numbers, patterns of 10, 5, 2, number line",
+            "Smallest to biggest, etc. pp. 74-75",
+            "Addition using flard cards and base ten blocks, number line, more than, less than, is equal to, number names, pp. 76-77",
+            "Addition and subtraction to 999 doubling numbers, adding, 125 pg. 94",
+            "Fill in the missing numbers \u2013 complete patterns of 5 and describing it, pg. 105",
+            "Number patterns in 2s up to 900, link to adding 2 and subtracting 2, link to odd and even numbers and solving problems, pp. 108-109",
+            "Number patterns in 3s up to 1000, number chart with patterns, completing the patterns, adding and subtracting 3, pp. 114-115",
+            "3D objects: features, pp. 124-125",
+            "Numbers 900-1000 number board, number grids in 10, 5, 2, base ten blocks, number line, smallest to biggest, biggest to smallest, pp. 82-83",
+            "Addition using flard cards and base ten blocks, number line, more than, less than, is equal to, number names, pp. 84-85",
+            "Addition and subtraction to 999 base ten blocks, using doubles, near doubles problem solving, pp. 86-87",
+            "More about symmetry, pp. 106-107",
+            "Number patterns in 4s up to 1000, number chart with patterns, completing the patterns, adding and subtracting 4, pp. 118-119",
+            "More fractions: Fraction wall, solve problems, pp.126-127",
+            "More grouping and sharing: Quick calculations dividing by 3, 4, 5, 2, 10, pp. 128-129",
+            "What makes 1000? Addition and subtraction, add and take away 10s and 100s, pg. 95",
+            "Measurement puzzles: pp. 96-97",
+            "Multiplication and division: 2s to 100, grid for \u00d72, break down method, solving problems, pp. 110-111",
+            "Multiplication and division: 3s to 100, grid for \u00d72, break down method, solving problems, pp. 112-113",
+            "Multiplication and division: 4s to 100, grid for \u00d74, break down method, solving problems, pp. 116-117",
+            "Tangram fraction: solving problems, pp. 130-131",
+            "Measuring capacity, grids adding, making a",
+            "More fraction problems, pp. 122-123"
           ],
           "skills": [
-            "understood. This practise takes place before any new concepts can be taught. Revision",
-            "\u2022 Use an appropriate form of assessment so that the learner\u2019s knowledge and skills can be gauged and the evidence of the learner\u2019s achievement can be justified at all times"
+            "Measuring using a ruler \u2013 working in centimetres",
+            "Problem solving",
+            "Using flard cards and base ten blocks",
+            "Weighing objects",
+            "Solving problems",
+            "Multiplication and division",
+            "Measuring capacity"
+          ],
+          "content_area": "Numbers, Operations And Relationships",
+          "short_phrases": [
+            "Problem solving",
+            "Number patterns",
+            "Adding and subtracting",
+            "Using flard cards",
+            "Weighing objects",
+            "Multiplication and division",
+            "3D objects",
+            "Measuring capacity"
+          ],
+          "caps_excerpt": "number of objects that can be checked by counting \u2022 \u2022 FOCUS FOR TERM 1 CONCEPTS AND SKILLS Place value cards \u2022 Each group shows a hundred. Example: The focus is on grouping the objects. Learners should have a strong sense that it is better, more efficient and quicker to count in groups of tens, twenties, fifties and hundreds than in ones. They start counting in hundreds, forwards and backwards during the first term. To support the rote counting, learners can organise the objects in groups of 100s. During the first term learners practise and consolidate counting objects to Dienes blocks \u2022 During Grade learners continue to count out everyday objects. The number range will increase to by the end of the year. This means that careful consideration needs to be given to the kind of apparatus used: SOME CLARIFICATION NOTES OR TEACHING GUIDELINES (in lessons of 1 hour 24 minutes) DURATION MATHEMATICS Grade 1-3 341 342 Count objects 1.1 TOPICS Estimate and count reliably to at least objects. The strategy of grouping is encouraged. Counting concrete Objects REQUIREMENT BY YEAR END CONCEPTS AND SKILLS Group to at least objects to estimate and count reliably Give a reasonable estimate of a number of objects that can be checked by counting \u2022 \u2022 FOCUS FOR TERM 4 CONCEPTS AND SKILLS CURRICULUM AND ASSESSMENT POLICY STATEMENT (CAPS) understanding the value of a digit; breaking down and building up numbers; and reading number symbols. \u2022 \u2022 \u2022 The focus of these kinds of activities is not only on counting objects. At the same",
+          "assessment_notes": [
+            "Formal assessment must be fair, reliable and valid",
+            "The assessment must reveal what the learner knows",
+            "The onus is on the teacher to teach and assess well for learning gains",
+            "Use an appropriate form of assessment so that the learner\u2019s knowledge and skills can be gauged and the evidence of the learner\u2019s achievement can be justified at all times"
           ]
         }
       ]
     }
   ],
   "term_count": 4,
-  "week_count": 60,
-  "source_pdf": "/code/riv/kyno/data/syllabus/grade-3/mathematics/atp-mathematics.pdf"
+  "week_count": 11
 }
