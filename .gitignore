@@ -1,0 +1,32 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+.venv
+dist
+dist-ssr
+*.local
+.env.local
+.env.*.local
+
+# Phi training artifacts (retrain on target machine)
+services/phi-gateway/train_phi.log
+services/phi-gateway/train_monitor.log
+train_phi.log
+
+# OS / editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

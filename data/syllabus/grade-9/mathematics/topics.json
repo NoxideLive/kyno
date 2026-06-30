@@ -1,0 +1,407 @@
+{
+  "grade": 9,
+  "subject": "mathematics",
+  "curriculum": "CAPS",
+  "terms": [
+    {
+      "term": 1,
+      "weeks": [
+        {
+          "week": 1,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 2,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 3,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 4,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 5,
+          "topics": [
+            "WHOLE NUMBERS",
+            "Properties of numbers",
+            "representing numbers",
+            "number system by",
+            "natural numbers",
+            "whole numbers",
+            "rational numbers",
+            "irrational numbers",
+            "numbers to find LCM",
+            "operations with",
+            "numbers that"
+          ],
+          "skills": []
+        },
+        {
+          "week": 6,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 7,
+          "topics": [
+            "extend patterns",
+            "difference or ratio,",
+            "algebraically",
+            "between numbers in",
+            "algebraic language"
+          ],
+          "skills": []
+        },
+        {
+          "week": 9,
+          "topics": [
+            "FUNCTIONS AND",
+            "RELATIONSHIPS",
+            "Algebraic language",
+            "or rules for patterns",
+            "geometric patterns",
+            "numbers including"
+          ],
+          "skills": []
+        },
+        {
+          "week": 8,
+          "topics": [
+            "\u2212 by equations",
+            "writing algebraic",
+            "\u2212 ratio and rate",
+            "involve whole",
+            "percentages and",
+            "decimal fractions in",
+            "OR PREKNOWLED",
+            "properties of whole",
+            "multiple operations",
+            "all four operations",
+            "with numbers that",
+            "operations using",
+            "represent numbers",
+            "for patterns given",
+            "or rules for patterns",
+            "number divided by 0",
+            "cube roots of rational",
+            "number sentence."
+          ],
+          "skills": []
+        }
+      ]
+    },
+    {
+      "term": 2,
+      "weeks": [
+        {
+          "week": 1,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 2,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 3,
+          "topics": [
+            "ALGEBRAIC EXPRESSIONS",
+            "INVESTIGATIO",
+            "algebraic expressions.",
+            "simplify algebraic",
+            "above operations",
+            "value of algebraic"
+          ],
+          "skills": []
+        },
+        {
+          "week": 6,
+          "topics": [
+            "ALGEBRAIC EQUATIONS",
+            "terms in algebraic",
+            "algebraic terms or like",
+            "algebraic terms"
+          ],
+          "skills": []
+        },
+        {
+          "week": 5,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 7,
+          "topics": [
+            "laws for rational numbers"
+          ],
+          "skills": []
+        },
+        {
+          "week": 4,
+          "topics": [
+            "Interpreting graphs",
+            "equations that describe a",
+            "equations of the form: a",
+            "features of graphs with",
+            "equations to generate",
+            "global graphs of problem",
+            "solve equations by",
+            "Extend solving equations to"
+          ],
+          "skills": []
+        },
+        {
+          "week": 9,
+          "topics": [
+            "set up equations to"
+          ],
+          "skills": []
+        },
+        {
+          "week": 8,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 10,
+          "topics": [
+            "STRAIGHT LINES"
+          ],
+          "skills": []
+        },
+        {
+          "week": 11,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 12,
+          "topics": [
+            "FORMAL ASSESSMENT",
+            "Drawing graphs",
+            "draw global graphs from",
+            "N.B. ENSURE THAT",
+            "COMMON FRACTIONS",
+            "FRACTIONS ARE PART",
+            "OF CALCULATIONS WITH",
+            "Extend the above algebraic",
+            "draw graphs on the",
+            "drawing linear graphs from",
+            "given equations",
+            "determining equations",
+            "from given linear graphs.",
+            "Factorize algebraic",
+            "Simplify algebraic",
+            "Simplify algebraic fractions",
+            "OR PREKNOWLED",
+            "Common and decimal",
+            "Algebraic language",
+            "algebraic expressions",
+            "cube roots of single algebraic",
+            "Write number sentences",
+            "number sentences that",
+            "terms or like algebraic terms",
+            "formulae or equations",
+            "equations to generate",
+            "Extend solving equations",
+            "global graphs of problem",
+            "Draw global graphs from",
+            "graphs on the Cartesian"
+          ],
+          "skills": []
+        }
+      ]
+    },
+    {
+      "term": 3,
+      "weeks": [
+        {
+          "week": 1,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 3,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 4,
+          "topics": [
+            "GEOMETRY OF 2D SHAPES",
+            "AREA AND PERIMETER",
+            "Classifying 2D shapes"
+          ],
+          "skills": []
+        },
+        {
+          "week": 2,
+          "topics": [
+            "PROVIDE LEARNERS WITH",
+            "ACCURATELY CONSTRUCTED",
+            "FIGURES TO INVESTIGATE",
+            "THE PROPERTIES OF"
+          ],
+          "skills": []
+        },
+        {
+          "week": 5,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 6,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 7,
+          "topics": [
+            "COLLECT, ORGANIZE AND",
+            "SUMMARIZE DATA",
+            "Collect data",
+            "economic, and environmental",
+            "methods for collecting data",
+            "Organize numerical data in"
+          ],
+          "skills": []
+        },
+        {
+          "week": 9,
+          "topics": [
+            "sources for the collection of data",
+            "Organize and summarize data"
+          ],
+          "skills": []
+        },
+        {
+          "week": 8,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 10,
+          "topics": [
+            "ASSESSMENT TASKS",
+            "determine the probability",
+            "frequency with probability",
+            "Organize data according to more",
+            "Classifying 2D shapes",
+            "REPRESENT DATA",
+            "Represent data",
+            "PROVIDE LEARNERS WITH",
+            "ACCURATELY CONSTRUCTED",
+            "FIGURES TO INVESTIGATE",
+            "THE PROPERTIES OF",
+            "QUADRILATERALS",
+            "Draw a variety of graphs by",
+            "interpret data including:",
+            "bar graphs and double bar",
+            "broken-line graphs",
+            "INTERPRET, ANALYSE, AND",
+            "Interpret data",
+            "Critically read and interpret data",
+            "Critically compare two sets of data",
+            "Analyse data",
+            "Critically analyse data by",
+            "data collection methods",
+            "summary of data",
+            "CONDRUENT TRIANGLES",
+            "Summarize data in short",
+            "paragraphs that include",
+            "two sets of data",
+            "bias in the data",
+            "statistics for the data (mean,",
+            "OR PREKNOWLED",
+            "2 decimal places, by",
+            "data using tally marks, tables and",
+            "Group data into intervals"
+          ],
+          "skills": []
+        }
+      ]
+    },
+    {
+      "term": 4,
+      "weeks": [
+        {
+          "week": 1,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 2,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 3,
+          "topics": [
+            "GEOMETRY OF 3-D OBJECTS",
+            "the shape and number of faces,",
+            "the number of vertices and the",
+            "number of edges.",
+            "SURFACE AREA AND VOLUME OF"
+          ],
+          "skills": []
+        },
+        {
+          "week": 4,
+          "topics": [
+            "shape and number of faces, the",
+            "number of vertices and the number"
+          ],
+          "skills": []
+        },
+        {
+          "week": 6,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 7,
+          "topics": [
+            "TRANSFORMATION GEOMETRY"
+          ],
+          "skills": []
+        },
+        {
+          "week": 8,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 9,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 10,
+          "topics": [
+            "FORMAL ASSESSMENT TASK",
+            "OR PREKNOWLED"
+          ],
+          "skills": []
+        },
+        {
+          "week": 5,
+          "topics": [
+            "geometric figures and shapes on"
+          ],
+          "skills": []
+        }
+      ]
+    }
+  ],
+  "term_count": 4,
+  "week_count": 41,
+  "source_pdf": "/code/riv/kyno/data/syllabus/grade-9/mathematics/atp-mathematics-2026.pdf"
+}

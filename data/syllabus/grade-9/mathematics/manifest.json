@@ -1,0 +1,22 @@
+{
+  "subject": "mathematics",
+  "grade": 9,
+  "year": 2026,
+  "phase": "senior",
+  "documents": [
+    {
+      "title": "wiskunde (mathematics)",
+      "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=2A4Ny96syi4%3d&tabid=573&portalid=0&mid=1573&forcedownload=true",
+      "doc_type": "caps",
+      "local_path": "/code/riv/kyno/data/syllabus/grade-9/mathematics/caps-wiskunde-mathematics.pdf",
+      "downloaded_at": "2026-06-30T09:33:34.650962+00:00"
+    },
+    {
+      "title": "mathematics (2026)",
+      "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=UVUDK7_VooM%3d&tabid=3208&portalid=0&mid=10751&forcedownload=true",
+      "doc_type": "atp",
+      "local_path": "/code/riv/kyno/data/syllabus/grade-9/mathematics/atp-mathematics-2026.pdf",
+      "downloaded_at": "2026-06-30T09:33:37.638890+00:00"
+    }
+  ]
+}

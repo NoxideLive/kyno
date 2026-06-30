@@ -1,0 +1,22 @@
+{
+  "subject": "mathematics",
+  "grade": 5,
+  "year": 2026,
+  "phase": "intermediate",
+  "documents": [
+    {
+      "title": "mathematics",
+      "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=dr7zg3CFCr8%3d&tabid=572&portalid=0&mid=1568&forcedownload=true",
+      "doc_type": "caps",
+      "local_path": "/code/riv/kyno/data/syllabus/grade-5/mathematics/caps-mathematics.pdf",
+      "downloaded_at": "2026-06-30T09:33:05.486313+00:00"
+    },
+    {
+      "title": "mathematics (2026)",
+      "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=Zcwzy598npw%3d&tabid=3207&portalid=0&mid=10742&forcedownload=true",
+      "doc_type": "atp",
+      "local_path": "/code/riv/kyno/data/syllabus/grade-5/mathematics/atp-mathematics-2026.pdf",
+      "downloaded_at": "2026-06-30T09:33:06.839090+00:00"
+    }
+  ]
+}

@@ -1,0 +1,576 @@
+{
+  "grade": 12,
+  "subject": "mathematics",
+  "curriculum": "CAPS",
+  "terms": [
+    {
+      "term": 1,
+      "weeks": [
+        {
+          "week": 1,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 2,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 3,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 4,
+          "topics": [
+            "Number patterns, sequences and series"
+          ],
+          "skills": []
+        },
+        {
+          "week": 5,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 6,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 7,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 8,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 9,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 10,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 11,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 10,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 11,
+          "topics": [
+            "Trigonometry"
+          ],
+          "skills": []
+        }
+      ]
+    },
+    {
+      "term": 2,
+      "weeks": [
+        {
+          "week": 1,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 2,
+          "topics": [
+            "Euclidean Geometry"
+          ],
+          "skills": []
+        },
+        {
+          "week": 3,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 4,
+          "topics": [
+            "Analytical Geometry"
+          ],
+          "skills": []
+        },
+        {
+          "week": 5,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 6,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 7,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 8,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 9,
+          "topics": [
+            "Differential Calculus, including polynomials",
+            "JUNE EXAM/CONTROL TEST"
+          ],
+          "skills": []
+        }
+      ]
+    },
+    {
+      "term": 3,
+      "weeks": [
+        {
+          "week": 1,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 2,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 3,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 4,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 5,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 6,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 7,
+          "topics": [
+            "Counting and probability"
+          ],
+          "skills": []
+        },
+        {
+          "week": 8,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 9,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 10,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 11,
+          "topics": [
+            "TRIAL EXAMINATION"
+          ],
+          "skills": []
+        }
+      ]
+    },
+    {
+      "term": 4,
+      "weeks": [
+        {
+          "week": 1,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 2,
+          "topics": [
+            "TOTAL NUMBER OF SBA TASKS 6",
+            "TERM 1 INVESTIGATION/PROJECT 15%) AND TEST (15%)",
+            "TERM 2 ASSIGNMENT (15%) AND JUNE EXAM/CONTROL TEST (15%)",
+            "TERM 3 TEST (15%) AND TRIAL (25%)",
+            "TERM 4 FINAL EXAMINATION"
+          ],
+          "skills": []
+        },
+        {
+          "week": 3,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 4,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 5,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 6,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 7,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 8,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 9,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 10,
+          "topics": [
+            "Algebraic expressions, equations",
+            "Number patterns",
+            "Functions and graphs",
+            "Differential Calculus",
+            "Counting principle and probability",
+            "Analytical Geometry",
+            "Trigonometry",
+            "Euclidean Geometry",
+            "2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 12"
+          ],
+          "skills": []
+        }
+      ]
+    },
+    {
+      "term": 1,
+      "weeks": [
+        {
+          "week": 1,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 2,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 3,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 4,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 5,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 6,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 7,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 8,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 9,
+          "topics": [
+            "PATTERNS, SEQUENCES AND SERIES",
+            "TRIGONOMETRY",
+            "3. Determine and sketch graphs of the inverses of the functions defined by",
+            "asymptotes (horizontal and vertical), shape and symmetry, average gradient (average",
+            "4. Revision of the exponential function and the exponential laws and graph of the",
+            "Patterns: Revise number patterns leading to those where there is a constant",
+            "Number patterns, including arithmetic and geometric sequences and series"
+          ],
+          "skills": []
+        },
+        {
+          "week": 10,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 11,
+          "topics": [
+            "6. The graph of the function, \ud835\udc66 = \ud835\udc59\ud835\udc5c\ud835\udc54\ud835\udc4f \ud835\udc65 for both the cases",
+            "2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 12"
+          ],
+          "skills": []
+        }
+      ]
+    },
+    {
+      "term": 2,
+      "weeks": [
+        {
+          "week": 1,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 2,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 3,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 4,
+          "topics": [
+            "EUCLIDEAN GEOMETRY",
+            "ANALYTICAL GEOMETRY",
+            "DIFFERENTIAL CALCULUS, INCLUDING POLYNOMIALS",
+            "\u2022 The equation of a line through two given points",
+            "\u2022 The equation of a line through one point and parallel",
+            "gradient of the tangent to the graph of f at the point with x -coordinate a",
+            "2. Apply the equation",
+            "3. Determine the equation of a tangent to a given circle"
+          ],
+          "skills": []
+        },
+        {
+          "week": 5,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 6,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 7,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 8,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 9,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 10,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 11,
+          "topics": [
+            "JUNE EXAMINATION/CONTROL TEST",
+            "(for any real number n) together with the rules",
+            "6. Determine equations of tangents to graphs of functions",
+            "Sketch graphs of cubic polynomial functions using differentiation to determine the",
+            "Also, determine the x -intercepts of the graph using the factor theorem and other",
+            "calculus of motion",
+            "JUNE EXAM/CONTROL TEST",
+            "2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 12"
+          ],
+          "skills": []
+        }
+      ]
+    },
+    {
+      "term": 3,
+      "weeks": [
+        {
+          "week": 1,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 2,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 3,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 4,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 5,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 6,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 7,
+          "topics": [
+            "FINANCE, GROWTH AND DECAY",
+            "COUNTING AND PROBABILITY",
+            "\u2022 Variance and standard deviation of ungrouped data",
+            "\u2022 Symmetric and skewed data",
+            "the context associated with given bivariate data, including",
+            "\u2022 The use of Venn diagrams to solve probability",
+            "three events A, B and C in a sample space S",
+            "\u2022 The use of tree diagrams for the probability of",
+            "2. Apply the fundamental counting principle to solve",
+            "probability problems",
+            "3. Probability problems using Venn diagrams, tree",
+            "techniques (like the Fundamental Counting Principle) to",
+            "solve probability problems (where events are not",
+            "time period, in the equations"
+          ],
+          "skills": []
+        },
+        {
+          "week": 8,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 9,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 10,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 11,
+          "topics": [
+            "TRIAL EXAMINATION",
+            "2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 12"
+          ],
+          "skills": []
+        }
+      ]
+    },
+    {
+      "term": 4,
+      "weeks": [
+        {
+          "week": 1,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 2,
+          "topics": [
+            "TOTAL NUMBER OF SBA TASKS 6",
+            "TERM 1 INVESTIGATION/PROJECT 15%) AND TEST (15%)",
+            "TERM 2 ASSIGNMENT (15%), JUNE EXAM/CONTROL TEST (15%)",
+            "TERM 3 TEST (15%) AND TRIAL (25%)",
+            "TERM 4 FINAL EXAMINATION"
+          ],
+          "skills": []
+        },
+        {
+          "week": 3,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 4,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 5,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 6,
+          "topics": [
+            "FINAL EXAMINATION"
+          ],
+          "skills": []
+        },
+        {
+          "week": 7,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 8,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 9,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 10,
+          "topics": [
+            "150 MARKS 3 HOURS",
+            "Algebraic expressions, equations",
+            "Number patterns",
+            "Functions and graphs",
+            "Differential Calculus",
+            "Counting principle and probability",
+            "Analytical Geometry",
+            "Euclidean Geometry",
+            "Trigonometry"
+          ],
+          "skills": []
+        }
+      ]
+    }
+  ],
+  "term_count": 8,
+  "week_count": 86,
+  "source_pdf": "/code/riv/kyno/data/syllabus/grade-12/mathematics/atp-mathematics.pdf"
+}

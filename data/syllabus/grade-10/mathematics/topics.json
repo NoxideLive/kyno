@@ -1,0 +1,578 @@
+{
+  "grade": 10,
+  "subject": "mathematics",
+  "curriculum": "CAPS",
+  "terms": [
+    {
+      "term": 1,
+      "weeks": [
+        {
+          "week": 1,
+          "topics": [
+            "Algebraic expressions"
+          ],
+          "skills": []
+        },
+        {
+          "week": 2,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 3,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 4,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 5,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 6,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 7,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 8,
+          "topics": [
+            "Exponents, equations and inequalities"
+          ],
+          "skills": []
+        },
+        {
+          "week": 9,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 10,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 11,
+          "topics": [
+            "Trigonometry"
+          ],
+          "skills": []
+        }
+      ]
+    },
+    {
+      "term": 2,
+      "weeks": [
+        {
+          "week": 1,
+          "topics": [
+            "Euclidean Geometry"
+          ],
+          "skills": []
+        },
+        {
+          "week": 2,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 3,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 4,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 5,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 6,
+          "topics": [
+            "Analytical Geometry"
+          ],
+          "skills": []
+        },
+        {
+          "week": 7,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 8,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 9,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 10,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 11,
+          "topics": [],
+          "skills": []
+        }
+      ]
+    },
+    {
+      "term": 3,
+      "weeks": [
+        {
+          "week": 1,
+          "topics": [
+            "Trigonometry (2D)"
+          ],
+          "skills": []
+        },
+        {
+          "week": 2,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 3,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 4,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 5,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 6,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 7,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 8,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 9,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 10,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 11,
+          "topics": [],
+          "skills": []
+        }
+      ]
+    },
+    {
+      "term": 4,
+      "weeks": [
+        {
+          "week": 1,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 2,
+          "topics": [
+            "TOTAL NUMBER OF SBA TASKS 7",
+            "TERM 1 INVESTIGATION/PROJECT (15%) AND TEST (14%)",
+            "TERM 2 ASSIGNMENT (15%) AND MID-YEAR EXAM (14%)",
+            "TERM 3 TEST (14%) AND TEST (14%)",
+            "TERM 4 TEST (14%)"
+          ],
+          "skills": []
+        },
+        {
+          "week": 3,
+          "topics": [
+            "Number patterns"
+          ],
+          "skills": []
+        },
+        {
+          "week": 4,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 5,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 6,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 7,
+          "topics": [
+            "Revise Algebra",
+            "Trigonometry &"
+          ],
+          "skills": []
+        },
+        {
+          "week": 8,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 9,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 10,
+          "topics": [
+            "Number patterns",
+            "Functions and graphs",
+            "Analytical Geometry",
+            "Trigonometry",
+            "Euclidean Geometry &",
+            "2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 10"
+          ],
+          "skills": []
+        }
+      ]
+    },
+    {
+      "term": 1,
+      "weeks": [
+        {
+          "week": 1,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 2,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 3,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 4,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 5,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 6,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 7,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 8,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 9,
+          "topics": [
+            "ALGEBRAIC EXPRESSIONS",
+            "EXPONENTS, EQUATIONS AND INEQUALITIES",
+            "TRIGONOMETRY",
+            "Understand that real numbers can be rational or irrational",
+            "Round real numbers to an appropriate degree of accuracy",
+            "Simplifying, adding and subtracting algebraic fractions using factorisation with"
+          ],
+          "skills": []
+        },
+        {
+          "week": 10,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 11,
+          "topics": [
+            "Define the trigonometric ratios sin \ud835\udf03, cos \ud835\udf03 and tan \ud835\udf03",
+            "Define the reciprocal of the trigonometric ratios cosec \ud835\udf03, sec \ud835\udf03 and cot \ud835\udf03, using the rightangled triangles (these three reciprocals should be examined in Grade 10 only)",
+            "Derive values of the trigonometric ratios for the special cases (without using a calculator)",
+            "Solve simple trigonometric equations for angles between 0\u00b0 and 90\u00b0",
+            "Use a diagram to determine the numerical values of ratios for angles from 0\u00b0 to 360\u00b0",
+            "2.Use the laws of exponents to simplify expressions and solve equations, accepting that the rules",
+            "3.1. Revise the solution of linear equations",
+            "3.2. Solve quadratic equations (by factorisation)",
+            "3.3. Solve simultaneous linear equations in two unknowns",
+            "3.4. Solve word problems involving linear, quadratic or simultaneous linear equations",
+            "3.5. Solve literal equations (changing the subject of a formula)",
+            "3.6. Solve linear inequalities (and show solution graphically)",
+            "2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 10"
+          ],
+          "skills": []
+        }
+      ]
+    },
+    {
+      "term": 2,
+      "weeks": [
+        {
+          "week": 1,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 2,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 3,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 4,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 5,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 6,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 7,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 8,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 9,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 10,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 11,
+          "topics": [
+            "EUCLIDEAN GEOMETRY",
+            "ANALYTICAL GEOMETRY",
+            "FUNCTIONS AND GRAPHS (INCLUDING TRIGONOMETRIC FUNCTIONS)",
+            "between variables using tables, graphs, words and formulae. Convert flexibly between these representations",
+            "2. Note: That the graph defined by y = x should be known from Grade 9",
+            "3. Point by point plotting of basic graphs defined by y = x ,",
+            "and y = b x ; b \uf03e 0 and b \uf0b9 1 to discover shape, domain (input",
+            "4. Investigate the effect of a and q on the graphs defined by,",
+            "5. Point by point plotting of basic graphs defined by \ud835\udc66 = \ud835\udc60\ud835\udc56\ud835\udc5b\ud835\udf03 , \ud835\udc66 = cos \ud835\udf03 and \ud835\udc66 = \ud835\udc61\ud835\udc4e\ud835\udc5b\ud835\udf03 for \ud835\udf03 \u2208 [0\u00b0, 360\u00b0]",
+            "6. Study the effect of a and q on the graphs defined by:",
+            "7. Sketch graphs, find the equations of given graphs and interpret graphs",
+            "Note: Sketching of the graphs must be based on the observation of the effect number 3 and number 5",
+            "2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 10"
+          ],
+          "skills": []
+        }
+      ]
+    },
+    {
+      "term": 3,
+      "weeks": [
+        {
+          "week": 1,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 2,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 3,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 4,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 5,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 6,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 7,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 8,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 9,
+          "topics": [
+            "TRIGONOMETRY (2D)",
+            "FINANCE AND GROWTH",
+            "1. Measures of central tendency in ungrouped data. Calculate the",
+            "2. Measures of central tendency in grouped data: Calculation of mean",
+            "estimate of grouped data and identification of modal interval and",
+            "percentiles, quartiles, inter-quartile and semi-inter-quartile range",
+            "4. Five number summary (maximum, minimum and quartiles) and box",
+            "dispersion), and graphs to analyse and make meaningful comments",
+            "on the context associated with the given data",
+            "1. The use of probability models to compare the relative frequency of events with the",
+            "theoretical probability",
+            "2. The use of Venn diagrams to solve probability problems, deriving and applying the",
+            "following for any two events in a sample space S:"
+          ],
+          "skills": []
+        },
+        {
+          "week": 10,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 11,
+          "topics": [
+            "2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 10"
+          ],
+          "skills": []
+        }
+      ]
+    },
+    {
+      "term": 4,
+      "weeks": [
+        {
+          "week": 1,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 2,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 3,
+          "topics": [
+            "NUMBER PATTERNS",
+            "Patterns: Investigate number",
+            "patterns leading to those",
+            "TOTAL NUMBER OF SBA TASKS 7",
+            "TERM 1 INVESTIGATION/PROJECT (15%) AND TEST (14%)",
+            "TERM 2 ASSIGNMENT (15%) AND MID-YEAR EXAM (14%)",
+            "TERM 3 TEST (14%) AND TEST (14%)",
+            "TERM 4 TEST (14%)"
+          ],
+          "skills": []
+        },
+        {
+          "week": 4,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 5,
+          "topics": [
+            "TRIGONOMETRY"
+          ],
+          "skills": []
+        },
+        {
+          "week": 6,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 7,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 8,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 9,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 10,
+          "topics": [
+            "Number patterns",
+            "Functions and graphs",
+            "Analytical Geometry",
+            "Trigonometry",
+            "Euclidean Geometry &"
+          ],
+          "skills": []
+        }
+      ]
+    }
+  ],
+  "term_count": 8,
+  "week_count": 86,
+  "source_pdf": "/code/riv/kyno/data/syllabus/grade-10/mathematics/atp-mathematics.pdf"
+}

@@ -1,0 +1,482 @@
+{
+  "grade": 7,
+  "subject": "mathematics",
+  "curriculum": "CAPS",
+  "terms": [
+    {
+      "term": 1,
+      "weeks": [
+        {
+          "week": 1,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 2,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 3,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 4,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 5,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 6,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 7,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 8,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 9,
+          "topics": [
+            "WHOLE NUMBERS",
+            "o Ordering and comparing whole numbers",
+            "o Properties of operations with whole numbers",
+            "o Calculations using all operations with whole numbers",
+            "\u2022 Use any strategy to perform and check written and mental",
+            "calculations of whole numbers including:",
+            "\u2022 List prime factors of numbers to at least 3-digit whole numbers",
+            "\u2022 Find the LCM and HCF of whole numbers by inspection or",
+            "\u2022 Solve problems involving whole numbers, including:",
+            "\u2012 Comparing of two or more quantities of the same kind (ratio)",
+            "\u2012 Sharing in a given ratio where the whole is given",
+            "\u2022 Solve problems that involve whole numbers, percentages and",
+            "decimal fractions in financial contexts such as:",
+            "ASSESSMENT TASK",
+            "\u2022 Whole numbers",
+            "COMMON FRACTIONS:",
+            "Ordering, comparing and simplifying common fractions",
+            "Calculations with fractions",
+            "\u2022 Addition and subtraction of fractions including mixed numbers where one",
+            "\u2022 Multiplication common fractions, including mixed numbers, not limited to",
+            "fractions where one denominator is a multiple of another",
+            "\u2022 Convert mixed numbers to common fractions in order to perform",
+            "\u2022 Use knowledge of multiples and factors to write fractions in the simplest",
+            "\u2022 Use knowledge of equivalent fractions to add and subtract common",
+            "\u2022 Calculate the percentage of part of a whole",
+            "\u2022 Calculate percentage increase or decrease of whole numbers",
+            "\u2022 Solve problems in contexts involving common fractions and mixed",
+            "numbers, including grouping and sharing; and finding fractions of whole",
+            "\u2022 involving percentages",
+            "DECIMAL FRACTIONS:",
+            "Ordering and comparing decimal fractions",
+            "\u2022 Count forwards and backwards in decimal fractions to",
+            "at least 3 decimal places",
+            "\u2022 Place value of decimals to at least 3 decimal places",
+            "\u2022 Order and compare decimal fractions to at least 3",
+            "\u2022 Rounding off decimal fractions to at least 2 decimal",
+            "Calculations with decimal fractions",
+            "\u2022 Addition and subtraction to decimal fractions of at least",
+            "three decimal places",
+            "\u2022 Multiply decimal fractions to include:",
+            "\u2012 Decimal fractions to at least 3 decimal places by",
+            "whole numbers",
+            "\u2012 Decimal fractions to at least 2 decimal places by",
+            "decimal fractions to at least 1 decimal place",
+            "\u2022 Divide decimal fractions to include decimal fractions to",
+            "at least 3 decimal places by whole numbers",
+            "\u2022 Use knowledge of place value to estimate the number",
+            "of decimal places in the result before",
+            "\u2022 Solve problems in context involving decimal fractions",
+            "\u2022 Recognise equivalence between common fraction and",
+            "decimal fraction forms of the same number",
+            "\u2022 Recognise equivalence between common fraction,",
+            "decimal fraction and percentage forms of the same",
+            "PREREQUISITE",
+            "Order, compare, represent and place value of 9-digit numbers",
+            "All operations with whole numbers",
+            "Multiples and factors of 3-digit whole numbers",
+            "Prime factors of 2-digit whole numbers up to 100",
+            "Properties of operations with whole numbers",
+            "Ordering and comparing fractions specifically tenths and hundredths",
+            "Addition and subtraction of common fractions, including mixed numbers",
+            "Recognise and use equivalent forms of common fractions with 1-digit or 2digit denominators",
+            "Finding fractions of whole numbers",
+            "Finding percentages of whole numbers",
+            "Equivalence between fractions and percentage forms of the same number"
+          ],
+          "skills": [
+            "SKILL OR PREKNOWLEDGE"
+          ]
+        },
+        {
+          "week": 10,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 11,
+          "topics": [
+            "Count forwards and backwards in decimal fractions to",
+            "at least two decimal places",
+            "Compare and order decimal fractions to at least two",
+            "decimal places",
+            "Place value of digits to at least two decimal places",
+            "Rounding off decimal fractions to at least 1 decimal",
+            "Addition and subtraction of decimal fractions of at least",
+            "two decimal places",
+            "Multiplication of decimal fractions by 10 and 100",
+            "Equivalence between fractions and percentage forms of",
+            "the same number",
+            "2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 7"
+          ],
+          "skills": []
+        }
+      ]
+    },
+    {
+      "term": 2,
+      "weeks": [
+        {
+          "week": 1,
+          "topics": [
+            "PREREQUISITE"
+          ],
+          "skills": [
+            "SKILL OR PREKNOWLEDGE"
+          ]
+        },
+        {
+          "week": 2,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 3,
+          "topics": [
+            "ASSESSMENT TASK",
+            "INVESTIGATION",
+            "Mental calculations",
+            "Comparing and representing numbers in",
+            "\u2022 Compare and represent whole numbers in",
+            "number of factors",
+            "Calculations using numbers in exponential",
+            "operations with numbers involving exponents",
+            "\u2022 Calculations involving all four operations",
+            "using numbers in exponential form, limited",
+            "All four operations with whole numbers",
+            "Comparing whole numbers"
+          ],
+          "skills": []
+        },
+        {
+          "week": 4,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 5,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 6,
+          "topics": [
+            "Addition and subtraction with whole numbers"
+          ],
+          "skills": []
+        },
+        {
+          "week": 7,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 8,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 9,
+          "topics": [
+            "NUMERIC AND GEOMETRIC PATTERNS",
+            "Investigate and extend patterns",
+            "geometric patterns looking for relationships",
+            "between numbers, including patterns:",
+            "\u2012 Difference or ratio",
+            "observed relationships between numbers in",
+            "FUNCTIONS AND RELATIONSHIPS",
+            "rules for patterns and relationships using:",
+            "\u2012 By number sentences",
+            "All operations with whole numbers",
+            "operations (with whole numbers)",
+            "geometric patterns looking for relationships in",
+            "patterns not limited to constant difference or",
+            "relationships with patterns limited to constant",
+            "difference or ratio"
+          ],
+          "skills": []
+        },
+        {
+          "week": 10,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 11,
+          "topics": [
+            "Input and output values with whole numbers",
+            "\u2012 By a number sentence",
+            "2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 7"
+          ],
+          "skills": []
+        }
+      ]
+    },
+    {
+      "term": 3,
+      "weeks": [
+        {
+          "week": 1,
+          "topics": [
+            "PREREQUISITE"
+          ],
+          "skills": [
+            "SKILL OR PREKNOWLEDGE"
+          ]
+        },
+        {
+          "week": 2,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 3,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 4,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 5,
+          "topics": [
+            "CONSTRUCTION OF GEOMETRIC FIGURES",
+            "GEOMETRY OF STRAIGHT LINES"
+          ],
+          "skills": []
+        },
+        {
+          "week": 6,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 7,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 8,
+          "topics": [
+            "GEOMETRY OF 2D SHAPES",
+            "Classifying 2D shapes",
+            "Similar and congruent 2D shapes",
+            "TRANSFORMATION",
+            "shapes on squared paper",
+            "of shape and size",
+            "Naming of shapes according to the number of sides"
+          ],
+          "skills": []
+        },
+        {
+          "week": 9,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 10,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 11,
+          "topics": [
+            "FORMAL ASSESSMENT TASK",
+            "Use transformation terms to describe patterns in",
+            "Increase/decrease the sides of 2D shapes by the",
+            "2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 7"
+          ],
+          "skills": []
+        }
+      ]
+    },
+    {
+      "term": 4,
+      "weeks": [
+        {
+          "week": 1,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 2,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 3,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 4,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 5,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 6,
+          "topics": [
+            "AREA AND PERIMETER OF 2D SHAPES",
+            "\u2022 Calculate to at least 1 decimal place",
+            "SURFACE AREA AND VOLUME OF 3D OBJECTS",
+            "DATA HANDLING: Collect data",
+            "PROVIDE LEARNERS WITH DATA TO SAVE TIME",
+            "\u2022 Pose questions relating to social, economic, and environmental issues",
+            "\u2022 Select appropriate sources for the collection of data (including peers,",
+            "Organise and summarise data",
+            "\u2022 Organise (including grouping where appropriate) and record data using",
+            "\u2022 Group data into intervals",
+            "\u2022 Summarise and distinguishing between ungrouped numerical data by",
+            "\u2022 Identify the largest and smallest scores in a data set and determine the",
+            "difference between them in order to determine the spread of the data",
+            "Represent data",
+            "\u2022 Draw a variety of graphs by hand/technology to display and interpret",
+            "data (grouped and ungrouped) including:",
+            "\u2012 Bar graphs and double bar graphs",
+            "Interpret data",
+            "\u2022 Critically read and interpret data represented in:",
+            "\u2012 Bar graphs",
+            "\u2012 Double bar graphs",
+            "Analyse data",
+            "\u2022 Critically analyse data by answering questions related to:",
+            "\u2012 Data categories, including data intervals",
+            "\u2012 Data sources and contexts",
+            "\u2012 Scales used on graphs",
+            "\u2022 Summarise data in short paragraphs that include",
+            "\u2012 Drawing conclusions about the data",
+            "\u2012 Making predictions based on the data",
+            "\u2012 Identifying sources of error and bias in the data",
+            "\u2012 Choosing appropriate summary statistics for the data (mean,"
+          ],
+          "skills": []
+        },
+        {
+          "week": 7,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 8,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 9,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 10,
+          "topics": [
+            "FORMAL ASSESSMENT TASK",
+            "PAPER 1 AND PAPER 2",
+            "2023/24 ANNUAL TEACHING PLANS: MATHEMATICS: GRADE 7"
+          ],
+          "skills": []
+        },
+        {
+          "week": 1,
+          "topics": [
+            "PREREQUISITE"
+          ],
+          "skills": [
+            "SKILL OR PREKNOWLEDGE"
+          ]
+        },
+        {
+          "week": 2,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 3,
+          "topics": [
+            "Find areas of regular and irregular shapes by"
+          ],
+          "skills": []
+        },
+        {
+          "week": 4,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 5,
+          "topics": [
+            "Area of 2D shapes by counting the number of squares",
+            "Volume of 3D objects by counting the number of cubes"
+          ],
+          "skills": []
+        },
+        {
+          "week": 6,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 7,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 8,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 9,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 10,
+          "topics": [
+            "Complete data cycle"
+          ],
+          "skills": []
+        }
+      ]
+    }
+  ],
+  "term_count": 4,
+  "week_count": 53,
+  "source_pdf": "/code/riv/kyno/data/syllabus/grade-7/mathematics/atp-mathematics.pdf"
+}

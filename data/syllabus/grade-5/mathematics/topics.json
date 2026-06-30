@@ -1,0 +1,363 @@
+{
+  "grade": 5,
+  "subject": "mathematics",
+  "curriculum": "CAPS",
+  "terms": [
+    {
+      "term": 1,
+      "weeks": [
+        {
+          "week": 1,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 3,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 4,
+          "topics": [
+            "Revision of Grade 4",
+            "NUMBER SENTENCES",
+            "WHOLE NUMBERS",
+            "Write number",
+            "number sentences by:",
+            "Number range for",
+            "represent numbers to",
+            "at least 6-digit numbers",
+            "Properties of whole",
+            "value of digits in whole",
+            "numbers to at least 6digit numbers",
+            "of operations with",
+            "whole numbers"
+          ],
+          "skills": []
+        },
+        {
+          "week": 5,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 6,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 7,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 8,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 9,
+          "topics": [
+            "WHOLE NUMBERS:",
+            "ADDITION AND",
+            "MULTIPLICATION",
+            "Number range for calculations",
+            "Number range for",
+            "whole numbers of at least 5digits",
+            "and mental calculations of",
+            "whole numbers including:",
+            "down numbers",
+            "\u2500 Using a number line",
+            "Multiplication of at least whole",
+            "3-digit by 2-digit numbers"
+          ],
+          "skills": []
+        },
+        {
+          "week": 10,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 11,
+          "topics": [
+            "mental calculations of whole",
+            "numbers including:",
+            "down numbers",
+            "Number range for multiples and",
+            "Multiples of 2-digits whole",
+            "numbers to at least 100",
+            "Factors of 2-digit whole",
+            "\u2500 Measurement contexts",
+            "whole numbers, including:",
+            "PREREQUISITE",
+            "value of digits in whole",
+            "numbers to at least 4digit numbers",
+            "Divide numbers to",
+            "Solve problems involving whole",
+            "numbers, including:",
+            "4-digit numbers",
+            "2-digit numbers",
+            "4-digit whole numbers",
+            "Multiples of 1-digit numbers to",
+            "to/from any 4-digit number"
+          ],
+          "skills": [
+            "SKILL OR PREKNOWLEDGE"
+          ]
+        }
+      ]
+    },
+    {
+      "term": 2,
+      "weeks": [
+        {
+          "week": 1,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 4,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 5,
+          "topics": [
+            "WHOLE NUMBERS: DIVISION",
+            "COMMON FRACTIONS",
+            "Number range for",
+            "Division of at least whole",
+            "3-digit by 2-digit numbers",
+            "check written and mental",
+            "calculations with whole",
+            "numbers including:",
+            "inverse operations",
+            "backwards in fractions"
+          ],
+          "skills": []
+        },
+        {
+          "week": 6,
+          "topics": [
+            "common fractions to at",
+            "of common fractions with",
+            "of mixed numbers",
+            "Fractions of whole",
+            "numbers which result in",
+            "whole numbers",
+            "division and fractions"
+          ],
+          "skills": []
+        },
+        {
+          "week": 7,
+          "topics": [
+            "patterns looking for",
+            "rules of patterns:",
+            "for the patterns and"
+          ],
+          "skills": []
+        },
+        {
+          "week": 8,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 10,
+          "topics": [
+            "NUMERIC PATTERNS:",
+            "INVESTIGATE AND",
+            "EXTEND PATTERNS",
+            "PROPERTIES OF 2D",
+            "SHAPES: RANGE",
+            "numeric patterns",
+            "difference or ratio",
+            "difference or ratio in",
+            "for patterns and",
+            "name 2D shapes",
+            "involving whole numbers,",
+            "\u2012 Measurement contexts",
+            "kind (ratio)",
+            "fractions, including",
+            "\u2012 By a number",
+            "fractions (fractions in",
+            "shapes in terms of",
+            "\u2012 Number of sides",
+            "Draw 2D shapes on",
+            "in 2-D shapes",
+            "Division of 3-digit numbers",
+            "by 1-digit numbers",
+            "and measurement",
+            "contexts with whole",
+            "numbers including sharing,",
+            "numbers to at least 100",
+            "Factors of 2-digit whole",
+            "order common fractions",
+            "eighths) fractions in",
+            "Equivalent fractions",
+            "Adding fractions in",
+            "Investigate and extend patterns",
+            "Describe patterns in own words"
+          ],
+          "skills": []
+        }
+      ]
+    },
+    {
+      "term": 3,
+      "weeks": [
+        {
+          "week": 1,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 2,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 3,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 4,
+          "topics": [
+            "PROPERTIES OF 3D",
+            "OBJECTS: RANGE OF",
+            "\u2500 shape of faces",
+            "\u2500 number of faces"
+          ],
+          "skills": []
+        },
+        {
+          "week": 5,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 6,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 7,
+          "topics": [
+            "Collecting and organising data",
+            "shapes and 3-D",
+            "Collect data using tally marks and tables",
+            "Order data from smallest group to largest",
+            "Representing data",
+            "Draw a variety of graphs to display and",
+            "interpret data including:",
+            "\u2500 pictographs (many-to-one",
+            "correspondence) data and",
+            "\u2500 bar graphs",
+            "Interpreting data",
+            "Critically read and interpret data",
+            "\u2500 pictographs",
+            "measure 2D shapes and 3D",
+            "lengths of shapes and objects"
+          ],
+          "skills": []
+        },
+        {
+          "week": 8,
+          "topics": [
+            "PERIMETER, AREA",
+            "Measurement of",
+            "irregular shapes by",
+            "Analysing data",
+            "Analyse data by answering questions",
+            "\u2500 data categories",
+            "\u2500 data sources and contexts",
+            "Reporting data",
+            "Summarise data verbally and in short",
+            "written paragraphs that include",
+            "\u2500 drawing conclusions about the data",
+            "\u2500 making predictions based on the data",
+            "Conversions limited to whole",
+            "numbers and common",
+            "measure 2D shapes and 3D",
+            "Ungrouped data",
+            "Examine ungrouped numerical data to",
+            "score in the data set (mode)",
+            "Probability experiments",
+            "OR PREKNOWLED",
+            "Collect data using tally marks and tables",
+            "Draw a variety of graphs to display and",
+            "interpret data including pictographs (one-",
+            "\u2012 Shapes of faces",
+            "to-one correspondence between data and",
+            "representation), bar graphs",
+            "Critically read and interpret data",
+            "represented in words, pictographs, bar",
+            "graphs, pie charts",
+            "lengths of shapes and objects",
+            "related to data categories",
+            "written paragraphs"
+          ],
+          "skills": []
+        }
+      ]
+    },
+    {
+      "term": 4,
+      "weeks": [
+        {
+          "week": 1,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 4,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 5,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 6,
+          "topics": [
+            "CAPACITY/VOLUME",
+            "TRANSFORMATION",
+            "make composite shapes",
+            "FORMAL ASSESSMENT TASK",
+            "whole numbers and fractions)",
+            "examples with whole",
+            "numbers and fractions",
+            "shape in one or more of the",
+            "shapes including shapes",
+            "Make tessellated patterns",
+            "patterns with line symmetry",
+            "shapes in one or more of",
+            "Describe patterns",
+            "Calculation of the number of",
+            "Refer to lines, 2-D shapes,",
+            "when describing patterns",
+            "OR PREKNOWLED",
+            "Practical measurement and",
+            "Put 2-D shapes together to",
+            "make different composite 2D shapes including some",
+            "shapes with line symmetry.",
+            "Pack out 2-D shapes to",
+            "make tessellated patterns",
+            "including some patterns",
+            "describing patterns in",
+            "symmetry, 2-D shapes, 3-D"
+          ],
+          "skills": []
+        }
+      ]
+    }
+  ],
+  "term_count": 4,
+  "week_count": 29,
+  "source_pdf": "/code/riv/kyno/data/syllabus/grade-5/mathematics/atp-mathematics-2026.pdf"
+}

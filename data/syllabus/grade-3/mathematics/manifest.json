@@ -1,0 +1,22 @@
+{
+  "subject": "mathematics",
+  "grade": 3,
+  "year": 2026,
+  "phase": "foundation",
+  "documents": [
+    {
+      "title": "mathematics (english)",
+      "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=HdHiU122n1w%3d&tabid=571&portalid=0&mid=1562&forcedownload=true",
+      "doc_type": "caps",
+      "local_path": "/code/riv/kyno/data/syllabus/grade-3/mathematics/caps-mathematics-english.pdf",
+      "downloaded_at": "2026-06-30T09:34:56.631073+00:00"
+    },
+    {
+      "title": "mathematics",
+      "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=DVOopO2xWtA%3d&tabid=3206&portalid=0&mid=10822&forcedownload=true",
+      "doc_type": "atp",
+      "local_path": "/code/riv/kyno/data/syllabus/grade-3/mathematics/atp-mathematics.pdf",
+      "downloaded_at": "2026-06-30T09:34:58.174962+00:00"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "subject": "mathematics",
+  "grade": 10,
+  "year": 2026,
+  "phase": "fet",
+  "documents": [
+    {
+      "title": "mathematics",
+      "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=uXLZcIa67rE%3d&tabid=570&portalid=0&mid=1558&forcedownload=true",
+      "doc_type": "caps",
+      "local_path": "/code/riv/kyno/data/syllabus/grade-10/mathematics/caps-mathematics.pdf",
+      "downloaded_at": "2026-06-30T09:33:44.641000+00:00"
+    },
+    {
+      "title": "mathematics",
+      "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=ZX3jJwqKE2E%3d&tabid=3205&portalid=0&mid=10736&forcedownload=true",
+      "doc_type": "atp",
+      "local_path": "/code/riv/kyno/data/syllabus/grade-10/mathematics/atp-mathematics.pdf",
+      "downloaded_at": "2026-06-30T09:33:46.523033+00:00"
+    }
+  ]
+}

@@ -1,0 +1,452 @@
+{
+  "grade": 8,
+  "subject": "mathematics",
+  "curriculum": "CAPS",
+  "terms": [
+    {
+      "term": 1,
+      "weeks": [
+        {
+          "week": 1,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 2,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 3,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 4,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 5,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 6,
+          "topics": [
+            "WHOLE NUMBERS",
+            "COMMON FRACTIONS",
+            "Properties of whole",
+            "number divided by 0 is",
+            "properties of whole",
+            "numbers to at least 3digit whole numbers",
+            "numbers to at least 3digit whole numbers, by",
+            "operations with integers",
+            "operations with numbers",
+            "common fractions,",
+            "finding fractions of",
+            "whole numbers"
+          ],
+          "skills": []
+        },
+        {
+          "week": 8,
+          "topics": [
+            "DECIMAL FRACTIONS",
+            "comparing decimal",
+            "Divide whole numbers",
+            "and common fractions by",
+            "common fractions",
+            "numbers to common",
+            "fractions in order to",
+            "decimal fractions to",
+            "at least 3 decimal"
+          ],
+          "skills": []
+        },
+        {
+          "week": 9,
+          "topics": [
+            "decimal fractions to",
+            "at least 2 decimal",
+            "Division of decimal",
+            "fractions by decimal",
+            "decimal fractions",
+            "and geometric patterns",
+            "numbers, including",
+            "decimal fractions by",
+            "decimal fractions not",
+            "limited to one decimal"
+          ],
+          "skills": []
+        },
+        {
+          "week": 10,
+          "topics": [
+            "decimal fractions",
+            "common fractions,"
+          ],
+          "skills": []
+        },
+        {
+          "week": 7,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 11,
+          "topics": [
+            "difference or ratio",
+            "geometric patterns",
+            "numbers, including",
+            "patterns represented",
+            "algebraically",
+            "whole numbers, including",
+            "kind (ratio)",
+            "sharing in a given ratio",
+            "where the whole is",
+            "decreasing of a number",
+            "in a given ratio",
+            "involve whole numbers,",
+            "percentages and decimal",
+            "fractions in financial",
+            "multiple operations with",
+            "to write fractions in",
+            "equivalent fractions to",
+            "common fractions",
+            "decimal fractions to",
+            "at least 3 decimal",
+            "involving common fractions",
+            "and mixed numbers,",
+            "and finding fractions of",
+            "whole numbers",
+            "the number of decimal",
+            "finding percentages",
+            "of whole numbers",
+            "percentage of part of",
+            "percentage increase",
+            "between numbers in",
+            "algebraic language",
+            "division of decimal",
+            "fractions by whole",
+            "common fraction",
+            "fraction forms of the",
+            "common fraction,",
+            "decimal fraction",
+            "and percentage",
+            "given percentage",
+            "decimal fractions",
+            "Multiplication of whole",
+            "numbers to at least 12 \u00d7",
+            "numbers to at least 100",
+            "operations on whole",
+            "numbers, estimating and",
+            "Prime factors of numbers",
+            "to at least 3-digit whole",
+            "(fractions where one",
+            "common fraction and",
+            "decimal fraction forms",
+            "of the same number",
+            "decimal fraction and",
+            "percentage forms of",
+            "the same number",
+            "of fractions",
+            "backwards in decimals",
+            "fractions, including",
+            "mixed numbers",
+            "Rounding off decimal",
+            "subtraction of decimal",
+            "numbers to common",
+            "\uf0b7 Simplify fractions",
+            "percentage of part of a",
+            "decimal fractions by",
+            "whole numbers and",
+            "numbers to at least 3digit whole numbers, by",
+            "\uf0b7 Calculate percentage",
+            "Division of decimal",
+            "estimate the number of",
+            "decimal places in the"
+          ],
+          "skills": []
+        }
+      ]
+    },
+    {
+      "term": 2,
+      "weeks": [
+        {
+          "week": 1,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 2,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 3,
+          "topics": [
+            "representing numbers in",
+            "represent whole",
+            "numbers in exponential",
+            "numbers in scientific"
+          ],
+          "skills": []
+        },
+        {
+          "week": 5,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 4,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 6,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 8,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 9,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 10,
+          "topics": [
+            "FUNCTIONS AND",
+            "RELATIONSHIPS",
+            "Interpreting graphs",
+            "Algebraic language",
+            "algebraic expressions",
+            "Set up equations to",
+            "equations that describe a",
+            "Solve equations by",
+            "value of an equation by",
+            "formulae or equations",
+            "exponents in algebraic",
+            "equations to generate",
+            "Extend solving equations"
+          ],
+          "skills": []
+        },
+        {
+          "week": 7,
+          "topics": [
+            "patterns and",
+            "global graphs of problem",
+            "features of graphs to",
+            "Drawing graphs",
+            "Draw global graphs from",
+            "draw graphs on the",
+            "operations using",
+            "numbers involving",
+            "operations with numbers",
+            "numbers in exponential",
+            "whole numbers in",
+            "laws for rational numbers",
+            "roots of rational numbers",
+            "algebraic expressions",
+            "terms in algebraic",
+            "simplify algebraic",
+            "the above operations",
+            "algebraic terms or like",
+            "algebraic terms",
+            "value of algebraic",
+            "Write number sentences to",
+            "or rules for patterns",
+            "Set up equations to",
+            "number of factors",
+            "and/or equations",
+            "number sentences that",
+            "number sentences by",
+            "formulae or equations",
+            "by number sentences"
+          ],
+          "skills": []
+        }
+      ]
+    },
+    {
+      "term": 3,
+      "weeks": [
+        {
+          "week": 2,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 3,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 4,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 5,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 6,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 7,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 1,
+          "topics": [
+            "DATA HANDLING",
+            "GEOMETRY OF STRAIGHT LINES",
+            "GEOMETRY OF 2D SHAPES",
+            "Collect data",
+            "Classifying 2D shapes",
+            "economic, and environmental issues",
+            "collection of data (including peers,",
+            "appropriate) and record data using",
+            "Group data into intervals",
+            "Summarize data using measures of"
+          ],
+          "skills": []
+        },
+        {
+          "week": 9,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 10,
+          "topics": [
+            "FORMAL ASSESSMENT TASK",
+            "PROVIDE LEARNERS WITH",
+            "ACCURATELY CONSTRUCTED",
+            "FIGURES TO INVESTIGATE THE",
+            "PROPERTIES OF TRIANGLES",
+            "Organize and summarize data"
+          ],
+          "skills": []
+        },
+        {
+          "week": 8,
+          "topics": [
+            "Summarize data using measures of",
+            "Classifying 2D shapes",
+            "probability and:",
+            "probability and explain possible",
+            "determine the probability of each",
+            "definition of probability",
+            "PROVIDE LEARNERS WITH",
+            "ACCURATELY CONSTRUCTED",
+            "FIGURES TO INVESTIGATE THE",
+            "PROPERTIES OF",
+            "QUADRILATERALS",
+            "Similar and congruent 2D shapes",
+            "of congruent shapes",
+            "of similar shapes",
+            "Critically read and interpret data",
+            "double bar graphs",
+            "Critically analyse data by answering",
+            "data categories, including data",
+            "data sources and contexts",
+            "scales used on graphs",
+            "Summarize data in short paragraphs",
+            "the data making predictions based on",
+            "statistics for the data (mean, median,"
+          ],
+          "skills": []
+        }
+      ]
+    },
+    {
+      "term": 4,
+      "weeks": [
+        {
+          "week": 1,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 2,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 3,
+          "topics": [
+            "THEOREM OF PYTHAGORAS"
+          ],
+          "skills": []
+        },
+        {
+          "week": 4,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 5,
+          "topics": [
+            "TRANSFORMATION",
+            "irrational answers in surd",
+            "AREA AND PERIMETER OF",
+            "decimal places, by",
+            "SURFACE AREA AND",
+            "VOLUME OF 3-D OBJECTS"
+          ],
+          "skills": []
+        },
+        {
+          "week": 8,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 9,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 10,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 7,
+          "topics": [],
+          "skills": []
+        },
+        {
+          "week": 6,
+          "topics": [
+            "FORMAL ASSESSMENT TASK",
+            "least 2 decimal places",
+            "meaning of the irrational",
+            "number Pi (\u03c0) in calculations",
+            "shapes on squared paper",
+            "of shape and size",
+            "whole numbers",
+            "decimal place"
+          ],
+          "skills": []
+        }
+      ]
+    }
+  ],
+  "term_count": 4,
+  "week_count": 41,
+  "source_pdf": "/code/riv/kyno/data/syllabus/grade-8/mathematics/atp-mathematics-2026.pdf"
+}

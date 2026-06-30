@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "subject": "mathematics",
+    "grade": 6,
+    "term": 1,
+    "week": 1,
+    "day": 1,
+    "duration_minutes": 60,
+    "curriculum": "CAPS",
+    "sources": ["caps-mathematics.pdf", "atp-mathematics.pdf"]
+  },
+  "topic": "Whole numbers: place value, representing and ordering 6-digit numbers",
+  "learning_objectives": [
+    "Revise place value of digits in whole numbers up to 6 digits (hundred thousands to ones).",
+    "Read, write and represent 6-digit numbers in standard form, expanded notation and number words.",
+    "Order and compare 6-digit numbers using place value reasoning and symbols (<, =, >).",
+    "Identify the value of a given digit in a 6-digit number."
+  ],
+  "prior_knowledge": [
+    "Counting, ordering, comparing and representing 4- to 5-digit whole numbers (Grade 5).",
+    "Place value of digits in numbers up to 99 999.",
+    "Expanded notation for numbers up to 5 digits.",
+    "Using number lines, number grids and structured diagrams to represent numbers.",
+    "Odd and even numbers to at least 1 000."
+  ],
+  "lesson_flow": [
+    {
+      "phase": "starter",
+      "duration_minutes": 10,
+      "activity": "Mental mathematics warm-up: learners count forwards and backwards in 10s, 100s and 1 000s from varied starting points (not always multiples). Quick oral revision — state the value of the underlined digit in 4- and 5-digit numbers (e.g. 47 382; 128 905). Pair-share: one learner says a 5-digit number, partner states how many ten thousands, thousands, hundreds, tens and units it has.",
+      "teacher_notes": "CAPS recommends 10 minutes of mental mathematics daily. Keep number ranges at Grade 5 level for this starter; increase range only after learners show confidence. Use a number line or number grid on the board if learners need visual support."
+    },
+    {
+      "phase": "instruction",
+      "duration_minutes": 15,
+      "activity": "Introduce the 6-digit number range (0 to 999 999). Display a place value chart to hundred thousands. Model reading and writing numbers such as 384 726 and 605 091, including numbers with internal zeros. Demonstrate expanded notation (e.g. 384 726 = 300 000 + 80 000 + 4 000 + 700 + 20 + 6). Use Dienes blocks or place value cards to build one number physically, then write it in three forms: digits, words and expanded notation.",
+      "teacher_notes": "CAPS Term 1 allocates 2 hours to place value for 6-digit numbers across the term; Day 1 establishes the foundation. Emphasise that each place is ten times the place to its right. Link explicitly to Grade 5 work: 'We already know thousands — today we extend to hundred thousands.' Avoid introducing 7- to 9-digit numbers today."
+    },
+    {
+      "phase": "guided_practice",
+      "duration_minutes": 15,
+      "activity": "Whole-class and pair work: (1) Given 6-digit numbers on place value cards, learners arrange digits to make the largest and smallest possible number. (2) Compare pairs using <, = or > — e.g. 247 889 ___ 247 898; 395 431 ___ 395 413. (3) Place given numbers on a semi-structured number line (e.g. mark the number halfway between 471 340 and 471 350). (4) Fill in missing numbers in a sequence increasing by 1 000 or 10 000.",
+      "teacher_notes": "Compare digit by digit from left to right (hundred thousands first). When digits match, move to the next place. Use questioning: 'Which place value is different first?' Correct common errors with internal zeros (e.g. 605 091 vs 650 091)."
+    },
+    {
+      "phase": "independent_practice",
+      "duration_minutes": 15,
+      "activity": "Learners complete a worksheet with four sections: (A) Write 6-digit numbers from number words; (B) Write expanded notation for given numbers; (C) Order a set of six 6-digit numbers from smallest to largest; (D) Circle the greater number in each pair and justify in one sentence using place value.",
+      "teacher_notes": "Circulate and check that learners use place value language in justifications, not just 'because it looks bigger.' Support learners who struggle by giving them place value charts; extension learners may write two different 6-digit numbers that share the same thousands digit but differ in ten thousands."
+    },
+    {
+      "phase": "plenary",
+      "duration_minutes": 5,
+      "activity": "Exit ticket: (1) Write 562 408 in expanded notation. (2) Compare 784 109 and 785 190 using <, = or >. (3) One learner explains aloud how they knew which number was greater. Brief preview: tomorrow we extend representing and comparing to larger numbers and revisit counting in larger intervals.",
+      "teacher_notes": "Collect exit tickets to inform Day 2 grouping. Reinforce that all work this week builds toward ordering, comparing and representing numbers up to 9 digits (ATP Week 1), but today focused deliberately on secure 6-digit understanding per CAPS Term 1 pacing."
+    }
+  ],
+  "resources": [
+    "Place value chart (ones to hundred thousands)",
+    "Place value cards or flash cards",
+    "Dienes blocks (or base-ten material)",
+    "Structured and semi-structured number lines",
+    "Number grid",
+    "Whiteboard or chart paper",
+    "Day 1 worksheet (reading, writing, comparing 6-digit numbers)"
+  ],
+  "assessment": {
+    "formative": [
+      "Observe pair-share responses during the starter.",
+      "Monitor guided practice comparisons and number-line placement.",
+      "Mark exit ticket: expanded notation accuracy and correct use of <, =, >.",
+      "Listen for place value vocabulary during the plenary explanation."
+    ],
+    "success_criteria": [
+      "I can state the value of any digit in a 6-digit number.",
+      "I can write a 6-digit number in standard form, words and expanded notation.",
+      "I can order at least four 6-digit numbers from smallest to largest.",
+      "I can compare two 6-digit numbers using <, = or > and explain my reasoning."
+    ]
+  },
+  "differentiation": {
+    "support": [
+      "Provide a laminated place value chart for reference throughout the lesson.",
+      "Start comparisons with numbers that differ only in one place value column.",
+      "Use physical Dienes blocks before asking learners to write expanded notation.",
+      "Reduce worksheet to three items per section; allow oral responses where writing is a barrier."
+    ],
+    "extension": [
+      "Find all 6-digit numbers that can be made from the digits 3, 8, 4, 7, 2, 6 where no digit repeats; order them.",
+      "Write a 6-digit number where the sum of the digits is 30; explain your strategy.",
+      "Pose a number riddle: 'My hundred thousands digit is twice my tens digit; my thousands digit is 0…' for a partner to solve."
+    ]
+  },
+  "homework": "Write five 6-digit numbers of your own. For each: (a) write the number in words, (b) write expanded notation, (c) circle the digit in the ten thousands place. Order your five numbers from smallest to largest.",
+  "caps_alignment": {
+    "content_area": "Numbers, Operations and Relationships",
+    "atp_week_focus": "Week 1: Revision of Grade 5 work (integrated); whole numbers — counting, ordering, comparing, representing and place value (6–9-digit numbers). Day 1 addresses the CAPS Term 1 entry point of 6-digit place value, representing and ordering before extending to 9-digit numbers, prime numbers and rounding later in the week."
+  }
+}

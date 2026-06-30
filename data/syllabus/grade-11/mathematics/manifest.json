@@ -1,0 +1,22 @@
+{
+  "subject": "mathematics",
+  "grade": 11,
+  "year": 2026,
+  "phase": "fet",
+  "documents": [
+    {
+      "title": "mathematics",
+      "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=uXLZcIa67rE%3d&tabid=570&portalid=0&mid=1558&forcedownload=true",
+      "doc_type": "caps",
+      "local_path": "/code/riv/kyno/data/syllabus/grade-11/mathematics/caps-mathematics.pdf",
+      "downloaded_at": "2026-06-30T09:33:50.831031+00:00"
+    },
+    {
+      "title": "mathematics",
+      "url": "https://www.education.gov.za/LinkClick.aspx?fileticket=d9piy_Yst2E%3d&tabid=3205&portalid=0&mid=10752&forcedownload=true",
+      "doc_type": "atp",
+      "local_path": "/code/riv/kyno/data/syllabus/grade-11/mathematics/atp-mathematics.pdf",
+      "downloaded_at": "2026-06-30T09:33:52.525012+00:00"
+    }
+  ]
+}
