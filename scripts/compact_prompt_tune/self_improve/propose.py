@@ -17,6 +17,7 @@ from compact_prompt_tune.self_improve.context import (
     load_integrations,
     load_previous_delta,
     load_previous_handoff,
+    load_recent_accepted_tradeoffs,
     load_recent_reject_history,
     resolve_failure_report_path,
 )
@@ -37,8 +38,13 @@ from compact_prompt_tune.self_improve.prompts import (
     user_turn_diagnose,
     user_turn_patch,
     user_turn_plan,
+    user_turn_plan_correction,
 )
-from compact_prompt_tune.self_improve.log import info
+from compact_prompt_tune.self_improve.log import info, warn
+from compact_prompt_tune.self_improve.plan_align import (
+    is_plan_section_allowed,
+    plan_alignment_message,
+)
 from compact_prompt_tune.self_improve.state import iter_dir, load_meta, load_prompts
 
 
@@ -56,6 +62,7 @@ def run_propose_phases(
     failure_iter = iteration - 1 if iteration > 0 else base_iter
     previous_delta = load_previous_delta(run_id, iteration)
     recent_rejects = load_recent_reject_history(run_id, iteration)
+    recent_accepted_tradeoffs = load_recent_accepted_tradeoffs(run_id, iteration)
     prior_integrations = load_integrations(run_id)
     previous_handoff = load_previous_handoff(run_id, iteration)
     prior_report = None
@@ -85,6 +92,7 @@ def run_propose_phases(
         best_report=best_report,
         previous_delta=previous_delta,
         recent_rejects=recent_rejects,
+        recent_accepted_tradeoffs=recent_accepted_tradeoffs,
     )
 
     messages: list[dict[str, str]] = [{"role": "system", "content": SYSTEM_PROMPT}]
@@ -128,7 +136,35 @@ def run_propose_phases(
             max_completion_tokens=PHASE_MAX_COMPLETION_TOKENS["plan"],
             temperature=PHASE_TEMPERATURE["plan"],
         )
+        plan_alignment_warning: str | None = None
+        if not is_plan_section_allowed(diagnosis, plan):
+            recommended = str(diagnosis.get("recommended_focus", "")).strip()
+            actual = str(plan.get("target_section", "")).strip()
+            warn(
+                "iter %d: plan mismatch recommended=%r target=%r — retrying",
+                iteration,
+                recommended,
+                actual,
+            )
+            messages.append(
+                {
+                    "role": "user",
+                    "content": user_turn_plan_correction(recommended, actual),
+                }
+            )
+            _, plan, messages = groq_thread_turn(
+                messages=messages,
+                response_schema=PHASE_SCHEMAS["plan"],
+                schema_name="plan",
+                max_completion_tokens=PHASE_MAX_COMPLETION_TOKENS["plan"],
+                temperature=PHASE_TEMPERATURE["plan"],
+            )
+            if not is_plan_section_allowed(diagnosis, plan):
+                plan_alignment_warning = plan_alignment_message(diagnosis, plan)
+                warn("iter %d: plan still misaligned: %s", iteration, plan_alignment_warning)
         results["plan"] = plan
+        if plan_alignment_warning:
+            results["plan_alignment_warning"] = plan_alignment_warning
         (iter_path / "plan.json").write_text(json.dumps(plan, indent=2) + "\n", encoding="utf-8")
         save_messages(iter_path / "messages.jsonl", messages)
         info(
@@ -165,6 +201,14 @@ def run_propose_phases(
             temperature=PHASE_TEMPERATURE["patch"],
         )
         patch["target_section"] = target_section
+        if str(patch.get("target_section", "")) != str(plan.get("target_section", "")):
+            warn(
+                "iter %d: patch target_section=%r != plan target_section=%r; using plan",
+                iteration,
+                patch.get("target_section"),
+                plan.get("target_section"),
+            )
+            patch["target_section"] = target_section
         results["patch"] = patch
         (iter_path / "patch.json").write_text(json.dumps(patch, indent=2) + "\n", encoding="utf-8")
         save_messages(iter_path / "messages.jsonl", messages)

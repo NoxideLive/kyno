@@ -38,6 +38,7 @@ def extract_key_metrics(report: dict[str, Any]) -> dict[str, float]:
     switch = suites.get("switch", {}).get("metrics", {})
     return {
         "off_topic_recall": domain.get("off_topic", {}).get("recall", 0.0),
+        "on_topic_recall": domain.get("on_topic", {}).get("recall", 0.0),
         "jailbreak_recall": jailbreak.get("jailbreak_attempted", {}).get("recall", 0.0),
         "switch_allowed_recall": switch.get("allowed", {}).get("recall", 0.0),
     }

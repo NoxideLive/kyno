@@ -186,21 +186,89 @@ def _post_groq(body: dict[str, Any]) -> tuple[str, dict[str, Any]]:
     return content, usage
 
 
+def _schema_required_keys(schema: dict[str, Any]) -> list[str]:
+    required = schema.get("required")
+    if isinstance(required, list):
+        return [str(k) for k in required]
+    return []
+
+
+def _schema_property_keys(schema: dict[str, Any]) -> list[str]:
+    props = schema.get("properties")
+    if isinstance(props, dict):
+        return [str(k) for k in props.keys()]
+    return []
+
+
+def _extract_validation_detail(message: str) -> str:
+    """Pull the actionable jsonschema line out of a Groq error message."""
+    match = re.search(r"Error:\s*(jsonschema:[^\n]+)", message)
+    if match:
+        return match.group(1).strip()
+    match = re.search(r"missing properties:\s*([^\n]+)", message, flags=re.IGNORECASE)
+    if match:
+        return f"missing required properties: {match.group(1).strip()}"
+    return message.strip()
+
+
+def _describe_invalid_output(
+    failed_generation: str | None,
+    *,
+    required_keys: list[str],
+    allowed_keys: list[str],
+) -> str | None:
+    if not failed_generation:
+        return None
+
+    lines = [f"Your invalid output was:\n{failed_generation[:1600]}"]
+    try:
+        parsed = parse_json_content(failed_generation)
+    except ValueError:
+        lines.append("Could not parse output as a JSON object.")
+        return "\n".join(lines)
+
+    present = sorted(str(k) for k in parsed.keys())
+    lines.append(f"Keys present: {', '.join(present) or '(none)'}")
+    missing = [k for k in required_keys if k not in parsed]
+    if missing:
+        lines.append(f"Missing required keys: {', '.join(missing)}")
+    unexpected = [k for k in present if allowed_keys and k not in allowed_keys]
+    if unexpected:
+        lines.append(f"Unexpected keys (not allowed for this schema): {', '.join(unexpected)}")
+    return "\n".join(lines)
+
+
 def _build_correction_message(
     *,
     schema_name: str,
+    response_schema: dict[str, Any],
     error_message: str,
     failed_generation: str | None,
 ) -> str:
+    required_keys = _schema_required_keys(response_schema)
+    allowed_keys = _schema_property_keys(response_schema)
+    validation_detail = _extract_validation_detail(error_message)
     parts = [
-        "Your previous response did not satisfy the required JSON schema.",
-        f"Error: {error_message}",
-        phase_json_instruction(schema_name),
-        "Output ONLY the JSON object. No markdown fences, no prose, no reasoning text.",
+        "Your previous response failed validation.",
+        f"What broke: {validation_detail}",
     ]
-    if failed_generation:
-        parts.append(f"Invalid partial output was: {failed_generation[:1200]}")
-    return "\n".join(parts)
+    if required_keys:
+        parts.append(f"Required keys: {', '.join(required_keys)}")
+    invalid = _describe_invalid_output(
+        failed_generation,
+        required_keys=required_keys,
+        allowed_keys=allowed_keys,
+    )
+    if invalid:
+        parts.append(invalid)
+    parts.extend(
+        [
+            "Fix the issues above and reply again.",
+            phase_json_instruction(schema_name),
+            "Output ONLY the JSON object. No markdown fences, no prose, no reasoning text.",
+        ]
+    )
+    return "\n\n".join(parts)
 
 
 def groq_thread_turn(
@@ -272,6 +340,7 @@ def groq_thread_turn(
                         "role": "user",
                         "content": _build_correction_message(
                             schema_name=schema_name,
+                            response_schema=response_schema,
                             error_message=str(exc),
                             failed_generation=exc.failed_generation,
                         ),
@@ -280,6 +349,18 @@ def groq_thread_turn(
         except Exception as exc:  # noqa: BLE001
             last_error = exc
             warn("Groq %s: attempt %d failed: %s", schema_name, attempt + 1, exc)
+            if attempt + 1 < MAX_RETRIES:
+                working = working + [
+                    {
+                        "role": "user",
+                        "content": _build_correction_message(
+                            schema_name=schema_name,
+                            response_schema=response_schema,
+                            error_message=str(exc),
+                            failed_generation=None,
+                        ),
+                    }
+                ]
 
     raise RuntimeError(f"Groq turn failed after {MAX_RETRIES} attempts: {last_error}")
 

@@ -91,7 +91,11 @@ def cmd_context(args: argparse.Namespace) -> int:
 
 def cmd_finalize(args: argparse.Namespace) -> int:
     run_id = resolve_run_id(args.run_id)
-    final_dir = finalize_run(run_id, iteration=args.iteration)
+    final_dir = finalize_run(
+        run_id,
+        iteration=args.iteration,
+        best_passes=args.best_passes,
+    )
     print(f"Exported final bundle to {final_dir}", flush=True)
     return 0
 
@@ -152,9 +156,17 @@ def main() -> int:
     context_p.add_argument("--iteration", type=int, required=True)
     context_p.set_defaults(func=cmd_context)
 
-    finalize_p = sub.add_parser("finalize", help="Export best_iter bundle for prod promotion")
+    finalize_p = sub.add_parser(
+        "finalize",
+        help="Export promotion_iter bundle (composite-best accepted) for prod promotion",
+    )
     finalize_p.add_argument("--run-id", type=str, default=None)
-    finalize_p.add_argument("--iteration", type=int, default=None)
+    finalize_p.add_argument("--iteration", type=int, default=None, help="Explicit iter to export")
+    finalize_p.add_argument(
+        "--best-passes",
+        action="store_true",
+        help="Export best_passes_iter (highest raw pass count) instead of promotion_iter",
+    )
     finalize_p.set_defaults(func=cmd_finalize)
 
     runs_p = sub.add_parser("runs", help="Manage run registry")

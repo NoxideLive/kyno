@@ -93,6 +93,69 @@ def load_recent_reject_history(
     return rejects
 
 
+def load_recent_accepted_tradeoffs(
+    run_id: str,
+    iteration: int,
+    *,
+    max_items: int = 2,
+) -> list[dict[str, Any]]:
+    """Accepted iterations with collateral_warnings or significant metric/pattern loss."""
+    entries: list[dict[str, Any]] = []
+    for prev in range(iteration - 1, -1, -1):
+        if len(entries) >= max_items:
+            break
+        handoff_path = iter_dir(run_id, prev) / "handoff.json"
+        if not handoff_path.is_file():
+            continue
+        handoff = json.loads(handoff_path.read_text(encoding="utf-8"))
+        if not handoff.get("accepted", False):
+            continue
+        warnings = handoff.get("collateral_warnings") or []
+        tradeoffs = handoff.get("tradeoffs") or {}
+        lost_metrics = (tradeoffs.get("lost") or {}).get("key_metrics_delta") or {}
+        lost_patterns = (tradeoffs.get("lost") or {}).get("patterns") or {}
+        if not warnings and not lost_metrics and not lost_patterns:
+            continue
+        delta_path = iter_dir(run_id, prev) / "delta.json"
+        delta = (
+            json.loads(delta_path.read_text(encoding="utf-8"))
+            if delta_path.is_file()
+            else {}
+        )
+        entries.append({"iteration": prev, "handoff": handoff, "delta": delta})
+    return entries
+
+
+def format_accepted_tradeoffs(entries: list[dict[str, Any]]) -> str:
+    if not entries:
+        return "(none — no accepted iterations with collateral tradeoffs)"
+    lines: list[str] = []
+    for entry in entries:
+        iteration = entry.get("iteration")
+        handoff = entry.get("handoff") or {}
+        tradeoffs = handoff.get("tradeoffs") or {}
+        what_changed = handoff.get("what_changed") or {}
+        lines.append(f"## Accepted iter-{iteration} (collateral tradeoff)")
+        lines.append(f"section: {what_changed.get('prompt_section', '')}")
+        lines.append(f"patch: {what_changed.get('prompt_summary', '')}")
+        gained = tradeoffs.get("gained") or {}
+        lost = tradeoffs.get("lost") or {}
+        if gained.get("key_metrics_delta"):
+            lines.append(f"gained_metrics: {gained['key_metrics_delta']}")
+        if lost.get("key_metrics_delta"):
+            lines.append(f"lost_metrics: {lost['key_metrics_delta']}")
+        if lost.get("patterns"):
+            parts = [f"{p}: +{c}" for p, c in sorted(lost["patterns"].items(), key=lambda x: -x[1])]
+            lines.append(f"lost_patterns: {', '.join(parts[:6])}")
+        for warning in handoff.get("collateral_warnings") or []:
+            lines.append(f"warning: {warning}")
+        for item in handoff.get("do_not_repeat") or []:
+            if "collateral" in item.lower() or "Do not repeat" in item:
+                lines.append(f"do_not_repeat: {item}")
+        lines.append("")
+    return "\n".join(lines).strip()
+
+
 def _failures_by_id(report_path: Path) -> dict[str, dict[str, Any]]:
     report = json.loads(report_path.read_text(encoding="utf-8"))
     return {str(f["id"]): f for f in report.get("failures", [])}
@@ -332,6 +395,7 @@ def build_context_xml(
     best_report: dict[str, Any] | None = None,
     previous_delta: dict[str, Any] | None = None,
     recent_rejects: list[dict[str, Any]] | None = None,
+    recent_accepted_tradeoffs: list[dict[str, Any]] | None = None,
 ) -> str:
     baseline_report_path = base_iter_path / "report.json"
     baseline_report = json.loads(baseline_report_path.read_text(encoding="utf-8"))
@@ -367,6 +431,12 @@ def build_context_xml(
             f"<recent_reject_history>\n{recent_reject_block}\n</recent_reject_history>"
         )
 
+    tradeoff_block = format_accepted_tradeoffs(recent_accepted_tradeoffs or [])
+    if recent_accepted_tradeoffs:
+        blocks.append(
+            f"<accepted_tradeoffs>\n{tradeoff_block}\n</accepted_tradeoffs>"
+        )
+
     blocks.append(
         f"<scores accepted_baseline>\n{build_scores_block(baseline_report, prior_report=prior_report, best_report=best_report)}\n</scores>"
     )
@@ -380,6 +450,12 @@ def build_context_xml(
         regression = build_regression_focus(failure_report_path, previous_delta)
         if regression:
             blocks.append(f"<regression_focus>\n{regression}\n</regression_focus>")
+    elif previous_delta and previous_handoff and previous_handoff.get("accepted", True):
+        regression = build_regression_focus(failure_report_path, previous_delta)
+        if regression and (previous_handoff.get("collateral_warnings") or previous_handoff.get("tradeoffs")):
+            blocks.append(
+                f"<regression_focus accepted_collateral=\"true\">\n{regression}\n</regression_focus>"
+            )
 
     blocks.append(
         f"<failure_clusters source_iter=\"{failure_iter}\">\n"
@@ -483,7 +559,7 @@ def load_integrations(run_id: str) -> list[dict[str, Any]]:
 
 
 def load_best_report(run_id: str, meta: dict[str, Any]) -> dict[str, Any] | None:
-    best_iter = meta.get("best_iter")
+    best_iter = meta.get("best_passes_iter", meta.get("best_iter"))
     if best_iter is None:
         return None
     path = iter_dir(run_id, int(best_iter)) / "report.json"

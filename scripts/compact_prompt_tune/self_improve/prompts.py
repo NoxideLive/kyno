@@ -76,6 +76,9 @@ Example:
     "plan": """\
 Required keys: target_section, strategy, expected_impact, risk, max_items_to_add (integer 1-8).
 target_section: exactly one key from editable_sections.
+target_section MUST equal recommended_focus from your diagnosis UNLESS top_pattern is switch-specific
+and you target jailbreak.conversation_examples (jailbreak block) or domain.conversation_examples (off_topic block).
+When overriding, strategy MUST explain why recommended_focus is insufficient.
 When <recent_reject_history> lists regressions: strategy MUST address those regressed patterns explicitly.
 If targeting a section listed in do_not_repeat: strategy must differ materially from prior rejected attempts.
 Example:
@@ -117,10 +120,20 @@ remove_texts: [] if none. expected_fixes: case id strings.
 Example overlay prepend:
 {"target_section":"domain.off_topic","operation":"prepend","add":[{"text":"Grade 8 Mathematical Literacy fractions","label":"off_topic"}],"remove_texts":[],"rationale":"Math Lit FN","expected_fixes":["dom-0042"],"risk":"low"}"""
 
+PATCH_RULES_JSON_INSTRUCTIONS = """\
+Required keys: target_section, operation, content, rationale, expected_fixes, risk.
+operation: always "replace" for compact_rules.
+content: full replacement compact_rules text (≤1800 chars). Do NOT use add or remove_texts.
+expected_fixes: case id strings.
+Example compact_rules replace:
+{"target_section":"domain.compact_rules","operation":"replace","content":"STEP 1 (language): ...\\nSTEP 2 (hard gates): ...","rationale":"tighten English gate","expected_fixes":["dom-0042"],"risk":"medium"}"""
+
 
 def phase_json_instruction(schema_name: str) -> str:
     if schema_name in PHASE_JSON_INSTRUCTIONS:
         return PHASE_JSON_INSTRUCTIONS[schema_name]
+    if schema_name in {"patch_domain_compact_rules", "patch_jailbreak_compact_rules"}:
+        return PATCH_RULES_JSON_INSTRUCTIONS
     if schema_name.startswith("patch_"):
         return PATCH_JSON_INSTRUCTIONS
     return JSON_OUTPUT_RULES
@@ -406,9 +419,25 @@ Do not write the patch yet.
 Reply with ONE JSON object only — all five keys required."""
 
 
+def user_turn_plan_correction(recommended_focus: str, actual_section: str) -> str:
+    return f"""<phase>2 PLAN</phase>
+Your previous plan chose target_section={actual_section!r} but recommended_focus was {recommended_focus!r}.
+Revise the plan: target_section MUST equal recommended_focus unless top_pattern is switch-specific
+and you target jailbreak.conversation_examples or domain.conversation_examples with strategy explaining the override.
+<json_schema name="plan">
+{PHASE_JSON_INSTRUCTIONS["plan"]}
+</json_schema>
+Reply with ONE JSON object only — all five keys required."""
+
+
 def user_turn_patch(plan_json: str, section: str, section_content: str, target_failures: str) -> str:
     rules = SECTION_RULES.get(section, "")
     schema_name = f"patch_{section.replace('.', '_')}"
+    patch_instructions = (
+        PATCH_RULES_JSON_INSTRUCTIONS
+        if section in RULES_SECTIONS
+        else PATCH_JSON_INSTRUCTIONS
+    )
     return f"""<phase>3 PATCH</phase>
 <plan>{plan_json}</plan>
 <section_rules variant="{section}">{rules}</section_rules>
@@ -417,7 +446,7 @@ def user_turn_patch(plan_json: str, section: str, section_content: str, target_f
 {section_content}
 </current_section>
 <json_schema name="{schema_name}">
-{PATCH_JSON_INSTRUCTIONS}
+{patch_instructions}
 </json_schema>
 Reply with ONE JSON object only — all required keys."""
 

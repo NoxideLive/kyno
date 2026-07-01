@@ -6,6 +6,11 @@ import json
 from pathlib import Path
 from typing import Any
 
+from compact_prompt_tune.self_improve.delta import (
+    collateral_metric_regressions,
+    collateral_pattern_regressions,
+)
+
 
 def build_handoff(
     *,
@@ -22,10 +27,43 @@ def build_handoff(
     pattern_deltas = delta.get("pattern_deltas", {})
     improved_patterns = {k: v for k, v in pattern_deltas.items() if v < 0}
     regressed_patterns = {k: v for k, v in pattern_deltas.items() if v > 0}
+    key_metrics_delta = delta.get("key_metrics_delta", {})
 
     do_not_repeat: list[str] = []
     if not accepted or verdict in ("not_improved", "rejected"):
         do_not_repeat.append(patch_summary or f"Unchanged retry of {target_section}")
+
+    collateral_warnings: list[str] = []
+    metric_losses = collateral_metric_regressions(delta, threshold=0.04)
+    pattern_losses = collateral_pattern_regressions(delta, threshold=3)
+
+    if accepted and (metric_losses or pattern_losses):
+        warning = (
+            f"{patch_summary}: accepted with collateral regressions "
+            f"(metrics={metric_losses}, patterns={pattern_losses})"
+        )
+        collateral_warnings.append(warning)
+        do_not_repeat.append(
+            f"Do not repeat {target_section} without fixing collateral: "
+            + ", ".join(metric_losses.keys())
+            if metric_losses
+            else f"Do not repeat {target_section} without addressing pattern regressions"
+        )
+
+    tradeoffs = {
+        "gained": {
+            "patterns": improved_patterns,
+            "key_metrics_delta": {
+                k: v for k, v in key_metrics_delta.items() if v > 0
+            },
+        },
+        "lost": {
+            "patterns": regressed_patterns,
+            "key_metrics_delta": {
+                k: v for k, v in key_metrics_delta.items() if v < 0
+            },
+        },
+    }
 
     lessons = patch.get("rationale", "") if patch else ""
     if regressed_patterns:
@@ -47,19 +85,22 @@ def build_handoff(
         "what_improved": {
             "patterns": improved_patterns,
             "sample_fixed_ids": delta.get("sample_fixed_ids", []),
-            "key_metrics_delta": delta.get("key_metrics_delta", {}),
+            "key_metrics_delta": key_metrics_delta,
         },
         "what_regressed": {
             "patterns": regressed_patterns,
             "sample_regressed_ids": delta.get("sample_regressed_ids", []),
-            "key_metrics_delta": delta.get("key_metrics_delta", {}),
+            "key_metrics_delta": key_metrics_delta,
         },
         "overall_delta": {
             "passed": delta.get("passed_delta", 0),
             "cases": delta.get("cases_delta", 0),
+            "pass_rate_delta": delta.get("pass_rate_delta", 0),
         },
         "verdict_reason": verdict_reason,
         "do_not_repeat": do_not_repeat,
+        "collateral_warnings": collateral_warnings,
+        "tradeoffs": tradeoffs,
         "lessons_for_next_iter": lessons,
     }
 
@@ -93,6 +134,7 @@ def write_changelog(
         "## Overall delta",
         "",
         f"- Passed delta: {handoff.get('overall_delta', {}).get('passed'):+d}",
+        f"- Pass rate delta: {handoff.get('overall_delta', {}).get('pass_rate_delta', 0):+.1%}",
         f"- Reason: {handoff.get('verdict_reason')}",
         "",
     ]
@@ -108,6 +150,11 @@ def write_changelog(
         lines.extend(["", "## Regressions", ""])
         for pattern, count in regressed.items():
             lines.append(f"- {pattern}: +{count}")
+
+    if handoff.get("collateral_warnings"):
+        lines.extend(["", "## Collateral warnings", ""])
+        for item in handoff["collateral_warnings"]:
+            lines.append(f"- {item}")
 
     if handoff.get("do_not_repeat"):
         lines.extend(["", "## Do not repeat", ""])

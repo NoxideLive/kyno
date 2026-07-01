@@ -62,6 +62,10 @@ set -a && source .env.local && set +a
 | `PHI_GATEWAY_PROFILE` | Yes (gateway) | Must be `small` for self-improve |
 | `SELF_IMPROVE_GROQ_MODEL` | No | Default `openai/gpt-oss-20b` |
 | `SELF_IMPROVE_GROQ_REASONING_EFFORT` | No | Default `medium` (`low` \| `medium` \| `high`) |
+| `SELF_IMPROVE_MAX_METRIC_REGRESSION` | No | Accept gate: max key metric drop (default `0.08`) |
+| `SELF_IMPROVE_MAX_PATTERN_REGRESSION` | No | Max non-target pattern increase (default `5`) |
+| `SELF_IMPROVE_MAX_PASS_RATE_REGRESSION` | No | Max pass-rate drop (default `0.015`) |
+| `SELF_IMPROVE_MIN_PASS_RATE_IMPROVEMENT` | No | Pass-rate gain for overall accept (default `0.015`) |
 
 See [`.env.example`](../.env.example) for the full gateway block.
 
@@ -162,16 +166,37 @@ Verbose Groq logging: add `-v` to `run` or `iteration`.
 2. Groq thread: **Diagnose → Plan → Patch → Curate bench** (4 API calls, one accumulating thread)
 3. Apply patch + bench curation to working copy
 4. Sync prompts to gateway test files → reload (`compact_test=true`) → run 600-case bench → restore prod mode
-5. Accept/reject (pattern-primary gate)
+5. Accept/reject (multi-metric gate with regression budget)
 6. Write immutable `iter-{N}/` + update `meta.json`
 
-### Accept gate (pattern-primary)
+### Accept gate
 
-Accept if any of:
+**Regression budget (hard reject)** — checked before any accept path:
 
-- Target pattern count decreased by ≥5 cases
-- Key metric for target section improved ≥3pp
-- Overall `passed` improved by ≥3 with no single pattern regression >3
+- Any key metric drops **>8pp** (`off_topic`, `on_topic`, `jailbreak`, `switch_allowed`)
+- Any **non-target** failure pattern increases by **>5** cases
+- Pass **rate** drops **>1.5pp** (normalized for bench size changes)
+
+**Accept** if budget passes and any of:
+
+- Target pattern count decreased by **≥5** cases
+- Key metric for **target section** improved **≥3pp** (correct section→metric mapping)
+- Overall pass **rate** improved **≥1.5pp** with no single pattern regression **>3**
+
+Plan phase must match `recommended_focus` unless top_pattern is switch-specific (one Groq retry enforced in code).
+
+Accepted iterations with collateral damage add `do_not_repeat` entries and appear in `<accepted_tradeoffs>` for later iters.
+
+### Promotion ranking (`meta.json`)
+
+| Field | Meaning |
+|-------|---------|
+| `latest_accepted_iter` | Prompt/bench chain pointer for next iteration |
+| `best_passes_iter` | Highest raw `passed` count (legacy `best_iter`) |
+| `promotion_iter` | Highest **composite score** among accepted iters |
+| `composite_scores` | Per-iter score map |
+
+Composite score (default weights): `0.4×pass_rate + 0.25×switch + 0.20×off_topic + 0.15×jailbreak`
 
 ### Stop conditions
 
@@ -190,8 +215,9 @@ After a reject, the next iteration diagnoses from the **last attempt**, not the 
 | Prompts + bench copy | `iter-{latest_accepted_iter}/` |
 | `<scores accepted_baseline>` | Accepted baseline report |
 | `<failure_clusters>` | **`iter-{iteration-1}/report.json`** |
-| `<regression_focus>` | Last attempt `delta.json` when previous iter rejected |
+| `<regression_focus>` | Last attempt `delta.json` when previous iter rejected or accepted with collateral |
 | `<recent_reject_history>` | Last 2–3 rejected iters |
+| `<accepted_tradeoffs>` | Last 2 accepted iters with collateral metric/pattern regressions |
 | `<last_attempt_scores>` | Last attempt report when it differs from baseline |
 
 Inspect what Groq will see:
@@ -218,7 +244,7 @@ Root: `data/domain/bench/self-improve/` (local only, gitignored)
 |------|---------|
 | `runs.jsonl` | Registry of all runs |
 | `active_run.json` | Default run when `--run-id` omitted |
-| `runs/{run-id}/meta.json` | `latest_iter`, `latest_accepted_iter`, `best_iter`, `consecutive_rejects` |
+| `runs/{run-id}/meta.json` | `latest_iter`, `latest_accepted_iter`, `best_passes_iter`, `promotion_iter`, `composite_scores` |
 | `runs/{run-id}/lineage.jsonl` | Append-only iteration chain |
 | `runs/{run-id}/integration_history.jsonl` | Prior integration verdicts for Groq context |
 | `runs/{run-id}/iter-{N}/` | Immutable snapshot |
@@ -242,9 +268,17 @@ Rejected iterations are fully saved but `latest_accepted_iter` does not advance.
 
 ## Manual promotion
 
-After `finalize`:
+After `finalize` (exports **`promotion_iter`** by default — composite-best among accepted):
 
-1. Review `final/manifest.json` and `final/report.json`
+```bash
+python3 scripts/run_self_improve_bench.py finalize --run-id caps-compact-v2
+# Highest raw pass count instead:
+python3 scripts/run_self_improve_bench.py finalize --run-id caps-compact-v2 --best-passes
+# Explicit iter:
+python3 scripts/run_self_improve_bench.py finalize --run-id caps-compact-v2 --iteration 2
+```
+
+1. Review `final/manifest.json` and `final/report.json` (`export_iter`, `composite_score`, key metrics)
 2. Copy `final/prompts/overlay.json` → `data/domain/compact_prompt_overlay.json` (and rules if changed)
 3. Optionally merge `final/bench/` into `data/domain/bench/`
 4. Reload gateway and run prod bench:
@@ -264,7 +298,7 @@ python3 scripts/run_self_improve_bench.py run [--run-id ID] [--max-iterations N]
 python3 scripts/run_self_improve_bench.py iteration --number N [--run-id ID] [--force] [-v]
 python3 scripts/run_self_improve_bench.py status [--run-id ID]
 python3 scripts/run_self_improve_bench.py context --iteration N [--run-id ID]
-python3 scripts/run_self_improve_bench.py finalize [--run-id ID] [--iteration N]
+python3 scripts/run_self_improve_bench.py finalize [--run-id ID] [--iteration N] [--best-passes]
 python3 scripts/run_self_improve_bench.py runs list
 python3 scripts/run_self_improve_bench.py runs use --run-id ID
 ```
@@ -295,6 +329,14 @@ Gateway `PHI_CLASSIFY_CONCURRENCY=1` serializes classify on ~4 GiB GPUs; bench u
 | Run stops immediately, 0 iterations | `consecutive_rejects >= 3` in `meta.json`; fork with `--seed-run` or reset run |
 | `run` continues wrong run | Check `active_run.json` or pass `--run-id`; use `runs use` |
 | Incomplete iter (no `report.json`) | `run --force` to retry that iteration |
+| Accepted but overall score down | Regression budget may be too loose; check `status` → `ranking`; use `finalize --best-passes` for max passes |
+| `finalize` exports iter-0 not latest accepted | Default is `promotion_iter` (composite); use `--iteration` or check `promotion_iter` in `status` |
+
+### Tests
+
+```bash
+cd scripts && python3 -m unittest compact_prompt_tune.self_improve.test_delta -v
+```
 
 ---
 

@@ -34,7 +34,12 @@ from compact_prompt_tune.self_improve.context import (
     load_recent_reject_history,
     resolve_failure_report_path,
 )
-from compact_prompt_tune.self_improve.delta import compute_delta, compute_verdict, evaluate_accept
+from compact_prompt_tune.self_improve.delta import (
+    compute_composite_score,
+    compute_delta,
+    compute_verdict,
+    evaluate_accept,
+)
 from compact_prompt_tune.self_improve.groq_client import load_groq_key_from_env_file
 from compact_prompt_tune.self_improve.log import info, warn
 from compact_prompt_tune.self_improve.propose import (
@@ -71,6 +76,45 @@ from compact_prompt_tune.state import extract_key_metrics
 MAX_PROMPT_CHARS = 8000
 DEFAULT_MAX_ITERATIONS = 5
 MAX_CONSECUTIVE_REJECTS = 3
+
+
+def _resolve_best_passes_iter(meta: dict[str, Any]) -> int:
+    return int(meta.get("best_passes_iter", meta.get("best_iter", 0)))
+
+
+def _resolve_promotion_iter(meta: dict[str, Any]) -> int:
+    return int(meta.get("promotion_iter", meta.get("latest_accepted_iter", 0)))
+
+
+def _update_iteration_ranking(
+    meta: dict[str, Any],
+    *,
+    run_id: str,
+    iteration: int,
+    report: dict[str, Any],
+    accepted: bool,
+) -> None:
+    composite_scores: dict[str, float] = dict(meta.get("composite_scores") or {})
+    score = compute_composite_score(report)
+    composite_scores[str(iteration)] = score
+    meta["composite_scores"] = composite_scores
+
+    current_passed = int(report.get("totals", {}).get("passed", 0))
+    best_passes_iter = _resolve_best_passes_iter(meta)
+    best_report_path = iter_dir(run_id, best_passes_iter) / "report.json"
+    best_passed = 0
+    if best_report_path.is_file():
+        best_report = json.loads(best_report_path.read_text(encoding="utf-8"))
+        best_passed = int(best_report.get("totals", {}).get("passed", 0))
+    if current_passed > best_passed:
+        meta["best_passes_iter"] = iteration
+        meta["best_iter"] = iteration
+
+    if accepted:
+        promo_iter = _resolve_promotion_iter(meta)
+        promo_score = float(composite_scores.get(str(promo_iter), 0.0))
+        if score >= promo_score:
+            meta["promotion_iter"] = iteration
 
 
 def _patch_summary(patch: dict[str, Any]) -> str:
@@ -144,6 +188,7 @@ def init_run(
         prompt_chars=int(manifest.get("total_prompt_chars", 0)),
     )
 
+    baseline_score = compute_composite_score(report)
     meta = {
         "run_id": rid,
         "created_at": datetime.now(timezone.utc).isoformat(),
@@ -151,6 +196,9 @@ def init_run(
         "latest_iter": 0,
         "latest_accepted_iter": 0,
         "best_iter": 0,
+        "best_passes_iter": 0,
+        "promotion_iter": 0,
+        "composite_scores": {"0": baseline_score},
         "seed_run_id": seed_run_id,
         "imported_history": imported_history,
         "consecutive_rejects": 0,
@@ -502,23 +550,16 @@ def run_single_iteration(
     write_changelog(iter_path, handoff=handoff, diagnosis=diagnosis, plan=plan)
 
     meta["latest_iter"] = next_iter
+    _update_iteration_ranking(
+        meta,
+        run_id=run_id,
+        iteration=next_iter,
+        report=report,
+        accepted=accepted,
+    )
     if accepted:
         meta["latest_accepted_iter"] = next_iter
         meta["consecutive_rejects"] = 0
-        best_iter = int(meta.get("best_iter", 0))
-        best_report_path = iter_dir(run_id, best_iter) / "report.json"
-        best_passed = 0
-        best_switch = 0.0
-        if best_report_path.is_file():
-            best_report = json.loads(best_report_path.read_text(encoding="utf-8"))
-            best_passed = int(best_report.get("totals", {}).get("passed", 0))
-            best_switch = extract_key_metrics(best_report).get("switch_allowed_recall", 0.0)
-        current_passed = int(report.get("totals", {}).get("passed", 0))
-        current_switch = extract_key_metrics(report).get("switch_allowed_recall", 0.0)
-        if current_passed > best_passed or (
-            current_passed == best_passed and current_switch > best_switch
-        ):
-            meta["best_iter"] = next_iter
     else:
         meta["consecutive_rejects"] = int(meta.get("consecutive_rejects", 0)) + 1
 
@@ -615,9 +656,15 @@ def finalize_run(
     run_id: str,
     *,
     iteration: int | None = None,
+    best_passes: bool = False,
 ) -> Path:
     meta = load_meta(run_id)
-    export_iter = iteration if iteration is not None else int(meta.get("best_iter", 0))
+    if iteration is not None:
+        export_iter = iteration
+    elif best_passes:
+        export_iter = _resolve_best_passes_iter(meta)
+    else:
+        export_iter = _resolve_promotion_iter(meta)
     source = iter_dir(run_id, export_iter)
     if not source.is_dir():
         raise FileNotFoundError(f"iter-{export_iter}/ not found for run {run_id}")
@@ -639,9 +686,14 @@ def finalize_run(
         shutil.copy2(handoff_path, final_dir / "handoff.json")
 
     report = json.loads(report_path.read_text(encoding="utf-8")) if report_path.is_file() else {}
+    composite_scores = meta.get("composite_scores") or {}
     manifest = {
         "run_id": run_id,
-        "best_iter": export_iter,
+        "export_iter": export_iter,
+        "promotion_iter": _resolve_promotion_iter(meta),
+        "best_passes_iter": _resolve_best_passes_iter(meta),
+        "latest_accepted_iter": int(meta.get("latest_accepted_iter", 0)),
+        "composite_score": composite_scores.get(str(export_iter)),
         "passed": report.get("totals", {}).get("passed", 0),
         "cases": report.get("totals", {}).get("cases", 0),
         "key_metrics": extract_key_metrics(report),
@@ -671,7 +723,17 @@ def finalize_run(
 def status_run(run_id: str) -> dict[str, Any]:
     meta = load_meta(run_id)
     lineage = load_jsonl(run_dir(run_id) / "lineage.jsonl")
-    return {"meta": meta, "lineage": lineage}
+    composite_scores = meta.get("composite_scores") or {}
+    return {
+        "meta": meta,
+        "lineage": lineage,
+        "ranking": {
+            "latest_accepted_iter": int(meta.get("latest_accepted_iter", 0)),
+            "best_passes_iter": _resolve_best_passes_iter(meta),
+            "promotion_iter": _resolve_promotion_iter(meta),
+            "composite_scores": composite_scores,
+        },
+    }
 
 
 def context_for_iteration(run_id: str, iteration: int) -> str:
@@ -684,7 +746,11 @@ def context_for_iteration(run_id: str, iteration: int) -> str:
         prior_path = iter_dir(run_id, base_iter) / "report.json"
         if prior_path.is_file():
             prior_report = json.loads(prior_path.read_text(encoding="utf-8"))
-    from compact_prompt_tune.self_improve.context import load_best_report, load_previous_handoff
+    from compact_prompt_tune.self_improve.context import (
+        load_best_report,
+        load_previous_handoff,
+        load_recent_accepted_tradeoffs,
+    )
 
     return build_context_xml(
         run_id=run_id,
@@ -697,4 +763,5 @@ def context_for_iteration(run_id: str, iteration: int) -> str:
         best_report=load_best_report(run_id, meta),
         previous_delta=load_previous_delta(run_id, iteration),
         recent_rejects=load_recent_reject_history(run_id, iteration),
+        recent_accepted_tradeoffs=load_recent_accepted_tradeoffs(run_id, iteration),
     )
