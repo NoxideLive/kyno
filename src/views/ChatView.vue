@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, nextTick, onMounted, ref, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
-import { ArrowUturnLeftIcon, XMarkIcon } from '@heroicons/vue/24/outline'
+import { ArrowUturnLeftIcon, ExclamationCircleIcon, XMarkIcon } from '@heroicons/vue/24/solid'
 import AppNav from '@/components/AppNav.vue'
 import ChatDebugPanel from '@/components/ChatDebugPanel.vue'
 import ChatMessageContent from '@/components/ChatMessageContent.vue'
@@ -13,14 +13,13 @@ import { useGroqChat, type ChatMessage } from '@/composables/useGroqChat'
 import { isInteractiveWidget, parseWidgetContent } from '@/lib/widgets'
 import {
   isPersistedMessageId,
-  quoteSnippetFromMessage,
+  quotePreviewFromMessage,
+  type QuotePreview,
 } from '@/lib/messageQuote'
 import type { Id } from '../../convex/_generated/dataModel'
 
-type PendingQuote = {
+type PendingQuote = QuotePreview & {
   messageId: string
-  role: ChatMessage['role']
-  snippet: string
 }
 
 const route = useRoute()
@@ -100,8 +99,7 @@ async function onSubmit(): Promise<void> {
 function quoteMessage(message: ChatMessage): void {
   pendingQuote.value = {
     messageId: message.id,
-    role: message.role,
-    snippet: quoteSnippetFromMessage(message),
+    ...quotePreviewFromMessage(message),
   }
   void nextTick(() => composerRef.value?.focus())
 }
@@ -123,8 +121,7 @@ function quotePreviewFor(message: ChatMessage): PendingQuote | null {
   if (!target) return null
   return {
     messageId: target.id,
-    role: target.role,
-    snippet: quoteSnippetFromMessage(target),
+    ...quotePreviewFromMessage(target),
   }
 }
 
@@ -207,11 +204,12 @@ function widgetSelectedAnswer(message: ChatMessage, index: number): string | nul
               v-for="(message, index) in messages"
               :key="message.id"
               class="message-row"
-              :class="message.role"
+              :class="[message.role, { blocked: message.ephemeral }]"
+              :aria-label="message.ephemeral ? 'Blocked: off topic' : undefined"
             >
               <div class="message-row__content">
                 <div class="bubble">
-                  <div class="bubble-actions">
+                  <div v-if="!message.ephemeral" class="bubble-actions">
                     <button
                       type="button"
                       class="quote-action"
@@ -222,11 +220,19 @@ function widgetSelectedAnswer(message: ChatMessage, index: number): string | nul
                       <ArrowUturnLeftIcon class="quote-action__icon" aria-hidden="true" />
                     </button>
                   </div>
-                  <ChatQuotePreview
+                  <div class="bubble-body" :class="{ 'bubble-body--blocked': message.ephemeral }">
+                    <ExclamationCircleIcon
+                      v-if="message.ephemeral"
+                      class="blocked-icon"
+                      aria-hidden="true"
+                    />
+                    <ChatQuotePreview
                     v-if="quotePreviewFor(message)"
                     align="right"
                     :role="quotePreviewFor(message)!.role"
                     :snippet="quotePreviewFor(message)!.snippet"
+                    :kind="quotePreviewFor(message)!.kind"
+                    :notation-latex="quotePreviewFor(message)!.notationLatex"
                   />
                   <ChatMessageContent
                     :content="message.content"
@@ -234,6 +240,7 @@ function widgetSelectedAnswer(message: ChatMessage, index: number): string | nul
                     :selected-answer="widgetSelectedAnswer(message, index)"
                     @select-answer="onSelectAnswer"
                   />
+                  </div>
                 </div>
               </div>
               <ChatDebugPanel
@@ -268,6 +275,8 @@ function widgetSelectedAnswer(message: ChatMessage, index: number): string | nul
                 <ChatQuotePreview
                   :role="pendingQuote.role"
                   :snippet="pendingQuote.snippet"
+                  :kind="pendingQuote.kind"
+                  :notation-latex="pendingQuote.notationLatex"
                   compact
                 />
                 <button
@@ -510,6 +519,31 @@ function widgetSelectedAnswer(message: ChatMessage, index: number): string | nul
   border-bottom-right-radius: 0.25rem;
 }
 
+.message-row.blocked .bubble {
+  background: #fef2f2;
+  color: #b91c1c;
+  border: 1px solid #fecaca;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.bubble-body {
+  min-width: 0;
+}
+
+.bubble-body--blocked {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.375rem;
+}
+
+.blocked-icon {
+  flex-shrink: 0;
+  width: 1.125rem;
+  height: 1.125rem;
+  margin-top: 0.1rem;
+  color: #dc2626;
+}
+
 .message-row.assistant .bubble {
   background: var(--bg);
   color: var(--text);
@@ -557,10 +591,10 @@ function widgetSelectedAnswer(message: ChatMessage, index: number): string | nul
 .off-topic {
   margin: 0;
   padding: 0.5rem 1rem;
-  background: #eff6ff;
-  color: #1e40af;
+  background: #fef2f2;
+  color: #b91c1c;
   font-size: 0.875rem;
-  border-bottom: 1px solid #bfdbfe;
+  border-bottom: 1px solid #fecaca;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -570,7 +604,7 @@ function widgetSelectedAnswer(message: ChatMessage, index: number): string | nul
 .hint-dismiss {
   border: none;
   background: transparent;
-  color: #1e40af;
+  color: #b91c1c;
   font-size: 0.8125rem;
   cursor: pointer;
   text-decoration: underline;

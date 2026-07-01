@@ -16,16 +16,17 @@ export type KynoWidgetConfirm = {
   content: string
 }
 
-export type KynoWidgetMath = {
-  type: 'math'
-  latex: string
+export type KynoWidgetNotation = {
+  type: 'notation'
+  title: string
+  content: string
 }
 
 export type KynoWidget =
   | KynoWidgetResponse
   | KynoWidgetQuestion
   | KynoWidgetConfirm
-  | KynoWidgetMath
+  | KynoWidgetNotation
 
 const MIN_QUESTION_SUGGESTIONS = 2
 const MAX_QUESTION_SUGGESTIONS = 4
@@ -57,25 +58,33 @@ function stripLatexDelimiters(raw: string): string {
   return latex
 }
 
-function mathLatexFromWidgetFields(value: Record<string, unknown>): string {
+function widgetType(value: Record<string, unknown>): string {
+  const type = typeof value.type === 'string' ? value.type : ''
+  return type === 'math' ? 'notation' : type
+}
+
+function notationContentFromWidgetFields(value: Record<string, unknown>): string {
   const content = typeof value.content === 'string' ? value.content.trim() : ''
   const latexField = typeof value.latex === 'string' ? value.latex.trim() : ''
   return stripLatexDelimiters(content || latexField)
 }
 
 function normalizeFlatWidget(value: Record<string, unknown>): KynoWidget | null {
-  if (value.type === 'math') {
-    const latex = mathLatexFromWidgetFields(value)
+  const type = widgetType(value)
+
+  if (type === 'notation') {
+    const title = typeof value.title === 'string' ? value.title.trim() : ''
+    const content = notationContentFromWidgetFields(value)
     const question = typeof value.question === 'string' ? value.question.trim() : ''
     const suggestedAnswers = isStringArray(value.suggestedAnswers)
       ? cleanSuggestedAnswers(value.suggestedAnswers, MAX_QUESTION_SUGGESTIONS)
       : []
 
-    if (!latex || question || suggestedAnswers.length > 0) {
+    if (!content || question || suggestedAnswers.length > 0) {
       return null
     }
 
-    return { type: 'math', latex }
+    return { type: 'notation', title, content }
   }
 
   if (value.type === 'response' && typeof value.content === 'string') {

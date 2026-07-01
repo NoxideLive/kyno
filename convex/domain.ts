@@ -1,29 +1,48 @@
-export type DomainClassification = {
-  label: 'on_topic' | 'off_topic'
+import { ConvexError } from 'convex/values'
+
+export type JailbreakLabel = 'safe' | 'jailbreak_attempted'
+export type DomainLabel = 'on_topic' | 'off_topic'
+export type BlockReason = 'jailbreak_attempted' | 'off_topic'
+
+export type StageClassification = {
+  label: string
   confidence: number
   backend: string
-  blocked: boolean
 }
 
-export type ClassifyDomainResult =
-  | { ok: true; classification: DomainClassification }
+export type CompiledClassification = {
+  allowed: boolean
+  blocked: boolean
+  block_reason: BlockReason | null
+  jailbreak: StageClassification
+  domain: StageClassification
+  backend: string
+}
+
+export type ClassifyMessageResult =
+  | { ok: true; classification: CompiledClassification }
   | { ok: false; reason: 'disabled' | 'unconfigured' | 'error' }
 
-const OFF_TOPIC_MESSAGE =
-  'I only help with South African CAPS Mathematics (Grades 1–12) — syllabus, teaching plans, assessments, and study help.'
+export type MessageHistoryTurn = {
+  role: 'user' | 'assistant'
+  content: string
+}
 
-const OFF_TOPIC_SUGGESTION =
+const DOMAIN_BLOCK_MESSAGE =
+  'I can only help with South African CAPS Mathematics (Grades 1–12) — syllabus, teaching plans, assessments, and study help.'
+
+const DOMAIN_BLOCK_SUGGESTION =
   'Try asking about a CAPS Maths topic, grade, or ATP week.'
 
 const GATEWAY_UNAVAILABLE_MESSAGE =
   'Domain check is temporarily unavailable. Please try again shortly.'
 
 export function offTopicUserMessage(): string {
-  return OFF_TOPIC_MESSAGE
+  return DOMAIN_BLOCK_MESSAGE
 }
 
 export function offTopicSuggestion(): string {
-  return OFF_TOPIC_SUGGESTION
+  return DOMAIN_BLOCK_SUGGESTION
 }
 
 export function domainGatewayUnavailableMessage(): string {
@@ -40,7 +59,10 @@ function gatewayUrl(): string | null {
   return url || null
 }
 
-export async function classifyDomain(text: string): Promise<ClassifyDomainResult> {
+export async function classifyMessage(
+  text: string,
+  history: MessageHistoryTurn[] = [],
+): Promise<ClassifyMessageResult> {
   if (!isDomainGatewayEnabled()) {
     return { ok: false, reason: 'disabled' }
   }
@@ -57,10 +79,10 @@ export async function classifyDomain(text: string): Promise<ClassifyDomainResult
   }
 
   try {
-    const response = await fetch(`${baseUrl.replace(/\/$/, '')}/classify/domain`, {
+    const response = await fetch(`${baseUrl.replace(/\/$/, '')}/classify/message`, {
       method: 'POST',
       headers,
-      body: JSON.stringify({ text }),
+      body: JSON.stringify({ text, history }),
       signal: AbortSignal.timeout(5000),
     })
 
@@ -68,17 +90,49 @@ export async function classifyDomain(text: string): Promise<ClassifyDomainResult
       return { ok: false, reason: 'error' }
     }
 
-    const payload = (await response.json()) as DomainClassification
+    const payload = (await response.json()) as CompiledClassification
     return { ok: true, classification: payload }
   } catch {
     return { ok: false, reason: 'error' }
   }
 }
 
-export function shouldBlockDomain(
-  classification: DomainClassification,
-  threshold?: number,
-): boolean {
-  const cutoff = threshold ?? Number(process.env.DOMAIN_CONFIDENCE_THRESHOLD ?? '0.55')
-  return classification.label === 'off_topic' || classification.confidence < cutoff
+export function shouldBlockMessage(classification: CompiledClassification): boolean {
+  return classification.blocked
+}
+
+export function messageBlockPayload(_classification: CompiledClassification): {
+  code: 'OFF_TOPIC'
+  message: string
+  suggestion: string
+} {
+  return {
+    code: 'OFF_TOPIC',
+    message: offTopicUserMessage(),
+    suggestion: offTopicSuggestion(),
+  }
+}
+
+export async function assertMessageAllowed(
+  text: string,
+  history: MessageHistoryTurn[] = [],
+): Promise<void> {
+  const messageResult = await classifyMessage(text, history)
+  if (!messageResult.ok) {
+    if (isDomainGatewayEnabled()) {
+      throw new ConvexError({
+        code: 'DOMAIN_GATEWAY_UNAVAILABLE',
+        message: domainGatewayUnavailableMessage(),
+      })
+    }
+    return
+  }
+  if (shouldBlockMessage(messageResult.classification)) {
+    const block = messageBlockPayload(messageResult.classification)
+    throw new ConvexError({
+      code: block.code,
+      message: block.message,
+      suggestion: block.suggestion,
+    })
+  }
 }

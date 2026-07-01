@@ -1,27 +1,12 @@
-import { computed, inject, type ComputedRef, type InjectionKey, type Ref } from 'vue'
+import { computed } from 'vue'
+import { clerkSignedIn, convexReady } from '@/lib/authSession'
 
-export type ConvexAuthReadyContext = {
-  authHandshakeDone: Ref<boolean>
-  userProvisioned: Ref<boolean>
+/** True while signed-in user is waiting for Convex auth + provisioning. */
+export function useConvexAuthPending() {
+  return computed(() => clerkSignedIn.value === true && !convexReady.value)
 }
 
-export const convexAuthReadyKey: InjectionKey<ConvexAuthReadyContext> =
-  Symbol('convex-auth-ready')
-
-/**
- * True while the Convex auth bridge is still initializing.
- * Missing provider (mount in progress) counts as pending, not signed-out.
- */
-export function useConvexAuthPending(): ComputedRef<boolean> {
-  const ctx = inject(convexAuthReadyKey, null)
-  return computed(() => {
-    if (!ctx) return true
-    return !ctx.authHandshakeDone.value || !ctx.userProvisioned.value
-  })
-}
-
-/** True once Convex JWT handshake finished and user row is provisioned. */
-export function useConvexAuthReady(): ComputedRef<boolean> {
-  const pending = useConvexAuthPending()
-  return computed(() => !pending.value)
+/** True once Convex is authenticated and the user row exists. */
+export function useConvexAuthReady() {
+  return computed(() => clerkSignedIn.value === true && convexReady.value)
 }

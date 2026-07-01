@@ -5,6 +5,7 @@ Examples:
   python3 pull_syllabus.py --subject mathematics --grade 6 --year 2026
   python3 pull_syllabus.py --subject mathematics --all-grades --year 2026
   python3 pull_syllabus.py --subject mathematics --all-grades --skip-existing
+  python3 pull_syllabus.py --caps-only --all-grades --skip-existing
 
 Per grade downloads:
   1. CAPS policy PDF (phase-based — one doc shared across grades in a phase)
@@ -232,7 +233,7 @@ def safe_filename(text: str) -> str:
     return cleaned.strip("-") or "document"
 
 
-def manifest_complete(output_dir: Path) -> bool:
+def manifest_complete(output_dir: Path, *, caps_only: bool = False) -> bool:
     manifest_path = output_dir / "manifest.json"
     if not manifest_path.exists():
         return False
@@ -240,11 +241,19 @@ def manifest_complete(output_dir: Path) -> bool:
         manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
     except json.JSONDecodeError:
         return False
-    for doc in manifest.get("documents", []):
+    documents = manifest.get("documents", [])
+    min_docs = 1 if caps_only else 2
+    if len(documents) < min_docs:
+        return False
+    for doc in documents:
+        if caps_only and doc.get("doc_type") != "caps":
+            continue
         path = Path(doc.get("local_path", ""))
         if not path.is_file() or path.stat().st_size < 1000:
             return False
-    return len(manifest.get("documents", [])) >= 2
+    if caps_only:
+        return any(doc.get("doc_type") == "caps" for doc in documents)
+    return True
 
 
 def pull_syllabus(
@@ -254,29 +263,31 @@ def pull_syllabus(
     output_dir: Path,
     *,
     skip_existing: bool = False,
+    caps_only: bool = False,
 ) -> list[DocumentLink]:
     phase = grade_to_phase(grade)
 
-    if skip_existing and manifest_complete(output_dir):
+    if skip_existing and manifest_complete(output_dir, caps_only=caps_only):
         print(f"Grade {grade}: skipping (manifest + PDFs present)")
         return []
 
     caps_html = get_caps_html(phase)
-    atp_html = get_atp_html(phase)
-
     caps = find_caps_link(caps_html, subject, phase)
-    atp = find_atp_link(atp_html, subject, grade, year, phase)
 
     if not caps:
         raise RuntimeError(
             f"Could not find CAPS Mathematics for phase '{phase}' on the DBE site."
         )
-    if not atp:
-        raise RuntimeError(
-            f"Could not find Grade {grade} ATP for '{subject}' (year {year}) on the DBE site."
-        )
 
-    documents = [caps, atp]
+    documents = [caps]
+    if not caps_only:
+        atp_html = get_atp_html(phase)
+        atp = find_atp_link(atp_html, subject, grade, year, phase)
+        if not atp:
+            raise RuntimeError(
+                f"Could not find Grade {grade} ATP for '{subject}' (year {year}) on the DBE site."
+            )
+        documents.append(atp)
     manifest: list[dict] = []
 
     for doc in documents:
@@ -330,6 +341,11 @@ def main() -> int:
         action="store_true",
         help="Skip grades that already have a complete manifest + PDFs",
     )
+    parser.add_argument(
+        "--caps-only",
+        action="store_true",
+        help="Download CAPS policy PDFs only (skip ATP)",
+    )
     args = parser.parse_args()
 
     grades = list(range(1, 13)) if args.all_grades else [args.grade]
@@ -346,6 +362,7 @@ def main() -> int:
                 args.year,
                 output_dir,
                 skip_existing=args.skip_existing,
+                caps_only=args.caps_only,
             )
         except (urllib.error.URLError, RuntimeError, ValueError) as exc:
             msg = f"Grade {grade}: {exc}"

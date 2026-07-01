@@ -1,7 +1,10 @@
 import { prepareMessageContent } from '../shared/prepareMessageContent'
+import { formatGroqReplyContext, type ReplyQuotePromptContext } from '../shared/prompts'
 import {
-  prepareQuoteSnippetLatex,
+  isNotationWidgetType,
   prepareQuoteSnippetText,
+  quoteSnippetForNotationWidget,
+  readableTextForNotationWidget,
 } from '../shared/quoteSnippet'
 
 export { QUOTE_SNIPPET_MAX, truncateQuoteSnippet } from '../shared/quoteSnippet'
@@ -35,14 +38,8 @@ export function readableTextFromContent(
     if (type === 'confirm' && typeof parsed.question === 'string') {
       return prepareMessageContent(parsed.question)
     }
-    if (type === 'math') {
-      const latex =
-        (typeof parsed.latex === 'string' ? parsed.latex : '') ||
-        (typeof parsed.content === 'string' ? parsed.content : '')
-      if (latex.trim()) {
-        return prepareMessageContent(latex)
-      }
-      return 'Math expression'
+    if (isNotationWidgetType(type)) {
+      return readableTextForNotationWidget(parsed)
     }
   } catch {
     // fall through
@@ -72,14 +69,8 @@ export function quoteSnippetFromContent(
         if (type === 'confirm' && typeof parsed.question === 'string') {
           return prepareQuoteSnippetText(parsed.question)
         }
-        if (type === 'math') {
-          const latex =
-            (typeof parsed.latex === 'string' ? parsed.latex : '') ||
-            (typeof parsed.content === 'string' ? parsed.content : '')
-          if (latex.trim()) {
-            return prepareQuoteSnippetLatex(latex)
-          }
-          return 'Math expression'
+        if (isNotationWidgetType(type)) {
+          return quoteSnippetForNotationWidget(parsed)
         }
       } catch {
         // fall through
@@ -106,37 +97,11 @@ export function quoteTextFromContent(
   }
 }
 
-export type ReplyQuoteContext = {
-  role: 'user' | 'assistant'
-  text: string
-  truncated: boolean
-  threadPosition?: number
-  threadLength?: number
-}
+export type ReplyQuoteContext = ReplyQuotePromptContext
 
 export function formatGroqUserMessageWithReplyContext(
   userText: string,
   quote: ReplyQuoteContext,
 ): string {
-  const roleLabel = quote.role === 'assistant' ? 'assistant' : 'user'
-  const positionAttr =
-    quote.threadPosition !== undefined && quote.threadLength !== undefined
-      ? ` position="${quote.threadPosition} of ${quote.threadLength}"`
-      : ''
-  const truncatedNote = quote.truncated ? '\n(Quoted text was truncated for length.)' : ''
-
-  return [
-    '<reply_context>',
-    "The user's NEW message below is a direct reply to the QUOTED message — NOT necessarily the most recent message in the thread.",
-    '',
-    `<quoted_message role="${roleLabel}"${positionAttr}>`,
-    quote.text,
-    '</quoted_message>',
-    truncatedNote,
-    '</reply_context>',
-    '',
-    '<user_reply>',
-    userText,
-    '</user_reply>',
-  ].join('\n')
+  return formatGroqReplyContext(userText, quote)
 }

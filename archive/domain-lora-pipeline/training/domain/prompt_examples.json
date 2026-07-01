@@ -1,0 +1,87 @@
+{
+  "language": "en",
+  "on_topic": [
+    {
+      "text": "fractions",
+      "label": "on_topic"
+    },
+    {
+      "text": "What is CAPS?",
+      "label": "on_topic"
+    },
+    {
+      "text": "trigonometry",
+      "label": "on_topic"
+    },
+    {
+      "text": "calculus",
+      "label": "on_topic"
+    },
+    {
+      "text": "algebra",
+      "label": "on_topic"
+    },
+    {
+      "text": "whole numbers and place value",
+      "label": "on_topic"
+    },
+    {
+      "text": "geometry and shapes",
+      "label": "on_topic"
+    },
+    {
+      "text": "data handling graphs",
+      "label": "on_topic"
+    },
+    {
+      "text": "measurement and units",
+      "label": "on_topic"
+    },
+    {
+      "text": "ATP teaching plan for fractions",
+      "label": "on_topic"
+    }
+  ],
+  "off_topic": [
+    {
+      "text": "Caps",
+      "label": "off_topic"
+    },
+    {
+      "text": "write in caps",
+      "label": "off_topic"
+    },
+    {
+      "text": "peanuts in CAPS",
+      "label": "off_topic"
+    },
+    {
+      "text": "Mathematical Literacy interest rates",
+      "label": "off_topic"
+    },
+    {
+      "text": "Natural Sciences photosynthesis",
+      "label": "off_topic"
+    },
+    {
+      "text": "Write me a Python script",
+      "label": "off_topic"
+    },
+    {
+      "text": "What's the weather in Cape Town?",
+      "label": "off_topic"
+    },
+    {
+      "text": "IB Mathematics vectors",
+      "label": "off_topic"
+    },
+    {
+      "text": "Life Orientation assessment rubric",
+      "label": "off_topic"
+    },
+    {
+      "text": "Wat dek Graad 6 CAPS Wiskunde vir fractions?",
+      "label": "off_topic"
+    }
+  ]
+}

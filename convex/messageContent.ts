@@ -31,14 +31,17 @@ export function prepareStoredMessageContent(
       if (typeof parsed.question === 'string') {
         parsed.question = prepareMessageContent(parsed.question)
       }
-    } else if (type === 'math') {
-      const latex =
-        (typeof parsed.latex === 'string' ? parsed.latex : '') ||
-        (typeof parsed.content === 'string' ? parsed.content : '')
-      const prepared = prepareMessageContent(latex)
-      parsed.latex = prepared
-      if (typeof parsed.content === 'string') {
-        parsed.content = prepared
+    } else if (type === 'notation' || type === 'math') {
+      const notationContent =
+        (typeof parsed.content === 'string' ? parsed.content : '') ||
+        (typeof parsed.latex === 'string' ? parsed.latex : '')
+      const prepared = prepareMessageContent(notationContent)
+      parsed.content = prepared
+      if (typeof parsed.latex === 'string') {
+        parsed.latex = prepared
+      }
+      if (typeof parsed.title === 'string') {
+        parsed.title = prepareMessageContent(parsed.title)
       }
     }
 

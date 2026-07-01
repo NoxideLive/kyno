@@ -1,0 +1,208 @@
+{
+  "language": "en",
+  "on_topic": [
+    {
+      "text": "fractions",
+      "label": "on_topic"
+    },
+    {
+      "text": "What is CAPS?",
+      "label": "on_topic"
+    },
+    {
+      "text": "trigonometry",
+      "label": "on_topic"
+    },
+    {
+      "text": "calculus",
+      "label": "on_topic"
+    },
+    {
+      "text": "algebra",
+      "label": "on_topic"
+    },
+    {
+      "text": "whole numbers and place value",
+      "label": "on_topic"
+    },
+    {
+      "text": "geometry and shapes",
+      "label": "on_topic"
+    },
+    {
+      "text": "data handling graphs",
+      "label": "on_topic"
+    },
+    {
+      "text": "measurement and units",
+      "label": "on_topic"
+    },
+    {
+      "text": "ATP teaching plan for fractions",
+      "label": "on_topic"
+    },
+    {
+      "text": "Grade 8 word problem: a car travels 60 km/h for 2 hours — find the distance",
+      "label": "on_topic"
+    },
+    {
+      "text": "Ali has 12 apples and gives 3 to Ben. How many left? Grade 4 CAPS",
+      "label": "on_topic"
+    }
+  ],
+  "off_topic": [
+    {
+      "text": "Caps",
+      "label": "off_topic"
+    },
+    {
+      "text": "write in caps",
+      "label": "off_topic"
+    },
+    {
+      "text": "peanuts in CAPS",
+      "label": "off_topic"
+    },
+    {
+      "text": "Mathematical Literacy interest rates",
+      "label": "off_topic"
+    },
+    {
+      "text": "Natural Sciences photosynthesis",
+      "label": "off_topic"
+    },
+    {
+      "text": "Write me a Python script",
+      "label": "off_topic"
+    },
+    {
+      "text": "What's the weather in Cape Town?",
+      "label": "off_topic"
+    },
+    {
+      "text": "IB Mathematics vectors",
+      "label": "off_topic"
+    },
+    {
+      "text": "Life Orientation assessment rubric",
+      "label": "off_topic"
+    },
+    {
+      "text": "Wat dek Graad 6 CAPS Wiskunde vir fractions?",
+      "label": "off_topic"
+    },
+    {
+      "text": "Ok explain a car to me",
+      "label": "off_topic"
+    },
+    {
+      "text": "Explain how a car engine works",
+      "label": "off_topic"
+    },
+    {
+      "text": "Tell me about dinosaurs",
+      "label": "off_topic"
+    },
+    {
+      "text": "How do I install Docker?",
+      "label": "off_topic"
+    },
+    {
+      "text": "Can we test you",
+      "label": "off_topic"
+    },
+    {
+      "text": "How good are you?",
+      "label": "off_topic"
+    },
+    {
+      "text": "Explain to me how you work",
+      "label": "off_topic"
+    },
+    {
+      "text": "tell me about pizza",
+      "label": "off_topic"
+    },
+    {
+      "text": "ok you know pizza?",
+      "label": "off_topic"
+    }
+  ],
+  "conversation_examples": [
+    {
+      "prior": "User asked about Grade 8 fractions.",
+      "latest": "Write me a Python script to sort numbers",
+      "label": "off_topic"
+    },
+    {
+      "prior": "User asked about Grade 11 algebra.",
+      "latest": "Grade 11 Mathematical Literacy interest rates",
+      "label": "off_topic"
+    },
+    {
+      "prior": "User asked about Grade 12 maths exam prep.",
+      "latest": "How do I install Docker?",
+      "label": "off_topic"
+    },
+    {
+      "prior": "User asked about the weather.",
+      "latest": "Help me with Grade 8 fractions",
+      "label": "on_topic"
+    },
+    {
+      "prior": "User asked for a Python script.",
+      "latest": "What is CAPS?",
+      "label": "on_topic"
+    },
+    {
+      "prior": "User asked about Grade 8 fractions.",
+      "latest": "what about algebra?",
+      "label": "on_topic"
+    },
+    {
+      "prior": "User asked about Grade 8 fractions.",
+      "latest": "what about trigonometry?",
+      "label": "on_topic"
+    },
+    {
+      "prior": "User asked who won the rugby world cup.",
+      "latest": "what about fractions",
+      "label": "on_topic"
+    },
+    {
+      "prior": "User asked \"What is CAPS?\".",
+      "latest": "Ok explain a car to me",
+      "label": "off_topic"
+    },
+    {
+      "prior": "User asked about the weather. User said \"ok\".",
+      "latest": "Help me with Grade 8 fractions",
+      "label": "on_topic"
+    },
+    {
+      "prior": "User asked about Grade 8 fractions.",
+      "latest": "write in caps",
+      "label": "off_topic"
+    },
+    {
+      "prior": "User asked \"Can we test you\" and got a reply.",
+      "latest": "tell me about pizza",
+      "label": "off_topic"
+    },
+    {
+      "prior": "User asked about pizza.",
+      "latest": "ok you know pizza?",
+      "label": "off_topic"
+    },
+    {
+      "prior": "Assistant asked \"Ok you know pizza?\" with Yes/No options.",
+      "latest": "Yes",
+      "label": "off_topic"
+    },
+    {
+      "prior": "User confirmed they know about pizza.",
+      "latest": "Explain to me how you work",
+      "label": "off_topic"
+    }
+  ]
+}

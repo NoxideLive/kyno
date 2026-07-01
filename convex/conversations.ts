@@ -2,6 +2,7 @@ import { ConvexError, v } from 'convex/values'
 import { internal } from './_generated/api'
 import { internalAction, internalMutation, internalQuery } from './_generated/server'
 import { prepareMessageContent, prepareStoredMessageContent } from './messageContent'
+import { titleGenerationPrompt } from '../shared/prompts'
 import { requireOwnerDoc } from './auth/guards'
 import { Permissions } from './auth/permissions'
 import { authedMutation, authedQuery } from './auth/wrappers'
@@ -54,10 +55,6 @@ function sanitizeGeneratedTitle(raw: string): string {
     title = title.slice(0, 60).trim()
   }
   return title
-}
-
-function titleGenerationPrompt(userMessage: string): string {
-  return `Generate a short 3-6 word title for this chat. Reply with ONLY the title, no quotes, no punctuation at end.\n\nUser message: ${userMessage}`
 }
 
 export const list = authedQuery(Permissions.readProfile, {
@@ -249,6 +246,41 @@ export const getMessageForReply = internalQuery({
       threadPosition: index + 1,
       threadLength: threadMessages.length,
     }
+  },
+})
+
+/** Persisted thread for domain gate and Groq — excludes client-only blocked attempts. */
+export const listPersistedMessagesForChat = internalQuery({
+  args: {
+    userId: v.id('users'),
+    conversationId: v.id('conversations'),
+  },
+  returns: v.array(
+    v.object({
+      role: messageRoleValidator,
+      content: v.string(),
+      contentFormat: contentFormatValidator,
+    }),
+  ),
+  handler: async (ctx, args) => {
+    const conversation = await ctx.db.get(args.conversationId)
+    if (!conversation || conversation.userId !== args.userId) {
+      return []
+    }
+
+    const messages = await ctx.db
+      .query('messages')
+      .withIndex('by_conversation', (q) =>
+        q.eq('conversationId', args.conversationId),
+      )
+      .collect()
+
+    messages.sort((a, b) => a.createdAt - b.createdAt)
+    return messages.map((message) => ({
+      role: message.role,
+      content: message.content,
+      contentFormat: message.contentFormat,
+    }))
   },
 })
 

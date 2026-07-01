@@ -22,5 +22,9 @@
     "noEmit": true
   },
   "include": ["./**/*", "../shared/**/*"],
-  "exclude": ["./_generated"]
+  "exclude": [
+    "./_generated",
+    "../shared/**/*.manual.test.ts",
+    "../shared/**/*.test.ts"
+  ]
 }

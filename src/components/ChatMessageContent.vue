@@ -3,7 +3,7 @@ import { computed } from 'vue'
 import { parseWidgetContent } from '@/lib/widgets'
 import RichText from '@/components/RichText.vue'
 import WidgetConfirm from '@/components/widgets/WidgetConfirm.vue'
-import WidgetMath from '@/components/widgets/WidgetMath.vue'
+import WidgetNotation from '@/components/widgets/WidgetNotation.vue'
 import WidgetQuestion from '@/components/widgets/WidgetQuestion.vue'
 import WidgetResponse from '@/components/widgets/WidgetResponse.vue'
 
@@ -43,9 +43,10 @@ const widget = computed(() => parseWidgetContent(props.content, props.contentFor
     @select="emit('selectAnswer', $event)"
   />
 
-  <WidgetMath
-    v-else-if="widget?.type === 'math'"
-    :latex="widget.latex"
+  <WidgetNotation
+    v-else-if="widget?.type === 'notation'"
+    :title="widget.title"
+    :content="widget.content"
   />
 
   <RichText

@@ -2,7 +2,10 @@
   <div class="auth-loading" role="status" aria-live="polite" aria-busy="true">
     <div class="auth-loading-inner">
       <span class="spinner" aria-hidden="true" />
-      <p class="label">{{ label }}</p>
+      <p class="label" :class="{ error: Boolean(error) }">{{ label }}</p>
+      <button v-if="error" type="button" class="retry" @click="emit('retry')">
+        Retry
+      </button>
     </div>
   </div>
 </template>
@@ -11,11 +14,17 @@
 withDefaults(
   defineProps<{
     label?: string
+    error?: string | null
   }>(),
   {
     label: 'Loading…',
+    error: null,
   },
 )
+
+const emit = defineEmits<{
+  retry: []
+}>()
 </script>
 
 <style scoped>
@@ -48,6 +57,22 @@ withDefaults(
   margin: 0;
   color: var(--muted);
   font-size: 0.875rem;
+  text-align: center;
+  max-width: 20rem;
+}
+
+.label.error {
+  color: #b91c1c;
+}
+
+.retry {
+  border: 1px solid var(--border);
+  border-radius: 0.375rem;
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.875rem;
+  padding: 0.375rem 0.75rem;
+  cursor: pointer;
 }
 
 @keyframes spin {

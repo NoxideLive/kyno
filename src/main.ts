@@ -7,6 +7,7 @@ import { convexVue } from 'convex-vue'
 import { createApp } from 'vue'
 import App from '@/App.vue'
 import { clerkPluginOptions, hasClerkPublishableKey } from '@/lib/clerkConfig'
+import { resolveConvexClientUrl } from '@/lib/convexClientUrl'
 import { initMessageContentRenderer } from '@/lib/renderMessageContent'
 import router from '@/router'
 import { installAuthGuards } from '@/router/guards'
@@ -20,7 +21,7 @@ async function bootstrap(): Promise<void> {
     app.use(clerkPlugin, clerkPluginOptions())
   }
 
-  const convexUrl = import.meta.env.VITE_CONVEX_URL ?? ''
+  const convexUrl = resolveConvexClientUrl(import.meta.env.VITE_CONVEX_URL ?? '')
   app.use(convexVue, {
     url: convexUrl,
     ...(convexUrl

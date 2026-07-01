@@ -6,6 +6,7 @@ import { fromHighlighter } from '@shikijs/markdown-it/core'
 import DOMPurify from 'dompurify'
 import { createHighlighter } from 'shiki'
 import { prepareMessageContent } from '../../shared/prepareMessageContent'
+import { wrapBareLatexInMarkdown } from '../../shared/wrapBareLatexInMarkdown'
 
 export type MessageContentFormat = 'text' | 'markdown' | 'widget'
 
@@ -148,10 +149,11 @@ function sanitizeRenderedHtml(html: string): string {
 }
 
 export function renderMarkdown(content: string): string {
-  return sanitizeRenderedHtml(getMarkdown().render(content))
+  const withMath = wrapBareLatexInMarkdown(content)
+  return sanitizeRenderedHtml(getMarkdown().render(withMath))
 }
 
-/** Render bare LaTeX for math widgets (display mode by default). */
+/** Render bare LaTeX for notation widgets (display mode by default). */
 export function renderLatex(latex: string, displayMode = true): string {
   const trimmed = latex.trim()
   if (!trimmed) {

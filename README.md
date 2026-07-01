@@ -50,9 +50,22 @@ cp .env.example .env
 
 ### 5. Run
 
+**Production / cloud Convex:**
+
 ```bash
 npm run dev      # Vite (terminal 1)
-npx convex dev   # Convex (terminal 2)
+npx convex dev   # Convex cloud dev deployment (terminal 2)
+```
+
+**Local Docker stack (Vite + optional phi-gateway; Convex on host):**
+
+See [`docs/local-dev-docker.md`](docs/local-dev-docker.md).
+
+```bash
+cp .env.example .env.local   # once, fill secrets
+npm install
+npx convex login   # once
+./scripts/dev-up.sh   # detached stack
 ```
 
 ## Bootstrap admin
@@ -84,9 +97,9 @@ Protected functions must use wrappers — no raw `query`/`mutation` for auth-gat
 
 ### Frontend bridge
 
-- **`ConvexClerkProvider.vue`** — public routes use `setAuth(null)`; auth routes use Clerk JWT
-- **`ConvexClerkAuth.vue`** — `getToken({ template: 'convex' })` + coalesced `getOrCreateUser`
-- **Router guards** — `requiresAuth`, `requiresAdmin` (Convex `getMyRole`)
+- **`AppAuthProvider.vue`** — Clerk session load, Convex `setAuth`, `getOrCreateUser`, single loading shell
+- **`lib/authSession.ts`** — shared `clerkLoaded`, `convexReady`, `userRole` for guards and composables
+- **Router guards** — `requiresAuth`, `requiresAdmin` (Clerk session + cached role)
 
 ## Project structure
 
@@ -96,8 +109,8 @@ convex/
   users.ts        # User CRUD + role management
   schema.ts       # users + profiles tables
 src/
-  providers/      # Clerk ↔ Convex bridge
-  composables/    # useAppAuth, usePermissions, useClerkConvex
+  providers/      # AppAuthProvider (Clerk ↔ Convex)
+  composables/    # useAppAuth, usePermissions, useConvexAuthReady
   router/         # Routes + guards
   views/          # Landing, Dashboard, Admin
 ```

@@ -1,0 +1,3405 @@
+{
+  "suite": "switch",
+  "labels": [
+    "blocked",
+    "allowed"
+  ],
+  "cases": [
+    {
+      "id": "sw-0001",
+      "label": "blocked",
+      "text": "Explain how a car engine works",
+      "history": [
+        {
+          "role": "user",
+          "content": "What does CAPS cover for probability in Grade 10?"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with probability for Grade 10."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0002",
+      "label": "blocked",
+      "text": "Who won the soccer world cup?",
+      "history": [
+        {
+          "role": "user",
+          "content": "Explain euclidean geometry for Grade 10"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with euclidean geometry for Grade 10."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0003",
+      "label": "blocked",
+      "text": "Write me a Python script to sort numbers",
+      "history": [
+        {
+          "role": "user",
+          "content": "What does CAPS cover for geometry in Grade 1?"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with geometry for Grade 1."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0004",
+      "label": "blocked",
+      "text": "write in caps",
+      "history": [
+        {
+          "role": "user",
+          "content": "Explain equations for Grade 4"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with equations for Grade 4."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0005",
+      "label": "blocked",
+      "text": "Explain how a car engine works",
+      "history": [
+        {
+          "role": "user",
+          "content": "Explain equations for Grade 5"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with equations for Grade 5."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0006",
+      "label": "blocked",
+      "text": "Explain how a motorcycle engine works",
+      "history": [
+        {
+          "role": "user",
+          "content": "Help me with Grade 12 euclidean geometry for CAPS"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with euclidean geometry for Grade 12."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0007",
+      "label": "blocked",
+      "text": "What's the weather in Cape Town?",
+      "history": [
+        {
+          "role": "user",
+          "content": "What does CAPS cover for functions in Grade 4?"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with functions for Grade 4."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0008",
+      "label": "blocked",
+      "text": "Write me a Python script to sort numbers",
+      "history": [
+        {
+          "role": "user",
+          "content": "Help me with Grade 9 fractions for CAPS"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with fractions for Grade 9."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0009",
+      "label": "blocked",
+      "text": "peanuts in CAPS",
+      "history": [
+        {
+          "role": "user",
+          "content": "What does CAPS cover for trigonometry in Grade 4?"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with trigonometry for Grade 4."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0010",
+      "label": "blocked",
+      "text": "Explain how a car engine works",
+      "history": [
+        {
+          "role": "user",
+          "content": "Help me with Grade 6 functions for CAPS"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with functions for Grade 6."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0011",
+      "label": "blocked",
+      "text": "Who won the soccer world cup?",
+      "history": [
+        {
+          "role": "user",
+          "content": "Help me with Grade 10 patterns for CAPS"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with patterns for Grade 10."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0012",
+      "label": "blocked",
+      "text": "Write me a Python script to sort numbers",
+      "history": [
+        {
+          "role": "user",
+          "content": "What does CAPS cover for functions in Grade 7?"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with functions for Grade 7."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0013",
+      "label": "blocked",
+      "text": "Grade 6 Mathematical Literacy statistics",
+      "history": [
+        {
+          "role": "user",
+          "content": "Help me with Grade 4 functions for CAPS"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with functions for Grade 4."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0014",
+      "label": "blocked",
+      "text": "Explain how a car engine works",
+      "history": [
+        {
+          "role": "user",
+          "content": "Explain euclidean geometry for Grade 7"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with euclidean geometry for Grade 7."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0015",
+      "label": "blocked",
+      "text": "peanuts in CAPS",
+      "history": [
+        {
+          "role": "user",
+          "content": "What does CAPS cover for calculus in Grade 6?"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with calculus for Grade 6."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0016",
+      "label": "blocked",
+      "text": "What's the weather in Cape Town?",
+      "history": [
+        {
+          "role": "user",
+          "content": "What does CAPS cover for trigonometry in Grade 9?"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with trigonometry for Grade 9."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0017",
+      "label": "blocked",
+      "text": "Grade 4 History geometry",
+      "history": [
+        {
+          "role": "user",
+          "content": "Explain statistics for Grade 10"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with statistics for Grade 10."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0018",
+      "label": "blocked",
+      "text": "Who won the rugby world cup?",
+      "history": [
+        {
+          "role": "user",
+          "content": "Help me with Grade 9 euclidean geometry for CAPS"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with euclidean geometry for Grade 9."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0019",
+      "label": "blocked",
+      "text": "peanuts in CAPS",
+      "history": [
+        {
+          "role": "user",
+          "content": "Explain functions for Grade 11"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with functions for Grade 11."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0020",
+      "label": "blocked",
+      "text": "Explain how a car engine works",
+      "history": [
+        {
+          "role": "user",
+          "content": "What does CAPS cover for functions in Grade 1?"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with functions for Grade 1."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0021",
+      "label": "blocked",
+      "text": "How do I install Docker?",
+      "history": [
+        {
+          "role": "user",
+          "content": "What does CAPS cover for trigonometry in Grade 7?"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with trigonometry for Grade 7."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0022",
+      "label": "blocked",
+      "text": "Explain how a car engine works",
+      "history": [
+        {
+          "role": "user",
+          "content": "What does CAPS cover for calculus in Grade 8?"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with calculus for Grade 8."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0023",
+      "label": "blocked",
+      "text": "IB Mathematics vectors",
+      "history": [
+        {
+          "role": "user",
+          "content": "Help me with Grade 11 euclidean geometry for CAPS"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with euclidean geometry for Grade 11."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0024",
+      "label": "blocked",
+      "text": "Who won the soccer world cup?",
+      "history": [
+        {
+          "role": "user",
+          "content": "Help me with Grade 12 data handling for CAPS"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with data handling for Grade 12."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0025",
+      "label": "blocked",
+      "text": "IB Mathematics vectors",
+      "history": [
+        {
+          "role": "user",
+          "content": "What does CAPS cover for equations in Grade 6?"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with equations for Grade 6."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0026",
+      "label": "blocked",
+      "text": "Ok explain a car to me",
+      "history": [
+        {
+          "role": "user",
+          "content": "Explain geometry for Grade 9"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with geometry for Grade 9."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0027",
+      "label": "blocked",
+      "text": "IB Mathematics vectors",
+      "history": [
+        {
+          "role": "user",
+          "content": "Explain calculus for Grade 11"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with calculus for Grade 11."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0028",
+      "label": "blocked",
+      "text": "peanuts in CAPS",
+      "history": [
+        {
+          "role": "user",
+          "content": "What does CAPS cover for euclidean geometry in Grade 6?"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with euclidean geometry for Grade 6."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0029",
+      "label": "blocked",
+      "text": "Ok explain a car to me",
+      "history": [
+        {
+          "role": "user",
+          "content": "What does CAPS cover for algebra in Grade 12?"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with algebra for Grade 12."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0030",
+      "label": "blocked",
+      "text": "Explain how a car engine works",
+      "history": [
+        {
+          "role": "user",
+          "content": "What does CAPS cover for data handling in Grade 1?"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with data handling for Grade 1."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0031",
+      "label": "blocked",
+      "text": "Who won the rugby world cup?",
+      "history": [
+        {
+          "role": "user",
+          "content": "Help me with Grade 4 analytical geometry for CAPS"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with analytical geometry for Grade 4."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0032",
+      "label": "blocked",
+      "text": "Who won the rugby world cup?",
+      "history": [
+        {
+          "role": "user",
+          "content": "Help me with Grade 2 equations for CAPS"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with equations for Grade 2."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0033",
+      "label": "blocked",
+      "text": "Write me a Python script to sort numbers",
+      "history": [
+        {
+          "role": "user",
+          "content": "Help me with Grade 1 probability for CAPS"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with probability for Grade 1."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0034",
+      "label": "blocked",
+      "text": "Who won the rugby world cup?",
+      "history": [
+        {
+          "role": "user",
+          "content": "Explain analytical geometry for Grade 10"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with analytical geometry for Grade 10."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0035",
+      "label": "blocked",
+      "text": "peanuts in CAPS",
+      "history": [
+        {
+          "role": "user",
+          "content": "Explain calculus for Grade 5"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with calculus for Grade 5."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0036",
+      "label": "blocked",
+      "text": "Tell me about dinosaurs",
+      "history": [
+        {
+          "role": "user",
+          "content": "Help me with Grade 2 euclidean geometry for CAPS"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with euclidean geometry for Grade 2."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0037",
+      "label": "blocked",
+      "text": "How do I install Docker?",
+      "history": [
+        {
+          "role": "user",
+          "content": "Explain whole numbers for Grade 8"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with whole numbers for Grade 8."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0038",
+      "label": "blocked",
+      "text": "Grade 9 Mathematical Literacy statistics",
+      "history": [
+        {
+          "role": "user",
+          "content": "Help me with Grade 8 algebra for CAPS"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with algebra for Grade 8."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0039",
+      "label": "blocked",
+      "text": "Ok explain a car to me",
+      "history": [
+        {
+          "role": "user",
+          "content": "Help me with Grade 8 fractions for CAPS"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with fractions for Grade 8."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0040",
+      "label": "blocked",
+      "text": "Write me a Python script to sort numbers",
+      "history": [
+        {
+          "role": "user",
+          "content": "What does CAPS cover for whole numbers in Grade 12?"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with whole numbers for Grade 12."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0041",
+      "label": "blocked",
+      "text": "Grade 12 History geometry",
+      "history": [
+        {
+          "role": "user",
+          "content": "What does CAPS cover for patterns in Grade 4?"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with patterns for Grade 4."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0042",
+      "label": "blocked",
+      "text": "peanuts in CAPS",
+      "history": [
+        {
+          "role": "user",
+          "content": "Help me with Grade 2 probability for CAPS"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with probability for Grade 2."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0043",
+      "label": "blocked",
+      "text": "Ok explain a car to me",
+      "history": [
+        {
+          "role": "user",
+          "content": "Explain data handling for Grade 6"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with data handling for Grade 6."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0044",
+      "label": "blocked",
+      "text": "Explain how a motorcycle engine works",
+      "history": [
+        {
+          "role": "user",
+          "content": "Explain equations for Grade 2"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with equations for Grade 2."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0045",
+      "label": "blocked",
+      "text": "write in caps",
+      "history": [
+        {
+          "role": "user",
+          "content": "What does CAPS cover for statistics in Grade 4?"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with statistics for Grade 4."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0046",
+      "label": "blocked",
+      "text": "Explain how a motorcycle engine works",
+      "history": [
+        {
+          "role": "user",
+          "content": "Help me with Grade 7 euclidean geometry for CAPS"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with euclidean geometry for Grade 7."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0047",
+      "label": "blocked",
+      "text": "Ok explain a car to me",
+      "history": [
+        {
+          "role": "user",
+          "content": "Explain fractions for Grade 6"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with fractions for Grade 6."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0048",
+      "label": "blocked",
+      "text": "Ok explain a car to me",
+      "history": [
+        {
+          "role": "user",
+          "content": "What does CAPS cover for euclidean geometry in Grade 8?"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with euclidean geometry for Grade 8."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0049",
+      "label": "blocked",
+      "text": "Grade 5 Mathematical Literacy statistics",
+      "history": [
+        {
+          "role": "user",
+          "content": "Explain equations for Grade 1"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with equations for Grade 1."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0050",
+      "label": "blocked",
+      "text": "IB Mathematics vectors",
+      "history": [
+        {
+          "role": "user",
+          "content": "Explain data handling for Grade 8"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with data handling for Grade 8."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0051",
+      "label": "blocked",
+      "text": "Who won the rugby world cup?",
+      "history": [
+        {
+          "role": "user",
+          "content": "What does CAPS cover for probability in Grade 6?"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with probability for Grade 6."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0052",
+      "label": "blocked",
+      "text": "Grade 7 Mathematical Literacy statistics",
+      "history": [
+        {
+          "role": "user",
+          "content": "Help me with Grade 7 statistics for CAPS"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with statistics for Grade 7."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0053",
+      "label": "blocked",
+      "text": "write in caps",
+      "history": [
+        {
+          "role": "user",
+          "content": "Explain trigonometry for Grade 4"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with trigonometry for Grade 4."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0054",
+      "label": "blocked",
+      "text": "Explain how a motorcycle engine works",
+      "history": [
+        {
+          "role": "user",
+          "content": "Help me with Grade 2 equations for CAPS"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with equations for Grade 2."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0055",
+      "label": "blocked",
+      "text": "Wat dek Graad 9 CAPS Wiskunde vir whole numbers?",
+      "history": [
+        {
+          "role": "user",
+          "content": "Help me with Grade 9 euclidean geometry for CAPS"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with euclidean geometry for Grade 9."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0056",
+      "label": "blocked",
+      "text": "Explain how a car engine works",
+      "history": [
+        {
+          "role": "user",
+          "content": "Help me with Grade 12 trigonometry for CAPS"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with trigonometry for Grade 12."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0057",
+      "label": "blocked",
+      "text": "IB Mathematics vectors",
+      "history": [
+        {
+          "role": "user",
+          "content": "Help me with Grade 11 whole numbers for CAPS"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with whole numbers for Grade 11."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0058",
+      "label": "blocked",
+      "text": "Explain how a motorcycle engine works",
+      "history": [
+        {
+          "role": "user",
+          "content": "What does CAPS cover for whole numbers in Grade 12?"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with whole numbers for Grade 12."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0059",
+      "label": "blocked",
+      "text": "What's the weather in Cape Town?",
+      "history": [
+        {
+          "role": "user",
+          "content": "What does CAPS cover for analytical geometry in Grade 7?"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with analytical geometry for Grade 7."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0060",
+      "label": "blocked",
+      "text": "Explain how a motorcycle engine works",
+      "history": [
+        {
+          "role": "user",
+          "content": "Explain probability for Grade 12"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with probability for Grade 12."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0061",
+      "label": "blocked",
+      "text": "Tell me about dinosaurs",
+      "history": [
+        {
+          "role": "user",
+          "content": "Explain functions for Grade 4"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with functions for Grade 4."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0062",
+      "label": "blocked",
+      "text": "Who won the rugby world cup?",
+      "history": [
+        {
+          "role": "user",
+          "content": "Help me with Grade 5 fractions for CAPS"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with fractions for Grade 5."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0063",
+      "label": "blocked",
+      "text": "peanuts in CAPS",
+      "history": [
+        {
+          "role": "user",
+          "content": "Help me with Grade 10 calculus for CAPS"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with calculus for Grade 10."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0064",
+      "label": "blocked",
+      "text": "Ok explain a car to me",
+      "history": [
+        {
+          "role": "user",
+          "content": "Help me with Grade 7 functions for CAPS"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with functions for Grade 7."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0065",
+      "label": "blocked",
+      "text": "IB Mathematics vectors",
+      "history": [
+        {
+          "role": "user",
+          "content": "What does CAPS cover for fractions in Grade 8?"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with fractions for Grade 8."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0066",
+      "label": "blocked",
+      "text": "IB Mathematics vectors",
+      "history": [
+        {
+          "role": "user",
+          "content": "What does CAPS cover for algebra in Grade 11?"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with algebra for Grade 11."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0067",
+      "label": "blocked",
+      "text": "write in caps",
+      "history": [
+        {
+          "role": "user",
+          "content": "Help me with Grade 3 euclidean geometry for CAPS"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with euclidean geometry for Grade 3."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0068",
+      "label": "blocked",
+      "text": "Ok explain a car to me",
+      "history": [
+        {
+          "role": "user",
+          "content": "Explain geometry for Grade 3"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with geometry for Grade 3."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0069",
+      "label": "blocked",
+      "text": "Grade 11 Mathematical Literacy statistics",
+      "history": [
+        {
+          "role": "user",
+          "content": "What does CAPS cover for probability in Grade 5?"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with probability for Grade 5."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0070",
+      "label": "blocked",
+      "text": "Write me a Python script to sort numbers",
+      "history": [
+        {
+          "role": "user",
+          "content": "What does CAPS cover for data handling in Grade 10?"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with data handling for Grade 10."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0071",
+      "label": "blocked",
+      "text": "Explain how a motorcycle engine works",
+      "history": [
+        {
+          "role": "user",
+          "content": "Explain euclidean geometry for Grade 6"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with euclidean geometry for Grade 6."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0072",
+      "label": "blocked",
+      "text": "Who won the rugby world cup?",
+      "history": [
+        {
+          "role": "user",
+          "content": "Explain probability for Grade 9"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with probability for Grade 9."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0073",
+      "label": "blocked",
+      "text": "IB Mathematics vectors",
+      "history": [
+        {
+          "role": "user",
+          "content": "Explain data handling for Grade 7"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with data handling for Grade 7."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0074",
+      "label": "blocked",
+      "text": "peanuts in CAPS",
+      "history": [
+        {
+          "role": "user",
+          "content": "What does CAPS cover for fractions in Grade 9?"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with fractions for Grade 9."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0075",
+      "label": "blocked",
+      "text": "What's the weather in Cape Town?",
+      "history": [
+        {
+          "role": "user",
+          "content": "Explain euclidean geometry for Grade 5"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with euclidean geometry for Grade 5."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0076",
+      "label": "blocked",
+      "text": "Grade 8 Mathematical Literacy statistics",
+      "history": [
+        {
+          "role": "user",
+          "content": "Help me with Grade 1 functions for CAPS"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with functions for Grade 1."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0077",
+      "label": "blocked",
+      "text": "Tell me about dinosaurs",
+      "history": [
+        {
+          "role": "user",
+          "content": "What does CAPS cover for trigonometry in Grade 8?"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with trigonometry for Grade 8."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0078",
+      "label": "blocked",
+      "text": "IB Mathematics vectors",
+      "history": [
+        {
+          "role": "user",
+          "content": "Help me with Grade 8 equations for CAPS"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with equations for Grade 8."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0079",
+      "label": "blocked",
+      "text": "Who won the rugby world cup?",
+      "history": [
+        {
+          "role": "user",
+          "content": "Help me with Grade 7 patterns for CAPS"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with patterns for Grade 7."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0080",
+      "label": "blocked",
+      "text": "What's the weather in Cape Town?",
+      "history": [
+        {
+          "role": "user",
+          "content": "What does CAPS cover for equations in Grade 8?"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with equations for Grade 8."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0081",
+      "label": "blocked",
+      "text": "Explain how a motorcycle engine works",
+      "history": [
+        {
+          "role": "user",
+          "content": "What does CAPS cover for whole numbers in Grade 8?"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with whole numbers for Grade 8."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0082",
+      "label": "blocked",
+      "text": "Explain how a car engine works",
+      "history": [
+        {
+          "role": "user",
+          "content": "Explain functions for Grade 1"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with functions for Grade 1."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0083",
+      "label": "blocked",
+      "text": "Tell me about dinosaurs",
+      "history": [
+        {
+          "role": "user",
+          "content": "Help me with Grade 1 whole numbers for CAPS"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with whole numbers for Grade 1."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0084",
+      "label": "blocked",
+      "text": "Tell me about dinosaurs",
+      "history": [
+        {
+          "role": "user",
+          "content": "What does CAPS cover for patterns in Grade 6?"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with patterns for Grade 6."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0085",
+      "label": "blocked",
+      "text": "Who won the soccer world cup?",
+      "history": [
+        {
+          "role": "user",
+          "content": "What does CAPS cover for statistics in Grade 9?"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with statistics for Grade 9."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0086",
+      "label": "blocked",
+      "text": "Tell me about dinosaurs",
+      "history": [
+        {
+          "role": "user",
+          "content": "Help me with Grade 7 data handling for CAPS"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with data handling for Grade 7."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0087",
+      "label": "blocked",
+      "text": "Who won the soccer world cup?",
+      "history": [
+        {
+          "role": "user",
+          "content": "Help me with Grade 9 whole numbers for CAPS"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with whole numbers for Grade 9."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0088",
+      "label": "blocked",
+      "text": "Explain how a car engine works",
+      "history": [
+        {
+          "role": "user",
+          "content": "What does CAPS cover for statistics in Grade 10?"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with statistics for Grade 10."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0089",
+      "label": "blocked",
+      "text": "Grade 12 History geometry",
+      "history": [
+        {
+          "role": "user",
+          "content": "What does CAPS cover for trigonometry in Grade 2?"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with trigonometry for Grade 2."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0090",
+      "label": "blocked",
+      "text": "How do I install Docker?",
+      "history": [
+        {
+          "role": "user",
+          "content": "Explain probability for Grade 1"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with probability for Grade 1."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0091",
+      "label": "blocked",
+      "text": "Who won the soccer world cup?",
+      "history": [
+        {
+          "role": "user",
+          "content": "What does CAPS cover for probability in Grade 6?"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with probability for Grade 6."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0092",
+      "label": "blocked",
+      "text": "Who won the soccer world cup?",
+      "history": [
+        {
+          "role": "user",
+          "content": "Explain equations for Grade 9"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with equations for Grade 9."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0093",
+      "label": "blocked",
+      "text": "Explain how a motorcycle engine works",
+      "history": [
+        {
+          "role": "user",
+          "content": "Explain algebra for Grade 6"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with algebra for Grade 6."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0094",
+      "label": "blocked",
+      "text": "Grade 4 Mathematical Literacy statistics",
+      "history": [
+        {
+          "role": "user",
+          "content": "Help me with Grade 5 statistics for CAPS"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with statistics for Grade 5."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0095",
+      "label": "blocked",
+      "text": "Ok explain a car to me",
+      "history": [
+        {
+          "role": "user",
+          "content": "Help me with Grade 6 functions for CAPS"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with functions for Grade 6."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0096",
+      "label": "blocked",
+      "text": "Explain how a car engine works",
+      "history": [
+        {
+          "role": "user",
+          "content": "Explain algebra for Grade 9"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with algebra for Grade 9."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0097",
+      "label": "blocked",
+      "text": "Write me a Python script to sort numbers",
+      "history": [
+        {
+          "role": "user",
+          "content": "Explain analytical geometry for Grade 12"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with analytical geometry for Grade 12."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0098",
+      "label": "blocked",
+      "text": "Who won the rugby world cup?",
+      "history": [
+        {
+          "role": "user",
+          "content": "Explain algebra for Grade 4"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with algebra for Grade 4."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0099",
+      "label": "blocked",
+      "text": "Grade 5 Mathematical Literacy statistics",
+      "history": [
+        {
+          "role": "user",
+          "content": "Explain trigonometry for Grade 1"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with trigonometry for Grade 1."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0100",
+      "label": "blocked",
+      "text": "What's the weather in Cape Town?",
+      "history": [
+        {
+          "role": "user",
+          "content": "Explain functions for Grade 6"
+        },
+        {
+          "role": "assistant",
+          "content": "Here is help with functions for Grade 6."
+        }
+      ],
+      "meta": {
+        "direction": "on_to_off"
+      }
+    },
+    {
+      "id": "sw-0101",
+      "label": "allowed",
+      "text": "Ali has 12 apples and gives 3 to Ben. How many left? Grade 9 CAPS",
+      "history": [
+        {
+          "role": "user",
+          "content": "Grade 9 Natural Sciences photosynthesis"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0102",
+      "label": "allowed",
+      "text": "Grade 11 trigonometry for CAPS",
+      "history": [
+        {
+          "role": "user",
+          "content": "all caps caps"
+        },
+        {
+          "role": "user",
+          "content": "Explain how a dog engine works"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0103",
+      "label": "allowed",
+      "text": "what about algebra",
+      "history": [
+        {
+          "role": "user",
+          "content": "Grade 3 History patterns"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0104",
+      "label": "allowed",
+      "text": "Grade 2 word problem: a car travels 60 km/h for 2 hours — find the distance",
+      "history": [
+        {
+          "role": "user",
+          "content": "peanuts in CAPS"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0105",
+      "label": "allowed",
+      "text": "geometry",
+      "history": [
+        {
+          "role": "user",
+          "content": "Ok explain a cat to me"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0106",
+      "label": "allowed",
+      "text": "whole numbers and place value",
+      "history": [
+        {
+          "role": "user",
+          "content": "Tell me about motorcycle"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0107",
+      "label": "allowed",
+      "text": "what about probability",
+      "history": [
+        {
+          "role": "user",
+          "content": "peanuts in CAPS"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0108",
+      "label": "allowed",
+      "text": "Grade 11 data handling graphs",
+      "history": [
+        {
+          "role": "user",
+          "content": "What's the weather in Cape Town?"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0109",
+      "label": "allowed",
+      "text": "Help with Grade 9 euclidean geometry for CAPS",
+      "history": [
+        {
+          "role": "user",
+          "content": "Wat dek Graad 2 CAPS Wiskunde vir euclidean geometry?"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0110",
+      "label": "allowed",
+      "text": "What does Grade 1 CAPS cover for patterns?",
+      "history": [
+        {
+          "role": "user",
+          "content": "Ok explain a motorcycle to me"
+        },
+        {
+          "role": "user",
+          "content": "Tell me about dog"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0111",
+      "label": "allowed",
+      "text": "measurement and units",
+      "history": [
+        {
+          "role": "user",
+          "content": "all caps caps"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0112",
+      "label": "allowed",
+      "text": "data handling graphs",
+      "history": [
+        {
+          "role": "user",
+          "content": "Grade 4 History patterns"
+        },
+        {
+          "role": "user",
+          "content": "Tell me about motorcycle"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0113",
+      "label": "allowed",
+      "text": "Ali has 12 apples and gives 3 to Ben. How many left? Grade 11 CAPS",
+      "history": [
+        {
+          "role": "user",
+          "content": "peanuts in CAPS"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0114",
+      "label": "allowed",
+      "text": "What does Grade 3 CAPS cover for measurement?",
+      "history": [
+        {
+          "role": "user",
+          "content": "Caps"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0115",
+      "label": "allowed",
+      "text": "Grade 4 trigonometry for CAPS",
+      "history": [
+        {
+          "role": "user",
+          "content": "Write me a Python script"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0116",
+      "label": "allowed",
+      "text": "ATP teaching plan for probability",
+      "history": [
+        {
+          "role": "user",
+          "content": "Write me a Python script"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0117",
+      "label": "allowed",
+      "text": "trigonometry",
+      "history": [
+        {
+          "role": "user",
+          "content": "write in caps"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0118",
+      "label": "allowed",
+      "text": "What is CAPS?",
+      "history": [
+        {
+          "role": "user",
+          "content": "Explain how a dog engine works"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0119",
+      "label": "allowed",
+      "text": "Help with Grade 12 euclidean geometry for CAPS",
+      "history": [
+        {
+          "role": "user",
+          "content": "peanuts in CAPS"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0120",
+      "label": "allowed",
+      "text": "what about probability",
+      "history": [
+        {
+          "role": "user",
+          "content": "write in caps"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0121",
+      "label": "allowed",
+      "text": "measurement and units",
+      "history": [
+        {
+          "role": "user",
+          "content": "IB Mathematics calculus"
+        },
+        {
+          "role": "user",
+          "content": "What's the weather in Cape Town?"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0122",
+      "label": "allowed",
+      "text": "what about algebra",
+      "history": [
+        {
+          "role": "user",
+          "content": "Grade 10 Natural Sciences photosynthesis"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0123",
+      "label": "allowed",
+      "text": "algebra",
+      "history": [
+        {
+          "role": "user",
+          "content": "Who won the soccer world cup?"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0124",
+      "label": "allowed",
+      "text": "calculus",
+      "history": [
+        {
+          "role": "user",
+          "content": "Write me a Python script"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0125",
+      "label": "allowed",
+      "text": "Help with data handling for Grade 12 CAPS",
+      "history": [
+        {
+          "role": "user",
+          "content": "Caps"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0126",
+      "label": "allowed",
+      "text": "Help me with Grade 1 fractions",
+      "history": [
+        {
+          "role": "user",
+          "content": "Caps"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0127",
+      "label": "allowed",
+      "text": "geometry and shapes",
+      "history": [
+        {
+          "role": "user",
+          "content": "Grade 2 History measurement"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0128",
+      "label": "allowed",
+      "text": "what about algebra",
+      "history": [
+        {
+          "role": "user",
+          "content": "Tell me about cat"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0129",
+      "label": "allowed",
+      "text": "data handling graphs",
+      "history": [
+        {
+          "role": "user",
+          "content": "Wat dek Graad 7 CAPS Wiskunde vir patterns?"
+        },
+        {
+          "role": "user",
+          "content": "Wat dek Graad 1 CAPS Wiskunde vir equations?"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0130",
+      "label": "allowed",
+      "text": "Grade 2 trigonometry for CAPS",
+      "history": [
+        {
+          "role": "user",
+          "content": "How do I install Docker?"
+        },
+        {
+          "role": "user",
+          "content": "Tell me about car"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0131",
+      "label": "allowed",
+      "text": "algebra",
+      "history": [
+        {
+          "role": "user",
+          "content": "Grade 7 English Home Language poetry"
+        },
+        {
+          "role": "user",
+          "content": "Ok explain a motorcycle to me"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0132",
+      "label": "allowed",
+      "text": "Help me with Grade 7 fractions",
+      "history": [
+        {
+          "role": "user",
+          "content": "Tell me about car"
+        },
+        {
+          "role": "user",
+          "content": "all caps caps"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0133",
+      "label": "allowed",
+      "text": "what about calculus",
+      "history": [
+        {
+          "role": "user",
+          "content": "IB Mathematics algebra"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0134",
+      "label": "allowed",
+      "text": "data handling",
+      "history": [
+        {
+          "role": "user",
+          "content": "Grade 4 History measurement"
+        },
+        {
+          "role": "user",
+          "content": "Grade 8 History fractions"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0135",
+      "label": "allowed",
+      "text": "Help me with Grade 2 fractions",
+      "history": [
+        {
+          "role": "user",
+          "content": "Wat dek Graad 12 CAPS Wiskunde vir patterns?"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0136",
+      "label": "allowed",
+      "text": "data handling graphs",
+      "history": [
+        {
+          "role": "user",
+          "content": "Who won the rugby world cup?"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0137",
+      "label": "allowed",
+      "text": "what about measurement",
+      "history": [
+        {
+          "role": "user",
+          "content": "IB Mathematics euclidean geometry"
+        },
+        {
+          "role": "user",
+          "content": "Grade 2 Mathematical Literacy euclidean geometry"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0138",
+      "label": "allowed",
+      "text": "ATP teaching plan for geometry",
+      "history": [
+        {
+          "role": "user",
+          "content": "Grade 9 English Home Language poetry"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0139",
+      "label": "allowed",
+      "text": "whole numbers and place value",
+      "history": [
+        {
+          "role": "user",
+          "content": "Grade 1 English Home Language poetry"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0140",
+      "label": "allowed",
+      "text": "calculus",
+      "history": [
+        {
+          "role": "user",
+          "content": "Grade 10 History calculus"
+        },
+        {
+          "role": "user",
+          "content": "Grade 8 History functions"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0141",
+      "label": "allowed",
+      "text": "what about geometry",
+      "history": [
+        {
+          "role": "user",
+          "content": "peanuts in CAPS"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0142",
+      "label": "allowed",
+      "text": "trigonometry",
+      "history": [
+        {
+          "role": "user",
+          "content": "Who won the soccer world cup?"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0143",
+      "label": "allowed",
+      "text": "trigonometry",
+      "history": [
+        {
+          "role": "user",
+          "content": "all caps caps"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0144",
+      "label": "allowed",
+      "text": "Help with Grade 11 data handling for CAPS",
+      "history": [
+        {
+          "role": "user",
+          "content": "peanuts in CAPS"
+        },
+        {
+          "role": "user",
+          "content": "Who won the soccer world cup?"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0145",
+      "label": "allowed",
+      "text": "measurement and units",
+      "history": [
+        {
+          "role": "user",
+          "content": "Grade 4 History calculus"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0146",
+      "label": "allowed",
+      "text": "Ali has 12 apples and gives 3 to Ben. How many left? Grade 3 CAPS",
+      "history": [
+        {
+          "role": "user",
+          "content": "peanuts in CAPS"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0147",
+      "label": "allowed",
+      "text": "trigonometry",
+      "history": [
+        {
+          "role": "user",
+          "content": "Grade 8 Mathematical Literacy euclidean geometry"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0148",
+      "label": "allowed",
+      "text": "algebra",
+      "history": [
+        {
+          "role": "user",
+          "content": "How do I install Docker?"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0149",
+      "label": "allowed",
+      "text": "geometry and shapes",
+      "history": [
+        {
+          "role": "user",
+          "content": "Tell me about dog"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0150",
+      "label": "allowed",
+      "text": "data handling graphs",
+      "history": [
+        {
+          "role": "user",
+          "content": "IB Mathematics equations"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0151",
+      "label": "allowed",
+      "text": "Help me with Grade 11 fractions",
+      "history": [
+        {
+          "role": "user",
+          "content": "Grade 11 Mathematical Literacy fractions"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0152",
+      "label": "allowed",
+      "text": "Help me with Grade 12 fractions",
+      "history": [
+        {
+          "role": "user",
+          "content": "What's the weather in Cape Town?"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0153",
+      "label": "allowed",
+      "text": "Help with calculus for Grade 4 CAPS",
+      "history": [
+        {
+          "role": "user",
+          "content": "Grade 6 English Home Language poetry"
+        },
+        {
+          "role": "user",
+          "content": "IB Mathematics euclidean geometry"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0154",
+      "label": "allowed",
+      "text": "trigonometry",
+      "history": [
+        {
+          "role": "user",
+          "content": "Caps"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0155",
+      "label": "allowed",
+      "text": "What is CAPS?",
+      "history": [
+        {
+          "role": "user",
+          "content": "Ok explain a motorcycle to me"
+        },
+        {
+          "role": "user",
+          "content": "Write me a Python script"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0156",
+      "label": "allowed",
+      "text": "what about algebra",
+      "history": [
+        {
+          "role": "user",
+          "content": "all caps caps"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0157",
+      "label": "allowed",
+      "text": "data handling graphs",
+      "history": [
+        {
+          "role": "user",
+          "content": "What's the weather in Cape Town?"
+        },
+        {
+          "role": "user",
+          "content": "Write me a Python script"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0158",
+      "label": "allowed",
+      "text": "whole numbers and place value",
+      "history": [
+        {
+          "role": "user",
+          "content": "Tell me about cat"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0159",
+      "label": "allowed",
+      "text": "measurement and units",
+      "history": [
+        {
+          "role": "user",
+          "content": "How do I install Docker?"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0160",
+      "label": "allowed",
+      "text": "ATP teaching plan for algebra",
+      "history": [
+        {
+          "role": "user",
+          "content": "Write me a Python script"
+        },
+        {
+          "role": "user",
+          "content": "Wat dek Graad 3 CAPS Wiskunde vir equations?"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0161",
+      "label": "allowed",
+      "text": "algebra",
+      "history": [
+        {
+          "role": "user",
+          "content": "Wat dek Graad 9 CAPS Wiskunde vir euclidean geometry?"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0162",
+      "label": "allowed",
+      "text": "What is CAPS?",
+      "history": [
+        {
+          "role": "user",
+          "content": "peanuts in CAPS"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0163",
+      "label": "allowed",
+      "text": "Grade 8 data handling graphs",
+      "history": [
+        {
+          "role": "user",
+          "content": "Who won the soccer world cup?"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0164",
+      "label": "allowed",
+      "text": "Grade 5 data handling graphs",
+      "history": [
+        {
+          "role": "user",
+          "content": "Wat dek Graad 9 CAPS Wiskunde vir calculus?"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0165",
+      "label": "allowed",
+      "text": "geometry and shapes",
+      "history": [
+        {
+          "role": "user",
+          "content": "Wat dek Graad 2 CAPS Wiskunde vir calculus?"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0166",
+      "label": "allowed",
+      "text": "trigonometry",
+      "history": [
+        {
+          "role": "user",
+          "content": "Grade 6 English Home Language poetry"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0167",
+      "label": "allowed",
+      "text": "ATP teaching plan for equations",
+      "history": [
+        {
+          "role": "user",
+          "content": "How do I install Docker?"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0168",
+      "label": "allowed",
+      "text": "geometry and shapes",
+      "history": [
+        {
+          "role": "user",
+          "content": "Grade 7 History equations"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0169",
+      "label": "allowed",
+      "text": "what about fractions",
+      "history": [
+        {
+          "role": "user",
+          "content": "Who won the rugby world cup?"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0170",
+      "label": "allowed",
+      "text": "what about algebra",
+      "history": [
+        {
+          "role": "user",
+          "content": "Write me a Python script"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0171",
+      "label": "allowed",
+      "text": "Ali has 12 apples and gives 3 to Ben. How many left? Grade 12 CAPS",
+      "history": [
+        {
+          "role": "user",
+          "content": "Grade 4 Natural Sciences photosynthesis"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0172",
+      "label": "allowed",
+      "text": "whole numbers and place value",
+      "history": [
+        {
+          "role": "user",
+          "content": "IB Mathematics algebra"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0173",
+      "label": "allowed",
+      "text": "trigonometry",
+      "history": [
+        {
+          "role": "user",
+          "content": "Explain how a motorcycle engine works"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0174",
+      "label": "allowed",
+      "text": "what about geometry",
+      "history": [
+        {
+          "role": "user",
+          "content": "Caps"
+        },
+        {
+          "role": "user",
+          "content": "How do I install Docker?"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0175",
+      "label": "allowed",
+      "text": "Explain functions for Grade 7",
+      "history": [
+        {
+          "role": "user",
+          "content": "Tell me about motorcycle"
+        },
+        {
+          "role": "user",
+          "content": "How do I install Docker?"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0176",
+      "label": "allowed",
+      "text": "Grade 9 data handling graphs",
+      "history": [
+        {
+          "role": "user",
+          "content": "IB Mathematics euclidean geometry"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0177",
+      "label": "allowed",
+      "text": "What does Grade 8 CAPS cover for algebra?",
+      "history": [
+        {
+          "role": "user",
+          "content": "How do I install Docker?"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0178",
+      "label": "allowed",
+      "text": "Ali has 12 apples and gives 3 to Ben. How many left? Grade 1 CAPS",
+      "history": [
+        {
+          "role": "user",
+          "content": "IB Mathematics whole numbers"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0179",
+      "label": "allowed",
+      "text": "What is CAPS?",
+      "history": [
+        {
+          "role": "user",
+          "content": "Tell me about dog"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0180",
+      "label": "allowed",
+      "text": "trigonometry",
+      "history": [
+        {
+          "role": "user",
+          "content": "Explain how a car engine works"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0181",
+      "label": "allowed",
+      "text": "What is CAPS?",
+      "history": [
+        {
+          "role": "user",
+          "content": "How do I install Docker?"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0182",
+      "label": "allowed",
+      "text": "geometry and shapes",
+      "history": [
+        {
+          "role": "user",
+          "content": "Caps"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0183",
+      "label": "allowed",
+      "text": "what about analytical geometry",
+      "history": [
+        {
+          "role": "user",
+          "content": "IB Mathematics measurement"
+        },
+        {
+          "role": "user",
+          "content": "IB Mathematics functions"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0184",
+      "label": "allowed",
+      "text": "what about probability",
+      "history": [
+        {
+          "role": "user",
+          "content": "What's the weather in Cape Town?"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0185",
+      "label": "allowed",
+      "text": "what about functions",
+      "history": [
+        {
+          "role": "user",
+          "content": "How do I install Docker?"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0186",
+      "label": "allowed",
+      "text": "geometry and shapes",
+      "history": [
+        {
+          "role": "user",
+          "content": "all caps caps"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0187",
+      "label": "allowed",
+      "text": "Explain calculus for Grade 11",
+      "history": [
+        {
+          "role": "user",
+          "content": "Explain how a car engine works"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0188",
+      "label": "allowed",
+      "text": "Explain euclidean geometry for Grade 10",
+      "history": [
+        {
+          "role": "user",
+          "content": "How do I install Docker?"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0189",
+      "label": "allowed",
+      "text": "Grade 10 data handling graphs",
+      "history": [
+        {
+          "role": "user",
+          "content": "Write me a Python script"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0190",
+      "label": "allowed",
+      "text": "what about fractions",
+      "history": [
+        {
+          "role": "user",
+          "content": "IB Mathematics equations"
+        },
+        {
+          "role": "user",
+          "content": "write in caps"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0191",
+      "label": "allowed",
+      "text": "Explain equations for Grade 1",
+      "history": [
+        {
+          "role": "user",
+          "content": "Grade 9 Natural Sciences photosynthesis"
+        },
+        {
+          "role": "user",
+          "content": "IB Mathematics analytical geometry"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0192",
+      "label": "allowed",
+      "text": "Grade 8 trigonometry for CAPS",
+      "history": [
+        {
+          "role": "user",
+          "content": "write in caps"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0193",
+      "label": "allowed",
+      "text": "calculus",
+      "history": [
+        {
+          "role": "user",
+          "content": "write in caps"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0194",
+      "label": "allowed",
+      "text": "Ali has 12 apples and gives 3 to Ben. How many left? Grade 4 CAPS",
+      "history": [
+        {
+          "role": "user",
+          "content": "Wat dek Graad 8 CAPS Wiskunde vir euclidean geometry?"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0195",
+      "label": "allowed",
+      "text": "Grade 12 functions",
+      "history": [
+        {
+          "role": "user",
+          "content": "Wat dek Graad 9 CAPS Wiskunde vir euclidean geometry?"
+        },
+        {
+          "role": "user",
+          "content": "Write me a Python script"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0196",
+      "label": "allowed",
+      "text": "Help me with Grade 12 fractions",
+      "history": [
+        {
+          "role": "user",
+          "content": "Grade 7 History algebra"
+        },
+        {
+          "role": "user",
+          "content": "Explain how a car engine works"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0197",
+      "label": "allowed",
+      "text": "Help me with Grade 5 fractions",
+      "history": [
+        {
+          "role": "user",
+          "content": "How do I install Docker?"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0198",
+      "label": "allowed",
+      "text": "Help with Grade 10 statistics for CAPS",
+      "history": [
+        {
+          "role": "user",
+          "content": "all caps caps"
+        },
+        {
+          "role": "user",
+          "content": "Ok explain a car to me"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0199",
+      "label": "allowed",
+      "text": "what about algebra",
+      "history": [
+        {
+          "role": "user",
+          "content": "Grade 3 History statistics"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    },
+    {
+      "id": "sw-0200",
+      "label": "allowed",
+      "text": "algebra",
+      "history": [
+        {
+          "role": "user",
+          "content": "write in caps"
+        }
+      ],
+      "meta": {
+        "direction": "off_to_on",
+        "history_model": "client_blocked_only"
+      }
+    }
+  ]
+}

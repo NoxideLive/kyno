@@ -1,0 +1,11 @@
+{
+  "min_per_label": 100,
+  "default_workers": 2,
+  "max_workers": 8,
+  "suites": {
+    "jailbreak": "jailbreak.json",
+    "domain": "domain.json",
+    "switch": "switch.json"
+  },
+  "output_report": "report.json"
+}

@@ -39,8 +39,3 @@ export function clerkPluginOptions() {
   }
 }
 
-/** Routes that use Clerk + Convex auth bridge. */
-export function routeUsesClerkAuth(path: string): boolean {
-  if (path === '/') return false
-  return true
-}

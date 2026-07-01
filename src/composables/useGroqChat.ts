@@ -3,7 +3,14 @@ import { useConvexClient, useConvexMutation } from 'convex-vue'
 import { api } from '../../convex/_generated/api'
 import type { Id } from '../../convex/_generated/dataModel'
 import { useConvexAuthPending } from '@/composables/useConvexAuthReady'
-import type { ChatDebugEvent } from '@/lib/chatDebug'
+import {
+  applyStoredDebugTraces,
+  clearFailedDebugTrace,
+  getFailedDebugTrace,
+  setFailedDebugTrace,
+  setMessageDebugTrace,
+  type ChatDebugEvent,
+} from '@/lib/chatDebug'
 import { prepareMessageContent } from '@/lib/messageContent'
 import { parseChatError } from '@/lib/parseChatError'
 
@@ -16,6 +23,8 @@ export type ChatMessage = {
   contentFormat?: 'widget' | 'text'
   replyToMessageId?: Id<'messages'>
   debugTrace?: ChatDebugEvent[]
+  /** Client-only: blocked off-topic attempt — visible until the next send. */
+  ephemeral?: boolean
 }
 
 export type SendMessageOptions = {
@@ -69,14 +78,23 @@ export function useGroqChat(
   const offTopicHint = ref<string | null>(null)
   const failedDebug = ref<FailedChatDebug | null>(null)
   const pendingConversationId = ref<Id<'conversations'> | null>(null)
-  const pendingDebugTrace = ref<ChatDebugEvent[] | null>(null)
+
+  function hydrateMessages(
+    id: Id<'conversations'>,
+    docs: Parameters<typeof messageFromDoc>[0][],
+  ): ChatMessage[] {
+    return applyStoredDebugTraces(id, docs.map(messageFromDoc))
+  }
 
   watch(
     [conversationId, convexPending],
     async ([id, pending]) => {
       pendingConversationId.value = null
       if (pending || !id) {
-        if (!pending && !isLoading.value) messages.value = []
+        if (!pending && !isLoading.value) {
+          messages.value = []
+          failedDebug.value = null
+        }
         return
       }
 
@@ -85,17 +103,29 @@ export function useGroqChat(
           conversationId: id,
         })
         if (conversationId.value !== id) return
-        messages.value = data.messages.map(messageFromDoc)
+        messages.value = hydrateMessages(id, data.messages)
+        failedDebug.value = getFailedDebugTrace(id)
       } catch (e) {
         if (conversationId.value !== id) return
         const message =
           e instanceof Error ? e.message : 'Could not load conversation.'
         error.value = message
         messages.value = []
+        failedDebug.value = null
       }
     },
     { immediate: true },
   )
+
+  function attachDebugTraceToLastAssistant(
+    id: Id<'conversations'>,
+    trace: ChatDebugEvent[],
+  ): void {
+    const lastAssistant = [...messages.value].reverse().find((m) => m.role === 'assistant')
+    if (!lastAssistant) return
+    lastAssistant.debugTrace = trace
+    setMessageDebugTrace(id, lastAssistant.id, trace)
+  }
 
   async function send(
     content: string,
@@ -122,6 +152,8 @@ export function useGroqChat(
 
     const preparedContent = prepareMessageContent(trimmed)
 
+    messages.value = messages.value.filter((message) => !message.ephemeral)
+
     const optimisticId = crypto.randomUUID()
     messages.value.push({
       id: optimisticId,
@@ -134,14 +166,17 @@ export function useGroqChat(
     error.value = null
     offTopicHint.value = null
     failedDebug.value = null
+    clearFailedDebugTrace(conversationIdForSend)
 
     const collectDebug = debugEnabled?.value === true
 
     try {
-      const payload = messages.value.map((message) => ({
-        role: message.role,
-        content: message.content,
-      }))
+      const payload = messages.value
+        .filter((message) => !message.ephemeral)
+        .map((message) => ({
+          role: message.role,
+          content: message.content,
+        }))
 
       const result = await client.action(api.chat.sendMessage, {
         messages: payload,
@@ -151,35 +186,31 @@ export function useGroqChat(
         ...(collectDebug ? { debug: true } : {}),
       })
 
-      if (collectDebug && result.debugTrace) {
-        pendingDebugTrace.value = result.debugTrace
-      }
+      const debugTrace = collectDebug ? result.debugTrace : undefined
 
       messages.value.push({
         id: crypto.randomUUID(),
         role: 'assistant',
         content: result.messages[0]?.content ?? '',
         contentFormat: result.messages[0]?.contentFormat,
-        debugTrace: collectDebug ? result.debugTrace : undefined,
+        debugTrace,
       })
 
       const data = await client.query(api.conversations.get, {
         conversationId: conversationIdForSend,
       })
-      messages.value = data.messages.map(messageFromDoc)
-      if (pendingDebugTrace.value) {
-        const lastAssistant = [...messages.value].reverse().find((m) => m.role === 'assistant')
-        if (lastAssistant) {
-          lastAssistant.debugTrace = pendingDebugTrace.value
-        }
-        pendingDebugTrace.value = null
+      messages.value = hydrateMessages(conversationIdForSend, data.messages)
+      if (debugTrace && debugTrace.length > 0) {
+        attachDebugTraceToLastAssistant(conversationIdForSend, debugTrace)
       }
 
       return conversationIdForSend
     } catch (e) {
       const parsed = parseChatError(e)
       if (parsed.kind === 'off_topic') {
-        // Keep user message visible; show domain redirect copy.
+        messages.value = messages.value.map((message) =>
+          message.id === optimisticId ? { ...message, ephemeral: true } : message,
+        )
         offTopicHint.value = parsed.suggestion
           ? `${parsed.message} ${parsed.suggestion}`
           : parsed.message
@@ -187,10 +218,12 @@ export function useGroqChat(
         messages.value = messages.value.filter((message) => message.id !== optimisticId)
         error.value = parsed.message
         if (collectDebug && parsed.kind === 'generic' && parsed.debugTrace) {
-          failedDebug.value = {
+          const failed = {
             events: parsed.debugTrace,
             errorMessage: parsed.message,
           }
+          failedDebug.value = failed
+          setFailedDebugTrace(conversationIdForSend, failed)
         }
       }
       return conversationIdForSend
@@ -202,6 +235,8 @@ export function useGroqChat(
   function clearError(): void {
     error.value = null
     offTopicHint.value = null
+    const id = conversationId.value ?? pendingConversationId.value
+    if (id) clearFailedDebugTrace(id)
     failedDebug.value = null
   }
 
@@ -211,7 +246,6 @@ export function useGroqChat(
     error.value = null
     offTopicHint.value = null
     failedDebug.value = null
-    pendingDebugTrace.value = null
   }
 
   return { messages, isLoading, error, offTopicHint, failedDebug, send, clearError, reset }

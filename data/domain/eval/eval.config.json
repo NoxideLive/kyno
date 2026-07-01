@@ -1,0 +1,12 @@
+{
+  "threshold_sweep": {
+    "min": 0.4,
+    "max": 0.7,
+    "step": 0.01
+  },
+  "paths": {
+    "test": "data/domain/eval/test.jsonl",
+    "regression": "data/domain/eval/regression.jsonl",
+    "output_report": "data/domain/eval/eval_report.json"
+  }
+}

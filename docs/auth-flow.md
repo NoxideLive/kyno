@@ -1,65 +1,56 @@
 # Auth flow on refresh
 
-Protected routes (e.g. `/chat/:conversationId`) must not flash sign-in or empty unauthenticated UI while Clerk and Convex initialize.
+One provider (`AppAuthProvider.vue`) owns Clerk session load, Convex JWT wiring, and user provisioning. Router guards only check Clerk session (plus admin role after Convex is ready).
 
 ## Boot sequence
 
 ```mermaid
 sequenceDiagram
   participant Browser
-  participant App as App.vue
+  participant Provider as AppAuthProvider
   participant Guard as router/guards
   participant Clerk as Clerk
-  participant Bridge as ConvexClerkAuth
+  participant Convex as Convex
   participant View as ChatView
 
-  Browser->>App: Hard refresh /chat/…
-  App->>Clerk: useAuth().isLoaded?
-  Note over App: AuthLoadingShell until isLoaded
-  Clerk-->>App: isLoaded true
-  App->>Guard: beforeEach (protected route)
-  Guard->>Clerk: waitForClerkLoaded()
-  alt isLoaded && !isSignedIn
-    Guard-->>Browser: redirect /sign-in?redirect=…
-  else isLoaded && isSignedIn
-    Guard-->>App: allow navigation
-    App->>Bridge: mount ConvexClerkAuth
-    Note over Bridge: AuthLoadingShell until JWT handshake + getOrCreateUser
-    Bridge-->>View: render slot (deep link preserved)
-    View->>View: Convex queries / chat load
-  end
+  Browser->>Provider: Hard refresh /chat/…
+  Provider->>Clerk: wait for isLoaded
+  Note over Provider: AuthLoadingShell (single screen)
+  Clerk-->>Provider: isLoaded + signed in
+  Provider->>Convex: setAuth + getOrCreateUser
+  Convex-->>Provider: convexReady
+  Provider->>View: render RouterView
+  Guard->>Guard: beforeEach (already allowed — signed in)
+  View->>View: Convex queries / chat load
 ```
 
 ## Layers
 
 | Layer | File | Role |
 |-------|------|------|
-| Clerk session | `App.vue` | `AuthLoadingShell` while `!useAuth().isLoaded` |
-| Router | `router/guards.ts` | Wait for `isLoaded`; redirect only when `isLoaded && isSignedIn === false`; preserve `?redirect=` |
+| Auth orchestrator | `providers/AppAuthProvider.vue` | Clerk load → Convex `setAuth` → `getOrCreateUser` → show routes |
+| Shared state | `lib/authSession.ts` | `clerkLoaded`, `clerkSignedIn`, `convexReady`, `userRole` for guards/composables |
+| Router | `router/guards.ts` | Wait for Clerk; redirect signed-out users; admin uses cached `userRole` |
 | Handshake bypass | `lib/clerkConfig.ts` | `__clerk_handshake*` query params skip redirects |
-| Convex bridge | `ConvexClerkAuth.vue` | `setAuth` + loading shell until handshake and user provisioning |
-| Data readiness | `useConvexAuthReady.ts` | `useConvexAuthPending()` — missing inject = pending, not signed-out |
-| Chat data | `useGroqChat.ts` | Skips conversation fetch while Convex auth is pending |
+| Data readiness | `useConvexAuthReady.ts` | `convexReady` for query skip / chat fetch gating |
 
 ## Guard rules
 
 1. **Never** redirect to `/sign-in` before Clerk `isLoaded` is true.
-2. On timeout waiting for Clerk, allow navigation — `App.vue` still blocks UI until loaded.
-3. Sign-in / sign-up routes: if already signed in, honor `?redirect=` or fallback URL.
-4. Admin routes: after auth, query Convex role before allowing access.
+2. Sign-in / sign-up: if already signed in, honor `?redirect=` or fallback URL.
+3. Protected routes: redirect when `isLoaded && isSignedIn === false`.
+4. Admin routes: wait for `convexReady`, then check `userRole === 'admin'`.
 
 ## Guard installation
 
-Guards register in `main.ts` via `app.runWithContext(() => installAuthGuards(router))` after `clerkPlugin`, so the first navigation always runs guarded code.
+Guards register in `main.ts` via `app.runWithContext(() => installAuthGuards(router))` after `clerkPlugin`.
 
 ## Expected refresh behavior (signed-in user)
 
-1. Full-page **Loading session…** spinner (no nav, no sign-in flash).
-2. **Connecting…** while Convex JWT handshake runs (still on `/chat/…`).
-3. Chat renders with sidebar and conversation loaded — URL unchanged.
+1. Single **Loading session…** / **Connecting…** spinner (no sign-in flash, URL preserved).
+2. Chat renders with sidebar and conversation loaded.
 
 ## Expected refresh behavior (signed-out user)
 
 1. **Loading session…** briefly.
 2. Redirect to `/sign-in?redirect=/chat/…` once Clerk confirms signed-out state.
-3. After sign-in, return to the original chat URL via `redirect` query.

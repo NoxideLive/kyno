@@ -9,12 +9,7 @@ import {
 } from './chatDebug'
 import { logGroq, systemPromptMeta, truncate } from './chatLogging'
 import {
-  classifyDomain,
-  domainGatewayUnavailableMessage,
-  isDomainGatewayEnabled,
-  offTopicSuggestion,
-  offTopicUserMessage,
-  shouldBlockDomain,
+  assertMessageAllowed,
 } from './domain'
 import {
   formatGroqUserMessageWithReplyContext,
@@ -41,6 +36,7 @@ const DEFAULT_MODEL = 'openai/gpt-oss-20b'
 const GROQ_CHAT_URL = 'https://api.groq.com/openai/v1/chat/completions'
 const SCHEMA_NAME = 'kyno_widget'
 const FAILED_GENERATION_SNIPPET_MAX = 1000
+const DOMAIN_HISTORY_TEXT_MAX = 400
 const MAX_WIDGET_ATTEMPTS = 3
 const WIDGET_CORRECTION_PREFIX =
   '[Kyno validation — not shown to the user] Your previous widget JSON was invalid. Reply with exactly one corrected {"widgets":[...]} object.'
@@ -526,21 +522,24 @@ export const sendMessage = authedAction(Permissions.readProfile, {
       })
     }
 
-    const domainResult = await classifyDomain(lastUserMessage.content)
-    if (!domainResult.ok) {
-      if (isDomainGatewayEnabled()) {
-        throw new ConvexError({
-          code: 'DOMAIN_GATEWAY_UNAVAILABLE',
-          message: domainGatewayUnavailableMessage(),
+    const persistedMessages = args.conversationId
+      ? await ctx.runQuery(internal.conversations.listPersistedMessagesForChat, {
+          userId: ctx.appAuth.userId,
+          conversationId: args.conversationId,
         })
-      }
-    } else if (shouldBlockDomain(domainResult.classification)) {
-      throw new ConvexError({
-        code: 'OFF_TOPIC',
-        message: offTopicUserMessage(),
-        suggestion: offTopicSuggestion(),
-      })
-    }
+      : []
+
+    const domainHistory = persistedMessages.map((message) => ({
+      role: message.role,
+      content: quoteTextFromContent(
+        message.content,
+        message.role,
+        message.contentFormat,
+        DOMAIN_HISTORY_TEXT_MAX,
+      ).text,
+    }))
+
+    await assertMessageAllowed(lastUserMessage.content, domainHistory)
 
     let replyQuote:
       | {
@@ -579,18 +578,21 @@ export const sendMessage = authedAction(Permissions.readProfile, {
     const collectDebug = args.debug === true
     const debugTrace: ChatDebugEvent[] | undefined = collectDebug ? [] : undefined
 
-    const groqMessages: GroqChatMessage[] = args.messages.map((message, index) => {
-      const isLastUser =
-        index === args.messages.length - 1 && message.role === 'user'
-      const content =
-        isLastUser && replyQuote
-          ? formatGroqUserMessageWithReplyContext(message.content, replyQuote)
-          : message.content
-
-      return groqHistoryMessage({
+    const groqMessages: GroqChatMessage[] = persistedMessages.map((message) =>
+      groqHistoryMessage({
         role: message.role,
-        content,
-      })
+        content: message.content,
+      }),
+    )
+
+    const latestUserContent =
+      replyQuote != null
+        ? formatGroqUserMessageWithReplyContext(lastUserMessage.content, replyQuote)
+        : lastUserMessage.content
+
+    groqMessages.push({
+      role: 'user',
+      content: latestUserContent,
     })
     // User-visible history only — validation retry turns are added inside fetchWidgetReply.
 

@@ -1,0 +1,1409 @@
+{
+  "suite": "domain",
+  "labels": [
+    "on_topic",
+    "off_topic"
+  ],
+  "cases": [
+    {
+      "id": "dom-0001",
+      "label": "on_topic",
+      "text": "fractions",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0002",
+      "label": "on_topic",
+      "text": "What is CAPS?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0003",
+      "label": "on_topic",
+      "text": "trigonometry",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0004",
+      "label": "on_topic",
+      "text": "calculus",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0005",
+      "label": "on_topic",
+      "text": "algebra",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0006",
+      "label": "on_topic",
+      "text": "whole numbers and place value",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0007",
+      "label": "on_topic",
+      "text": "geometry and shapes",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0008",
+      "label": "on_topic",
+      "text": "data handling graphs",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0009",
+      "label": "on_topic",
+      "text": "measurement and units",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0010",
+      "label": "on_topic",
+      "text": "ATP teaching plan for fractions",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0011",
+      "label": "on_topic",
+      "text": "Grade 8 word problem: a car travels 60 km/h for 2 hours — find the distance",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0012",
+      "label": "on_topic",
+      "text": "Ali has 12 apples and gives 3 to Ben. How many left? Grade 4 CAPS",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0013",
+      "label": "on_topic",
+      "text": "geometry",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0014",
+      "label": "on_topic",
+      "text": "Grade 9 analytical geometry",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0015",
+      "label": "on_topic",
+      "text": "Help with probability for Grade 8 CAPS",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0016",
+      "label": "on_topic",
+      "text": "what about algebra",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0017",
+      "label": "on_topic",
+      "text": "Ali has 12 apples and gives 3 to Ben. How many left? Grade 8 CAPS",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0018",
+      "label": "on_topic",
+      "text": "Grade 2 word problem: a car travels 60 km/h for 2 hours — find the distance",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0019",
+      "label": "on_topic",
+      "text": "Grade 9 patterns",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0020",
+      "label": "on_topic",
+      "text": "what about probability",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0021",
+      "label": "on_topic",
+      "text": "what about euclidean geometry",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0022",
+      "label": "on_topic",
+      "text": "Help with calculus for Grade 2 CAPS",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0023",
+      "label": "on_topic",
+      "text": "measurement",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0024",
+      "label": "on_topic",
+      "text": "Help with algebra for Grade 3 CAPS",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0025",
+      "label": "on_topic",
+      "text": "Help with measurement for Grade 1 CAPS",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0026",
+      "label": "on_topic",
+      "text": "what about whole numbers",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0027",
+      "label": "on_topic",
+      "text": "What does Grade 12 CAPS cover for algebra?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0028",
+      "label": "on_topic",
+      "text": "Grade 8 geometry",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0029",
+      "label": "on_topic",
+      "text": "Grade 5 word problem: a car travels 60 km/h for 2 hours — find the distance",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0030",
+      "label": "on_topic",
+      "text": "What does Grade 10 CAPS cover for analytical geometry?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0031",
+      "label": "on_topic",
+      "text": "equations",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0032",
+      "label": "on_topic",
+      "text": "Grade 5 fractions",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0033",
+      "label": "on_topic",
+      "text": "ATP teaching plan for probability",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0034",
+      "label": "on_topic",
+      "text": "What does Grade 3 CAPS cover for patterns?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0035",
+      "label": "on_topic",
+      "text": "Help with calculus for Grade 3 CAPS",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0036",
+      "label": "on_topic",
+      "text": "Ali has 12 apples and gives 3 to Ben. How many left? Grade 6 CAPS",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0037",
+      "label": "on_topic",
+      "text": "Help with equations for Grade 2 CAPS",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0038",
+      "label": "on_topic",
+      "text": "ATP teaching plan for geometry",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0039",
+      "label": "on_topic",
+      "text": "Help with equations for Grade 1 CAPS",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0040",
+      "label": "on_topic",
+      "text": "what about equations",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0041",
+      "label": "on_topic",
+      "text": "euclidean geometry",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0042",
+      "label": "on_topic",
+      "text": "Help with algebra for Grade 4 CAPS",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0043",
+      "label": "on_topic",
+      "text": "Ali has 12 apples and gives 3 to Ben. How many left? Grade 12 CAPS",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0044",
+      "label": "on_topic",
+      "text": "What does Grade 5 CAPS cover for statistics?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0045",
+      "label": "on_topic",
+      "text": "statistics",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0046",
+      "label": "on_topic",
+      "text": "Ali has 12 apples and gives 3 to Ben. How many left? Grade 3 CAPS",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0047",
+      "label": "on_topic",
+      "text": "Help with data handling for Grade 2 CAPS",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0048",
+      "label": "on_topic",
+      "text": "probability",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0049",
+      "label": "on_topic",
+      "text": "ATP teaching plan for equations",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0050",
+      "label": "on_topic",
+      "text": "What does Grade 7 CAPS cover for statistics?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0051",
+      "label": "on_topic",
+      "text": "Grade 4 probability",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0052",
+      "label": "on_topic",
+      "text": "Grade 3 word problem: a car travels 60 km/h for 2 hours — find the distance",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0053",
+      "label": "on_topic",
+      "text": "functions",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0054",
+      "label": "on_topic",
+      "text": "What does Grade 8 CAPS cover for trigonometry?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0055",
+      "label": "on_topic",
+      "text": "whole numbers",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0056",
+      "label": "on_topic",
+      "text": "Grade 8 patterns",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0057",
+      "label": "on_topic",
+      "text": "Ali has 12 apples and gives 3 to Ben. How many left? Grade 9 CAPS",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0058",
+      "label": "on_topic",
+      "text": "What does Grade 5 CAPS cover for patterns?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0059",
+      "label": "on_topic",
+      "text": "Help with equations for Grade 10 CAPS",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0060",
+      "label": "on_topic",
+      "text": "what about analytical geometry",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0061",
+      "label": "on_topic",
+      "text": "Ali has 12 apples and gives 3 to Ben. How many left? Grade 2 CAPS",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0062",
+      "label": "on_topic",
+      "text": "What does Grade 5 CAPS cover for data handling?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0063",
+      "label": "on_topic",
+      "text": "What does Grade 5 CAPS cover for geometry?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0064",
+      "label": "on_topic",
+      "text": "ATP teaching plan for patterns",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0065",
+      "label": "on_topic",
+      "text": "Grade 11 word problem: a car travels 60 km/h for 2 hours — find the distance",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0066",
+      "label": "on_topic",
+      "text": "ATP teaching plan for analytical geometry",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0067",
+      "label": "on_topic",
+      "text": "Ali has 12 apples and gives 3 to Ben. How many left? Grade 11 CAPS",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0068",
+      "label": "on_topic",
+      "text": "Help with fractions for Grade 7 CAPS",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0069",
+      "label": "on_topic",
+      "text": "Help with statistics for Grade 11 CAPS",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0070",
+      "label": "on_topic",
+      "text": "Grade 5 trigonometry",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0071",
+      "label": "on_topic",
+      "text": "Grade 12 analytical geometry",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0072",
+      "label": "on_topic",
+      "text": "what about measurement",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0073",
+      "label": "on_topic",
+      "text": "Grade 10 word problem: a car travels 60 km/h for 2 hours — find the distance",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0074",
+      "label": "on_topic",
+      "text": "ATP teaching plan for measurement",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0075",
+      "label": "on_topic",
+      "text": "What does Grade 11 CAPS cover for whole numbers?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0076",
+      "label": "on_topic",
+      "text": "Grade 12 measurement",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0077",
+      "label": "on_topic",
+      "text": "What does Grade 4 CAPS cover for patterns?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0078",
+      "label": "on_topic",
+      "text": "What does Grade 5 CAPS cover for analytical geometry?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0079",
+      "label": "on_topic",
+      "text": "What does Grade 5 CAPS cover for whole numbers?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0080",
+      "label": "on_topic",
+      "text": "Grade 4 functions",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0081",
+      "label": "on_topic",
+      "text": "what about data handling",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0082",
+      "label": "on_topic",
+      "text": "Ali has 12 apples and gives 3 to Ben. How many left? Grade 7 CAPS",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0083",
+      "label": "on_topic",
+      "text": "What does Grade 12 CAPS cover for probability?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0084",
+      "label": "on_topic",
+      "text": "What does Grade 3 CAPS cover for data handling?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0085",
+      "label": "on_topic",
+      "text": "Grade 1 statistics",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0086",
+      "label": "on_topic",
+      "text": "Ali has 12 apples and gives 3 to Ben. How many left? Grade 5 CAPS",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0087",
+      "label": "on_topic",
+      "text": "Help with equations for Grade 4 CAPS",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0088",
+      "label": "on_topic",
+      "text": "Help with algebra for Grade 10 CAPS",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0089",
+      "label": "on_topic",
+      "text": "Grade 8 equations",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0090",
+      "label": "on_topic",
+      "text": "Help with fractions for Grade 11 CAPS",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0091",
+      "label": "on_topic",
+      "text": "Grade 4 fractions",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0092",
+      "label": "on_topic",
+      "text": "what about geometry",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0093",
+      "label": "on_topic",
+      "text": "Help with calculus for Grade 5 CAPS",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0094",
+      "label": "on_topic",
+      "text": "what about trigonometry",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0095",
+      "label": "on_topic",
+      "text": "Grade 6 analytical geometry",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0096",
+      "label": "on_topic",
+      "text": "Help with statistics for Grade 9 CAPS",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0097",
+      "label": "on_topic",
+      "text": "Help with statistics for Grade 10 CAPS",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0098",
+      "label": "on_topic",
+      "text": "what about functions",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0099",
+      "label": "on_topic",
+      "text": "Grade 6 word problem: a car travels 60 km/h for 2 hours — find the distance",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0100",
+      "label": "on_topic",
+      "text": "Help with fractions for Grade 10 CAPS",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0101",
+      "label": "off_topic",
+      "text": "Caps",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0102",
+      "label": "off_topic",
+      "text": "write in caps",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0103",
+      "label": "off_topic",
+      "text": "peanuts in CAPS",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0104",
+      "label": "off_topic",
+      "text": "Mathematical Literacy interest rates",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0105",
+      "label": "off_topic",
+      "text": "Natural Sciences photosynthesis",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0106",
+      "label": "off_topic",
+      "text": "Write me a Python script",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0107",
+      "label": "off_topic",
+      "text": "What's the weather in Cape Town?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0108",
+      "label": "off_topic",
+      "text": "IB Mathematics vectors",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0109",
+      "label": "off_topic",
+      "text": "Life Orientation assessment rubric",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0110",
+      "label": "off_topic",
+      "text": "Wat dek Graad 6 CAPS Wiskunde vir fractions?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0111",
+      "label": "off_topic",
+      "text": "Ok explain a car to me",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0112",
+      "label": "off_topic",
+      "text": "Explain how a car engine works",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0113",
+      "label": "off_topic",
+      "text": "Tell me about dinosaurs",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0114",
+      "label": "off_topic",
+      "text": "How do I install Docker?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0115",
+      "label": "off_topic",
+      "text": "Can we test you",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0116",
+      "label": "off_topic",
+      "text": "How good are you?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0117",
+      "label": "off_topic",
+      "text": "Explain to me how you work",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0118",
+      "label": "off_topic",
+      "text": "tell me about pizza",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0119",
+      "label": "off_topic",
+      "text": "ok you know pizza?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0120",
+      "label": "off_topic",
+      "text": "Grade 4 Mathematical Literacy whole numbers",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0121",
+      "label": "off_topic",
+      "text": "Who won the rugby world cup?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0122",
+      "label": "off_topic",
+      "text": "Wat dek Graad 2 CAPS Wiskunde vir statistics?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0123",
+      "label": "off_topic",
+      "text": "Explain how a cat engine works",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0124",
+      "label": "off_topic",
+      "text": "Ok explain a cat to me",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0125",
+      "label": "off_topic",
+      "text": "IB Mathematics analytical geometry",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0126",
+      "label": "off_topic",
+      "text": "IB Mathematics probability",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0127",
+      "label": "off_topic",
+      "text": "Grade 12 Natural Sciences photosynthesis",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0128",
+      "label": "off_topic",
+      "text": "Wat dek Graad 8 CAPS Wiskunde vir fractions?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0129",
+      "label": "off_topic",
+      "text": "Grade 1 History whole numbers",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0130",
+      "label": "off_topic",
+      "text": "all caps caps",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0131",
+      "label": "off_topic",
+      "text": "Wat dek Graad 12 CAPS Wiskunde vir calculus?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0132",
+      "label": "off_topic",
+      "text": "Grade 8 Mathematical Literacy whole numbers",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0133",
+      "label": "off_topic",
+      "text": "Ok explain a dog to me",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0134",
+      "label": "off_topic",
+      "text": "Grade 12 English Home Language poetry",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0135",
+      "label": "off_topic",
+      "text": "Ok explain a motorcycle to me",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0136",
+      "label": "off_topic",
+      "text": "IB Mathematics euclidean geometry",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0137",
+      "label": "off_topic",
+      "text": "Grade 5 Mathematical Literacy probability",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0138",
+      "label": "off_topic",
+      "text": "Grade 8 English Home Language poetry",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0139",
+      "label": "off_topic",
+      "text": "Wat dek Graad 6 CAPS Wiskunde vir equations?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0140",
+      "label": "off_topic",
+      "text": "Grade 10 Natural Sciences photosynthesis",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0141",
+      "label": "off_topic",
+      "text": "Who won the soccer world cup?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0142",
+      "label": "off_topic",
+      "text": "Tell me about car",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0143",
+      "label": "off_topic",
+      "text": "Grade 10 English Home Language poetry",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0144",
+      "label": "off_topic",
+      "text": "Explain how a motorcycle engine works",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0145",
+      "label": "off_topic",
+      "text": "Grade 3 English Home Language poetry",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0146",
+      "label": "off_topic",
+      "text": "Wat dek Graad 9 CAPS Wiskunde vir whole numbers?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0147",
+      "label": "off_topic",
+      "text": "Grade 4 English Home Language poetry",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0148",
+      "label": "off_topic",
+      "text": "Grade 6 English Home Language poetry",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0149",
+      "label": "off_topic",
+      "text": "Wat dek Graad 9 CAPS Wiskunde vir functions?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0150",
+      "label": "off_topic",
+      "text": "IB Mathematics data handling",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0151",
+      "label": "off_topic",
+      "text": "Grade 9 Mathematical Literacy data handling",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0152",
+      "label": "off_topic",
+      "text": "Wat dek Graad 6 CAPS Wiskunde vir calculus?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0153",
+      "label": "off_topic",
+      "text": "Wat dek Graad 12 CAPS Wiskunde vir functions?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0154",
+      "label": "off_topic",
+      "text": "Explain how a dog engine works",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0155",
+      "label": "off_topic",
+      "text": "Grade 1 English Home Language poetry",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0156",
+      "label": "off_topic",
+      "text": "Grade 9 Mathematical Literacy analytical geometry",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0157",
+      "label": "off_topic",
+      "text": "Wat dek Graad 3 CAPS Wiskunde vir euclidean geometry?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0158",
+      "label": "off_topic",
+      "text": "Tell me about cat",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0159",
+      "label": "off_topic",
+      "text": "Wat dek Graad 8 CAPS Wiskunde vir functions?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0160",
+      "label": "off_topic",
+      "text": "Grade 12 History functions",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0161",
+      "label": "off_topic",
+      "text": "Grade 11 Mathematical Literacy fractions",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0162",
+      "label": "off_topic",
+      "text": "IB Mathematics trigonometry",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0163",
+      "label": "off_topic",
+      "text": "Tell me about motorcycle",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0164",
+      "label": "off_topic",
+      "text": "Wat dek Graad 11 CAPS Wiskunde vir calculus?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0165",
+      "label": "off_topic",
+      "text": "Wat dek Graad 2 CAPS Wiskunde vir fractions?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0166",
+      "label": "off_topic",
+      "text": "Grade 11 History equations",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0167",
+      "label": "off_topic",
+      "text": "Wat dek Graad 10 CAPS Wiskunde vir statistics?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0168",
+      "label": "off_topic",
+      "text": "Grade 4 Mathematical Literacy probability",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0169",
+      "label": "off_topic",
+      "text": "Grade 5 History statistics",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0170",
+      "label": "off_topic",
+      "text": "IB Mathematics equations",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0171",
+      "label": "off_topic",
+      "text": "Grade 7 English Home Language poetry",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0172",
+      "label": "off_topic",
+      "text": "Grade 11 History algebra",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0173",
+      "label": "off_topic",
+      "text": "Grade 5 Natural Sciences photosynthesis",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0174",
+      "label": "off_topic",
+      "text": "IB Mathematics functions",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0175",
+      "label": "off_topic",
+      "text": "Grade 9 Natural Sciences photosynthesis",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0176",
+      "label": "off_topic",
+      "text": "Grade 10 Mathematical Literacy patterns",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0177",
+      "label": "off_topic",
+      "text": "IB Mathematics fractions",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0178",
+      "label": "off_topic",
+      "text": "Grade 10 History equations",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0179",
+      "label": "off_topic",
+      "text": "Wat dek Graad 3 CAPS Wiskunde vir analytical geometry?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0180",
+      "label": "off_topic",
+      "text": "Grade 6 Mathematical Literacy patterns",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0181",
+      "label": "off_topic",
+      "text": "Wat dek Graad 3 CAPS Wiskunde vir functions?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0182",
+      "label": "off_topic",
+      "text": "Tell me about dog",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0183",
+      "label": "off_topic",
+      "text": "Grade 4 Natural Sciences photosynthesis",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0184",
+      "label": "off_topic",
+      "text": "IB Mathematics patterns",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0185",
+      "label": "off_topic",
+      "text": "Wat dek Graad 5 CAPS Wiskunde vir analytical geometry?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0186",
+      "label": "off_topic",
+      "text": "Grade 4 History trigonometry",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0187",
+      "label": "off_topic",
+      "text": "Grade 5 History whole numbers",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0188",
+      "label": "off_topic",
+      "text": "Grade 7 Mathematical Literacy measurement",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0189",
+      "label": "off_topic",
+      "text": "Wat dek Graad 11 CAPS Wiskunde vir measurement?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0190",
+      "label": "off_topic",
+      "text": "Wat dek Graad 6 CAPS Wiskunde vir analytical geometry?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0191",
+      "label": "off_topic",
+      "text": "Wat dek Graad 4 CAPS Wiskunde vir algebra?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0192",
+      "label": "off_topic",
+      "text": "IB Mathematics statistics",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0193",
+      "label": "off_topic",
+      "text": "Grade 3 History patterns",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0194",
+      "label": "off_topic",
+      "text": "Grade 2 Natural Sciences photosynthesis",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0195",
+      "label": "off_topic",
+      "text": "Grade 10 History measurement",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0196",
+      "label": "off_topic",
+      "text": "Grade 12 History trigonometry",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0197",
+      "label": "off_topic",
+      "text": "Wat dek Graad 10 CAPS Wiskunde vir probability?",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0198",
+      "label": "off_topic",
+      "text": "Grade 1 History functions",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0199",
+      "label": "off_topic",
+      "text": "Grade 2 English Home Language poetry",
+      "history": [],
+      "meta": {}
+    },
+    {
+      "id": "dom-0200",
+      "label": "off_topic",
+      "text": "Grade 6 History analytical geometry",
+      "history": [],
+      "meta": {}
+    }
+  ]
+}

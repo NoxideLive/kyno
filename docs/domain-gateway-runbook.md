@@ -1,221 +1,289 @@
 # Domain gateway runbook
 
-Two-machine workflow: **train** on a GPU box with Groq access, **deploy and verify** on your dev machine.
+Single **phi-gateway** container: bare Phi-4-mini-instruct loads once on **GPU** for **classification** (Convex) and **CAPS data pipeline** (admin).
 
-## Overview
+## Manual vs pipeline
 
-| Step | Training machine | Dev machine (this repo) |
-|------|------------------|-------------------------|
-| Pull code | `git pull` | `git pull` after training machine pushes |
-| Generate data | Groq coupled pipeline | — |
-| Train Phi LoRA | `train_phi.py` (CUDA) | — |
-| Eval + threshold | `eval_domain_classifier.py` | Re-run eval against live gateway |
-| Commit | Adapter + `training/domain/*.jsonl` | — |
-| Run gateway | Optional smoke test | `uvicorn` + Convex env |
+| Manual | Same phi-gateway server |
+|--------|-------------------------|
+| Download CAPS PDFs | — |
+| Edit `data/domain/prompt_examples.json` | — |
+| Edit `data/domain/jailbreak_examples.json` | — |
+| Edit `data/domain/eval/*.jsonl` | — |
+| Run eval CLI | — |
+| Boot gateway | `POST /pipeline/rebuild` (via CLI or curl) |
 
-Blocking rule (gateway and Convex):
+## Requirements
 
-- Block when `label === off_topic`, **or**
-- Block when `label === on_topic` **and** `confidence < DOMAIN_CONFIDENCE_THRESHOLD`
-
-When `DOMAIN_GATEWAY_ENABLED=true` and the gateway is unreachable, Convex **fail-closed** (message is not sent to Groq).
+- NVIDIA GPU with **4 GB+ VRAM** (Phi 4-bit)
+- Docker Compose v2
+- [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html) (`nvidia-smi` works inside containers)
 
 ---
 
-## Training machine
+## Boot (Docker Compose)
 
-Requirements:
-
-- NVIDIA GPU with **8 GB+ VRAM** (Phi QLoRA)
-- Python 3.11+
-- `GROQ_API_KEY` with access to `openai/gpt-oss-120b` and `openai/gpt-oss-20b`
-- Repo cloned at the same path you use locally (e.g. `/code/riv/kyno`)
-
-### 1. Environment
+Dev stack (Vite + Convex + phi-gateway):
 
 ```bash
 cd /code/riv/kyno
-
-python3 -m venv --without-pip .venv
-curl -sS https://bootstrap.pypa.io/get-pip.py | .venv/bin/python
-source .venv/bin/activate
-
-pip install -r scripts/requirements-data.txt
-pip install -r services/phi-gateway/requirements.txt
-pip install -r services/phi-gateway/requirements-phi.txt
+# See docs/local-dev-docker.md — shared .env.local for all services
+./scripts/dev-init.sh
 ```
 
-Set Groq key (env or `.env.local`):
+Phi gateway only:
 
 ```bash
-export GROQ_API_KEY=gsk_...
+docker compose --profile dev up --build phi-gateway
 ```
 
-Optional: copy tuning from [`training/domain/pipeline.config.json`](../training/domain/pipeline.config.json) before a run. Defaults are checked in.
-
-### 2. Syllabus inputs (once per grade refresh)
+Verify GPU:
 
 ```bash
-python3 scripts/pull_syllabus.py --all-grades --skip-existing
+docker compose --profile dev run --rm phi-gateway python -c "import torch; print('cuda:', torch.cuda.is_available())"
 ```
 
-Dry-run the coupled pipeline to see chunk counts:
+Wait until healthy (first boot downloads model weights — can take several minutes):
 
 ```bash
-python3 scripts/build_domain_training_data.py --grade 6 --dry-run
+curl -s http://localhost:8090/health | jq .
+# phi_loaded: true, status: ok, gpu: { device, vram_gib }
 ```
 
-### 3. Generate training data (Groq)
+`/health` returns **503** until Phi is loaded on CUDA. The entrypoint exits immediately if CUDA is unavailable.
 
-Full run (~all grades, parallel workers from config):
+Stop:
 
 ```bash
-python3 scripts/build_domain_training_data.py --all-grades
+docker compose down
 ```
 
-Outputs:
+Model weights cache persists in Docker volume `phi_hf_cache`. Domain data lives in bind-mounted `./data`.
 
-- `training/domain/train.jsonl`, `val.jsonl`, `test.jsonl`, `data.jsonl`
-- `training/domain/generation_report.json` — inspect drops and extract failures
-- `data/syllabus/grade-N/mathematics/topics.json` — per-chunk extracts
+---
 
-Curated edge cases in [`training/domain/curated.jsonl`](../training/domain/curated.jsonl) are **always pinned to train**. Do not add regression rows to train/val/test — [`training/domain/regression.jsonl`](../training/domain/regression.jsonl) is eval-only.
+## Host scripts
 
-Check balance after generation:
+PDF download, pipeline CLI, and eval run on the host and call the gateway:
 
 ```bash
-python3 - <<'PY'
-import json
-from pathlib import Path
-rows = [json.loads(l) for l in Path("training/domain/data.jsonl").read_text().splitlines() if l.strip()]
-on = sum(1 for r in rows if r["label"] == "on_topic")
-off = len(rows) - on
-print(f"total={len(rows)} on_topic={on} ({100*on/len(rows):.1f}%) off_topic={off}")
-PY
+export PHI_GATEWAY_URL=http://localhost:8090
+export PHI_GATEWAY_API_KEY=your-secret
+
+python3 scripts/pull_syllabus.py --caps-only --all-grades --skip-existing
+python3 scripts/run_domain_pipeline.py
+python3 scripts/run_classifier_bench.py
+python3 scripts/tune_compact_prompt.py bench --iteration 1   # compact tuning (see docs/compact-prompt-tuning-flow.md)
+python3 scripts/eval_domain_classifier.py
+python3 scripts/eval_jailbreak_classifier.py   # alias: --suite jailbreak
 ```
 
-Target **~45–55%** off_topic after dedupe (tune via `pipeline.config.json` if needed).
+### Manual — refresh CAPS PDFs
 
-### 4. Train Phi LoRA
+When DBE publishes updated policy documents:
 
 ```bash
-python services/phi-gateway/train_phi.py
-# multi-GPU:
-# accelerate launch services/phi-gateway/train_phi.py
+python3 scripts/pull_syllabus.py --caps-only --all-grades --skip-existing
 ```
 
-Adapter written to `services/phi-gateway/models/phi-domain-lora/`.
-
-Val loss is logged each epoch when `val.jsonl` is non-empty.
-
-### 5. Evaluate and pick threshold
+Edit few-shot examples by hand when needed:
 
 ```bash
+$EDITOR data/domain/prompt_examples.json
+$EDITOR data/domain/jailbreak_examples.json
+```
+
+### Pipeline — rebuild topic data
+
+Gateway must be running. Uses the **same** Phi instance as classify.
+
+```bash
+python3 scripts/run_domain_pipeline.py
+```
+
+Or curl:
+
+```bash
+curl -s -X POST http://localhost:8090/pipeline/rebuild \
+  -H "Authorization: Bearer $PHI_GATEWAY_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{}' | jq .
+```
+
+Writes:
+
+- `data/syllabus/phases/*/mathematics/caps-sections.json`
+- `data/domain/caps_topic_list.json`
+- `data/domain/pipeline_report.json`
+
+Does **not** modify `prompt_examples.json` or `jailbreak_examples.json`. Prompt caches reload automatically.
+
+---
+
+## Convex
+
+```bash
+npx convex env set PHI_GATEWAY_URL http://<host-ip>:8090
+npx convex env set DOMAIN_GATEWAY_ENABLED true
+# optional: npx convex env set PHI_GATEWAY_API_KEY ...
+```
+
+Use the machine's LAN IP (not `localhost`) if Convex runs in the cloud.
+
+Blocking rule (single `POST /classify/message` call before Groq):
+
+- Block if jailbreak stage returns `jailbreak_attempted`
+- Else block if domain stage (with history) returns `off_topic`
+- Allow only when jailbreak is `safe` **and** domain is `on_topic`
+- User-facing message is unified (`OFF_TOPIC`) — jailbreak vs off-topic is internal only
+
+Fail-closed when gateway enabled but unreachable.
+
+---
+
+## Classifier bench (gate regression)
+
+Unified benchmark for jailbreak, domain on/off, and topic-switch leaks. Fixtures are **JSON** (not JSONL):
+
+```
+data/domain/bench/
+  bench.config.json
+  jailbreak.json    # safe, jailbreak_attempted (≥100 each)
+  domain.json       # on_topic, off_topic (≥100 each)
+  switch.json       # allowed, blocked (≥100 each)
+  report.json       # last run output
+```
+
+**Switch history shapes** (match product persistence):
+
+- **`on_to_off` (blocked):** prior persisted CAPS user + assistant turn, latest message goes off-topic.
+- **`off_to_on` (allowed):** one or two **blocked user-only** lines (client optimistic state after gate reject — no assistant reply was ever stored), latest message returns to CAPS.
+
+Regenerate fixtures (deterministic seed):
+
+```bash
+python3 scripts/generate_classifier_bench.py
+```
+
+Run all suites in parallel (auto workers = min(cases, 64)):
+
+```bash
+export PHI_GATEWAY_URL=http://localhost:8090
+python3 scripts/run_classifier_bench.py
+python3 scripts/run_classifier_bench.py --suite switch
+python3 scripts/run_classifier_bench.py --workers 64
+```
+
+Report: `data/domain/bench/report.json`. Exit code 0 only if every case passes.
+
+---
+
+## Manual eval (threshold sweep)
+
+Domain threshold tuning uses separate JSONL regression sets — not the bench:
+
+```bash
+export PHI_GATEWAY_URL=http://localhost:8090
 python3 scripts/eval_domain_classifier.py
 ```
 
-Read `training/domain/eval_report.json` → `recommended_threshold`.
-
-Regression set must pass (0 failures in report):
-
-| Input | Expected |
-|-------|----------|
-| `fractions`, `what about fractions` | allow |
-| `Caps`, `all caps`, `write in caps` | block |
-| `peanuts in CAPS`, `Grade 11 Mathematical Literacy` | block |
-| `Grade 6 fractions`, `What is CAPS?` | allow |
-
-Note the recommended threshold — you will set it on the dev machine.
-
-### 6. Smoke test gateway locally
-
-```bash
-cd services/phi-gateway
-export DOMAIN_CONFIDENCE_THRESHOLD=0.55   # replace with eval recommendation
-uvicorn server:app --host 0.0.0.0 --port 8090
-```
-
-In another shell:
-
-```bash
-curl -s -X POST http://localhost:8090/classify/domain \
-  -H 'Content-Type: application/json' \
-  -d '{"text":"fractions"}' | jq .
-
-curl -s -X POST http://localhost:8090/classify/domain \
-  -H 'Content-Type: application/json' \
-  -d '{"text":"Caps"}' | jq .
-```
-
-Expect `fractions` → `blocked: false`, `Caps` → `blocked: true`.
-
-### 7. Commit and push
-
-```bash
-git add training/domain/*.jsonl training/domain/pipeline.config.json training/domain/eval.config.json
-git add services/phi-gateway/models/phi-domain-lora/
-git add data/syllabus/   # if topics.json / ATP text changed during extract
-git commit -m "$(cat <<'EOF'
-Retrain domain gate LoRA on coupled syllabus pipeline.
-
-Regenerate train/val/test splits, update adapter weights, and record eval threshold.
-EOF
-)"
-git push
-```
-
-Include `training/domain/eval_report.json` if you want the threshold choice recorded in git.
+Report: `data/domain/eval/eval_report.json`. Tune `prompt_examples.json` from failures; `DOMAIN_CONFIDENCE_THRESHOLD` in eval config is for threshold sweeps only, not chat blocking.
 
 ---
 
-## Dev machine (after pull)
+## Environment
 
-### 1. Gateway
+Set in `.env.local` or the shell before `docker compose up`:
 
-```bash
-cd /code/riv/kyno
-source .venv/bin/activate   # same phi deps as training machine
-pip install -r services/phi-gateway/requirements-phi.txt
+| Variable | Default | Purpose |
+|----------|---------|---------|
+| `PHI_GATEWAY_API_KEY` | *required* | Pipeline routes + optional classify auth |
+| `PHI_GATEWAY_PORT` | `8090` | Host port mapping |
+| `PHI_GATEWAY_PROFILE` | `medium` | `small` \| `medium` \| `large` preset (HF model ids per role) |
+| `PHI_GATEWAY_PROMPT_VARIANT` | `auto` | `auto` (compact on `small`) \| `full` \| `compact` classify prompts |
+| `PHI_GATEWAY_JAILBREAK_MODEL` | *(profile)* | HF `org/name` override for jailbreak |
+| `PHI_GATEWAY_DOMAIN_MODEL` | *(profile)* | HF `org/name` override for domain |
+| `PHI_GATEWAY_PIPELINE_MODEL` | *(profile)* | HF `org/name` override for pipeline generation |
+| `PHI_GATEWAY_GUARD_MODELS` | — | Comma-separated HF ids forced to guard adapter |
+| `HF_TOKEN` | — | HuggingFace token for gated models |
+| `PHI_MAX_SEQ_LENGTH` | `2048` | Pipeline generation context |
+| `PHI_CLASSIFY_MAX_SEQ_LENGTH` | `2048` | Classify forward pass truncation |
+| `PHI_CLASSIFY_CONCURRENCY` | `1` | Max concurrent classify requests |
+| `DOMAIN_CONFIDENCE_THRESHOLD` | `0.4` | Eval threshold sweep only (not chat blocking) |
+| `PHI_LOAD_4BIT` | `true` | 4-bit quantization |
 
-cd services/phi-gateway
-export DOMAIN_CONFIDENCE_THRESHOLD=0.55   # from eval_report.json on training machine
-uvicorn server:app --host 0.0.0.0 --port 8090
-```
-
-If the gateway runs on another host, use that URL in Convex instead of `localhost`.
-
-### 2. Convex env
-
-```bash
-npx convex env set PHI_GATEWAY_URL http://localhost:8090
-npx convex env set DOMAIN_GATEWAY_ENABLED true
-npx convex env set DOMAIN_CONFIDENCE_THRESHOLD 0.55
-```
-
-Replace `0.55` with the value from `training/domain/eval_report.json`.
-
-### 3. Verify
-
-```bash
-python3 scripts/eval_domain_classifier.py --gateway-url http://localhost:8090
-```
-
-Then send test messages in the app: `fractions` (allow), `Caps` (block).
+Inside the container: `KYNO_REPO_ROOT=/app`, repo bind-mounted at `/app` (including `data/`).
 
 ---
 
-## Config reference
+## API
 
-All pipeline tuning: [`training/domain/pipeline.config.json`](../training/domain/pipeline.config.json)
+| Method | Path | Auth | Purpose |
+|--------|------|------|---------|
+| GET | `/health` | — | Ready probe (503 until GPU + Phi ready) |
+| POST | `/classify/message` | optional | **Convex chat gate** (parallel jailbreak + domain) |
+| POST | `/classify/jailbreak` | optional | Jailbreak stage only (eval) |
+| POST | `/classify/domain` | optional | Domain stage only — binary on/off (eval) |
+| GET | `/domain-spec` | — | Scope summary |
+| POST | `/pipeline/rebuild` | **required** | CAPS extract + topic list |
+| GET | `/pipeline/status` | **required** | Last pipeline report |
 
-Eval sweep range: [`training/domain/eval.config.json`](../training/domain/eval.config.json)
+---
 
-| CLI | Purpose |
-|-----|---------|
-| `build_domain_training_data.py --all-grades` | Full Groq generate |
-| `build_domain_training_data.py --grade N --dry-run` | Chunk count only |
-| `generate_domain_training_data.py --total 800` | Template fallback (no Groq) |
-| `eval_domain_classifier.py` | Local classifier + threshold sweep |
-| `eval_domain_classifier.py --gateway-url URL` | HTTP gateway eval |
+## Troubleshooting
 
-Template fallback is for quick iteration without Groq; production retrain should use the coupled pipeline.
+**Container exits on start:** CUDA not visible. Install NVIDIA Container Toolkit and confirm:
+
+```bash
+docker compose --profile dev run --rm phi-gateway python -c "import torch; print(torch.cuda.is_available())"
+```
+
+**Health stuck on 503:** First model download or slow GPU. Check logs: `docker compose --profile dev logs -f phi-gateway`.
+
+**CUDA OOM during classification:** Logs show `CUDA OOM during classification` and chat returns "Domain check is temporarily unavailable."
+
+- **Cause:** 4 GiB-class GPUs are tight for Phi-4-mini 4-bit plus ~1700-token domain classify prompts. Under load, forward passes need ~640 MiB activation memory on top of ~2.7 GiB model weights.
+- **Fix:** Keep `PHI_CLASSIFY_CONCURRENCY=1` (compose default). Recreate the container after env changes — `restart` alone does not pick up compose env:
+
+```bash
+docker compose --env-file .env.local up --build -d phi-gateway
+```
+
+- **Verify:** Run bench with parallel workers; logs should show no OOM:
+
+```bash
+PHI_GATEWAY_URL=http://localhost:8090 python3 scripts/run_classifier_bench.py --workers 4
+```
+
+`/health` includes `profile`, `roles`, `models_loaded`, and `gpu.vram_warning` when total VRAM is under 4 GiB.
+
+**Pipeline model swap:** When `PHI_GATEWAY_PIPELINE_MODEL` differs from classify models (e.g. `small` profile + Phi pipeline), `/pipeline/rebuild` temporarily evicts classify models, loads the pipeline model, then restores classify models. Classify returns 503 during the swap.
+
+**Large profile:** Set `HF_TOKEN` for `meta-llama/Llama-Guard-3-1B`.
+
+**Convex cannot reach gateway (cloud prod):** Use host IP and open port 8090. In local dev, env sync sets `PHI_GATEWAY_URL=http://phi-gateway:8090` automatically.
+
+---
+
+## Compact prompt reload (tuning)
+
+After editing `data/domain/compact_prompt_overlay.json` or compact rules in `domain_prompt.py` / `jailbreak_prompt.py`, reload without restarting the container:
+
+```bash
+curl -sf -X POST http://localhost:8090/admin/reload-prompts \
+  -H "Authorization: Bearer $PHI_GATEWAY_API_KEY"
+```
+
+Or:
+
+```bash
+python3 scripts/tune_compact_prompt.py reload
+```
+
+Requires `PHI_GATEWAY_API_KEY`. Full tuning workflow: [`docs/compact-prompt-tuning-flow.md`](compact-prompt-tuning-flow.md).
+
+---
+
+## Archived LoRA pipeline
+
+See [`archive/domain-lora-pipeline/README.md`](../archive/domain-lora-pipeline/README.md).

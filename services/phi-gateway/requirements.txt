@@ -1,10 +1,5 @@
-# Runtime (CPU fallback classifier + API)
+# Runtime deps — installed in the phi-gateway Docker image.
+# Boot: docker compose up --build phi-gateway (see docs/domain-gateway-runbook.md)
 fastapi>=0.115.0
 uvicorn[standard]>=0.32.0
 pydantic>=2.0.0
-scikit-learn>=1.5.0
-joblib>=1.4.0
-
-# Phi-4-mini-instruct fine-tuning (Microsoft sample_finetune.py)
-# Install only when training or running Phi inference with GPU:
-#   pip install -r requirements-phi.txt

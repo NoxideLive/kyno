@@ -1,13 +1,13 @@
 <script setup lang="ts">
 import {
-  CalculatorIcon,
+  BeakerIcon,
   ChatBubbleLeftRightIcon,
   CheckCircleIcon,
   QuestionMarkCircleIcon,
 } from '@heroicons/vue/24/outline'
 
 defineProps<{
-  type: 'response' | 'question' | 'confirm' | 'math'
+  type: 'response' | 'question' | 'confirm' | 'notation'
 }>()
 </script>
 
@@ -19,8 +19,8 @@ defineProps<{
         class="widget-shell__icon"
         aria-hidden="true"
       />
-      <CalculatorIcon
-        v-else-if="type === 'math'"
+      <BeakerIcon
+        v-else-if="type === 'notation'"
         class="widget-shell__icon"
         aria-hidden="true"
       />
@@ -36,7 +36,7 @@ defineProps<{
       />
       <span v-if="type === 'question'" class="widget-shell__label">Question</span>
       <span v-else-if="type === 'confirm'" class="widget-shell__label">Confirm</span>
-      <span v-else-if="type === 'math'" class="widget-shell__label">Math</span>
+      <span v-else-if="type === 'notation'" class="widget-shell__label">Notation</span>
     </div>
     <div class="widget-shell__body">
       <slot />
@@ -85,7 +85,7 @@ defineProps<{
   color: var(--accent);
 }
 
-.widget-shell--math .widget-shell__header {
+.widget-shell--notation .widget-shell__header {
   color: var(--accent);
 }
 

@@ -1,4 +1,13 @@
 import { z } from 'zod'
+import { looksLikeNotationContent } from '../shared/looksLikeLatex'
+import {
+  NOTATION_EMBEDDED_HINT,
+  batchInvalidRetryHint,
+  flatShapeRetryHint,
+  jsonInvalidRetryHint,
+} from '../shared/prompts'
+
+export { WIDGET_SYSTEM_PROMPT } from '../shared/prompts'
 
 /**
  * Flat widget schema for Groq strict JSON mode.
@@ -7,7 +16,8 @@ import { z } from 'zod'
  */
 export const kynoWidgetFlatSchema = z
   .object({
-    type: z.enum(['response', 'question', 'confirm', 'math']),
+    type: z.enum(['response', 'question', 'confirm', 'notation']),
+    title: z.string(),
     content: z.string(),
     question: z.string(),
     suggestedAnswers: z.array(z.string()),
@@ -49,10 +59,11 @@ export const kynoWidgetConfirmSchema = z
   })
   .strict()
 
-export const kynoWidgetMathSchema = z
+export const kynoWidgetNotationSchema = z
   .object({
-    type: z.literal('math'),
-    latex: z.string(),
+    type: z.literal('notation'),
+    title: z.string(),
+    content: z.string(),
   })
   .strict()
 
@@ -60,7 +71,7 @@ export const kynoWidgetSchema = z.discriminatedUnion('type', [
   kynoWidgetResponseSchema,
   kynoWidgetQuestionSchema,
   kynoWidgetConfirmSchema,
-  kynoWidgetMathSchema,
+  kynoWidgetNotationSchema,
 ])
 
 export type KynoWidget = z.infer<typeof kynoWidgetSchema>
@@ -68,7 +79,8 @@ export type KynoWidget = z.infer<typeof kynoWidgetSchema>
 const flatWidgetItemSchema = {
   type: 'object',
   properties: {
-    type: { type: 'string', enum: ['response', 'question', 'confirm', 'math'] },
+    type: { type: 'string', enum: ['response', 'question', 'confirm', 'notation'] },
+    title: { type: 'string' },
     content: { type: 'string' },
     question: { type: 'string' },
     suggestedAnswers: {
@@ -76,7 +88,7 @@ const flatWidgetItemSchema = {
       items: { type: 'string' },
     },
   },
-  required: ['type', 'content', 'question', 'suggestedAnswers'],
+  required: ['type', 'title', 'content', 'question', 'suggestedAnswers'],
   additionalProperties: false,
 } as const
 
@@ -99,45 +111,6 @@ export const MAX_QUESTION_SUGGESTIONS = 4
 export const MIN_CONFIRM_OPTIONS = 2
 export const MAX_CONFIRM_OPTIONS = 3
 
-export const WIDGET_SYSTEM_PROMPT = `You are a helpful assistant in Kyno chat.
-
-Every reply MUST be a JSON object with a "widgets" array (one or more widgets).
-Always reply with {"widgets":[...]} even though prior assistant turns may show one widget per message.
-
-{
-  "widgets": [
-    {
-      "type": "response" | "question" | "confirm" | "math",
-      "content": "<markdown, LaTeX, or empty>",
-      "question": "<question text or empty>",
-      "suggestedAnswers": ["option1", ...] or []
-    }
-  ]
-}
-
-Use multiple widgets in order when needed — e.g. a "response" for explanation, then a separate "math" widget for an equation. Do not put prose and display math in the same widget.
-
-## Decision order (pick one widget type per array item)
-1. Display-only math (equation, expression, step)? → "math" (LaTeX only in "content", no surrounding text)
-2. Yes/No (or Yes/No/Not sure)? → "confirm"
-3. Pick one of 2–4 distinct options? → "question"
-4. Otherwise → "response"
-
-## Per-type requirements (strict — invalid output is rejected)
-- "response": non-empty markdown "content"; "question" ""; "suggestedAnswers" []
-- "math": non-empty LaTeX in "content" (no $ delimiters, no prose); "question" ""; "suggestedAnswers" []
-- "confirm": non-empty "question"; "suggestedAnswers" 2–3 labels; "content" optional context or ""
-- "question": non-empty "question"; "suggestedAnswers" 2–4 labels; "content" ""
-
-## Examples
-Explanation then formula:
-{"widgets":[
-  {"type":"response","content":"The quadratic formula solves ax²+bx+c=0.","question":"","suggestedAnswers":[]},
-  {"type":"math","content":"x = \\frac{-b \\pm \\sqrt{b^2-4ac}}{2a}","question":"","suggestedAnswers":[]}
-]}
-
-Confirm only:
-{"widgets":[{"type":"confirm","content":"","question":"Ready for practice?","suggestedAnswers":["Yes","No"]}]}`
 
 export type WidgetParseFailure = {
   stage: 'json' | 'batch' | 'flat' | 'normalize'
@@ -158,9 +131,16 @@ export function fillFlatWidgetDefaults(parsed: unknown): unknown {
   }
 
   const obj = parsed as Record<string, unknown>
+  const rawType = obj.type
+  const type = rawType === 'math' ? 'notation' : rawType
+  let content = typeof obj.content === 'string' ? obj.content : ''
+  if (rawType === 'math' && !content && typeof obj.latex === 'string') {
+    content = obj.latex
+  }
   return {
-    type: obj.type,
-    content: typeof obj.content === 'string' ? obj.content : '',
+    type,
+    title: typeof obj.title === 'string' ? obj.title : '',
+    content,
     question: typeof obj.question === 'string' ? obj.question : '',
     suggestedAnswers: Array.isArray(obj.suggestedAnswers)
       ? obj.suggestedAnswers.filter((item): item is string => typeof item === 'string')
@@ -178,6 +158,13 @@ export function cleanSuggestedAnswers(
     .slice(0, max)
 }
 
+function rejectEmbeddedNotation(question: string): { reason: string } | null {
+  if (looksLikeNotationContent(question)) {
+    return { reason: NOTATION_EMBEDDED_HINT }
+  }
+  return null
+}
+
 function stripLatexDelimiters(raw: string): string {
   let latex = raw.trim()
   if (latex.startsWith('$$') && latex.endsWith('$$')) {
@@ -189,32 +176,45 @@ function stripLatexDelimiters(raw: string): string {
 }
 
 function normalizeFlatToWidget(flat: KynoWidgetFlat): { widget: KynoWidget } | { reason: string } {
-  if (flat.type === 'math') {
-    const latex = stripLatexDelimiters(flat.content)
+  if (flat.type === 'notation') {
+    const title = flat.title.trim()
+    const content = stripLatexDelimiters(flat.content)
     const question = flat.question.trim()
     const suggestedAnswers = cleanSuggestedAnswers(flat.suggestedAnswers)
 
-    if (!latex) {
+    if (!title) {
       return {
         reason:
-          'type "math" requires non-empty LaTeX in "content". Put explanation in a separate "response" widget.',
+          'type "notation" requires non-empty "title" (short label, e.g. "Power rule", "Chemical notation: H₂O").',
+      }
+    }
+
+    if (!content) {
+      return {
+        reason:
+          'type "notation" requires non-empty "content". Put explanation in a separate "response" widget.',
       }
     }
 
     if (question || suggestedAnswers.length > 0) {
       return {
-        reason: 'type "math" requires "question" to be "" and "suggestedAnswers" to be [].',
+        reason: 'type "notation" requires "question" to be "" and "suggestedAnswers" to be [].',
       }
     }
 
-    const normalized = kynoWidgetMathSchema.safeParse({ type: 'math', latex })
-    return normalized.success ? { widget: normalized.data } : { reason: 'Invalid math widget.' }
+    const normalized = kynoWidgetNotationSchema.safeParse({ type: 'notation', title, content })
+    return normalized.success ? { widget: normalized.data } : { reason: 'Invalid notation widget.' }
   }
 
   if (flat.type === 'response') {
     const content = flat.content.trim()
+    const title = flat.title.trim()
     const question = flat.question.trim()
     const suggestedAnswers = cleanSuggestedAnswers(flat.suggestedAnswers)
+
+    if (title) {
+      return { reason: 'type "response" requires "title" to be "".' }
+    }
 
     if (!content) {
       if (question || suggestedAnswers.length > 0) {
@@ -240,13 +240,28 @@ function normalizeFlatToWidget(flat: KynoWidgetFlat): { widget: KynoWidget } | {
   if (flat.type === 'confirm') {
     const question = flat.question.trim()
     const content = flat.content.trim()
+    const title = flat.title.trim()
     const suggestedAnswers = cleanSuggestedAnswers(flat.suggestedAnswers, MAX_CONFIRM_OPTIONS)
+
+    if (title) {
+      return { reason: 'type "confirm" requires "title" to be "".' }
+    }
 
     if (!question) {
       return {
         reason:
           'type "confirm" requires non-empty "question". Use type "response" if you are not asking for yes/no.',
       }
+    }
+
+    const embeddedNotationInQuestion = rejectEmbeddedNotation(question)
+    if (embeddedNotationInQuestion) {
+      return embeddedNotationInQuestion
+    }
+
+    const embeddedNotationInContent = rejectEmbeddedNotation(content)
+    if (embeddedNotationInContent) {
+      return embeddedNotationInContent
     }
 
     if (suggestedAnswers.length < MIN_CONFIRM_OPTIONS) {
@@ -273,12 +288,22 @@ function normalizeFlatToWidget(flat: KynoWidgetFlat): { widget: KynoWidget } | {
   const question = flat.question.trim()
   const suggestedAnswers = cleanSuggestedAnswers(flat.suggestedAnswers)
   const content = flat.content.trim()
+  const title = flat.title.trim()
+
+  if (title) {
+    return { reason: 'type "question" requires "title" to be "".' }
+  }
 
   if (!question) {
     return {
       reason:
         'type "question" requires non-empty "question". Use type "response" for statements without tap-able choices.',
     }
+  }
+
+  const embeddedNotation = rejectEmbeddedNotation(question)
+  if (embeddedNotation) {
+    return embeddedNotation
   }
 
   if (content) {
@@ -335,21 +360,15 @@ export function widgetRetryHint(failure: WidgetParseFailure): string {
     failure.widgetIndex !== undefined ? `Widget ${failure.widgetIndex + 1}: ` : ''
 
   if (failure.stage === 'json') {
-    return 'Your reply was not valid JSON. Respond with {"widgets":[...]} only.'
+    return jsonInvalidRetryHint()
   }
 
   if (failure.stage === 'batch') {
-    const detail = failure.message?.trim() ?? ''
-    if (detail && !detail.startsWith('Assistant reply')) {
-      return `Groq rejected the output: ${detail}. Reply with {"widgets":[...]} where every item follows the widget rules.`
-    }
-    return 'Your JSON must be {"widgets":[...]} with at least one widget.'
+    return batchInvalidRetryHint(failure.message)
   }
 
   if (failure.stage === 'flat') {
-    const zodDetail = formatZodIssues(failure.zodIssues)
-    const base = `${prefix}Did not match the required widget shape (type, content, question, suggestedAnswers).`
-    return zodDetail ? `${base} ${zodDetail}` : base
+    return flatShapeRetryHint(prefix, formatZodIssues(failure.zodIssues))
   }
 
   return `${prefix}${failure.message?.trim() || 'Widget validation failed.'}`
@@ -510,10 +529,11 @@ export function wrapWidgetContentForGroqHistory(content: string): string {
 }
 
 export function serializeKynoWidget(widget: KynoWidget): string {
-  if (widget.type === 'math') {
+  if (widget.type === 'notation') {
     return JSON.stringify({
-      type: 'math',
-      content: widget.latex,
+      type: 'notation',
+      title: widget.title,
+      content: widget.content,
       question: '',
       suggestedAnswers: [],
     })
@@ -522,6 +542,7 @@ export function serializeKynoWidget(widget: KynoWidget): string {
   if (widget.type === 'response') {
     return JSON.stringify({
       type: 'response',
+      title: '',
       content: widget.content,
       question: '',
       suggestedAnswers: [],
@@ -531,6 +552,7 @@ export function serializeKynoWidget(widget: KynoWidget): string {
   if (widget.type === 'question') {
     return JSON.stringify({
       type: 'question',
+      title: '',
       content: '',
       question: widget.question,
       suggestedAnswers: widget.suggestedAnswers,
@@ -539,6 +561,7 @@ export function serializeKynoWidget(widget: KynoWidget): string {
 
   return JSON.stringify({
     type: 'confirm',
+    title: '',
     content: widget.content,
     question: widget.question,
     suggestedAnswers: widget.suggestedAnswers,

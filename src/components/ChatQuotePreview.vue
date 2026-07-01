@@ -1,14 +1,22 @@
 <script setup lang="ts">
 import type { ChatRole } from '@/composables/useGroqChat'
+import NotationDisplay from '@/components/NotationDisplay.vue'
 import RichText from '@/components/RichText.vue'
-import { quoteRoleLabel } from '@/lib/messageQuote'
+import { quoteRoleLabel, type QuotePreviewKind } from '@/lib/messageQuote'
 
-defineProps<{
-  role: ChatRole
-  snippet: string
-  compact?: boolean
-  align?: 'left' | 'right'
-}>()
+withDefaults(
+  defineProps<{
+    role: ChatRole
+    snippet: string
+    kind?: QuotePreviewKind
+    notationLatex?: string
+    compact?: boolean
+    align?: 'left' | 'right'
+  }>(),
+  {
+    kind: 'text',
+  },
+)
 </script>
 
 <template>
@@ -17,10 +25,20 @@ defineProps<{
     :class="{
       'quote-preview--compact': compact,
       'quote-preview--right': align === 'right',
+      'quote-preview--notation': kind === 'notation',
     }"
   >
     <span class="quote-preview__label">{{ quoteRoleLabel(role) }}</span>
-    <RichText class="quote-preview__snippet quote-preview__snippet--rich" :content="snippet" />
+    <NotationDisplay
+      v-if="kind === 'notation' && notationLatex"
+      class="quote-preview__notation"
+      :content="notationLatex"
+    />
+    <RichText
+      v-else
+      class="quote-preview__snippet quote-preview__snippet--rich"
+      :content="snippet"
+    />
   </blockquote>
 </template>
 
@@ -69,6 +87,20 @@ defineProps<{
 }
 
 .quote-preview__snippet--rich :deep(.katex) {
+  font-size: 0.8125rem;
+}
+
+.quote-preview__notation {
+  margin: 0.125rem 0 0;
+  overflow-x: auto;
+}
+
+.quote-preview__notation :deep(.katex-display) {
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+.quote-preview--notation.quote-preview--compact .quote-preview__notation :deep(.katex-display) {
   font-size: 0.8125rem;
 }
 </style>

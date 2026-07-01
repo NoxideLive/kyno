@@ -11,6 +11,7 @@ This chat answers questions about **South African CAPS Mathematics (Grades 1–1
 
 ## Out of scope
 
+- Messages in Afrikaans or any language other than English
 - Other CAPS subjects (Languages, Life Orientation, Natural Sciences, etc.)
 - **Mathematical Literacy** (FET — separate subject from Mathematics)
 - Non-CAPS curricula (IB, Cambridge, university modules)
@@ -19,7 +20,7 @@ This chat answers questions about **South African CAPS Mathematics (Grades 1–1
 
 ## Audience
 
-Teachers, learners, and parents working within CAPS. English and Afrikaans.
+Teachers, learners, and parents working within CAPS. **English only** — messages in Afrikaans or other languages are off_topic.
 
 ## Edge-case labeling guide
 
@@ -28,6 +29,8 @@ Teachers, learners, and parents working within CAPS. English and Afrikaans.
 | "What does Grade 6 CAPS cover for fractions?" | on_topic |
 | "Help with Grade 11 Mathematics calculus ATP" | on_topic |
 | "What is CAPS?" | on_topic |
+| "Wat dek Graad 6 CAPS Wiskunde vir fractions?" | off_topic |
+| "Graad 6 breuk" | off_topic |
 | "Grade 6 Life Orientation assessment rubric" | off_topic |
 | "Grade 11 Mathematical Literacy interest rates" | off_topic |
 | "Write me a Python script" | off_topic |

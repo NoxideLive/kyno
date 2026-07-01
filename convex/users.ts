@@ -10,9 +10,20 @@ import {
 } from './auth/wrappers'
 import { requireIdentity, isSuperAdmin } from './auth/guards'
 
+const userDocValidator = v.object({
+  _id: v.id('users'),
+  _creationTime: v.number(),
+  clerkId: v.string(),
+  email: v.optional(v.string()),
+  name: v.optional(v.string()),
+  role: v.union(v.literal('admin'), v.literal('user')),
+  createdAt: v.number(),
+})
+
 /** Provision Convex user on first sign-in (raw mutation — user row may not exist yet). */
 export const getOrCreateUser = mutation({
   args: {},
+  returns: userDocValidator,
   handler: async (ctx) => {
     const identity = await requireIdentity(ctx)
 

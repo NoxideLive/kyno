@@ -14,7 +14,26 @@ dist-ssr
 *.local
 .env.local
 .env.*.local
+.dev/
+.convex/
+.docker-cache/
 __pycache__/
+
+# Classifier bench / self-improve run artifacts
+data/domain/bench/report*.json
+data/domain/bench/tuning/
+data/domain/bench/self-improve/
+
+# Eval generated reports (keep eval.config.json + fixture jsonl)
+data/domain/eval/*report*.json
+
+# Gateway compact-prompt test mode (not production overlay)
+data/domain/compact_prompt_overlay_test.json
+data/domain/compact_prompt_rules_test.json
+
+# Archived LoRA pipeline generated reports
+archive/domain-lora-pipeline/training/domain/eval_report*.json
+archive/domain-lora-pipeline/training/domain/generation_report.json
 *.pyc
 
 # Phi training logs (retrain on target machine)

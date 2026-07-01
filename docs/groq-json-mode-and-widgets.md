@@ -39,9 +39,11 @@ The goal is to allow the LLM to choose between a standard text response and an i
 
 ### Widget Types
 1. **`response`**: A standard assistant message.
-2. **`question`**: Multiple-choice (2–4 options).
-3. **`confirm`**: Yes/no decision.
-4. **`math`**: Display-only LaTeX (no prose). Use a separate `response` widget for explanation.
+2. **`question`**: Multiple-choice (2–4 options). Prompt text only — no embedded equations.
+3. **`confirm`**: Yes/no decision. Prompt text only — no embedded equations.
+4. **`notation`**: Display-only equations, formulas, or chemical notation (no prose). Use a separate `response` widget for explanation.
+
+**Notation rule:** Any equation, formula, or chemical notation MUST use a `notation` widget. If the user must also choose an answer, return multiple widgets in order — e.g. `[notation, question]` with the equation in `notation` and a short prompt ("What is x?") in `question`. Pure MCQs without notation stay as a single `question` widget.
 
 ### Batch response shape
 Groq returns one JSON object per turn:
@@ -50,7 +52,18 @@ Groq returns one JSON object per turn:
 {
   "widgets": [
     { "type": "response", "content": "…", "question": "", "suggestedAnswers": [] },
-    { "type": "math", "content": "x = \\frac{-b}{2a}", "question": "", "suggestedAnswers": [] }
+    { "type": "notation", "title": "Power rule", "content": "\\frac{d}{dx}x^n = nx^{n-1}", "question": "", "suggestedAnswers": [] }
+  ]
+}
+```
+
+Algebra MCQ (equation + choices):
+
+```json
+{
+  "widgets": [
+    { "type": "notation", "title": "Equation", "content": "2x + 5 = 17", "question": "", "suggestedAnswers": [] },
+    { "type": "question", "title": "", "content": "", "question": "What is x?", "suggestedAnswers": ["6", "7", "8", "9"] }
   ]
 }
 ```
@@ -71,7 +84,7 @@ Use a batch wrapper; each item is a flat widget object:
       "items": {
         "type": "object",
         "properties": {
-          "type": { "type": "string", "enum": ["response", "question", "confirm", "math"] },
+          "type": { "type": "string", "enum": ["response", "question", "confirm", "notation"] },
           "content": { "type": "string" },
           "question": { "type": "string" },
           "suggestedAnswers": { "type": "array", "items": { "type": "string" } }
@@ -95,15 +108,21 @@ Normalization (Zod) converts flat output to the internal discriminated union aft
 ```
 
 ### LLM Selection Logic
-The system prompt will instruct the LLM:
-> "You are a helpful assistant. You can respond with a plain message or an interactive question. If the user needs to make a choice, use the 'question' widget. Otherwise, use 'response'."
+Widget rules live in `shared/prompts.ts` (single source of truth). `WIDGET_SYSTEM_PROMPT` is composed from shared fragments: batch format, notation rule, decision tree, per-type requirements, and three compact JSON examples. Retry hints and correction prefixes reference the same constants — not duplicated in `convex/widgets.ts` or `convex/chat.ts`.
+
+The system prompt instructs the LLM:
+- Any equation, formula, or chemical notation → `notation` widget (never embedded in `question`/`confirm`/`response` alone).
+- User must pick an answer and there is notation → `[notation, question]` or `[notation, confirm]` in order.
+- Pure multiple-choice without notation → single `question` widget.
+
+Validation rejects `question`/`confirm` text that looks like notation and retries with a split hint.
 
 ### Frontend Rendering
 - **`ChatMessageContent.vue`**: Detects if the content is valid JSON. If so, it switches to `format="widget"`.
 - **Components**:
     - `WidgetResponse.vue`: Renders the `content` as markdown.
     - `WidgetQuestion.vue`: Renders multiple-choice with pill buttons.
-    - `WidgetMath.vue`: Renders LaTeX via KaTeX (display mode).
+    - `WidgetNotation.vue`: Renders LaTeX or text notation (display mode for LaTeX).
 
 ---
 
