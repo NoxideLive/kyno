@@ -102,6 +102,8 @@ export PHI_GATEWAY_API_KEY=...   # from .env.local
 python3 scripts/run_domain_pipeline.py
 ```
 
+Classifier bench and automated compact-prompt self-improve require the **`dev-gpu`** profile with `PHI_GATEWAY_PROFILE=small`. See [self-improve-bench.md](self-improve-bench.md) for the full pre-run checklist.
+
 ## Production
 
 Do not deploy the `dev` profile. Use cloud `VITE_CONVEX_URL` and Convex cloud env vars.

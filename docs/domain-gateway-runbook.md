@@ -176,6 +176,17 @@ python3 scripts/run_classifier_bench.py --workers 64
 
 Report: `data/domain/bench/report.json`. Exit code 0 only if every case passes.
 
+### Automated self-improve loop
+
+For Groq-driven multi-iteration compact prompt tuning with immutable run snapshots, see **[self-improve-bench.md](self-improve-bench.md)**.
+
+Prerequisites: gateway on **`small`** profile, `PHI_GATEWAY_API_KEY`, `GROQ_API_KEY`, production bench fixtures in `data/domain/bench/`.
+
+```bash
+python3 scripts/run_self_improve_bench.py init --run-id my-run
+python3 scripts/run_self_improve_bench.py run --run-id my-run
+```
+
 ---
 
 ## Manual eval (threshold sweep)

@@ -2,7 +2,7 @@
 
 Operator playbook for the 5-cycle compact-prompt tuning loop on the **small** profile.
 
-For automated multi-iteration tuning with Groq propose + immutable run snapshots, see [self-improve-bench.md](self-improve-bench.md).
+For automated multi-iteration tuning with Groq propose + immutable run snapshots, see **[self-improve-bench.md](self-improve-bench.md)** (pre-run checklist, `init` vs `run`, troubleshooting).
 
 ## Preconditions
 

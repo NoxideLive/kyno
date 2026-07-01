@@ -68,6 +68,18 @@ npx convex login   # once
 ./scripts/dev-up.sh   # detached stack
 ```
 
+## Domain classifier bench and self-improve
+
+The phi-gateway **small** profile runs compact jailbreak + domain + switch classifiers. Regression fixtures live in `data/domain/bench/`.
+
+| Task | Doc |
+|------|-----|
+| Gateway setup, health, reload | [`docs/domain-gateway-runbook.md`](docs/domain-gateway-runbook.md) |
+| Manual 5-cycle prompt tuning | [`docs/compact-prompt-tuning-flow.md`](docs/compact-prompt-tuning-flow.md) |
+| **Automated Groq + bench loop** | [`docs/self-improve-bench.md`](docs/self-improve-bench.md) |
+
+Before self-improve: gateway on `small` profile, `PHI_GATEWAY_API_KEY` + `GROQ_API_KEY` in `.env.local`, then `init` then `run` (see doc for full checklist).
+
 ## Bootstrap admin
 
 The first user whose Clerk ID matches `SUPER_ADMIN_CLERK_ID` gets the `admin` role on sign-up. Other users default to `user`.
